@@ -1,0 +1,18 @@
+---
+label: Home
+hide_body: false
+fields:
+- name: yup
+  type: text
+  config:
+    required: false
+  label: Yup
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: textarea
