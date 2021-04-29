@@ -692,8 +692,12 @@
 }
 
 /* SPECIFIC PUBLICATION */
-.pub-img-container {
+.breadcrumbs-container {
     margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.pub-img-container {
     margin-bottom: 30px;
 }
 
