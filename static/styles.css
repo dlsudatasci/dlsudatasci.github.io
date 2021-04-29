@@ -457,9 +457,9 @@
 }
 
 /* PEOPLE */
-.people-title {
+.people-title, .news-title {
     background-color: #00703C;
-    margin-top: 75px;
+    margin-top: 78px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #FFF;
@@ -733,4 +733,56 @@
 
 .pub-citation {
     margin-bottom: 50px;
+}
+
+
+/* NEWS AND EVENTS PAGE */
+.events-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.events-card img {
+    height: 200px;
+    width:100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.events-card-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.events-card-container a:hover {
+    color: #00703C;
+}
+
+.events-info {
+    padding: 15px 20px;
+    height: 180px;
+}
+
+.event-title {
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+.events-info h6 {
+    display: inline;
+    font-size: 14px;
+    color: #000;
+}
+
+.event-category {
+    float: right;
+    font-weight: 600;
+    color: #00703C !important;
+}
+
+.events-card {
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1)
 }
