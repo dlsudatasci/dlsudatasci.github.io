@@ -206,7 +206,7 @@
     background-color: #FFF;
     border-radius: 20px;
     text-align: center ;
-    margin: 10px 15px;
+    margin: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -457,9 +457,9 @@
 }
 
 /* PEOPLE */
-.people-title {
+.people-title, .news-title {
     background-color: #00703C;
-    margin-top: 75px;
+    margin-top: 78px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #FFF;
@@ -692,8 +692,12 @@
 }
 
 /* SPECIFIC PUBLICATION */
-.pub-img-container {
+.breadcrumbs-container {
     margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.pub-img-container {
     margin-bottom: 30px;
 }
 
@@ -702,4 +706,87 @@
     height: 400px;
     object-fit: cover;
     border: 2px solid #F6F6F6;
+}
+
+.pub-title {
+    font-weight: 700;
+}
+
+.pub-journal {
+    font-style: italic;
+}
+
+.pub-date, .pub-journal {
+    font-size: 14px;
+}
+
+.pub-authors, .pub-journal, .pub-date {
+    margin-bottom: 4px;
+}
+
+.pub-abstract h4, .pub-materials h4, .pub-citation h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.publi-rsrc ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pub-citation {
+    margin-bottom: 50px;
+}
+
+
+/* NEWS AND EVENTS PAGE */
+.events-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.events-card img {
+    height: 200px;
+    width:100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.events-card-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.events-card-container a:hover {
+    color: #00703C;
+}
+
+.events-info {
+    padding: 15px 20px;
+    height: 180px;
+}
+
+.event-title {
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+.events-info h6 {
+    display: inline;
+    font-size: 14px;
+    color: #000;
+}
+
+.event-category {
+    float: right;
+    font-weight: 600;
+    color: #00703C !important;
+}
+
+.events-card {
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1)
 }
