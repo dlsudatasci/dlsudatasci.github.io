@@ -1,11 +1,4 @@
 ---
 label: person
 hide_body: true
-fields:
-- name: person
-  type: field_group_list
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: person
+fields: []
