@@ -23,7 +23,7 @@ build:
   - JEKYLL_ENV=staging
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
-  mount_path: ""
+  mount_path: "/srv"
   working_dir: "/_site"
   preview_output_directory: "/_site"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
