@@ -19,6 +19,7 @@
 .navbar-nav li a{
     font-weight: 600;
     color: #000 !important;
+    text-decoration: none !important;
 }
 
 .navbar-nav li a:hover{
@@ -49,6 +50,13 @@
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
 
 /* CAROUSEL STYLE */
 .carousel-headline {
@@ -543,18 +551,18 @@
 }
 
 /* ABOUT PAGE */
-.research-desc-section {
+.research-desc-section, .programs-desc-section {
     margin-top: 120px;
     margin-bottom: 50px;
 }
 
-.research-desc-section h2 {
+.research-desc-section h2, .programs-desc-section h2 {
     font-weight: 700;
     color: #00703C;
     margin-bottom: 15px;
 }
 
-.research-desc-section p {
+.research-desc-section p, .programs-desc-section p {
     text-align: justify;
 }
 
@@ -809,4 +817,40 @@
     border-radius: 20px;
     margin: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1)
+}
+
+/* PROGRAMS */
+.programs-all-section {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.programs-all-card {
+    background-color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1)
+}
+
+.prog-title-container {
+    background-color: #00703C;
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.prog-title-container h4 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.programs-all-card p {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
 }
