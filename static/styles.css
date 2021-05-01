@@ -551,18 +551,18 @@
 }
 
 /* ABOUT PAGE */
-.research-desc-section, .programs-desc-section {
+.research-desc-section, .programs-desc-section, .prog-desc-section {
     margin-top: 120px;
     margin-bottom: 50px;
 }
 
-.research-desc-section h2, .programs-desc-section h2 {
+.research-desc-section h2, .programs-desc-section h2, .prog-desc-section h2 {
     font-weight: 700;
     color: #00703C;
     margin-bottom: 15px;
 }
 
-.research-desc-section p, .programs-desc-section p {
+.research-desc-section p, .programs-desc-section p, .prog-desc-section p {
     text-align: justify;
 }
 
