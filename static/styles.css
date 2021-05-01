@@ -911,6 +911,17 @@
     padding-left: 15px;
     padding-right: 15px;
     border-top: 2px solid #F6F6F6;
+    margin-bottom: 10px;
+}
+
+.status-div {
+    position: relative;
+}
+
+.upcoming-date {
+    position: absolute;
+    right: 0;
+    top: 4px;
 }
 
 .status {
