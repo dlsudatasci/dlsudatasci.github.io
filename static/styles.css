@@ -22,14 +22,14 @@
     text-decoration: none !important;
 }
 
-.navbar-nav li a:hover{
+.navbar-nav li a.current-page {
+	color: #00703C !important;
+}
+
+.navbar-nav li a:active {
     color: #00703C !important;
 }
 
-/* when nav-item clicked*/
-.current-page {
-    color: #00703C !important;
-}
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,112,60, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -198,6 +198,8 @@
     color: #00703C;
 }
 
+
+
 .news-card {
     margin-top: 20px;
     padding: 5px 10px;
@@ -234,7 +236,7 @@
     background-color: #FFF;
     border-radius: 20px;
     text-align: center ;
-    margin: 15px;
+    margin: 15px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -249,7 +251,7 @@
 
 .recent-projects-card-content {
     border-top: 2px solid #F6F6F6;
-    padding: 10px 18px;
+    padding: 10px 20px;
     height: 245px !important;
 }
 
@@ -508,7 +510,7 @@
     border-radius: 20px;
     text-align: center ;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .steering-section, .faculty-section {
@@ -582,7 +584,7 @@
     background-color: #FFF;
     border-radius: 20px;
     text-align: center ;
-    margin: 10px 15px;
+    margin: 15px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
@@ -598,7 +600,7 @@
 .research-projects-card-content {
     border-top: 2px solid #F6F6F6;
     padding: 10px 18px;
-    height: 300px !important;
+    height: 280px !important;
 }
 
 .research-projects-card-content h5 {
@@ -792,7 +794,7 @@
 
 .events-info {
     padding: 15px 20px;
-    height: 180px;
+    height: 170px;
 }
 
 .event-title {
@@ -807,15 +809,20 @@
 }
 
 .event-category {
-    float: right;
     font-weight: 600;
     color: #00703C !important;
+}
+
+.event-date {
+    float: right;
+    margin-top: 4px;
 }
 
 .events-card {
     background-color: #FFF;
     border-radius: 20px;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1)
 }
 
