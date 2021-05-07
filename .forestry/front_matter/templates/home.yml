@@ -30,7 +30,7 @@ fields:
     config:
       required: false
     label: Learn More
-    description: This is the address of the hyperlink "Learn More" that leads to the
+    description: This is the address of the "Learn More" button that leads to the
       page itself.
   label: Active Carousel Item Container
 - name: carousel-container
@@ -61,7 +61,7 @@ fields:
     config:
       required: false
     label: Learn More
-    description: This is the address of the hyperlink "Learn More" that leads to the
+    description: This is the address of the "Learn More"  button that leads to the
       page itself.
   config:
     min: 2
@@ -87,6 +87,12 @@ fields:
       schema:
         format: markdown
     label: Description
+  - name: bd-about-us
+    type: text
+    config:
+      required: false
+    label: About Us
+    description: Link of "About Us" button.
   label: Brief Description Container
   description: A brief description about your institute.
 - name: programs-container
@@ -124,6 +130,12 @@ fields:
         schema:
           format: markdown
       label: Description
+    - name: program-link
+      type: text
+      config:
+        required: false
+      label: Learn More
+      description: Link for the Learn More button for this card.
     config:
       min: 0
       max: 3

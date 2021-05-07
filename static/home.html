@@ -26,9 +26,26 @@ brief-description-container:
   bd-header: ''
   bd-description: ''
 programs-container:
-  programs-header: ''
-  programs-description: ''
-  program-card: []
+  programs-header: Programs
+  programs-description: "                    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod \n                    tempor incididunt ut labore
+    et dolore magna aliqua. Scelerisque purus semper \n                    eget duis
+    at tellus at. Pellentesque massa placerat duis ultricies lacus sed \n                    turpis.
+    Nibh cras pulvinar mattis nunc. "
+  program-card:
+  - program-title: Minor in Data Science
+    program-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod \n                            tempor incididunt ut labore et
+      dolore magna aliqua. Scelerisque purus \n                            semper
+      eget duis at tellus at\n                            <br><br>\n                            Pulvinar
+      elementum integer enim neque volutpat. Ac tincidunt vitae semper \n                            quis
+      lectus nulla at volutpat diam. Tristique senectus et netus et. \n                            Ultricies
+      mi quis hendrerit dolor magna eget est. Facilisis magna etiam \n                            tempor
+      orci eu"
+  - program-title: M.S. in Data Science
+    program-description: ''
+  - program-title: ''
+    program-description: ''
 news-container:
   news-header: ''
   news-card: []
@@ -49,6 +66,21 @@ active-carousel-container:
     aliquip ex ea commodo consequat. Duis aute irure dolor in \n                            reprehenderit
     in voluptate velit esse cillum dolore eu fugiat nulla \n                            pariatur."
   active-carousel-link: google.com
+bd-container:
+  bd-header: Data Science Institute
+  bd-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod \n                tempor incididunt ut labore et dolore magna aliqua.
+    Scelerisque purus semper \n                eget duis at tellus at. Pellentesque
+    massa placerat duis ultricies lacus sed \n                turpis. Nibh cras pulvinar
+    mattis nunc. Pulvinar elementum integer enim neque \n                volutpat.
+    Ac tincidunt vitae semper quis lectus nulla at volutpat diam. \n                Tristique
+    senectus et netus et. Ultricies mi quis hendrerit dolor magna eget \n                est.
+    Facilisis magna etiam tempor orci eu. Tempor nec feugiat nisl pretium \n                fusce
+    id. At risus viverra adipiscing at in tellus integer. At risus viverra \n                adipiscing
+    at in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    \n                tempor incididunt ut labore et dolore magna aliqua. Scelerisque
+    purus semper \n                eget duis at tellus at. Pellentesque massa placerat
+    duis ultricies lacus sed \n                turpis. "
 
 ---
 <!DOCTYPE html>
@@ -108,20 +140,9 @@ active-carousel-container:
     <!-- DLSU DATA INSTITUTE BRIEF DESCRIPTION -->
     <section class="brief-description-section">
         <div class="brief-description-container container text-center">
-            <h1>Data Science Institute</h1>
+            <h1>{{ page.bd-container.bd-header }}</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper 
-                eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed 
-                turpis. Nibh cras pulvinar mattis nunc. Pulvinar elementum integer enim neque 
-                volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. 
-                Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget 
-                est. Facilisis magna etiam tempor orci eu. Tempor nec feugiat nisl pretium 
-                fusce id. At risus viverra adipiscing at in tellus integer. At risus viverra 
-                adipiscing at in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper 
-                eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed 
-                turpis. 
+                {{ page.bd-container.bd-description }}
             </p>
             <a href="about.html" class="btn btn-md about-us-btn custom-btn">About us</a>
                 
@@ -133,34 +154,24 @@ active-carousel-container:
     <section class="programs-section">
         <div class="programs-container container">
             <div class="program-desc text-center">
-                <h3 class="text-uppercase">Programs</h3>
+                <h3 class="text-uppercase">{{ page.programs-container.programs-header }}</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper 
-                    eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed 
-                    turpis. Nibh cras pulvinar mattis nunc. 
+                    {{ page.programs-container.programs-description }}
                 </p>
             </div>
             <div class="program-cards row">
                 <div class="col-lg-4 prog-card-container">
                     <div class="prog-card">
-                        <h4>Minor in Data Science</h4>
+                        <h4>{{ page.programs-container.program-card.program-title }}</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
+                            {{ page.programs-container.program-card.program-description }}
                         </p>
                         <a href="minorindatasci.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
                     </div>
                 </div>
                 <div class="col-lg-4 prog-card-container">
                     <div class="prog-card">
-                        <h4>M.S. in Data Science</h4>
+                        <h4></h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
