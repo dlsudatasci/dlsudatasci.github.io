@@ -69,7 +69,7 @@ fields:
     labelField: 
   label: Carousel Item Container
   description: Carousel container that shows headlines and their respective pages.
-- name: brief-description-container
+- name: bd-container
   type: field_group
   config: {}
   fields:
