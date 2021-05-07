@@ -42,10 +42,27 @@ programs-container:
       lectus nulla at volutpat diam. Tristique senectus et netus et. \n                            Ultricies
       mi quis hendrerit dolor magna eget est. Facilisis magna etiam \n                            tempor
       orci eu"
+    program-link: minorindatasci.html
   - program-title: M.S. in Data Science
-    program-description: ''
-  - program-title: ''
-    program-description: ''
+    program-description: "                            Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod \n                            tempor
+      incididunt ut labore et dolore magna aliqua. Scelerisque purus \n                            semper
+      eget duis at tellus at\n                            <br><br>\n                            Pulvinar
+      elementum integer enim neque volutpat. Ac tincidunt vitae semper \n                            quis
+      lectus nulla at volutpat diam. Tristique senectus et netus et. \n                            Ultricies
+      mi quis hendrerit dolor magna eget est. Facilisis magna etiam \n                            tempor
+      orci eu"
+    program-link: msindatasci.html
+  - program-title: Diploma Courses
+    program-description: "                            Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod \n                            tempor
+      incididunt ut labore et dolore magna aliqua. Scelerisque purus \n                            semper
+      eget duis at tellus at\n                            <br><br>\n                            Pulvinar
+      elementum integer enim neque volutpat. Ac tincidunt vitae semper \n                            quis
+      lectus nulla at volutpat diam. Tristique senectus et netus et. \n                            Ultricies
+      mi quis hendrerit dolor magna eget est. Facilisis magna etiam \n                            tempor
+      orci eu"
+    program-link: diplomacourses.html
 news-container:
   news-header: ''
   news-card: []
@@ -81,6 +98,7 @@ bd-container:
     \n                tempor incididunt ut labore et dolore magna aliqua. Scelerisque
     purus semper \n                eget duis at tellus at. Pellentesque massa placerat
     duis ultricies lacus sed \n                turpis. "
+  bd-about-us: ''
 
 ---
 <!DOCTYPE html>
@@ -160,48 +178,17 @@ bd-container:
                 </p>
             </div>
             <div class="program-cards row">
+              {% for program in page.programs-container %}
                 <div class="col-lg-4 prog-card-container">
                     <div class="prog-card">
-                        <h4>{{ page.programs-container.program-card.program-title }}</h4>
+                        <h4>{{ program.program-card.program-title }}</h4>
                         <p>
-                            {{ page.programs-container.program-card.program-description }}
+                            {{ program.program-card.program-description }}
                         </p>
-                        <a href="minorindatasci.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
+                        <a href="{{ program.program-card.link }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
                     </div>
                 </div>
-                <div class="col-lg-4 prog-card-container">
-                    <div class="prog-card">
-                        <h4></h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
-                        </p>
-                        <a href="msindatasci.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 prog-card-container">
-                    <div class="prog-card">
-                        <h4>Diploma Courses</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
-                        </p>
-                        <a href="diplomacourses.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                    </div>
-
-                </div>
+              {% endfor %}
             </div>
             
         </div>
