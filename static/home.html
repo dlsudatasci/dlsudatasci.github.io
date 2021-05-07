@@ -64,8 +64,26 @@ programs-container:
       orci eu"
     program-link: diplomacourses.html
 news-container:
-  news-header: ''
-  news-card: []
+  news-header: News
+  news-card:
+  - news-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    news-date: 2021-04-28 00:00:00 +0800
+    news-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
+      semper eget duis at tellus at '
+  - news-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    news-date: 2021-04-28 00:00:00 +0800
+    news-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
+      semper eget duis at tellus at '
+  - news-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    news-date: 2021-04-28 00:00:00 +0800
+    news-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
+      semper eget duis at tellus at '
 recent-projects-container:
   recent-projects-header: ''
   recent-projects-card: []
@@ -82,7 +100,7 @@ active-carousel-container:
     quis nostrud exercitation ullamco laboris\n                            nisi ut
     aliquip ex ea commodo consequat. Duis aute irure dolor in \n                            reprehenderit
     in voluptate velit esse cillum dolore eu fugiat nulla \n                            pariatur."
-  active-carousel-link: google.com
+  active-carousel-link: "# "
 bd-container:
   bd-header: Data Science Institute
   bd-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -197,47 +215,20 @@ bd-container:
     <!-- NEWS -->
     <section class="news-section">
         <div class="news-container container">
-            <h3 class="text-uppercase text-center">News</h3>
+            <h3 class="text-uppercase text-center">{{ page.news-container.news-container-header }}</h3>
             <div class="news-cards row">
+              {% for news in page.news-container.news-card %}
                 <div class="col-md-4 news-card-container">
-                    <a href="news.html">
+                    <a href="{{ news.news-link }}">
                         <div class="news-card">
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua.</h5>
-                            <h6>April 28, 2021</h6>
+                            <h5>{{ news.news-title }}</h5>
+                            <h6>{{ news.news-date }}</h6>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                                semper eget duis at tellus at </p>
+                                {{ news.news-description }} </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4 news-card-container">
-                    <a href="#">
-                        <div class="news-card news-center-card">
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua.</h5>
-                            <h6>April 28, 2021</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                                semper eget duis at tellus at </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 news-card-container">
-                    <a href="#">
-                        <div class="news-card">
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua.</h5>
-                            <h6>April 28, 2021</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                                semper eget duis at tellus at </p>
-                        </div>
-                    </a>
-                </div>
+              {% endfor %}
             </div>
         </div>
 
