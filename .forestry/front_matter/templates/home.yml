@@ -2,8 +2,9 @@
 label: home
 hide_body: false
 fields:
-- name: active_carousel_container
-  type: field_group_list
+- name: active-carousel-container
+  type: field_group
+  config: {}
   fields:
   - name: active-carousel-background-image
     type: file
@@ -24,11 +25,7 @@ fields:
       schema:
         format: markdown
     label: Description
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Active Carousel Container
+  label: Active Carousel Item Container
 - name: carousel-container
   type: field_group_list
   fields:
