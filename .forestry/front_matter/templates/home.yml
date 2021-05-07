@@ -26,7 +26,7 @@ fields:
         format: markdown
     label: Description
   config:
-    min: 1
+    min: 0
     max: 
     labelField: 
   label: Carousel Container
@@ -88,7 +88,7 @@ fields:
           format: markdown
       label: Description
     config:
-      min: 1
+      min: 0
       max: 3
       labelField: 
     label: Program Card
@@ -132,7 +132,7 @@ fields:
           format: markdown
       label: Description
     config:
-      min: 1
+      min: 0
       max: 3
       labelField: 
     label: News Card
@@ -171,7 +171,7 @@ fields:
           format: markdown
       label: Description
     config:
-      min: 1
+      min: 0
       max: 3
       labelField: 
     label: Recent Projects Card
@@ -222,7 +222,7 @@ fields:
         maxSize: 64
       label: PDF File
     config:
-      min: 1
+      min: 0
       max: 3
       labelField: 
     label: Publication Card
