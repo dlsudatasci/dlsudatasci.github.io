@@ -5,18 +5,18 @@ fields:
 - name: carousel_container
   type: field_group_list
   fields:
-  - name: background_image
+  - name: background-image
     type: file
     config:
       maxSize: 64
     label: Background Image
     description: Set background image
-  - name: carousel_title
+  - name: carousel-title
     type: text
     config:
       required: false
-    label: Carousel Title
-  - name: carousel_description
+    label: Title
+  - name: carousel-description
     type: textarea
     default: ''
     config:
@@ -24,7 +24,7 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Carousel Description
+    label: Description
   config:
     min: 
     max: 
@@ -52,5 +52,82 @@ fields:
     label: Description
   label: Brief Description Container
   description: A brief description about your organization.
+- name: propgrams-container
+  type: field_group
+  config: {}
+  fields:
+  - name: programs_header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: programs-description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: program-card-1
+    type: field_group
+    config: {}
+    fields:
+    - name: program-1-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: program-1-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    label: Program Card 1
+  - name: program-card-2
+    type: field_group
+    config: {}
+    fields:
+    - name: program-2-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: program-2-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    label: Program Card 2
+  - name: program-card-3
+    type: field_group
+    config: {}
+    fields:
+    - name: program-3-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: program-2-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    label: Program Card 3
+  label: Propgrams Container
+  description: List of programs with descriptions and links.
 pages:
 - static/home.html
