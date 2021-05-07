@@ -1,6 +1,52 @@
 ---
 carousel-headline: Headline Example
 carousel-desc: ''
+active_carousel_container:
+- active-carousel-description: ''
+carousel-container:
+- carousel-background-image: "/temp-images/image1.jpg"
+  carousel-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    \n                        sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua. \n                        Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris\n                        nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in \n                        reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla \n                        pariatur."
+  carousel-title: Headline Example
+- carousel-background-image: "/temp-images/image2.jpeg"
+  carousel-title: Headline Example
+  carousel-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    \n                        sed do eiusmod tempor incididunt ut labore et dolore
+    magna aliqua. \n                        Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris\n                        nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in \n                        reprehenderit in
+    voluptate velit esse cillum dolore eu fugiat nulla \n                        pariatur."
+brief-description-container:
+  bd-header: ''
+  bd-description: ''
+programs-container:
+  programs-header: ''
+  programs-description: ''
+  program-card: []
+news-container:
+  news-header: ''
+  news-card: []
+recent-projects-container:
+  recent-projects-header: ''
+  recent-projects-card: []
+publications-container:
+  publications-header: ''
+  publications-description: ''
+  publication-card: []
+active-carousel-container:
+  active-carousel-background-image: ''
+  active-carousel-title: Headline Example
+  active-carousel-description: "Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit, \n                            sed do eiusmod tempor incididunt ut labore
+    et dolore magna aliqua. \n                            Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris\n                            nisi ut
+    aliquip ex ea commodo consequat. Duis aute irure dolor in \n                            reprehenderit
+    in voluptate velit esse cillum dolore eu fugiat nulla \n                            pariatur."
+  active-carousel-link: "#"
 
 ---
 <!DOCTYPE html>
@@ -30,44 +76,26 @@ carousel-desc: ''
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/temp-images/dlsu.jpg" alt="image1">
+                <img src="/temp-images/dlsu.jpeg" alt="image1">
                 <div class="carousel-container container">
                     <div class="carousel-content text-start">
-                        <h1 class="carousel-headline">Headline Example</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur.</p>
-                        <a href="#" class="carousel-btn btn btn-md">Learn more</a>
+                        <h1 class="carousel-headline">{{ page.active-carousel-title }}</h1>
+                        <p>
+                          {{ page.active-carousel-description }}
+                        </p>
+                        <a href={{ page.active-carousel-link }} class="carousel-btn btn btn-md">Learn more</a>
                     </div>
                 
                 </div>
             </div>
+          {% for item in page.authors %}
             <div class="carousel-item">
-                <img src="/temp-images/image1.jpg" alt="image2">
+                <img src={{ page.active-carousel-background-image }} alt="image2">
                 <div class="carousel-container container">
-                    <h1 class="carousel-headline">Headline Example</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur.</p>
-                    <a href="#" class="carousel-btn btn btn-md">Learn more</a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/temp-images/image2.jpeg" alt="image2">
-                <div class="carousel-container container">
-                    <h1 class="carousel-headline">Headline Example</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur.</p>
+                    <h1 class="carousel-headline">{{ page.active-carousel-title }} </h1>
+                    <p>
+                      {{ page.active-carousel-description }}
+                    </p>
                     <a href="#" class="carousel-btn btn btn-md">Learn more</a>
                 </div>
             </div>
