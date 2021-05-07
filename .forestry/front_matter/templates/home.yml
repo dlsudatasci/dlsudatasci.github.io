@@ -25,6 +25,13 @@ fields:
       schema:
         format: markdown
     label: Description
+  - name: active-carousel-link
+    type: text
+    config:
+      required: false
+    label: Learn More
+    description: This is the address of the hyperlink "Learn More" that leads to the
+      page itself.
   label: Active Carousel Item Container
 - name: carousel-container
   type: field_group_list
