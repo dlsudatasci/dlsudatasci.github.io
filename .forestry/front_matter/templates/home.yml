@@ -19,3 +19,5 @@ fields:
       format: html-blocks
   label: carousel-desc
   description: Carousel headline description
+pages:
+- static/home.html
