@@ -30,8 +30,7 @@ fields:
     max: 
     labelField: 
   label: Carousel Container
-  description: Carousel container that shows headlines and links to respective news
-    headlines.
+  description: Carousel container that shows headlines and their respective pages.
 - name: brief-description-container
   type: field_group
   config: {}
@@ -51,7 +50,7 @@ fields:
         format: markdown
     label: Description
   label: Brief Description Container
-  description: A brief description about your organization.
+  description: A brief description about your institute.
 - name: programs-container
   type: field_group
   config: {}
@@ -94,8 +93,7 @@ fields:
     label: Program Card
     description: Only up to 3 program cards.
   label: Programs Container
-  description: List of programs with descriptions and links. Only up to 3 programs
-    can be displayed.
+  description: Displays up to 3 programs here.
 - name: news-container
   type: field_group
   config: {}
@@ -138,7 +136,7 @@ fields:
     label: News Card
     description: Only up to 3 news cards.
   label: News Container
-  description: List of news posts here. Only up to 3 news cards.
+  description: Displays up to 3 news cards here.
 - name: recent-projects-container
   type: field_group
   config: {}
@@ -176,6 +174,7 @@ fields:
       labelField: 
     label: Recent Projects Card
   label: Recent Projects Container
+  description: Displays up to 3 recent projects here.
 - name: publications-container
   type: field_group
   config: {}
@@ -227,5 +226,6 @@ fields:
       labelField: 
     label: Publication Card
   label: Publications Container
+  description: Displays up to 3 publications here.
 pages:
 - static/home.html
