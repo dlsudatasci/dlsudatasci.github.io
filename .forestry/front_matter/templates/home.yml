@@ -26,7 +26,7 @@ fields:
         format: markdown
     label: Description
   config:
-    min: 
+    min: 1
     max: 
     labelField: 
   label: Carousel Container
@@ -52,7 +52,7 @@ fields:
     label: Description
   label: Brief Description Container
   description: A brief description about your organization.
-- name: propgrams-container
+- name: programs-container
   type: field_group
   config: {}
   fields:
@@ -70,16 +70,15 @@ fields:
       schema:
         format: markdown
     label: Description
-  - name: program-card-1
-    type: field_group
-    config: {}
+  - name: program-card
+    type: field_group_list
     fields:
-    - name: program-1-title
+    - name: program-title
       type: text
       config:
         required: false
       label: Title
-    - name: program-1-description
+    - name: program-description
       type: textarea
       default: ''
       config:
@@ -88,47 +87,15 @@ fields:
         schema:
           format: markdown
       label: Description
-    label: Program Card 1
-  - name: program-card-2
-    type: field_group
-    config: {}
-    fields:
-    - name: program-2-title
-      type: text
-      config:
-        required: false
-      label: Title
-    - name: program-2-description
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: Description
-    label: Program Card 2
-  - name: program-card-3
-    type: field_group
-    config: {}
-    fields:
-    - name: program-3-title
-      type: text
-      config:
-        required: false
-      label: Title
-    - name: program-2-description
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: Description
-    label: Program Card 3
-  label: Propgrams Container
-  description: List of programs with descriptions and links.
+    config:
+      min: 1
+      max: 3
+      labelField: 
+    label: Program Card
+    description: Only up to 3 program cards.
+  label: Programs Container
+  description: List of programs with descriptions and links. Only up to 3 programs
+    can be displayed.
 - name: news-container
   type: field_group
   config: {}
@@ -138,16 +105,15 @@ fields:
     config:
       required: false
     label: Header
-  - name: news-1
-    type: field_group
-    config: {}
+  - name: news-card
+    type: field_group_list
     fields:
-    - name: news-1-title
+    - name: news-title
       type: text
       config:
         required: false
       label: Title
-    - name: news-1-date
+    - name: news-date
       type: datetime
       label: Date
       description: ''
@@ -156,7 +122,7 @@ fields:
         date_format: 
         time_format: 
         display_utc: false
-    - name: news-1-description
+    - name: news-description
       type: textarea
       default: ''
       config:
@@ -165,63 +131,101 @@ fields:
         schema:
           format: markdown
       label: Description
-    label: News 1
-  - name: news-2
-    type: field_group
-    config: {}
-    fields:
-    - name: news-2-title
-      type: text
-      config:
-        required: false
-      label: Title
-    - name: news-2-date
-      type: datetime
-      label: Date
-      description: ''
-      config:
-        required: false
-        date_format: 
-        time_format: 
-        display_utc: false
-    - name: news-2-description
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: Description
-    label: News 2
-  - name: news-3
-    type: field_group
-    config: {}
-    fields:
-    - name: news-3-title
-      type: text
-      config:
-        required: false
-      label: Title
-    - name: news-3-date
-      type: datetime
-      label: Date
-      description: ''
-      config:
-        required: false
-        date_format: 
-        time_format: 
-        display_utc: false
-    - name: news-3-description
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: Description
-    label: News 3
+    config:
+      min: 1
+      max: 3
+      labelField: 
+    label: News Card
+    description: Only up to 3 news cards.
   label: News Container
+  description: List of news posts here. Only up to 3 news cards.
+- name: recent-projects-container
+  type: field_group
+  config: {}
+  fields:
+  - name: recent-projects-header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: recent-projects-card
+    type: field_group_list
+    fields:
+    - name: recent-project-image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+    - name: recent-project-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: recent-project-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    config:
+      min: 1
+      max: 3
+      labelField: 
+    label: Recent Projects Card
+  label: Recent Projects Container
+- name: publications-container
+  type: field_group
+  config: {}
+  fields:
+  - name: publications-header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: publications-description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: publication-card
+    type: field_group_list
+    fields:
+    - name: publications-image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+    - name: publication-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: publication-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    - name: publication-pdf
+      type: file
+      config:
+        maxSize: 64
+      label: PDF File
+    config:
+      min: 1
+      max: 3
+      labelField: 
+    label: Publication Card
+  label: Publications Container
 pages:
 - static/home.html
