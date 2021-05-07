@@ -178,14 +178,14 @@ bd-container:
                 </p>
             </div>
             <div class="program-cards row">
-              {% for program in page.program-card %}
+              {% for program in page.programs-container.program-card %}
                 <div class="col-lg-4 prog-card-container">
                     <div class="prog-card">
                         <h4>{{ program.program-title }}</h4>
                         <p>
                             {{ program.program-description }}
                         </p>
-                        <a href="{{ program.program-card.link }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
+                        <a href="{{ program.program-link }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
                     </div>
                 </div>
               {% endfor %}
