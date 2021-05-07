@@ -1,6 +1,6 @@
 ---
 label: home
-hide_body: true
+hide_body: false
 fields:
 - name: carousel-container
   type: field_group_list
