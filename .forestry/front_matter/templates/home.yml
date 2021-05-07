@@ -78,6 +78,7 @@ fields:
     config:
       required: false
     label: Header
+    default: Data Science Institute
   - name: bd-description
     type: textarea
     default: ''
@@ -104,6 +105,7 @@ fields:
     config:
       required: false
     label: Header
+    default: Programs
   - name: programs-description
     type: textarea
     default: ''
@@ -135,7 +137,7 @@ fields:
       config:
         required: false
       label: Learn More
-      description: Link for the Learn More button for this card.
+      description: Link for the "Learn More" button for this card.
     config:
       min: 0
       max: 3
@@ -148,11 +150,12 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: news-header
+  - name: news-container-header
     type: text
     config:
       required: false
     label: Header
+    default: News
   - name: news-card
     type: field_group_list
     fields:
@@ -179,6 +182,12 @@ fields:
         schema:
           format: markdown
       label: Description
+    - name: news-link
+      type: text
+      config:
+        required: false
+      label: Link
+      default: "# "
     config:
       min: 0
       max: 3
@@ -196,6 +205,7 @@ fields:
     config:
       required: false
     label: Header
+    default: Recent Projects
   - name: recent-projects-card
     type: field_group_list
     fields:
@@ -223,6 +233,13 @@ fields:
       max: 3
       labelField: 
     label: Recent Projects Card
+  - name: recent-projects-link
+    type: text
+    config:
+      required: false
+    label: View All
+    default: "# "
+    description: Link for the "View All" button.
   label: Recent Projects Container
   description: Displays up to 3 recent projects here.
 - name: publications-container
@@ -234,6 +251,7 @@ fields:
     config:
       required: false
     label: Header
+    default: Publications
   - name: publications-description
     type: textarea
     default: ''
@@ -256,6 +274,7 @@ fields:
       config:
         required: false
       label: Title
+      default: Publications
     - name: publication-description
       type: textarea
       default: ''
@@ -270,11 +289,25 @@ fields:
       config:
         maxSize: 64
       label: PDF File
+    - name: publication-copy
+      type: text
+      config:
+        required: false
+      label: Publication's Copy
+      default: "# "
+      description: Link to publication's copy.
     config:
       min: 0
       max: 3
       labelField: 
     label: Publication Card
+  - name: publications-link
+    type: text
+    config:
+      required: false
+    label: View All
+    description: Link for "View All" button.
+    default: "# "
   label: Publications Container
   description: Displays up to 3 publications here.
 pages:
