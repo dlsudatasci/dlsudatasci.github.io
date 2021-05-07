@@ -2,22 +2,27 @@
 label: home
 hide_body: true
 fields:
-- name: carousel-headline
-  type: text
-  config:
-    required: false
-  label: carousel-headline
-  description: Carousel item title
-  default: Headline Example
-- name: carousel-desc
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: html-blocks
-  label: carousel-desc
-  description: Carousel headline description
+- name: carousel
+  type: field_group
+  config: {}
+  fields:
+  - name: carousel_headline
+    type: text
+    config:
+      required: false
+    label: Carousel Headline
+    description: Carousel headline title
+  - name: carousel_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Carousel Description
+    description: Carousel headline description
+  label: carousel
+  description: Edit each carousel card
 pages:
 - static/home.html
