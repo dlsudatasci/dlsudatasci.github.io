@@ -129,5 +129,99 @@ fields:
     label: Program Card 3
   label: Propgrams Container
   description: List of programs with descriptions and links.
+- name: news-container
+  type: field_group
+  config: {}
+  fields:
+  - name: news-header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: news-1
+    type: field_group
+    config: {}
+    fields:
+    - name: news-1-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: news-1-date
+      type: datetime
+      label: Date
+      description: ''
+      config:
+        required: false
+        date_format: 
+        time_format: 
+        display_utc: false
+    - name: news-1-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    label: News 1
+  - name: news-2
+    type: field_group
+    config: {}
+    fields:
+    - name: news-2-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: news-2-date
+      type: datetime
+      label: Date
+      description: ''
+      config:
+        required: false
+        date_format: 
+        time_format: 
+        display_utc: false
+    - name: news-2-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    label: News 2
+  - name: news-3
+    type: field_group
+    config: {}
+    fields:
+    - name: news-3-title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: news-3-date
+      type: datetime
+      label: Date
+      description: ''
+      config:
+        required: false
+        date_format: 
+        time_format: 
+        display_utc: false
+    - name: news-3-description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Description
+    label: News 3
+  label: News Container
 pages:
 - static/home.html
