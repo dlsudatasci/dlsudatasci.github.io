@@ -270,7 +270,7 @@ fields:
   - name: publication-card
     type: field_group_list
     fields:
-    - name: publications-image
+    - name: publication-image
       type: file
       config:
         maxSize: 64
