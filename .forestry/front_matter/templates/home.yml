@@ -2,16 +2,14 @@
 label: home
 hide_body: true
 fields:
-- name: carousel
-  type: field_group
-  config: {}
+- name: carousel_container
+  type: field_group_list
   fields:
-  - name: carousel_headline
+  - name: carousel_title
     type: text
     config:
       required: false
-    label: Carousel Headline
-    description: Carousel headline title
+    label: Carousel Title
   - name: carousel_description
     type: textarea
     default: ''
@@ -21,8 +19,10 @@ fields:
       schema:
         format: markdown
     label: Carousel Description
-    description: Carousel headline description
-  label: carousel
-  description: Edit each carousel card
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Carousel Container
 pages:
 - static/home.html
