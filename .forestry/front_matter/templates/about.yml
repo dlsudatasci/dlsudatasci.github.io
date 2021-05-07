@@ -12,6 +12,7 @@ fields:
   config:
     required: false
   label: About Header
+  default: About
 - name: about-content
   type: textarea
   default: ''
@@ -26,6 +27,7 @@ fields:
   config:
     required: false
   label: Mission Header
+  default: Mission
 - name: mission-content
   type: textarea
   default: ''
@@ -40,6 +42,7 @@ fields:
   config:
     required: false
   label: Vision Header
+  default: Vision
 - name: vision-content
   type: textarea
   default: ''
