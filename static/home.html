@@ -95,16 +95,19 @@ recent-projects-container:
     recent-project-title: An Optimization Model for Vaccine Allocation
     recent-project-description: Dr. Charlle Sy and Dr. Kathleen Aviso in partner with
       Animo Labs
+    recent-project-link: "#"
   - recent-project-image: "/temp-images/proj1.png"
     recent-project-title: Exploring the PISA 2018 and SEA-PLM 2019 Global Competence
       Surveys Using Data Mining Approaches
     recent-project-description: Dr. Allan Benedict Bernardo, Dr. Macario Cordel II
       and Unisse Chua in partner with SEAMO - Innotech
+    recent-project-link: "#"
   - recent-project-image: "/temp-images/proj1.png"
     recent-project-title: Diachronic Representation and Linguistic Study of Filipino
       Word Senses Across Social and Digital Media Contexts
     recent-project-description: Dr. Briane Paul Samson, Unisse Chua, Dr. Charibeth
       Cheng, and Ralph Regalado in partner with Senti-AI and DOST
+    recent-project-link: "#"
   recent-projects-link: "# "
 publications-container:
   publications-header: Publications
@@ -113,7 +116,28 @@ publications-container:
     aliqua. Scelerisque purus semper \n                    eget duis at tellus at.
     Pellentesque massa placerat duis ultricies lacus sed \n                    turpis.
     Nibh cras pulvinar mattis nunc. "
-  publication-card: []
+  publication-card:
+  - publications-image: "/temp-images/pub1.jpg"
+    publication-title: Visual Attention-based Abnormal Traffic Incident Detection
+      Model, Philippine Journal of Science
+    publication-pdf: ''
+    publication-copy: "# "
+    publication-description: Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly
+      K. Wan, and Macario O. Cordel II
+  - publications-image: "/temp-images/pub2.png"
+    publication-title: 2020 Symposium on Emerging Research from Asia and on Asian
+      Contexts and Cultures
+    publication-description: Chua, U., Santiago, K. L., Ona, I. B., Pena, R. M., Marasigan,
+      G. Z., Reyes, P. G., Samson, B. P. V
+    publication-pdf: ''
+    publication-copy: "# "
+  - publications-image: ''
+    publication-title: A Task-Driven Eye Fixation Data Collection towards Automatic
+      Abnormal Road Traffic Incident Detection
+    publication-description: Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly
+      K. Wan, and Macario O. Cordel II
+    publication-pdf: ''
+    publication-copy: "# "
   publications-link: "# "
 active-carousel-container:
   active-carousel-background-image: "/temp-images/dlsu.jpg"
@@ -271,7 +295,7 @@ published: false
                             <img src="{{ rp.recent-project-image }}" alt="">
                             <div class="recent-projects-card-content">
                                 <h5>{{ rp.recent-project-title }} </h5>
-                                <p>{{ rp.recent-project-description }}</p>
+                                <p>{{ rp.recent-project-authors }}</p>
                             </div>
                         </div>
                     </a>
@@ -289,31 +313,29 @@ published: false
         <div class="pub-white-space"></div>
         <div class="hp-publications-container text-center container">
             <div class="pub-desc">
-                <h3 class="text-uppercase">Publications</h3>
+                <h3 class="text-uppercase">{{ page.publications-container.publications-header }}</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper 
-                    eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed 
-                    turpis. Nibh cras pulvinar mattis nunc. 
+                    {{ page.publications-container.publications-description }}
                 </p>
             </div>
             <div class="hp-publications-cards row">
+              {% for publication in page.publications-container.publication-card %}
                 <div class="col-lg-4 hp-publications-card-container">
                     <a href="publication.html">
                         <div class="hp-publications-card">
-                            <img src="/temp-images/pub1.jpg" alt="">
+                            <img src="{{ publication.publication-image }}" alt="">
                             <div class="hp-publications-card-content">
-                                <h5>Visual Attention-based Abnormal Traffic Incident Detection Model, Philippine Journal of Science</h5>
-                                <p>Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly K. Wan, and Macario O. Cordel II</p>
+                                <h5>{{ publication.publication-title }}</h5>
+                                <p>{{ publication.publication-authors }}</p>
                                 <div class="pub-resources">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="{{ publication.publication-copy }}">
                                                 <span class="fas fa-external-link-square-alt"></span>
                                                 Publisher's Copy</a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="{{ publication.publication-pdf }}">
                                                 <span class="far fa-file-pdf"></span>
                                                 PDF</a>
                                         </li>
@@ -328,67 +350,8 @@ published: false
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 hp-publications-card-container">
-                    <a href="#">
-                        <div class="hp-publications-card">
-                            <img src="/temp-images/pub2.png" alt="">
-                            <div class="hp-publications-card-content">
-                                <h5>2020 Symposium on Emerging Research from Asia and on Asian Contexts and Cultures</h5>
-                                <p>Chua, U., Santiago, K. L., Ona, I. B., Pena, R. M., Marasigan, G. Z., Reyes, P. G., Samson, B. P. V</p>
-                                <div class="pub-resources">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span class="fas fa-external-link-square-alt"></span>
-                                                Publisher's Copy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="far fa-file-pdf"></span>
-                                                PDF</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="fas fa-quote-left"></span>
-                                                Cite</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 hp-publications-card-container">
-                    <a href="#">
-                        <div class="hp-publications-card">
-                            <img src="/temp-images/pub3.jpg" alt="">
-                            <div class="hp-publications-card-content">
-                                <h5>A Task-Driven Eye Fixation Data Collection towards Automatic Abnormal Road Traffic Incident Detection</h5>
-                                <p>Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly K. Wan, and Macario O. Cordel II</p>
-                                <div class="pub-resources">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span class="fas fa-external-link-square-alt"></span>
-                                                Publisher's Copy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="far fa-file-pdf"></span>
-                                                PDF</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="fas fa-quote-left"></span>
-                                                Cite</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    
-                </div>
+              {% endfor %}
+              
             </div>
             <a href="research.html" class="btn btn-md view-all-btn custom-btn">View all</a>
         </div>
