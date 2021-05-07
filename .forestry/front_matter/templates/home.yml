@@ -2,7 +2,7 @@
 label: home
 hide_body: true
 fields:
-- name: carousel_container
+- name: carousel-container
   type: field_group_list
   fields:
   - name: background-image
@@ -56,7 +56,7 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: programs_header
+  - name: programs-header
     type: text
     config:
       required: false
