@@ -1,4 +1,21 @@
 ---
 label: home
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- name: carousel-headline
+  type: text
+  config:
+    required: false
+  label: carousel-headline
+  description: Carousel item title
+  default: Headline Example
+- name: carousel-desc
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: html-blocks
+  label: carousel-desc
+  description: Carousel headline description
