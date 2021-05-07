@@ -52,3 +52,5 @@ fields:
     schema:
       format: markdown
   label: Vision Content
+pages:
+- static/about.html
