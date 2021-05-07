@@ -228,6 +228,12 @@ fields:
         schema:
           format: markdown
       label: Description
+    - name: recent-project-link
+      type: text
+      config:
+        required: false
+      label: Link
+      default: "# "
     config:
       min: 0
       max: 3
