@@ -92,13 +92,13 @@ active-carousel-container:
             </div>
           {% for item in page.carousel-container %}
             <div class="carousel-item">
-                <img src="{{ page.carousel-background-image }}" alt="image2">
+                <img src="{{ item.carousel-background-image }}" alt="image2">
                 <div class="carousel-container container">
-                    <h1 class="carousel-headline">{{ page.carousel-title }} </h1>
+                    <h1 class="carousel-headline">{{ item.carousel-title }} </h1>
                     <p>
-                      {{ page.carousel-description }}
+                      {{ item.carousel-description }}
                     </p>
-                    <a href="{{ page.carousel-link }}" class="carousel-btn btn btn-md">Learn more</a>
+                    <a href="{{ item.carousel-link }}" class="carousel-btn btn btn-md">Learn more</a>
                 </div>
             </div>
           {% endfor %}
