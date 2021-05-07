@@ -56,6 +56,13 @@ fields:
       schema:
         format: markdown
     label: Description
+  - name: carousel-link
+    type: text
+    config:
+      required: false
+    label: Learn More
+    description: This is the address of the hyperlink "Learn More" that leads to the
+      page itself.
   config:
     min: 2
     max: 2
