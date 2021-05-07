@@ -30,6 +30,8 @@ fields:
     max: 
     labelField: 
   label: Carousel Container
+  description: Carousel container that shows headlines and links to respective news
+    headlines.
 - name: brief-description-container
   type: field_group
   config: {}
