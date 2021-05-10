@@ -514,7 +514,7 @@
     margin-bottom: 20px;
 }
 
-.steering-section, .faculty-section {
+.steering-section, .faculty-section, .admin-section {
     margin-top: 40px;
 }
 
@@ -522,7 +522,7 @@
     margin-bottom: 40px;
 }
 
-.steering-section h3, .faculty-section h3 {
+.steering-section h3, .faculty-section h3, .admin-section h3 {
     margin-bottom: 25px;
     font-weight: 700;
     color: #00703C;
@@ -728,18 +728,18 @@
     margin-bottom: 20px;
 }
 
-.pub-img-container {
+.pub-img-container, .proj-img-container {
     margin-bottom: 30px;
 }
 
-.pub-images img {
+.pub-images img, .proj-images img {
     width: 100%;
     height: 400px;
     object-fit: cover;
     border: 2px solid #F6F6F6;
 }
 
-.pub-title {
+.pub-title, .proj-title {
     font-weight: 700;
 }
 
@@ -747,15 +747,15 @@
     font-style: italic;
 }
 
-.pub-date, .pub-journal {
+.pub-date, .pub-journal, .proj-date {
     font-size: 14px;
 }
 
-.pub-authors, .pub-journal, .pub-date {
+.pub-authors, .pub-journal, .pub-date, .proj-authors, .proj-date {
     margin-bottom: 4px;
 }
 
-.pub-abstract h4, .pub-materials h4, .pub-citation h4 {
+.pub-abstract h4, .pub-materials h4, .pub-citation h4, .proj-description h4 {
     font-size: 22px;
     font-weight: 600;
     margin-top: 20px;
@@ -766,7 +766,7 @@
     margin-bottom: 0px;
 }
 
-.pub-citation {
+.pub-citation, .proj-description p {
     margin-bottom: 50px;
 }
 
