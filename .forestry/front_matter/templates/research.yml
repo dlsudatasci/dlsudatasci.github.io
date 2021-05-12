@@ -116,3 +116,5 @@ fields:
       labelField: 
     label: Publications Item
   label: Publications Section
+pages:
+- static/research.html
