@@ -2,11 +2,11 @@
 label: news
 hide_body: false
 fields:
-- name: page-header
+- name: header
   type: text
   config:
     required: false
-  label: Page Header
+  label: Header
   default: News and Events
 - name: news-item
   type: field_group_list
