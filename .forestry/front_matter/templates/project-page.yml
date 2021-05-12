@@ -1,4 +1,87 @@
 ---
 label: project page
 hide_body: false
-fields: []
+fields:
+- name: image-section
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  config:
+    min: 0
+    max: 2
+    labelField: 
+  label: Image Section
+  description: " Upload up to 2 images."
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: authors
+  type: text
+  config:
+    required: false
+  label: Authors
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: content_sections
+  type: field_group_list
+  fields:
+  - name: header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: paragraph
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Paragraph
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Content Sections
+  description: 'Add a new section for each paragraph. (Example: about, scope, conclusion,
+    etc.)'
+- name: sources
+  type: field_group
+  config: {}
+  fields:
+  - name: sources-header
+    type: text
+    config:
+      required: false
+    default: Sources/Bibliography
+    label: Sources Header
+  - name: list-of-sources
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: List of Sources
+  label: Sources
+  hidden: false
+  description: Put the list of sources here.
