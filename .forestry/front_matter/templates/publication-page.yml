@@ -44,6 +44,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+    export_format: MM-DD-YYYY
 - name: content-sections
   type: field_group_list
   fields:
