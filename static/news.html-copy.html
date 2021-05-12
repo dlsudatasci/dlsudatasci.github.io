@@ -1,6 +1,13 @@
 ---
-news-item: []
-page-header: ''
+news-item:
+- image: "/temp-images/event1.jpeg"
+  type: Blog
+  date: 2021-05-01 00:00:00 +0800
+  title: DLSU's "Dude, Pantry, Chong!" Community Pantry
+  author/s: Russ Henson
+  link: event.html
+  authors: Russ Henson
+page-header: News and Events
 bd-container:
   bd-header: Data Science Institute
 programs-container:
@@ -14,6 +21,7 @@ publications-container:
   publications-header: Publications
   publications-link: "# "
 title: news.html-(copy)
+header: News and Events
 published: false
 
 ---
@@ -39,117 +47,28 @@ published: false
 
 
     <div class="news-title">
-        <h1 class="text-uppercase">News and Events</h1>
+        <h1 class="text-uppercase">{{ page.header }}</h1>
     </div>
 
     <!-- NEWS CARDS -->
     <section class="events-section">
         <div class="events-container container">
             <div class="events-cards row">
+              {% for item in page.news-item %}
                 <div class="col-sm-3 events-card-container">
-                    <a href="event.html">
+                    <a href="{{ item.link }}">
                         <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
+                            <img src="{{ item.image }}" alt="">
                             <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">Blog</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
+                                <h6 class="event-date">{{ item.date }}</h6>
+                                <h6 class="event-category">{{ item.type }}</h6>
+                                <h5 class="event-title">{{ item.title }}</h5>
+                                <h6>{{ item.authors }}</h6>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">News</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">Activity</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">Update</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">Blog</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">News</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">Activity</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-3 events-card-container">
-                    <a href="#">
-                        <div class="events-card">
-                            <img src="/temp-images/event1.jpeg" alt="">
-                            <div class="events-info">
-                                <h6 class="event-date">April 29, 2021</h6>
-                                <h6 class="event-category">Update</h6>
-                                <h5 class="event-title">DLSU's "Dude, Pantry, Chong!" Community Pantry</h5>
-                                <h6>Russ Henson</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+              {% endfor %}
             </div>
         </div>
 
