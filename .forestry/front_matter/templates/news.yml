@@ -52,3 +52,4 @@ fields:
   label: News Item
 pages:
 - static/news.html
+- static/news.html-copy.html
