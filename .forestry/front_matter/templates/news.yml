@@ -2,6 +2,11 @@
 label: news
 hide_body: false
 fields:
+- name: page-header
+  type: text
+  config:
+    required: false
+  label: Page Header
 - name: news-item
   type: field_group_list
   fields:
