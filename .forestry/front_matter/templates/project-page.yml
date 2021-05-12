@@ -85,3 +85,5 @@ fields:
   label: Sources
   hidden: false
   description: Put the list of sources here.
+pages:
+- static/project.html
