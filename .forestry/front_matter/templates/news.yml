@@ -1,4 +1,41 @@
 ---
 label: news
 hide_body: false
-fields: []
+fields:
+- name: news-item
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: type
+    type: text
+    config:
+      required: false
+    label: Type
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: author/s
+    type: text
+    config:
+      required: false
+    label: Author/s
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: News Item
