@@ -35,3 +35,5 @@ fields:
     schema:
       format: markdown
   label: Content
+pages:
+- static/event.html
