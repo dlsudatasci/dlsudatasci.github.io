@@ -1,4 +1,115 @@
 ---
 label: Research
 hide_body: false
-fields: []
+fields:
+- name: page-header
+  type: text
+  config:
+    required: false
+  label: Page Header
+- name: page-description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Description
+- name: projects-section
+  type: field_group
+  config: {}
+  fields:
+  - name: projects-header
+    type: text
+    config:
+      required: false
+    label: Projects Header
+  - name: projects-item
+    type: field_group_list
+    fields:
+    - name: project-image
+      type: file
+      config:
+        maxSize: 64
+      label: Project Image
+    - name: project-title
+      type: text
+      config:
+        required: false
+      label: Project Title
+    - name: project-authors
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Project Authors
+    - name: project-partner-agencies
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Project Partner Agencies
+    - name: project-tags
+      type: tag_list
+      default: []
+      label: Project Tags
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Projects Item
+  label: Projects Section
+- name: publications-section
+  type: field_group
+  config: {}
+  fields:
+  - name: publications-header
+    type: text
+    config:
+      required: false
+    label: Publications Header
+  - name: publication-item
+    type: field_group_list
+    fields:
+    - name: publication-image
+      type: file
+      config:
+        maxSize: 64
+      label: Publication Image
+    - name: publication-title
+      type: text
+      config:
+        required: false
+      label: Publication Title
+    - name: publication-authors
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Publication Authors
+    - name: publication-publishers-copy
+      type: text
+      config:
+        required: false
+      label: Publication Publisher's Copy
+    - name: publication-pdf
+      type: file
+      config:
+        maxSize: 64
+      label: Publication PDF
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Publications Item
+  label: Publications Section
