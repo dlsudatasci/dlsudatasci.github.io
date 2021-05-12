@@ -35,11 +35,11 @@ fields:
     config:
       required: false
     label: Title
-  - name: author/s
+  - name: authors
     type: text
     config:
       required: false
-    label: Author/s
+    label: Authors
   - name: link
     type: text
     config:
