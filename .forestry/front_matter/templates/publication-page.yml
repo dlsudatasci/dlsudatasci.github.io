@@ -89,15 +89,15 @@ fields:
     label: PDF
   label: Materials
   description: Publisher's Copy, PDF and Cite
-- name: citations
+- name: citation
   type: field_group
   config: {}
   fields:
-  - name: citations-header
+  - name: citation-header
     type: text
     config:
       required: false
-    label: Citations Header
+    label: Citation Header
     default: Citations
   - name: list-of-citations
     type: textarea
@@ -108,4 +108,4 @@ fields:
       schema:
         format: markdown
     label: List of Citations
-  label: Citations
+  label: Citation
