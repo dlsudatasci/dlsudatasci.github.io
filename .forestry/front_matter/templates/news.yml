@@ -30,6 +30,7 @@ fields:
       date_format: 
       time_format: 
       display_utc: false
+      export_format: MM-DD-YYYY
   - name: title
     type: text
     config:
