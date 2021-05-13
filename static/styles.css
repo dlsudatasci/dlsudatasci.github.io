@@ -388,7 +388,6 @@
     margin-bottom: 15px;
 }
 
-
 .footer-card h5{
     font-weight: 700;
 }
@@ -422,10 +421,6 @@
 .footer-numbers li a, .footer-nav li a {
     text-decoration: none;
     color: #FFF;
-}
-
-.copyright {
-    margin-top: 30px;
 }
 
 
