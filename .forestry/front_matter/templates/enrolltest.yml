@@ -21,5 +21,3 @@ fields:
         format: markdown
     label: Instructions
   label: Field
-pages:
-- enrollmenttemplatetest.html
