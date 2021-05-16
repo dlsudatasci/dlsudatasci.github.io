@@ -1,4 +1,18 @@
 ---
 label: Enroll
 hide_body: true
-fields: []
+fields:
+- name: enrollmentheader
+  type: text
+  config:
+    required: false
+  label: EnrollmentHeader
+- name: enrollmentinstructions
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: EnrollmentInstructions
