@@ -1,4 +1,23 @@
 ---
 label: spec-program
 hide_body: true
-fields: []
+fields:
+- name: specprogramfield
+  type: field_group
+  config: {}
+  fields:
+  - name: specprogramheader
+    type: text
+    config:
+      required: false
+    label: specprogramheader
+  - name: specprogramfield
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: specprogramfield
+  label: specprogramfield
