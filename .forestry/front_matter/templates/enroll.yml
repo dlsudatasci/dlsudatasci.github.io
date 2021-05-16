@@ -17,4 +17,4 @@ fields:
       format: markdown
   label: EnrollmentInstructions
 pages:
-- static/event.html
+- static/enrollment.html
