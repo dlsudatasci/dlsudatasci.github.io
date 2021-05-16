@@ -1,5 +1,5 @@
 ---
-label: spec-program
+label: spec-program2
 hide_body: false
 fields:
 - name: specprogramfield
@@ -22,4 +22,4 @@ fields:
     label: specprogramfield
   label: specprogramfield
 pages:
-- static/minorindatasci.html
+- static/msindatasci.html
