@@ -21,4 +21,4 @@ fields:
       format: markdown
   label: Instructions
 pages:
-- static/project.html
+- static/enrollment.html
