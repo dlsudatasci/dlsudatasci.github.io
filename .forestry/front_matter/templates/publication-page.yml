@@ -111,4 +111,5 @@ fields:
     label: List of Citations
   label: Citation
 pages:
+- asdf.html
 - static/publication.html
