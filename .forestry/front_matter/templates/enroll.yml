@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: EnrollmentInstructions
+pages:
+- _posts/enrollmentpagetest.html
