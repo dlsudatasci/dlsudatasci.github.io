@@ -1,4 +1,13 @@
 ---
 label: Enroll
 hide_body: false
-fields: []
+fields:
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: TextArea
