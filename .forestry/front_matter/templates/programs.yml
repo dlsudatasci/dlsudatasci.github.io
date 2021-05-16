@@ -1,4 +1,30 @@
 ---
 label: programs
 hide_body: false
-fields: []
+fields:
+- name: programsheaderfield
+  type: field_group
+  config: {}
+  fields:
+  - name: programsheader
+    type: text
+    config:
+      required: false
+    label: programsheader
+  - name: programsdesc
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: programsdesc
+  label: programsheaderfield
+- name: programsblock
+  type: blocks
+  label: ProgramsBlock
+  template_types: []
+  config:
+    min: 
+    max: 
