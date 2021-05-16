@@ -1,4 +1,23 @@
 ---
 label: Enrolltest
 hide_body: false
-fields: []
+fields:
+- name: field
+  type: field_group
+  config: {}
+  fields:
+  - name: header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: instructions
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Instructions
+  label: Field
