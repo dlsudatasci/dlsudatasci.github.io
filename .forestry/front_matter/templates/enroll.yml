@@ -20,3 +20,5 @@ fields:
     schema:
       format: markdown
   label: Instructions
+pages:
+- static/project.html
