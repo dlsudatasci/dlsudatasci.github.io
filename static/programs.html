@@ -12,11 +12,50 @@
 <body>
 
     <!-- ALL PROGRAMS PAGE -->
-
-    <!-- NAVBAR PLACEHOLDER -->
-    <div id="navbar-placeholder">
-
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container">
+                <a class="navbar-brand" aria-current="page" href="home.html">
+                    <img src="/temp-images/logo-green1.png" width="60" height="60" alt="">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-uppercase" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item dropdown">
+                    <div class="nav-link">
+                      <a href="programs.html" id="programs-link">Programs</a>
+                      <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="minorindatasci.html">Minor in Data Science</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="msindatasci.html">M.S. in Data Science</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="diplomacourses.html">Diploma Courses</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="research.html">Research</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="people.html">People</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
 
     <section class="programs-desc-section">
         <div class="programs-desc-container text-center container">
@@ -121,7 +160,5 @@
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- NAVBAR JS -->
-    <script src="/js/navbar.js"></script>
 </body>
 </html>
