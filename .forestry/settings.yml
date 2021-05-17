@@ -13,6 +13,8 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  templates:
+  - about
 upload_dir: temp-images
 public_path: "/temp-images"
 front_matter_path: ''
