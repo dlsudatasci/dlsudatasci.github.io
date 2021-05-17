@@ -14,6 +14,10 @@ sections:
   label: Pages
   create: all
   templates:
+  - research
+  - publication-page
+  - programs
+  - project-page
   - home
   - about
 upload_dir: temp-images
