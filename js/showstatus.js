@@ -66,3 +66,17 @@ function showUpcoming() {
     }
 }
 
+function disabledActive() {
+    var cards = document.getElementsByClassName("courses-cards-container");
+    var enrollBtn = document.getElementsByClassName("course-card-btn");
+    var i, status;
+
+    for(i = 0; i < cards.length; i++){
+        status = cards[i].querySelector(".status h6").textContent;
+            if(status === "Active"){
+                enrollBtn[i].classList.add("disabled");
+            } 
+    }
+}
+
+disabledActive();
