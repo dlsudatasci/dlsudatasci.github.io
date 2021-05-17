@@ -437,8 +437,12 @@
 
 /* ABOUT */
 
-.about-img-container, .event-img-container{
+.about-img-container{
     margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.event-img-container {
     margin-bottom: 30px;
 }
 
@@ -743,6 +747,12 @@
     margin-bottom: 20px;
 }
 
+.breadcrumb-item a {
+    color: #00703C !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .pub-img-container, .proj-img-container {
     margin-bottom: 30px;
 }
@@ -993,3 +1003,5 @@
     padding-top: 4px !important;
     padding-bottom: 4px !important;
 }
+
+
