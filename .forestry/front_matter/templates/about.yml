@@ -7,12 +7,6 @@ fields:
   config:
     maxSize: 64
   label: Image
-- name: about-header
-  type: text
-  config:
-    required: false
-  label: About Header
-  default: About
 - name: about-content
   type: textarea
   default: ''
@@ -21,13 +15,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: About Content
-- name: mission-header
-  type: text
-  config:
-    required: false
-  label: Mission Header
-  default: Mission
+  label: About
 - name: mission-content
   type: textarea
   default: ''
@@ -36,13 +24,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Mission Content
-- name: vision-header
-  type: text
-  config:
-    required: false
-  label: Vision Header
-  default: Vision
+  label: Mission
 - name: vision-content
   type: textarea
   default: ''
@@ -51,6 +33,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Vision Content
+  label: Vision
 pages:
+- about.md
 - static/about.html
