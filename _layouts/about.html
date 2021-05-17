@@ -1,0 +1,55 @@
+{% include header.html %}
+<div>
+  <div class="about-img-container container">
+      <div class="about-img">
+          <img src="/temp-images/dlsu.jpg" alt="">
+      </div>
+  </div>
+
+  <div class="about-container container">
+      <div class="about-desc">
+          <h1 class="text-uppercase">About</h1>
+          <p>About page from the template</p>
+      </div>
+
+      <div class="mission-vision row">
+          <div class="col-lg-6 mission-desc">
+              <h3 class="text-uppercase">Mission</h3>
+              <p>Mission from the template</p>
+          </div>
+          <div class="col-lg-6 vision-desc">
+              <h3 class="text-uppercase">Vision</h3>
+              <p>Vision from the template</p>
+
+          </div>
+      </div>
+
+      <div class="about-contact">
+          <h3 class="text-uppercase">Contact</h3>
+          <ul class="about-numbers">
+              <li><span class="far fa-envelope"></span>
+              Email: <a href="#">datascience@dlsu.edu.ph</a></li>
+              <li><span class="fas fa-phone-alt"></span>
+              Tel. Nos.: <a href="#">(632) 8524-46-11</a> local 470 or 306 (trunk line)</li>
+              <li><span class="fas fa-fax"></span>
+              Telefax No.: <a href="#">(632) 8526-42-47</a> (direct line)</li>
+          </ul>
+      </div>
+
+  </div>
+</div>
+
+
+<!-- <div class="container">
+    {{ content}}
+    {% for block in page.page_sections %}
+        {% assign template = block.template %}
+        {% case template %}
+        {% when 'highlights' %}
+            {% include blocks_{{template}}.html %}
+        {% when 'textarea' %}
+            {% include blocks_{{template}}.html %}
+        {% endcase %}
+    {% endfor %}
+</div> -->
+{% include footer.html %}
