@@ -1,6 +1,6 @@
 {% include header.html %}
+{% include navbar.html %}
 <div>
-  {{ content | inspect }}
   <div class="about-img-container container">
       <div class="about-img">
           <img src="/temp-images/dlsu.jpg" alt="">
@@ -10,17 +10,17 @@
   <div class="about-container container">
       <div class="about-desc">
           <h1 class="text-uppercase">About</h1>
-          <p>About page from the template</p>
+          <p>{{ page.about-content }}</p>
       </div>
 
       <div class="mission-vision row">
           <div class="col-lg-6 mission-desc">
               <h3 class="text-uppercase">Mission</h3>
-              <p>Mission from the template</p>
+              <p>{{ page.mission-content }}</p>
           </div>
           <div class="col-lg-6 vision-desc">
               <h3 class="text-uppercase">Vision</h3>
-              <p>Vision from the template</p>
+              <p>{{ page.vision-content }}</p>
 
           </div>
       </div>
