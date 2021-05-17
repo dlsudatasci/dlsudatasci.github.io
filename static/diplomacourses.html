@@ -80,21 +80,21 @@
         <div class="course-status">
           <h6>Show status: </h6>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <input class="form-check-input" type="checkbox" value="" name="flexCheckChecked" id="activecheckbox" onclick="showActive()" checked>
             <label class="form-check-label" for="flexCheckChecked">
               Active
             </label>
           </div>
 
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <input class="form-check-input" type="checkbox" value="" name="flexCheckChecked" id="upcomingcheckbox" onclick="showUpcoming()" checked>
             <label class="form-check-label" for="flexCheckChecked">
               Upcoming
             </label>
           </div>
         </div>
 
-        <div class="courses-cards row">
+        <div class="courses-cards row" id="courses-cards">
           <div class="col-sm-3 courses-cards-container">
             <div class="course-card">
               <img src="/temp-images/machlearning.jpg" alt="">
@@ -227,6 +227,8 @@
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <!-- SHOW STATUS FUNCTION -->
+    <script src="/js/showstatus.js"></script>
 
 </body>
 </html> 
