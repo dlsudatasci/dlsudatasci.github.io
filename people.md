@@ -17,6 +17,5 @@ sections:
     name: Macario Cordel
 - template: people-list
   people_list: []
-published: false
 
 ---
