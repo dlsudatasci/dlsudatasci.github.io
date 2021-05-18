@@ -6,6 +6,13 @@ sections:
   department: Computer Techonology
   image: ''
   website: ''
+  people_list:
+  - image: ''
+    rank: Institute Dean
+    website: ''
+    name: Macario Cordel
+- template: people-list
+  people_list: []
 published: false
 
 ---
