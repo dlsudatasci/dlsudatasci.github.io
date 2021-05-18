@@ -1,4 +1,7 @@
 ---
+layout: people
+title: People
+permalink: "/people/"
 sections:
 - template: people-list
   people_list: []
