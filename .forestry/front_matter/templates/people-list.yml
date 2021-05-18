@@ -2,28 +2,31 @@
 label: Person
 hide_body: true
 fields:
-- name: image
-  type: file
+- name: people_list
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: rank
+    type: text
+    config:
+      required: false
+    label: Rank
+  - name: website
+    type: text
+    config:
+      required: false
+    label: Website
   config:
-    maxSize: 64
-  label: Image
-- name: name
-  type: text
-  config:
-    required: true
-  label: Name
-- name: role
-  type: text
-  config:
-    required: true
-  label: Role
-- name: department
-  type: text
-  config:
-    required: true
-  label: Department
-- name: website
-  type: text
-  config:
-    required: false
-  label: Website
+    min: 
+    max: 
+    labelField: 
+  label: People List
