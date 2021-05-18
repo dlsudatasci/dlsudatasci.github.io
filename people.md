@@ -9,7 +9,12 @@ sections:
     website: http://dlsu.edu.ph
   people_group: Steering Committee
 - template: people-list
-  people_list: []
+  people_list:
+  - image: "/temp-images/people/mac-1.png"
+    name: Macario Cordel
+    rank: Institute Dean
+    department: CT
+    website: ''
   people_group: Adminstrators
 
 ---
