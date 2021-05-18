@@ -1,6 +1,6 @@
 ---
-label: project page
-hide_body: false
+label: Specific Project Page Template
+hide_body: true
 fields:
 - name: image-section
   type: field_group_list
