@@ -7,6 +7,10 @@ sections:
   image: ''
   website: ''
   people_list:
+  - image: "/temp-images/people/unisse.png"
+    name: Unisse Chua
+    rank: Assistant Professor
+    website: ''
   - image: "/temp-images/people/mac-1.png"
     rank: Institute Dean
     website: ''
