@@ -1,4 +1,29 @@
 ---
-label: People List
+label: Person
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+- name: role
+  type: text
+  config:
+    required: true
+  label: Role
+- name: department
+  type: text
+  config:
+    required: true
+  label: Department
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
