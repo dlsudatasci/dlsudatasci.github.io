@@ -1,6 +1,6 @@
 ---
-label: home
-hide_body: false
+label: Home
+hide_body: true
 fields:
 - name: active-carousel-container
   type: field_group
