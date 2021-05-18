@@ -7,7 +7,7 @@ sections:
   image: ''
   website: ''
   people_list:
-  - image: ''
+  - image: "/temp-images/people/mac-1.png"
     rank: Institute Dean
     website: ''
     name: Macario Cordel
