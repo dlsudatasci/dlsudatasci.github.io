@@ -5,31 +5,30 @@
     <h1 class="text-uppercase">People</h1>
 </div>
 
-<!-- ADMINISTRATORS -->
-<!-- THIS SECTION IS OPTIONAL. REMOVE THE "visually-hidden" IF WANT TO BE SHOWN -->
-{% for group in block.sections %}
-  <section class="admin-section visually-hidden">
-      <h3 class="container text-uppercase">{{group.people_group}}</h3>
-      <div class="admin-container text-center container">
-          <div class="person-cards row justify-content-center">
+{% for group in page.sections %}
+<section class="admin-section">
+  <h3 class="container text-uppercase">{{group.people_group}}</h3>
+  <div class="admin-container text-center container">
+    <div class="person-cards row justify-content-center">
 
-            {% for person in group.people_list %}
-              <div class="col-6 col-md-2 person-card-container">
-                    <a href="{{ person.website }}">
-                        <div class="person-card">
-                            <img src="{{ person.image }}" alt="">
-                            <div class="person-details">
-                                <h5>{{ person.name }}</h5>
-                                <h6>{{ person.rank }}</h6>
-                                <h6>{{ person.department }}</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-              {% endfor %}
-
+      {% for person in group.people_list %}
+      <div class="col-6 col-md-2 person-card-container">
+        <a href="{{ person.website }}">
+          <div class="person-card">
+            <img src="{{ person.image }}" alt="">
+            <div class="person-details">
+              <h5>{{ person.name }}</h5>
+              <h6>{{ person.rank }}</h6>
+              <h6>{{ person.department }}</h6>
+            </div>
           </div>
+        </a>
       </div>
-  </section>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+{% endfor %}
 
 {% include footer.html %}
