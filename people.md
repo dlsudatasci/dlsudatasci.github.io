@@ -10,6 +10,11 @@ sections:
   people_group: Steering Committee
 - template: people-list
   people_list:
+  - image: "/temp-images/people/unisse.png"
+    name: Unisse
+    rank: AP
+    department: ST
+    website: https://unissechua.github.io
   - image: "/temp-images/people/mac-1.png"
     name: Macario Cordel
     rank: Institute Dean
