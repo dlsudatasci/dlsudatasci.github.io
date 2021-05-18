@@ -25,6 +25,11 @@ fields:
     config:
       required: false
     label: Rank
+  - name: department
+    type: text
+    config:
+      required: false
+    label: Department
   - name: website
     type: text
     config:
