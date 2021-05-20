@@ -1,6 +1,6 @@
 ---
 layout: people
-permalink: /peopletest/
+permalink: "/peopletest/"
 sections:
 - template: people-list
   people_group: 'Yes'
@@ -10,5 +10,6 @@ sections:
     rank: test
     department: etst
     website: test
+published: false
 
 ---
