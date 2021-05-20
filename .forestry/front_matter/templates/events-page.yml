@@ -24,8 +24,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format:
-    time_format:
+    date_format: 
+    time_format: 
     display_utc: false
     export_format: MM-DD-YYYY
 - name: news-body
@@ -40,3 +40,4 @@ fields:
 pages:
 - sample-title.md
 - static/event.html
+- test.md
