@@ -1,5 +1,6 @@
 ---
 layout: people
+permalink: /peopletest/
 sections:
 - template: people-list
   people_group: 'Yes'
