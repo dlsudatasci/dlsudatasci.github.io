@@ -1,6 +1,6 @@
 ---
 image: "/temp-images/datasci.jpg"
-title: Sample Title
+title: Event
 authors: Dwin Mutia
 date: 05-21-2021
 content: sheeesh
