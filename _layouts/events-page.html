@@ -1,13 +1,14 @@
 {% include header.html %}
 {% include navbar.html %}
     <!-- BREADCRUMBS -->
+    <div>
     <div class="breadcrumbs-container container">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="home.html">Home</a></li>
             <li class="breadcrumb-item"><a href="news.html">News</a></li>
             <!-- The active item will contain the short title of the news -->
-            <li class="breadcrumb-item active" aria-current="page">Short Title of the News</li>
+            <li class="breadcrumb-item active" aria-current="page">{{page.title}}</li>
           </ol>
         </nav>
       </div>
@@ -22,11 +23,10 @@
         <h1 class="proj-title">{{page.title}}</h1>
         <h6 class="specific-event-authors">{{page.authors}}</h6>
         <h6 class="specific-event-date">{{page.date}}</h6>
-
         <div class="event-description">
-            <p>{{page.content}}</p>
+            <p>{{page.news-body}}</p>
         </div>
-
+    </div>
     </div>
 
 {% include footer.html %}
