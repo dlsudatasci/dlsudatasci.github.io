@@ -28,7 +28,7 @@ fields:
     time_format: 
     display_utc: false
     export_format: MM-DD-YYYY
-- name: content
+- name: news-body
   type: textarea
   default: ''
   config:
@@ -36,7 +36,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Content
+  label: News Body
 pages:
 - sample-title.md
 - static/event.html
