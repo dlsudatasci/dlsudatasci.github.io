@@ -1,4 +1,5 @@
 ---
+layout: events-page
 image: "/temp-images/datasci.jpg"
 title: Event
 authors: Dwin Mutia
