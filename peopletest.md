@@ -1,4 +1,5 @@
 ---
+layout: people
 sections:
 - template: people-list
   people_group: 'Yes'
