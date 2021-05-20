@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: document
   path: home
@@ -14,13 +14,15 @@ sections:
   label: Pages
   create: all
   templates:
+  - home
+  - about
+  - events-page
   - people
   - research
   - publication-page
   - programs
   - project-page
-  - home
-  - about
+
 upload_dir: temp-images
 public_path: "/temp-images"
 front_matter_path: ''
