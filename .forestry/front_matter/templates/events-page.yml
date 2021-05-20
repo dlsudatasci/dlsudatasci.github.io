@@ -38,4 +38,5 @@ fields:
       format: markdown
   label: Content
 pages:
+- sample-title.md
 - static/event.html
