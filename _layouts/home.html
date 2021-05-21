@@ -9,17 +9,12 @@
       </div>
       <div class="carousel-inner">
           <div class="carousel-item active">
-              <img src="/temp-images/dlsu.jpg" alt="image1">
+              <img src="{{page.active-carousel-background-image}}" alt="image1">
               <div class="carousel-container container">
                   <div class="carousel-content text-start">
-                      <h1 class="carousel-headline">Headline Example</h1>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                          pariatur.</p>
-                      <a href="#" class="carousel-btn btn btn-md">Learn more</a>
+                      <h1 class="carousel-headline">{{page.active-carousel-title}}</h1>
+                      <p>{{page.active-carousel-description}}</p>
+                      <a href="{{page.active-carousel-link}}" class="carousel-btn btn btn-md">Learn more</a>
                   </div>
 
               </div>
@@ -54,7 +49,7 @@
   </section>
 
   <!-- DLSU DATA INSTITUTE BRIEF DESCRIPTION -->
-  <section class="brief-description-section text-center">
+  <section class="brief-description-section">
       <div class="brief-description-container container text-center">
           <h1 class="brief-description-container text-center">Data Science Institute</h1>
           <p>
