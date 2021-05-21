@@ -119,6 +119,9 @@
 }
 
 /* BRIEF DESCRIPTION */
+.brief-description-section
+{
+}
 .brief-description-container {
     margin: 40px 40px 30px 40px;
 }
@@ -127,7 +130,6 @@
     font-weight: 700;
     color: #00703C;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 .brief-description-container p {
@@ -438,12 +440,8 @@
 
 /* ABOUT */
 
-.about-img-container{
+.about-img-container, .event-img-container{
     margin-top: 120px;
-    margin-bottom: 30px;
-}
-
-.event-img-container {
     margin-bottom: 30px;
 }
 
@@ -746,12 +744,6 @@
 .breadcrumbs-container {
     margin-top: 120px;
     margin-bottom: 20px;
-}
-
-.breadcrumb-item a {
-    color: #00703C !important;
-    text-decoration: none;
-    font-weight: 500;
 }
 
 .pub-img-container, .proj-img-container {
