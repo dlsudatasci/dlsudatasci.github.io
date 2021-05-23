@@ -1,4 +1,6 @@
 ---
+permalink: /project/
+layout: project
 tags: []
 sources:
   sources-header: Sources/Bibliography

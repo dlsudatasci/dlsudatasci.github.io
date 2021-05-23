@@ -12,17 +12,18 @@
       </nav>
     </div>
 
-{% for group in page.images-sections %}
     <!-- PUBLICATION IMAGE -->
     <div class="pub-img-container container">
         <div class="pub-images row">
+          {% for group in page.images-section %}
             <div class="col-sm">
-                <img src="{{page.image}}" alt="">
+                <img src="{{group.carousel-image}}" alt="">
             </div>
+            {% endfor %}
         </div>
     </div>
 
-{% endfor %}
+
 
     <!-- PUBLICATION INFO -->
     <div class="pub-info-container container">
