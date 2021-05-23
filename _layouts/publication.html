@@ -1,0 +1,77 @@
+{% include header.html %}
+{% include navbar.html %}
+    <!-- BREADCRUMBS -->
+    <div class="breadcrumbs-container container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="research.html">Research</a></li>
+          <!-- The active item will contain the short title of the publication -->
+          <li class="breadcrumb-item active" aria-current="page">{{page.title}}</li>
+        </ol>
+      </nav>
+    </div>
+
+{% for group in page.images-sections %}
+    <!-- PUBLICATION IMAGE -->
+    <div class="pub-img-container container">
+        <div class="pub-images row">
+            <div class="col-sm">
+                <img src="{{page.image}}" alt="">
+            </div>
+        </div>
+    </div>
+
+{% endfor %}
+
+    <!-- PUBLICATION INFO -->
+    <div class="pub-info-container container">
+        <h1 class="pub-title">{{page.title}}</h1>
+        <h6 class="pub-authors">{{page.authors}}</h6>
+        <h6 class="pub-journal">{{page.source}}</h6>
+        <h6 class="pub-date">{{page.date}}</h6>
+
+
+{% for group in page.content-sections %}
+        <div class="pub-abstract">
+            <h4 class="text-uppercase">{{group.body-header}}</h4>
+            <p>{{group.body-paragraph}}asdfasdf</p>
+        </div>
+
+{% endfor %}
+
+
+
+
+
+        <div class="pub-materials">
+          <h4 class="text-uppercase">Materials</h4>
+          <div class="pub-resources publi-rsrc">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fas fa-external-link-square-alt"></span>
+                        Publisher's Copy</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="far fa-file-pdf"></span>
+                        PDF</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fas fa-quote-left"></span>
+                        Cite</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pub-citation" >
+          <h4 class="text-uppercase">{{page.citation-header}}</h4>
+          <p>{{page.list-of-citations}}</p>
+        </div>
+
+    </div>
+
+{% include footer.html %}

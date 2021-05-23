@@ -11,9 +11,9 @@ fields:
       maxSize: 64
     label: Image
   config:
-    min: 
+    min:
     max: 2
-    labelField: 
+    labelField:
   label: Images Section
   description: Upload up to 2 images.
 - name: title
@@ -41,8 +41,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
     export_format: MM-DD-YYYY
 - name: content-sections
@@ -63,9 +63,9 @@ fields:
         format: markdown
     label: Paragraph
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Content Sections
   description: Add one for each paragraph.
 - name: materials
