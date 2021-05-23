@@ -21,4 +21,5 @@ fields:
       format: markdown
   label: Instructions
 pages:
+- Enrollment-Page.md
 - static/enrollment.html
