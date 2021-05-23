@@ -4,7 +4,8 @@ sources:
   sources-header: Sources/Bibliography
   list-of-sources: ''
 image-section:
-- image: "/temp-images/proj1.png"
+- image: ''
+- image: "/temp-images/datasci.jpg"
 title: Visual Attention-based Abnormal Traffic Incident Detection Model
 authors: Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly K. Wan, and Macario
   O. Cordel II
