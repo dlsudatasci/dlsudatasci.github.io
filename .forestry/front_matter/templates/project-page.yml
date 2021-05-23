@@ -87,4 +87,5 @@ fields:
   hidden: false
   description: Put the list of sources here.
 pages:
+- Specific Project Pages/visual-attention-based-abnormal-traffic-incident-detection-model.md
 - static/project.html
