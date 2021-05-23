@@ -8,8 +8,8 @@ citation:
   citation-header: Citations
   list-of-citations: citation
 images-section:
-- image: "/temp-images/pub1.jpg"
-- image: "/temp-images/pub2.png"
+- carousel-image: "/temp-images/dlsu-dsi-logo-01-one-color.png"
+- carousel-image: "/temp-images/dlsu-dsi-logo-01-bw.png"
 title: Visual Attention-based Abnormal Traffic Incident Detection Model
 authors: Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly K. Wan, and Macario
   O. Cordel II
@@ -38,5 +38,7 @@ content-sections:
     ultricies integer. piscing elit duis tristique sollicitudin nibh sit amet commodo.
     At imperdiet dui accumsan sit amet nulla facilisi. Eu scelerisque felis imperdiet
     proin. Libero nunc consequat interdum varius sit amet mattis.
+  body-header: ''
+  body-paragraph: ''
 
 ---
