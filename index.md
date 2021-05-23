@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /home/
 active-carousel-container:
   active-carousel-background-image: "/temp-images/image1.jpg"
   active-carousel-title: Data Science Institute

@@ -1,4 +1,5 @@
 ---
+permalink: /research/
 page-header: Research
 projects-section:
   projects-header: Projects
