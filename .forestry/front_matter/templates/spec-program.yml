@@ -1,6 +1,6 @@
 ---
 label: Specific Program
-hide_body: true
+hide_body: false
 fields:
 - name: specprogramfield
   type: field_group

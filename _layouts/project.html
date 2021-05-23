@@ -31,10 +31,10 @@
         <h6 class="proj-authors">{{page.authors}}</h6>
         <h6 class="proj-date">{{page.date}}</h6>
 
-        {% for group in page.content_sections}
+        {% for group in page.content_sections %}
         <div class="proj-description">
-            <h4 class="text-uppercase">{{content_sections.header}}></h4>
-            <p>{{content_sections.paragraph}}</p>
+            <h4 class="text-uppercase">{{group.header}}></h4>
+            <p>{{group.paragraph}}</p>
         </div>
         {% endfor %}
     </div>
