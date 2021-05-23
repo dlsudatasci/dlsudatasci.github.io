@@ -48,12 +48,12 @@ fields:
 - name: content-sections
   type: field_group_list
   fields:
-  - name: header
+  - name: body-header
     type: text
     config:
       required: false
     label: Header
-  - name: paragraph
+  - name: body-paragraph
     type: textarea
     default: ''
     config:
