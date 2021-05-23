@@ -5,7 +5,7 @@ fields:
 - name: images-section
   type: field_group_list
   fields:
-  - name: image
+  - name: carousel-image
     type: file
     config:
       maxSize: 64
