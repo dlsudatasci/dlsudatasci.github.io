@@ -22,5 +22,6 @@ fields:
     label: specprogramdescription
   label: specprogramfield
 pages:
+- Specific Programs/MSinDataSci.md
 - Specific Programs/MinorInDataSci.md
 - static/minorindatasci.html
