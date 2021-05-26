@@ -1,4 +1,7 @@
 ---
+
+layout: program
+permalink: /programs/DC1/
 specprogramfield:
   specprogramheader: Diploma Course
   specprogramdescription: |-

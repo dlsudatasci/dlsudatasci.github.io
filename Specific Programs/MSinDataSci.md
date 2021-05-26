@@ -1,4 +1,6 @@
 ---
+layout: program
+permalink: /programs/MSDS/
 specprogramfield:
   specprogramheader: Master of Science in Data Science
   specprogramdescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit,

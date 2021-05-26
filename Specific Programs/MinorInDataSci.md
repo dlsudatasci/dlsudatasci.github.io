@@ -1,6 +1,6 @@
 ---
 layout: program
-permalink: /programs/minor/
+permalink: /programs/MDS/
 specprogramfield:
   specprogramheader: Minor in Data Science
   specprogramdescription: |-
