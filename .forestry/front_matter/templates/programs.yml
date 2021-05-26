@@ -29,4 +29,5 @@ fields:
     min: 
     max: 
 pages:
+- static/1programs.html.html
 - static/programs.html
