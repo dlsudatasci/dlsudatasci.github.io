@@ -52,4 +52,5 @@ fields:
     labelField: 
   label: News Item
 pages:
+- static/1news.html.html
 - static/news.html
