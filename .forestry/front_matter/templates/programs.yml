@@ -24,7 +24,8 @@ fields:
 - name: programsblock
   type: blocks
   label: ProgramsBlock
-  template_types: []
+  template_types:
+  - spec-program
   config:
     min: 
     max: 
