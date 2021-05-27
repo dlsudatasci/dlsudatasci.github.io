@@ -20,6 +20,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - programs-block
   - home
   - about
   - events-page
