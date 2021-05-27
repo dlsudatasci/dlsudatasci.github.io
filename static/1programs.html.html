@@ -1,21 +1,37 @@
 ---
 title: 1programs.html
+programsheaderfield:
+  programsheader: ''
+  programsdesc: ''
+programsblock:
+- template: spec-program
+  specprogramfield:
+    specprogramdescription: Loremipsum
+    specprogramheader: AAA
+- template: spec-program
+  specprogramfield:
+    specprogramheader: BBB
+    specprogramdescription: asfdnbrgd
+- template: spec-program
+  specprogramfield:
+    specprogramheader: CCC
+    specprogramdescription: rhymryteraytj
 published: false
 
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/0f6c86d6c3.js" crossorigin="anonymous"></script>
-    <title>Programs</title>
-</head>
-<body>
-
+{% include header.html %}
+{% include navbar.html %}
+    <!-- BREADCRUMBS -->
+    <div class="breadcrumbs-container container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="programs.html">Research</a></li>
+          <!-- The active item will contain the short title of the publication -->
+          <li class="breadcrumb-item active" aria-current="page">{{page.programsheaderfield.programsheader}}</li>
+        </ol>
+      </nav>
+    </div>
     <!-- ALL PROGRAMS PAGE -->
     <header>
         <nav class="navbar navbar-expand-md fixed-top">
@@ -82,78 +98,19 @@ published: false
     <section class="programs-all-section">
         <div class="programs-all-container container">
             <div class="programs-all-cards row">
+				{% for prog in page.ProgramsBlock %}
                 <div class="col-12 col-md-3 programs-all-card-container">
                     <div class="programs-all-card">
                         <div class="prog-title-container">
-                            <h4>Minor in Data Science</h4>
+                            <h4>{{ prog.specprogramfield.specprogramheader }}</h4>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
+                            {{ prog.specprogramfield.specprogramdescription }}
                         </p>
                         <a href="minorindatasci.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 programs-all-card-container">
-                    <div class="programs-all-card">
-                        <div class="prog-title-container">
-                            <h4>M.S. in Data Science</h4>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
-                        </p>
-                        <a href="msindatasci.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 programs-all-card-container">
-                    <div class="programs-all-card">
-                        <div class="prog-title-container">
-                            <h4>Diploma Courses</h4>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
-                        </p>
-                        <a href="diplomacourses.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 programs-all-card-container">
-                    <div class="programs-all-card">
-                        <div class="prog-title-container">
-                            <h4>Diploma Courses</h4>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus 
-                            semper eget duis at tellus at
-                            <br><br>
-                            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper 
-                            quis lectus nulla at volutpat diam. Tristique senectus et netus et. 
-                            Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam 
-                            tempor orci eu
-                        </p>
-                        <a href="diplomacourses.html" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                    </div>
-                </div>
+              {% endfor %}
             </div>
         </div>
     </section>
