@@ -1,0 +1,23 @@
+<!-- HEADER  -->
+{% include header.html %}
+
+<!-- NAVBAR PLACEHOLDER -->
+{% include navbar.html %}
+
+
+    <section class="programs-desc-section">
+        <div class="programs-desc-container text-center container">
+            <h2 class="text-uppercase">{{page.programsheaderfield.programsheader}}</h2>
+            <p>{{page.programsheaderfield.programsdesc}}</p>
+        </div>
+    </section>
+
+{% for block in page.programsblock %}
+    {% assign template = block.template %}
+      {% case template %}
+      {% when 'programs-block' %}
+      {% include blocks_program.html %}
+      {% endcase %}
+{% endfor %}
+
+{% include footer.html %}

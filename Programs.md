@@ -1,4 +1,6 @@
 ---
+layout: programs
+permalink: /programs/
 programsheaderfield:
   programsheader: PROGRAMS
   programsdesc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
