@@ -34,9 +34,5 @@ programsblock:
 
       Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
     programs-block-link: "/programs/MDS"
-- template: programs-block
-  programs-block-field: []
-- template: programs-block
-  programs-block-field: []
 
 ---
