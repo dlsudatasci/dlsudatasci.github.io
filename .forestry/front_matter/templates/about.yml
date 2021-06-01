@@ -1,4 +1,5 @@
 ---
+layout: about
 label: About Page Template
 hide_body: false
 fields:
