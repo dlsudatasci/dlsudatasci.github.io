@@ -11,34 +11,34 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item dropdown">
             <div class="nav-link">
-              <a href="/programs">Programs</a>
+              <a href="/programs" {% if page.url == "/programs" %} style="color: #00703C;" {%endif%}>Programs</a>
               <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/programs/MDS">Minor in Data Science</a></li>
+                <li><a class="dropdown-item" href="/programs/MDS" {% if page.url == "/programs/MDS" %} style="color: #00703C;" {%endif%}>Minor in Data Science</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item " href="/programs/MSDS">M.S. in Data Science</a></li>
+                <li><a class="dropdown-item " href="/programs/MSDS" {% if page.url == "/programs/MSDS" %} style="color: #00703C;" {%endif%}>M.S. in Data Science</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="/programs/DC1">Diploma Courses</a></li>
+                <li><a class="dropdown-item" href="/programs/DC1" {% if page.url == "/programs/DC1" %} style="color: #00703C;" {%endif%}>Diploma Courses</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/research">Research</a>
+             <a class="nav-link" href="/research"  {% if page.url == "/research/" %} style="color: #00703C;" {%endif%}>Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/news">News</a>
+            <a class="nav-link " href="/news"  {% if page.url == "/news/" %} style="color: #00703C;" {%endif%}>News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="/about" {% if page.url == "/about/" %} style="color: #00703C;" {%endif%}> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/people">People</a>
+            <a class="nav-link" href="/people"  {% if page.url == "/people/" %} style="color: #00703C;" {%endif%}>People</a>
           </li>
         </ul>
       </div>
