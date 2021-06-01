@@ -1,6 +1,6 @@
 ---
 layout: programs
-permalink: /programs/
+permalink: "/programs/"
 programsheaderfield:
   programsheader: PROGRAMS
   programsdesc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -42,5 +42,6 @@ programsblock:
 
       Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
     programs-block-link: "#"
+page_title: Programs
 
 ---
