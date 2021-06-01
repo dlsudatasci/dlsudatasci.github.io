@@ -36,4 +36,5 @@ fields:
   label: Vision
 pages:
 - about.md
+- aobuttest.md
 - static/about.html
