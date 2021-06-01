@@ -1,5 +1,4 @@
 ---
-layout: about
 label: About Page Template
 hide_body: false
 fields:
@@ -37,5 +36,4 @@ fields:
   label: Vision
 pages:
 - about.md
-- abouttest.md
 - static/about.html
