@@ -2,6 +2,13 @@
 label: Programs Page Template
 hide_body: false
 fields:
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: PageTitle
+  description: Use this as the title of the page
+  default: Programs
 - name: programsheaderfield
   type: field_group
   config: {}
