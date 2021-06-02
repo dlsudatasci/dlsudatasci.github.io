@@ -33,21 +33,21 @@ fields:
     description: This is the address of the "Learn More" button that leads to the
       page itself.
   label: Active Carousel Item Container
-- name: carousel-container
+- name: item-carousel-container
   type: field_group_list
   fields:
-  - name: carousel-background-image
+  - name: item-carousel-background-image
     type: file
     config:
       maxSize: 64
     label: Background Image
     description: Set background image
-  - name: carousel-title
+  - name: item-carousel-title
     type: text
     config:
       required: false
     label: Title
-  - name: carousel-description
+  - name: item-carousel-description
     type: textarea
     default: ''
     config:
@@ -56,7 +56,7 @@ fields:
       schema:
         format: markdown
     label: Description
-  - name: carousel-link
+  - name: item-carousel-link
     type: text
     config:
       required: false
