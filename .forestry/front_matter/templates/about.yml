@@ -36,6 +36,4 @@ fields:
   label: Vision
 pages:
 - about.md
-- asdf.md
 - static/about.html
----
