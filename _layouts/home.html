@@ -21,40 +21,29 @@
                       <a href="{{page.active-carousel-container.active-carousel-link}}" class="carousel-btn btn btn-md">Learn more</a>
                   </div>
               </div>
-          </div>
+            </div>
 
-            {% for carouselslide in page.carousel-container %}
+            {%for item in page.item-carousel-container %}
             <div class="carousel-item">
-                <img src="{{carouselslide.carousel-background-image}}" alt="image2">
+                <img src="{{item.item-carousel-background-image}}" alt="{{item.item-carousel-title}}">
                 <div class="carousel-container container">
-                    <h1 class="carousel-headline">{{carouselslide.carousel-title}}</h1>
-                    <p>{{carouselslide.carousel-description}}</p>
-                    <a href="{{carouselslide.carousel-link}}" class="carousel-btn btn btn-md">Learn more</a>
+                    <h1 class="carousel-headline">{{item.item-carousel-title}}</h1>
+                    <p>{{item.item-carousel-description}}</p>
+                    <a href="{{item.item-carousel-link}}" class="carousel-btn btn btn-md">Learn more</a>
                 </div>
             </div>
-            {% endfor%}
+            {%endfor%}
       </div>
   </section>
 
   <!-- DLSU DATA INSTITUTE BRIEF DESCRIPTION -->
   <section class="brief-description-section container">
       <div class="brief-description-container text-center">
-          <h1 class="brief-description-container">Data Science Institute</h1>
+          <h1 class="brief-description-container">{{page.bd-container.bd-header}}</h1>
           <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper
-              eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
-              turpis. Nibh cras pulvinar mattis nunc. Pulvinar elementum integer enim neque
-              volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam.
-              Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget
-              est. Facilisis magna etiam tempor orci eu. Tempor nec feugiat nisl pretium
-              fusce id. At risus viverra adipiscing at in tellus integer. At risus viverra
-              adipiscing at in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper
-              eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
-              turpis.
+            {{page.bd-container.bd-description}}
           </p>
-          <a href="#" class="btn btn-md about-us-btn custom-btn">About us</a>
+          <a href="{{page.bd-container.bd-about-us}}" class="btn btn-md about-us-btn custom-btn">About us</a>
 
 
       </div>
