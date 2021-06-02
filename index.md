@@ -11,7 +11,7 @@ carousel-container:
   carousel-title: Third Item
   carousel-link: http://brianesamson.com
   carousel-description: One more item
-- carousel-background-image: "/temp-images/image2.jpeg"
+- carousel-background-image: "/temp-images/image1.jpg"
   carousel-title: Second Carousel Item
   carousel-description: Just testing this out
   carousel-link: http://dlsu.edu.ph/

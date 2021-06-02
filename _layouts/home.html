@@ -11,9 +11,7 @@
           <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
 
-
       <div class="carousel-inner">
-          {% for group in page.active-carousel-container %}
           <div class="carousel-item active">
               <img src="{{page.active-carousel-container.active-carousel-background-image}}" alt="image1">
               <div class="carousel-container container">
@@ -24,20 +22,17 @@
                   </div>
               </div>
           </div>
-          {% endfor %}
 
-          {% for groupp in page.carousel-container %}
-        <div class="carousel-item">
-            <img src="{{page.carousel-container.carousel-background-image}}" alt="image2">
-            <div class="carousel-container container">
-                <h1 class="carousel-headline">{{page.carousel-container.carousel-title}}</h1>
-                <p>{{page.carousel-container.carousel-description}}</p>
-                <a href="{{page.carousel-container.carousel-link}}" class="carousel-btn btn btn-md">Learn more</a>
+            {% for carouselslide in page.carousel-container %}
+            <div class="carousel-item">
+                <img src="{{carouselslide.carousel-background-image}}" alt="image2">
+                <div class="carousel-container container">
+                    <h1 class="carousel-headline">{{carouselslide.carousel-title}}</h1>
+                    <p>{{carouselslide.carousel-description}}</p>
+                    <a href="{{carouselslide.carousel-link}}" class="carousel-btn btn btn-md">Learn more</a>
+                </div>
             </div>
-        </div>
-        {% endfor %}
-
-
+            {% endfor%}
       </div>
   </section>
 
