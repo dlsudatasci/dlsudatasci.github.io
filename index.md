@@ -25,8 +25,20 @@ programs-block-field:
   programs-block-link: ''
 bd-container:
   bd-header: Data Science Institute
-  bd-description: ''
-  bd-about-us: ''
+  bd-description: |-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper
+        eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
+        turpis. Nibh cras pulvinar mattis nunc. Pulvinar elementum integer enim neque
+        volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam.
+        Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget
+        est. Facilisis magna etiam tempor orci eu. Tempor nec feugiat nisl pretium
+        fusce id. At risus viverra adipiscing at in tellus integer. At risus viverra
+        adipiscing at in. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper
+        eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
+        turpis.
+  bd-about-us: "/about/"
 news-container:
   news-container-header: News
   news-card: []
