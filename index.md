@@ -19,25 +19,31 @@ carousel-container:
 programs-container:
   programs-header: ''
   programs-description: ''
-  program-card:
-  - program-title: Minor in Data Science
-    program-description: |-
+  home-programs-block-field:
+  - home-programs-block-header: Minor in Data Science
+    home-programs-block-desc: |-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at
 
-            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
-    program-link: "/programs/MDS"
-  - program-title: M.S. in Data Science
-    program-description: |2-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at
+      Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
+    home-programs-block-link: "/programs/MDS"
+  - home-programs-block-header: M.S. in Data Science
+    home-programs-block-desc: |-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at
 
-            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
-    program-link: "/programs/MSDS"
-  - program-title: Diploma Courses
-    program-description: |-
-      orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at
+      Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
+    home-programs-block-link: "/programs/MSDS"
+  - home-programs-block-header: Diploma Courses
+    home-programs-block-desc: |-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at
 
-            Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
-    program-link: "/programs/DC1"
+      Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
+    home-programs-block-link: "/programs/DC1"
+  - home-programs-block-header: Diploma Course
+    home-programs-block-desc: |-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at
+
+      Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
+    home-programs-block-link: "#"
 bd-container:
   bd-header: Data Science Institute
   bd-description: |-
@@ -75,8 +81,6 @@ item-carousel-container:
   item-carousel-title: Third Item
   item-carousel-description: Last Item
   item-carousel-link: http://brianesamson.com
-programs-block-field:
-- programs-block-desc: ''
-  programs-block-link: ''
+
 
 ---

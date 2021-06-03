@@ -1,5 +1,6 @@
 ---
 layout: project
+permalink: /SpecificProjectPages/project
 tags: []
 sources:
   sources-header: Sources/Bibliography
@@ -24,15 +25,6 @@ content_sections:
     tincidunt. Sed arcu non odio euismod lacinia at quis risus. Mauris vitae ultricies
     leo integer malesuada nunc vel. Egestas sed tempus urna et pharetra pharetra massa
     massa ultricies. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras.
-    Purus gravida quis blandit turpis cursus in hac. Mi sit amet mauris commodo quis
-    imperdiet. Massa vitae tortor condimentum lacinia quis vel eros. Senectus et netus
-    et malesuada fames. Convallis posuere morbi leo urna molestie at. Vel elit scelerisque
-    mauris pellentesque pulvinar. Lacinia quis vel eros donec ac odio. Eleifend quam
-    adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Arcu dui vivamus
-    arcu felis bibendum ut. Dui id ornare arcu odio ut sem nulla. Cras sed felis eget
-    velit aliquet sagittis id. Diam sit amet nisl suscipit adipiscing bibendum est
-    ultricies integer. piscing elit duis tristique sollicitudin nibh sit amet commodo.
-    At imperdiet dui accumsan sit amet nulla facilisi. Eu scelerisque felis imperdiet
-    proin. Libero nunc consequat interdum varius sit amet mattis.
+    Purus gravida quis blandit turpis cursus in hac.
 
 ---

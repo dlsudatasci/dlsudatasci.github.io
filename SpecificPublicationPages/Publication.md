@@ -1,6 +1,6 @@
 ---
 layout: publication
-permalink: /publication/
+permalink: /SpecificPublicationPages/publication/
 tags: []
 materials:
   materials-header: Materials

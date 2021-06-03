@@ -53,40 +53,36 @@
   <section class="programs-section">
       <div class="programs-container container">
           <div class="program-desc text-center">
-              <h3 class="text-uppercase">Programs</h3>
+              <h3 class="text-uppercase">{{page.programs-header}}</h3>
               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper
-                  eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
-                  turpis. Nibh cras pulvinar mattis nunc.
+                  {{page.programs-description}}
               </p>
           </div>
+
           <div class="program-cards row justify-content-center">
+              {% for program in page.programs-container.home-programs-block-field limit:3 %}
               <div class="col-12 col-md-3 prog-card-container">
                   <div class="prog-card">
-                      <h4>Minor in Data Science</h4>
+                      <h4>{{program.home-programs-block-header}}</h4>
                       <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
-                          semper eget duis at tellus at
-                          <br><br>
-                          Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper
-                          quis lectus nulla at volutpat diam. Tristique senectus et netus et.
-                          Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam
-                          tempor orci eu
+                        {{program.home-programs-block-desc}}
                       </p>
-                      <a href="#" class="btn btn-md prog-btn custom-btn">Learn more</a>
+                      <a href="{{program.home-programs-block-link}}" class="btn btn-md prog-btn custom-btn">Learn more</a>
                   </div>
               </div>
+              {% endfor %}
           </div>
-    </section>
-  {% for block in page.home-programs-block %}
-      {% assign template = block.template %}
-        {% case template %}
-        {% when 'home-programs-block' %}
-        {% include blocks_program.html %}
-        {% endcase %}
-  {% endfor %}
+
+      </div>
+  </section>
+  <!--      {% for block in page.programs-container %}
+              {% assign template = block.template %}
+                {% case template %}
+                {% when 'home-programs-block' %}
+                {% include home_blocks_program.html %}
+                {% endcase %}
+          {% endfor %}
+-->
 
   <!-- NEWS -->
   <section class="news-section">
@@ -94,7 +90,7 @@
           <h3 class="text-uppercase text-center">News</h3>
           <div class="news-cards row">
               <div class="col-md-4 news-card-container">
-                  <a href="">
+                  <a href="/SpecificNewsEventsPages/newsspecprograms">
                       <div class="news-card">
                           <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                               tempor incididunt ut labore et dolore magna aliqua.</h5>
@@ -106,33 +102,7 @@
                       </div>
                   </a>
               </div>
-              <div class="col-md-4 news-card-container">
-                  <a href="#">
-                      <div class="news-card news-center-card">
-                          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua.</h5>
-                          <h6>April 28, 2021</h6>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
-                              semper eget duis at tellus at </p>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-md-4 news-card-container">
-                  <a href="#">
-                      <div class="news-card">
-                          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua.</h5>
-                          <h6>April 28, 2021</h6>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
-                              semper eget duis at tellus at </p>
-                      </div>
-                  </a>
-              </div>
-          </div>
+            </div>
       </div>
 
   </section>
@@ -143,7 +113,7 @@
           <h3 class="text-uppercase">Recent projects</h3>
           <div class="recent-projects-cards row">
               <div class="col-lg-4 recent-projects-card-container">
-                  <a href="#">
+                  <a href="/SpecificProjectPages/project">
                       <div class="recent-projects-card">
                           <img src="/temp-images/proj1.png" alt="">
                           <div class="recent-projects-card-content">
@@ -154,7 +124,7 @@
                   </a>
               </div>
               <div class="col-lg-4 recent-projects-card-container">
-                  <a href="#">
+                  <a href="/SpecificProjectPages/project">
                       <div class="recent-projects-card">
                           <img src="/temp-images/proj1.png" alt="">
                           <div class="recent-projects-card-content">
@@ -165,7 +135,7 @@
                   </a>
               </div>
               <div class="col-lg-4 recent-projects-card-container">
-                  <a href="#">
+                  <a href="/SpecificProjectPages/project">
                       <div class="recent-projects-card">
                           <img src="/temp-images/proj1.png" alt="">
                           <div class="recent-projects-card-content">
@@ -197,7 +167,7 @@
           </div>
           <div class="hp-publications-cards row">
               <div class="col-lg-4 hp-publications-card-container">
-                  <a href="#">
+                  <a href="/SpecificPublicationPages/Publication">
                       <div class="hp-publications-card">
                           <img src="/temp-images/pub1.jpg" alt="">
                           <div class="hp-publications-card-content">
@@ -227,7 +197,7 @@
                   </a>
               </div>
               <div class="col-lg-4 hp-publications-card-container">
-                  <a href="#">
+                  <a href="/SpecificPublicationPages/Publication1">
                       <div class="hp-publications-card">
                           <img src="/temp-images/pub2.png" alt="">
                           <div class="hp-publications-card-content">
