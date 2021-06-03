@@ -44,12 +44,16 @@ defaults:
       permalink: /:categories/:year/:month/:day/:title:output_ext
   -
     scope:
-      path: "/SpecificProjectPages"
-      type: "" # previously `page` in Jekyll 2.2.
+      path: "/_posts/news"
+      type: "posts"
     values:
-      layout: "/layouts/project"
-      permalink: /project/:categories/:year/:month/:day/:title:output_ext
+      layout: "events-page"
+      permalink: /:categories/:year/:month/:day/:title:output_ext
 
+  collections:
+    pages:
+      output: true
+      permalink: /_posts/ 
 # overrides previous default layout
 # Exclude from processing.
 # The following items will not be processed, by default.
