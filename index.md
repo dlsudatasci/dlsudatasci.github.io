@@ -6,7 +6,6 @@ active-carousel-container:
   active-carousel-title: Data Science Institute
   active-carousel-description: We are a bunch of people who love data science.
   active-carousel-link: https://comet.dlsu.edu.ph
-<<<<<<< Updated upstream
 carousel-container:
 - carousel-background-image: "/temp-images/image1.jpg"
   carousel-title: Third Item
@@ -16,7 +15,6 @@ carousel-container:
   carousel-title: Second Carousel Item
   carousel-description: Just testing this out
   carousel-link: http://dlsu.edu.ph/
-=======
 item-carousel-container:
 - item-carousel-background-image: "/temp-images/image1.jpg"
   item-carousel-title: Second Carousel Item
