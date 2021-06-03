@@ -1,6 +1,6 @@
 ---
 layout: news
-permalink: /news/
+permalink: /NewsLandingPage/
 header: News and Events
 news-item: []
 
