@@ -44,11 +44,11 @@ defaults:
       permalink: /:categories/:year/:month/:day/:title:output_ext
   -
     scope:
-      path: "SpecificProjectPages"
+      path: "/SpecificProjectPages"
       type: "" # previously `page` in Jekyll 2.2.
     values:
       layout: "/layouts/project"
-      permalink: /:categories/:year/:month/:day/:title:output_ext
+      permalink: /project/:categories/:year/:month/:day/:title:output_ext
 
 # overrides previous default layout
 # Exclude from processing.
