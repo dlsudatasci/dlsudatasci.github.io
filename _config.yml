@@ -45,10 +45,10 @@ defaults:
   -
     scope:
       path: "SpecificProjectPages"
-      type: "pages" # previously `page` in Jekyll 2.2.
+      type: "" # previously `page` in Jekyll 2.2.
     values:
       layout: "project"
-      permalink: /project/_posts
+      permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # overrides previous default layout
 # Exclude from processing.

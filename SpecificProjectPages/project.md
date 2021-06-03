@@ -1,5 +1,4 @@
 ---
-permalink: /project/
 layout: project
 tags: []
 sources:
