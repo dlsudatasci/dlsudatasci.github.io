@@ -66,7 +66,7 @@ fields:
   config:
     min: 2
     max: 2
-    labelField: 
+    labelField:
   label: Carousel Item Container
   description: Carousel container that shows headlines and their respective pages.
 - name: bd-container
@@ -141,7 +141,7 @@ fields:
     config:
       min: 0
       max: 3
-      labelField: 
+      labelField:
     label: Program Card
     description: Only up to 3 program cards.
   label: Programs Container
@@ -149,10 +149,11 @@ fields:
 - name: home-programs-block
   type: blocks
   label: home-programs-block
-  template_types: []
+  template_types:
+    programs-block
   config:
-    min: 
-    max: 
+    min:
+    max:
 - name: news-container
   type: field_group
   config: {}
@@ -177,8 +178,8 @@ fields:
       description: ''
       config:
         required: false
-        date_format: 
-        time_format: 
+        date_format:
+        time_format:
         display_utc: false
         export_format: MM-DD-YYYY
     - name: news-description
@@ -199,7 +200,7 @@ fields:
     config:
       min: 0
       max: 3
-      labelField: 
+      labelField:
     label: News Card
     description: Only up to 3 news cards.
   label: News Container
@@ -245,7 +246,7 @@ fields:
     config:
       min: 0
       max: 3
-      labelField: 
+      labelField:
     label: Recent Projects Card
   - name: recent-projects-link
     type: text
@@ -314,7 +315,7 @@ fields:
     config:
       min: 0
       max: 3
-      labelField: 
+      labelField:
     label: Publication Card
   - name: publications-link
     type: text

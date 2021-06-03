@@ -37,7 +37,6 @@ programs-container:
 
             Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
     program-link: "/programs/DC1"
-  home-programs-block: []
 bd-container:
   bd-header: Data Science Institute
   bd-description: |-
