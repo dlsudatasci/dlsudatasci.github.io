@@ -34,6 +34,7 @@ theme:
 plugins:
   - jekyll-menus
 
+
 defaults:
   -
     scope:
@@ -53,7 +54,7 @@ defaults:
   collections:
     pages:
       output: true
-      permalink: /_posts/ 
+      permalink: /_posts/
 # overrides previous default layout
 # Exclude from processing.
 # The following items will not be processed, by default.
