@@ -83,6 +83,15 @@ fields:
       required: false
     label: Publications Header
     default: Publications
+  - name: publications_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Publications Description
   - name: publication-item
     type: field_group_list
     fields:
