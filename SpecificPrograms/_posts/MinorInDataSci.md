@@ -1,5 +1,6 @@
 ---
 layout: program
+category: SpecificPrograms
 permalink: /programs/MDS/
 specprogramfield:
   specprogramheader: Minor in Data Science

@@ -34,7 +34,20 @@ theme:
 plugins:
   - jekyll-menus
 
-
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "SpecificProjectPages"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project"
+      permalink: /project/ # overrides previous default layout
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

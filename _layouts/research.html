@@ -1,0 +1,82 @@
+{% include header.html %}
+{% include navbar.html %}
+    <!-- RESEARCH DESCRIPTION -->
+    <section class="research-desc-section">
+        <div class="research-desc-container text-center container">
+            <h2 class="text-uppercase">{{page.page-header}}</h2>
+            <p>{{page.page-description}}</p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="research-projects-section">
+        <div class="research-projects-container text-center container">
+            <h3 class="text-uppercase">Projects</h3>
+            <div class="research-projects-cards row">
+                <div class="col-md-4 research-projects-card-container">
+                    <a href="project.html">
+                        <div class="research-projects-card">
+                            <img src="/temp-images/proj1.png" alt="">
+                            <div class="research-projects-card-content">
+                                <h5>An Optimization Model for Vaccine Allocation</h5>
+                                <h6 class="project-proponents">Dr. Charlle Sy and Dr. Kathleen Aviso</h6>
+                                <h6 class="partner-agency-title">Partner Agency:</h6>
+                                <h6 class="partner-agency">Animo Labs</h6>
+                                <h6 class="tags-title">Tags:</h6>
+                                <h6 class="tags">Health</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
+        </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="research-publications-section">
+        <div class="publication-green"></div>
+        <div class="publications-container text-center container">
+            <div class="publication-desc">
+                <h3 class="text-uppercase">{{page.publications-section.publications-header}}</h3>
+                <p>{{page.publications-section.publications_description}}
+                </p>
+            </div>
+            <div class="publications-cards row">
+                <div class="col-lg-4 publications-card-container">
+                    <a href="publication.html">
+                        <div class="publications-card">
+                            <img src="/temp-images/pub1.jpg" alt="">
+                            <div class="publications-card-content">
+                                <h5>Visual Attention-based Abnormal Traffic Incident Detection Model, Philippine Journal of Science</h5>
+                                <p>Caitlienne Dianne C. Juan, Jaira Rose A. Bat-og, Kimberly K. Wan, and Macario O. Cordel II</p>
+                                <div class="pub-resources">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fas fa-external-link-square-alt"></span>
+                                                Publisher's Copy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="far fa-file-pdf"></span>
+                                                PDF</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fas fa-quote-left"></span>
+                                                Cite</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
+    </section>
+
+    {% include footer.html %}

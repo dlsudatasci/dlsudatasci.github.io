@@ -1,5 +1,6 @@
 ---
 layout: program
+category: SpecificPrograms
 permalink: /programs/MSDS/
 specprogramfield:
   specprogramheader: Master of Science in Data Science

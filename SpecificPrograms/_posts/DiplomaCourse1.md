@@ -1,6 +1,6 @@
 ---
-
 layout: program
+category: SpecificPrograms
 permalink: /programs/DC1/
 specprogramfield:
   specprogramheader: Diploma Course
