@@ -39,5 +39,6 @@ fields:
   label: Content
 pages:
 - _posts/yes.md
+- event-page-test.md
 - sample-title.md
 - static/event.html
