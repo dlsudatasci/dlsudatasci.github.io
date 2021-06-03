@@ -20,6 +20,7 @@ sections:
   label: Pages
   create: all
   templates:
+  - diploma-courses-template
   - programs-block
   - home
   - about
