@@ -40,7 +40,6 @@ bd-container:
     eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
     turpis.
   bd-about-us: /about/
->>>>>>> Stashed changes
 programs-container:
   programs-header: Programs
   programs-description: Enroll in our programs!
