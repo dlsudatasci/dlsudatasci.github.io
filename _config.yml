@@ -43,7 +43,7 @@ defaults:
       layout: "my-site"
   -
     scope:
-      path: "SpecificProjectPages"
+      path: "/SpecificProjectPages"
       type: "pages" # previously `page` in Jekyll 2.2.
     values:
       layout: "project"
