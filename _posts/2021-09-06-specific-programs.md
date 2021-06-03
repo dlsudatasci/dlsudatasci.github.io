@@ -1,4 +1,5 @@
 ---
+layout: events-page
 image: "/temp-images/dlsu-dsi-logo-01-one-color.png"
 title: Specific Programs
 authors: asdf
