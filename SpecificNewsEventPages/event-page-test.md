@@ -1,4 +1,6 @@
 ---
+permalink: /SpecificNewsEventPages/event-page-test
+layout: events-page
 image: "/temp-images/event1.jpeg"
 title: Event Page Test
 authors: Aldwin Mutia
