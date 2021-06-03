@@ -53,9 +53,12 @@
   <section class="programs-section">
       <div class="programs-container container">
           <div class="program-desc text-center">
-              <h3 class="text-uppercase">{{page.programs-container.programs-header}}</h3>
+              <h3 class="text-uppercase">Programs</h3>
               <p>
-                {{page.programs-container.programs-description}}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper
+                  eget duis at tellus at. Pellentesque massa placerat duis ultricies lacus sed
+                  turpis. Nibh cras pulvinar mattis nunc.
               </p>
           </div>
           <div class="program-cards row justify-content-center">
@@ -75,59 +78,15 @@
                       <a href="#" class="btn btn-md prog-btn custom-btn">Learn more</a>
                   </div>
               </div>
-              <div class="col-12 col-md-3 prog-card-container">
-                  <div class="prog-card">
-                      <h4>M.S. in Data Science</h4>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
-                          semper eget duis at tellus at
-                          <br><br>
-                          Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper
-                          quis lectus nulla at volutpat diam. Tristique senectus et netus et.
-                          Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam
-                          tempor orci eu
-                      </p>
-                      <a href="#" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 prog-card-container">
-                  <div class="prog-card">
-                      <h4>Diploma Courses</h4>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
-                          semper eget duis at tellus at
-                          <br><br>
-                          Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper
-                          quis lectus nulla at volutpat diam. Tristique senectus et netus et.
-                          Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam
-                          tempor orci eu
-                      </p>
-                      <a href="#" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                  </div>
-              </div>
-              <div class="col-12 col-md-3 prog-card-container ">
-                  <div class="prog-card">
-                      <h4>Diploma Courses</h4>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus
-                          semper eget duis at tellus at
-                          <br><br>
-                          Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper
-                          quis lectus nulla at volutpat diam. Tristique senectus et netus et.
-                          Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam
-                          tempor orci eu
-                      </p>
-                      <a href="#" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                  </div>
-
-              </div>
           </div>
-
-      </div>
-  </section>
+    </section>
+  {% for block in page.home-programs-block %}
+      {% assign template = block.template %}
+        {% case template %}
+        {% when 'home-programs-block' %}
+        {% include blocks_program.html %}
+        {% endcase %}
+  {% endfor %}
 
   <!-- NEWS -->
   <section class="news-section">

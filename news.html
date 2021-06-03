@@ -1,0 +1,39 @@
+---
+layout: default
+title: News
+---
+
+
+
+{% include header.html %}
+{% include navbar.html %}
+    <div class="news-title">
+        <h1 class="text-uppercase">News and Events</h1>
+    </div>
+
+    <!-- NEWS CARDS -->
+    <section class="events-section">
+        <div class="events-container container">
+            <div class="events-cards row">
+
+              {% for post in site.posts %}
+                <div class="col-sm-3 events-card-container">
+                    <a href="{{ post.link }}">
+                        <div class="events-card">
+                            <img src="{{post.image-section.image}}" alt="">
+                            <div class="events-info">
+                                <h6 class="event-date"><pre>{{post.title | inspect}}aaaa</pre></h6>
+                                <h6 class="event-category">Blog</h6>
+                                <h5 class="event-title">{{post.title}}</h5>
+                                <h6>{{post.authors}}</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </section>
+
+{% include footer.html %}
