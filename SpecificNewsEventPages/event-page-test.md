@@ -1,7 +1,7 @@
 ---
 permalink: /SpecificNewsEventPages/event-page-test
 layout: events-page
-image: "/temp-images/event1.jpeg"
+image: "/temp-images/dlsu.jpg"
 title: Event Page Test
 authors: Aldwin Mutia
 date: 05-30-2021
