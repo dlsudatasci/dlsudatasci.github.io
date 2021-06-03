@@ -326,4 +326,5 @@ fields:
   label: Publications Container
   description: Displays up to 3 publications here.
 pages:
+- index.md
 - static/home.html
