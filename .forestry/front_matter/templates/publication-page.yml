@@ -111,5 +111,4 @@ fields:
     label: List of Citations
   label: Citation
 pages:
-- Specific Publication Pages/Publication1.md
 - static/publication.html
