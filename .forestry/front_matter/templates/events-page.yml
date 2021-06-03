@@ -38,5 +38,6 @@ fields:
       format: markdown
   label: Content
 pages:
+- _posts/specific-programs.md
 - sample-title.md
 - static/event.html
