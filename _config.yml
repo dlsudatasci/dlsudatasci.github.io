@@ -41,13 +41,16 @@ defaults:
       type: "pages"
     values:
       layout: "my-site"
+      permalink: /:categories/:year/:month/:day/:title:output_ext
   -
     scope:
-      path: "/SpecificProjectPages"
+      path: "SpecificProjectPages"
       type: "pages" # previously `page` in Jekyll 2.2.
     values:
       layout: "project"
-      permalink: /project/ # overrides previous default layout
+      permalink: /project/_posts
+
+# overrides previous default layout
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
