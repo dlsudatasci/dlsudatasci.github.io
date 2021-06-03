@@ -1,10 +1,11 @@
 ---
 layout: home
+title: home
 permalink: "/"
 active-carousel-container:
   active-carousel-background-image: "/temp-images/machlearning.jpg"
   active-carousel-title: Data Science Institute
-active-carousel-description: We are a bunch of people who love data science.
+  active-carousel-description: We are a bunch of people who love data science.
   active-carousel-link: https://comet.dlsu.edu.ph
 carousel-container:
 - carousel-background-image: "/temp-images/image1.jpg"
