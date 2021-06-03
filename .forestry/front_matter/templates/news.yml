@@ -52,5 +52,6 @@ fields:
     labelField: 
   label: News Item
 pages:
+- NewsLandingPage.md
 - static/1news.html.html
 - static/news.html
