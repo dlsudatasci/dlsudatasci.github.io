@@ -38,6 +38,7 @@ fields:
       format: markdown
   label: Content
 pages:
+- SpecificNewsEventPages/event-page-test.md
 - _posts/yes.md
 - event-page-test.md
 - sample-title.md
