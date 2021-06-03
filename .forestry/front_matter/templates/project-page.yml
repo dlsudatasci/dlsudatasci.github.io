@@ -87,4 +87,5 @@ fields:
   hidden: false
   description: Put the list of sources here.
 pages:
+- SpecificProjectPages/asdf.md
 - static/project.html
