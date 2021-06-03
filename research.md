@@ -7,6 +7,11 @@ projects-section:
 publications-section:
   publications-header: Publications
   publication-item: []
+  publications_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque
+    purus semper eget duis at tellus at. Pellentesque massa placerat duis ultricies
+    lacus sed turpis. Nibh cras pulvinar mattis nunc. Pellentesque massa placerat
+    duis ultricies lacus sed turpis. Nibh cras pulvinar mattis nunc.
 page-description: The Data Science Institute research projects are inspired by the
   latest research methodologies and tools in data engineering, machine learning, analysis
   and prediction. We aim to discover new approaches to aggregating and analyzing data
