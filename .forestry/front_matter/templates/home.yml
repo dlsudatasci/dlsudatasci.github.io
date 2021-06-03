@@ -144,15 +144,15 @@ fields:
       labelField: 
     label: Program Card
     description: Only up to 3 program cards.
-  - name: home-programs-block
-    type: blocks
-    label: home-programs-block
-    template_types: []
-    config:
-      min: 
-      max: 
   label: Programs Container
   description: Displays up to 3 programs here.
+- name: home-programs-block
+  type: blocks
+  label: home-programs-block
+  template_types: []
+  config:
+    min: 
+    max: 
 - name: news-container
   type: field_group
   config: {}
