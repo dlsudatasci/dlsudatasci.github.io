@@ -1,42 +1,42 @@
-{% include header.html %}
-{% include navbar.html %}
+{% include header.html %} {% include navbar.html %}
 
-    <!-- BREADCRUMBS -->
-    <!-- BREADCRUMBS -->
-    <div class="breadcrumbs-container container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item"><a href="/research">Research</a></li>
-            <!-- The active item will contain the short title of the project -->
-            <li class="breadcrumb-item active" aria-current="page">{{page.title}}</li>
-          </ol>
-        </nav>
-      </div>
+<!-- BREADCRUMBS -->
+<div class="breadcrumbs-container container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/research">Research</a></li>
+      <!-- The active item will contain the short title of the project -->
+      <li class="breadcrumb-item active" aria-current="page">
+        {{ page.title }}
+      </li>
+    </ol>
+  </nav>
+</div>
 
-    <!-- PUBLICATION IMAGE -->
-    <div class="proj-img-container container">
-        <div class="proj-images row">
-          {% for group in page.image-section %}
-            <div class="col-sm">
-                <img src="{{image-section.image}}" alt="">
-            </div>
-            {% endfor %}
-        </div>
+<!-- PUBLICATION IMAGE -->
+<div class="proj-img-container container">
+  <div class="proj-images row">
+    {% for img in page.image_section %}
+    <div class="col-sm">
+      <img src="{{ img.image }}" alt="" />
     </div>
+    {% endfor %}
+  </div>
+</div>
 
-    <!-- PUBLICATION INFO -->
-    <div class="proj-info-container container">
-        <h1 class="proj-title">{{page.title}}</h1>
-        <h6 class="proj-authors">{{page.authors}}</h6>
-        <h6 class="proj-date">{{page.date}}</h6>
+<!-- PUBLICATION INFO -->
+<div class="proj-info-container container">
+  <h1 class="proj-title">{{ page.title }}</h1>
+  <h6 class="proj-authors">{{ page.authors }}</h6>
+  <h6 class="proj-date">{{ page.date }}</h6>
 
-        {% for group in page.content_sections %}
-        <div class="proj-description">
-            <h4 class="text-uppercase">{{group.header}}></h4>
-            <p>{{group.paragraph}}</p>
-        </div>
-        {% endfor %}
-    </div>
+  {% for group in page.content_sections %}
+  <div class="proj-description">
+    <h4 class="text-uppercase">{{ group.header }}></h4>
+    <p>{{ group.paragraph }}</p>
+  </div>
+  {% endfor %}
+</div>
 
 {% include footer.html %}

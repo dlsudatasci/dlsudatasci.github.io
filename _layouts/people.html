@@ -1,21 +1,22 @@
+<!-- prettier-ignore -->
 {% include header.html %}
+
 {% include navbar.html %}
 
 <div class="people-title">
-    <h1 class="text-uppercase">People</h1>
+  <h1 class="text-uppercase">People</h1>
 </div>
 
 {% for group in page.sections %}
 <section class="admin-section">
-  <h3 class="container text-uppercase">{{group.people_group}}</h3>
+  <h3 class="container text-uppercase">{{ group.people_group }}</h3>
   <div class="admin-container text-center container">
     <div class="person-cards row justify-content-center">
-
       {% for person in group.people_list %}
       <div class="col-6 col-md-2 person-card-container">
         <a href="{{ person.website }}">
           <div class="person-card">
-            <img src="{{ person.image }}" alt="">
+            <img src="{{ person.image }}" alt="" />
             <div class="person-details">
               <h5>{{ person.name }}</h5>
               <h6>{{ person.rank }}</h6>
@@ -25,10 +26,10 @@
         </a>
       </div>
       {% endfor %}
-
     </div>
   </div>
 </section>
 {% endfor %}
 
+<!-- prettier-ignore -->
 {% include footer.html %}

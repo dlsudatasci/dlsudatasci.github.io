@@ -27,35 +27,28 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dlsudatasci
-github_username:  dlsudatasci
+github_username: dlsudatasci
 
 # Build settings
 theme:
 plugins:
   - jekyll-menus
 
+include:
+  - _pages
+#  - .htaccess
 
-#defaults:
-#-
-#scope:
-#  path: ""
-#  type: "pages"
-#values:
-#layout: ""
-#permalink: /:categories/:year/:month/:day/:title:output_ext
-#  -
-#scope:
-#  path: "/_posts/news"
-#  type: "posts"
-#values:
-#  layout: "events-page"
-#  permalink: /:categories/:year/:month/:day/:title:output_ext
-
-#collections:
-#  pages:
-#    output: true
-#    permalink: /_posts/
-#    layout: events-page
+collections_dir: dynamic
+collections:
+  projects:
+    output: true
+    sort_by: date
+  publications:
+    output: true
+    sort_by: date
+  news:
+    output: true
+    sort_by: date
 # overrides previous default layout
 # Exclude from processing.
 # The following items will not be processed, by default.
