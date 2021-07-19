@@ -1,6 +1,6 @@
 ---
 layout: enrollment
-permalink: "/enrollment/"
+permalink: /enrollment/
 header: ENROLLMENT PROCEDURES
 instructions:
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

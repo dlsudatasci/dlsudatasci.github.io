@@ -23,24 +23,10 @@ sections:
     label: Projects
     create: all
 
-  - type: jekyll-pages
-    path: _pages
+  # - type: jekyll-pages
+  - path: _pages
     label: Pages
     create: all
-    templates:
-      - about
-      - enrollment
-      # - programs
-      # - events
-      - index
-      - news
-      - people
-      - peopletest
-      # - program
-      - programs
-      # - publication
-      # - project
-      - research
 
 upload_dir: uploads
 public_path: /uploads

@@ -1,16 +1,19 @@
-<!-- HEADER  -->
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
 
-<!-- NAVBAR PLACEHOLDER -->
-{% include navbar.html %}
+  <body>
+    {% include navbar.html %}
 
-<section class="prog-desc-section">
-  <div class="prog-desc-container container">
-    <h2 class="text-uppercase text-center">
-      {{page.specprogramfield.specprogramheader}}
-    </h2>
-    <p>{{page.specprogramfield.specprogramdescription}}</p>
-  </div>
-</section>
+    <section class="prog-desc-section">
+      <div class="prog-desc-container container">
+        <h2 class="text-uppercase text-center">
+          {{ page.spec_program_field.spec_program_header }}
+        </h2>
+        <p>{{ page.spec_program_field.spec_program_description }}</p>
+      </div>
+    </section>
 
-{% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>

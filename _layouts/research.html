@@ -1,61 +1,46 @@
-<!-- prettier-ignore -->
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
 
-{% include navbar.html %}
+  <body>
+    {% include navbar.html %}
 
-<!-- RESEARCH DESCRIPTION -->
-<section class="research-desc-section">
-  <div class="research-desc-container text-center container">
-    <h2 class="text-uppercase">{{ page.page_header }}</h2>
-    <p>{{ page.page_description }}</p>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section class="research-projects-section">
-  <div class="research-projects-container text-center container">
-    <h3 class="text-uppercase">Projects</h3>
-    <div class="research-projects-cards row">
-      {% for project in site.projects %}
-      <div class="col-md-4 research-projects-card-container">
-        <a href="{{ project.permalink }}">
-          <div class="research-projects-card">
-            <img src="{{ project.image_section[0].image }}" alt="" />
-            <div class="research-projects-card-content">
-              <h5>{{ project.title }}</h5>
-              <h6 class="project-proponents">{{ project.authors }}</h6>
-              <h6 class="partner-agency-title">Partner Agency:</h6>
-              <h6 class="partner-agency">{{ project.agency }}</h6>
-              <h6 class="tags-title">Tags:</h6>
-              <h6 class="tags">
-                <!-- prettier-ignore -->
-                {% for tag in project.tags %}
-                  {{ tag }}
-                {% endfor %}
-              </h6>
-            </div>
-          </div>
-        </a>
+    <!-- RESEARCH DESCRIPTION -->
+    <section class="research-desc-section">
+      <div class="research-desc-container text-center container">
+        <h2 class="text-uppercase">{{ page.page_header }}</h2>
+        <p>{{ page.page_description }}</p>
       </div>
-      {% endfor %}
-    </div>
-    <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
-  </div>
-</section>
+    </section>
 
-<!-- PUBLICATIONS -->
-<section class="research-publications-section">
-  <div class="publication-green"></div>
-  <div class="publications-container text-center container">
-    <div class="publication-desc">
-      <h3 class="text-uppercase">
-        {{ page.publications_section.publications_header }}
-      </h3>
-      <p>{{ page.publications_section.publications_description }}</p>
-    </div>
-    {% include publication-cards-3.html %}
-    <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
-  </div>
-</section>
+    <!-- PROJECTS -->
+    <section class="research-projects-section">
+      <div class="research-projects-container text-center container">
+        <h3 class="text-uppercase">Projects</h3>
 
-{% include footer.html %}
+        {% include project-cards-3.html %}
+
+        <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="research-publications-section">
+      <div class="publication-green"></div>
+      <div class="publications-container text-center container">
+        <div class="publication-desc">
+          <h3 class="text-uppercase">
+            {{ page.publications_section.publications_header }}
+          </h3>
+          <p>{{ page.publications_section.publications_description }}</p>
+        </div>
+
+        {% include publication-cards-3.html %}
+
+        <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
+      </div>
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>

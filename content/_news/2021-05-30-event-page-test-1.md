@@ -8,3 +8,7 @@ date: 2021-05-31
 news_body: Yes this is a test
 category: Blog
 ---
+
+# Sample Body
+
+Sample Body

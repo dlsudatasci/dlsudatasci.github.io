@@ -1,51 +1,57 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
 
-{% include header.html %} {% include navbar.html %}
-<div>
-  <div class="about-img-container container">
-    <div class="about-img">
-      <img src="{{ page.image }}" alt="" />
-    </div>
-  </div>
+  <body>
+    {% include navbar.html %}
 
-  <div class="about-container container">
-    <div class="about-desc">
-      <h1 class="text-uppercase">About</h1>
-      <p>{{ page.about_content }}</p>
-    </div>
-
-    <div class="mission-vision row">
-      <div class="col-lg-6 mission-desc">
-        <h3 class="text-uppercase">Mission</h3>
-        <p>{{ page.mission_content }}</p>
+    <div>
+      <div class="about-img-container container">
+        <div class="about-img">
+          <img src="{{ page.image }}" alt="" />
+        </div>
       </div>
-      <div class="col-lg-6 vision-desc">
-        <h3 class="text-uppercase">Vision</h3>
-        <p>{{ page.vision_content }}</p>
+
+      <div class="about-container container">
+        <div class="about-desc">
+          <h1 class="text-uppercase">About</h1>
+          <p>{{ page.about_content }}</p>
+        </div>
+
+        <div class="mission-vision row">
+          <div class="col-lg-6 mission-desc">
+            <h3 class="text-uppercase">Mission</h3>
+            <p>{{ page.mission_content }}</p>
+          </div>
+          <div class="col-lg-6 vision-desc">
+            <h3 class="text-uppercase">Vision</h3>
+            <p>{{ page.vision_content }}</p>
+          </div>
+        </div>
+
+        <div class="about-contact">
+          <h3 class="text-uppercase">Contact</h3>
+          <ul class="about-numbers">
+            <li>
+              <span class="far fa-envelope"></span> Email:
+              <a href="{{ page.contacts.email_link }}"
+                >{{ page.contacts.email }}</a
+              >
+            </li>
+            <li>
+              <span class="fas fa-phone-alt"></span> Tel. Nos.:
+              <a href="#">{{ page.contacts.telephone.number }}</a>
+              {{ page.contacts.telephone.details }}
+            </li>
+            <li>
+              <span class="fas fa-fax"></span> Telefax No.:
+              <a href="#">{{ page.contacts.telefax.number }}</a>
+              {{ page.contacts.telefax.details }}
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-
-    <div class="about-contact">
-      <h3 class="text-uppercase">Contact</h3>
-      <ul class="about-numbers">
-        <li>
-          <span class="far fa-envelope"></span> Email:
-          <a href="{{ page.contacts.email_link }}">{{ page.contacts.email }}</a>
-        </li>
-        <li>
-          <span class="fas fa-phone-alt"></span> Tel. Nos.:
-          <a href="#">{{ page.contacts.telephone.number }}</a>
-          {{ page.contacts.telephone.details }}
-        </li>
-        <li>
-          <span class="fas fa-fax"></span> Telefax No.:
-          <a href="#">{{ page.contacts.telefax.number }}</a>
-          {{ page.contacts.telefax.details }}
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-{% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>

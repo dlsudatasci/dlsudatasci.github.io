@@ -1,0 +1,24 @@
+<div class="research-projects-cards row">
+  {% for project in site.projects limit:3 %}
+  <div class="col-md-4 research-projects-card-container">
+    <a href="{{ project.permalink }}">
+      <div class="research-projects-card">
+        <img src="{{ project.image_section[0].image }}" alt="" />
+        <div class="research-projects-card-content">
+          <h5>{{ project.title }}</h5>
+          <h6 class="project-proponents">{{ project.authors }}</h6>
+          <h6 class="partner-agency-title">Partner Agency:</h6>
+          <h6 class="partner-agency">{{ project.agency }}</h6>
+          <h6 class="tags-title">Tags:</h6>
+          <h6 class="tags">
+            <!-- prettier-ignore -->
+            {% for tag in project.tags %}
+                {{ tag }}
+              {% endfor %}
+          </h6>
+        </div>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
