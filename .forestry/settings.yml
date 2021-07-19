@@ -11,23 +11,17 @@ sections:
     match: "**/*"
     new_doc_ext: yml
 
-  # - type: document
-  #   path: dynamic
-  #   label: News
-
-  # - type: jekyll-posts
-  #   label: Posts
-  #   create: all
-
-  - path: content
-    label: Posts
-    create: all
-
   - path: content/_news
     label: News
     create: all
-    templates:
-      - news
+
+  - path: content/_publications
+    label: Publications
+    create: all
+
+  - path: content/_projects
+    label: Projects
+    create: all
 
   - type: jekyll-pages
     path: _pages
