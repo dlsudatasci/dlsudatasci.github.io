@@ -8,34 +8,36 @@ sections:
     path: _data
     label: Data
     create: all
-    match: "**                                                                                                              /*"
+    match: "**/*"
     new_doc_ext: yml
+
   - type: document
-    path: home
-    label: Home
+    path: dynamic/_news
+    label: News
+
   - type: jekyll-posts
     label: Posts
     create: all
+
   - type: jekyll-pages
     label: Pages
     create: all
     templates:
-      - diploma-courses-template
-      - programs-block
-      - home
+      - programs
+      - index
       - about
       - events
       - people
       - research
-      - publication-page
+      - publication
       - programs
-      - project-page
+      - project
       - enroll
       - news
       - people-list
-      - spec-program
-upload_dir: temp-images
-public_path: "/temp-images"
+      # - spec-program
+upload_dir: uploads
+public_path: /uploads
 front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
@@ -45,8 +47,8 @@ build:
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
-  mount_path: "/srv"
-  working_dir: "/srv"
+  mount_path: /srv
+  working_dir: /srv
   instant_preview_command:
     bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
