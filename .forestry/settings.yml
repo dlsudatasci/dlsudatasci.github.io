@@ -22,11 +22,12 @@ sections:
   - path: content
     label: Posts
     create: all
+
+  - path: content/_news
+    label: News
+    create: all
     templates:
       - news
-      - posts
-      - projects
-      - publications
 
   - type: jekyll-pages
     path: _pages
