@@ -19,7 +19,7 @@ sections:
   #   label: Posts
   #   create: all
 
-  - path: content/posts
+  - path: content
     label: Posts
     create: all
     templates:
