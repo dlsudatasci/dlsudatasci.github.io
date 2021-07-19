@@ -136,6 +136,5 @@ fields:
     label: Publications Item
   label: Publications Section
 pages:
-- research.md
 - static/1research.html.html
 - static/research.html

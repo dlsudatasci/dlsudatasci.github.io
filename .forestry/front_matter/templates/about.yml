@@ -35,5 +35,4 @@ fields:
       format: markdown
   label: Vision
 pages:
-- about.md
 - static/about.html

@@ -37,6 +37,5 @@ fields:
     min: 
     max: 
 pages:
-- Programs.md
 - static/1programs.html.html
 - static/programs.html
