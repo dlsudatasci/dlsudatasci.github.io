@@ -11,31 +11,42 @@ sections:
     match: "**/*"
     new_doc_ext: yml
 
-  - type: document
-    path: dynamic/_news
-    label: News
+  # - type: document
+  #   path: dynamic
+  #   label: News
 
-  - type: jekyll-posts
+  # - type: jekyll-posts
+  #   label: Posts
+  #   create: all
+
+  - path: content/posts
     label: Posts
     create: all
+    templates:
+      - news
+      - posts
+      - projects
+      - publications
 
   - type: jekyll-pages
+    path: _pages
     label: Pages
     create: all
     templates:
-      - programs
-      - index
       - about
-      - events
-      - people
-      - research
-      - publication
-      - programs
-      - project
-      - enroll
+      - enrollment
+      # - programs
+      # - events
+      - index
       - news
-      - people-list
-      # - spec-program
+      - people
+      - peopletest
+      # - program
+      - programs
+      # - publication
+      # - project
+      - research
+
 upload_dir: uploads
 public_path: /uploads
 front_matter_path: ""
