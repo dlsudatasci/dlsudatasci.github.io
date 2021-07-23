@@ -5,50 +5,80 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  config:
+    required: true
 - type: text
   name: permalink
-  label: permalink
+  hidden: false
+  config:
+    required: true
+  default: "/publication/<name of paper>"
+  label: Link
 - type: list
   name: tags
-  label: tags
+  label: Tags
 - type: field_group_list
   name: image_section
-  label: image_section
   fields:
   - type: file
     name: image
-    label: image
+    label: Image
+  label: Image Section
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: text
   name: authors
-  label: authors
+  label: Authors
+  config:
+    required: true
 - type: text
   name: source
-  label: source
+  label: Source
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
+  default: now
 - type: textarea
   name: abstract
-  label: abstract
+  label: Abstract
+  config:
+    required: true
+  default: ''
 - type: text
   name: publishers_copy
-  label: publishers_copy
+  label: Publisher's Copy
+  config:
+    required: true
 - type: file
   name: pdf
-  label: pdf
+  label: PDF File
 - type: textarea
   name: bibtex
-  label: bibtex
+  label: Bibtex
+  config:
+    required: true
+  default: ''
 - type: field_group_list
   name: citations
-  label: citations
+  label: Citations
   fields:
   - type: text
     name: text
-    label: text
+    label: Citation
+    config:
+      required: true
   - type: text
     name: format
-    label: format
+    label: Format
+    config:
+      required: true
+    default: apa
+    description: please use small caps
