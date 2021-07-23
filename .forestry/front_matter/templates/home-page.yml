@@ -97,3 +97,5 @@ fields:
       required: true
     label: Link
     description: Redirect to the partner page
+pages:
+- _pages/home.md
