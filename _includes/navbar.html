@@ -2,7 +2,8 @@
   <nav class="navbar navbar-expand-md fixed-top">
     <div class="container">
       <a class="navbar-brand" aria-current="page" href="/">
-        <img src="/uploads/img/logo/logo-green1.png" width="60" height="60" alt="">
+        {% assign logo = site.data.logos.navbar_logo %}
+        <img src="{{ logo.img }}" height="60" alt="{{ logo.alt }}">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

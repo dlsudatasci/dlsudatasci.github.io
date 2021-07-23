@@ -4,17 +4,16 @@
     <div class="footer-cards row justify-content-center">
       <div class="col-md-5 footer-card-container">
         <div class="footer-card float-start">
+          {% assign logos = site.data.logos.footer_logos %}
+
           <div class="footer-logos">
-            <a href="#">
-              <img src="/uploads/img/logo/dlsulogowhite.png" alt="DLSU logo" />
+            {% for logo in logos %}
+            <a href="{{ logo.link }}">
+              <img src="{{ logo.img }}" alt="{{ logo.alt }}" height="60" />
             </a>
-            <a href="#">
-              <img
-                src="/uploads/img/logo/DLSU DSI Logo 01 reverse green.png"
-                alt="DSI Logo"
-              />
-            </a>
+            {% endfor %}
           </div>
+
           <h5>Data Science Institute</h5>
           <p class="footer-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
