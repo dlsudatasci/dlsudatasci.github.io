@@ -29,6 +29,10 @@ sections:
     website: ''
     rank: Full Professor
     department: Civing Engineering Department
+  - rank: Full Professor
+    department: Counseling and Educational Psychology Department
+    website: ''
+    name: Allan Benedict Bernardo, Ph.D.
   people_group: Steering Committee
 - template: people-list
   people_list:
