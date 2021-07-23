@@ -15,6 +15,11 @@ sections:
     rank: Full Professor
     department: International Studies
     website: ''
+  - image: ''
+    name: Ador Torneo, Ph.D.
+    rank: Full Professor
+    department: Political Science and Development Studies
+    website: ''
   people_group: Steering Committee
 - template: people-list
   people_list:
