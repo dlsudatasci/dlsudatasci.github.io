@@ -34,7 +34,8 @@ sections:
     department: Counseling and Educational Psychology Department
     website: ''
     name: Allan Benedict Bernardo, Ph.D.
-  - image: ''
+    image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/img/temp/blank1.png"
     name: Angelyn Lao, Ph.D.
     rank: Associate Professor
     department: Mathematics and Statistics Department
@@ -42,7 +43,8 @@ sections:
     rank: Associate Professor
     department: Physics Department
     website: ''
-  - image: ''
+    image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/img/temp/blank1.png"
     name: Ethel Ong, Ph.D.
     rank: Associate Professor
     department: Software Technology Department
@@ -55,7 +57,7 @@ sections:
     rank: Institute Dean
     department: Computer Technology
     website: https://www.dlsu.edu.ph/colleges/ccs/faculty-profile/?personnel=32742735838
-  - image: ''
+  - image: "/uploads/img/temp/blank1.png"
     name: Briane Paul Samson, Ph.D.
     rank: Associate Professor
     department: Software Technology Department
@@ -69,21 +71,23 @@ sections:
     rank: Full Professor
     department: Management Organization Department
     website: ''
+    image: "/uploads/img/temp/blank1.png"
   - department: Software Technology Department
     website: ''
     name: Arren Matthew Antioquia
     rank: Assistant Professor
-  - image: ''
+    image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/img/temp/blank1.png"
     name: Sashmir Yap
     rank: Assistant Professorial Lecturer
     department: Software Technology Department
     website: ''
-  - image: ''
+  - image: "/uploads/img/temp/blank1.png"
     name: Jude Michael Teves
     rank: Assistant Professorial Lecturer
     department: Software Technology Department
     website: ''
-  - image: ''
+  - image: "/uploads/img/temp/blank1.png"
     name: Gaddiel Tan
     rank: Assistant Professorial Lecturer
     department: Information Technology Department
@@ -91,6 +95,7 @@ sections:
     department: Software Technology Department
     website: ''
     rank: Assistant Professorial Lecturer
+    image: "/uploads/img/temp/blank1.png"
   people_group: Faculty Affiliates
 
 ---
