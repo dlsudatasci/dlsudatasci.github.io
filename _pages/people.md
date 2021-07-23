@@ -37,6 +37,10 @@ sections:
     name: Angelyn Lao, Ph.D.
     rank: Associate Professor
     department: Mathematics and Statistics Department
+  - name: Rene Batac, Ph.D.
+    rank: Associate Professor
+    department: Physics Department
+    website: ''
   people_group: Steering Committee
 - template: people-list
   people_list:
