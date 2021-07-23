@@ -41,6 +41,9 @@ include:
 excerpt_separator: <!--more-->
 collections_dir: content
 collections:
+  programs:
+    output: true
+    sort_by: priority
   projects:
     output: true
     sort_by: date

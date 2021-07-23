@@ -2,9 +2,10 @@
 layout: program
 category: programs
 permalink: /programs/mds/
-spec_program_field:
-  spec_program_header: Minor in Data Science
-  spec_program_description: |-
+priority: 1
+special_program_field:
+  header: Minor in Data Science
+  description: |-
     MDS
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at

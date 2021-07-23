@@ -2,9 +2,10 @@
 layout: program
 category: programs
 permalink: /programs/msds/
-spec_program_field:
-  spec_program_header: Master of Science in Data Science
-  spec_program_description: |-
+priority: 2
+special_program_field:
+  header: Master of Science in Data Science
+  description: |-
     MSDS
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
