@@ -4,6 +4,7 @@
 
   <body>
     {% include navbar.html %}
+
     <!-- BREADCRUMBS -->
     <div class="breadcrumbs-container container">
       <nav aria-label="breadcrumb">
@@ -12,7 +13,7 @@
           <li class="breadcrumb-item"><a href="/research">Research</a></li>
           <!-- The active item will contain the short title of the publication -->
           <li class="breadcrumb-item active" aria-current="page">
-            {{page.title}}
+            {{ page.title }}
           </li>
         </ol>
       </nav>
@@ -21,9 +22,9 @@
     <!-- PUBLICATION IMAGE -->
     <div class="pub-img-container container">
       <div class="pub-images row">
-        {% for group in page.images-section %}
+        {% for group in page.images_section %}
         <div class="col-sm">
-          <img src="{{group.carousel-image}}" alt="" />
+          <img src="{{ group.carousel_image }}" alt="" />
         </div>
         {% endfor %}
       </div>
@@ -31,37 +32,34 @@
 
     <!-- PUBLICATION INFO -->
     <div class="pub-info-container container">
-      <h1 class="pub-title">{{page.title}}</h1>
-      <h6 class="pub-authors">{{page.authors}}</h6>
-      <h6 class="pub-journal">{{page.source}}</h6>
-      <h6 class="pub-date">{{page.date}}</h6>
+      <h1 class="pub-title">{{ page.title }}</h1>
+      <h6 class="pub-authors">{{ page.authors }}</h6>
+      <h6 class="pub-journal">{{ page.source }}</h6>
+      <h6 class="pub-date">{{ page.date | date: "%-d %B, %Y" }}</h6>
 
-      {% for group in page.content-sections %}
       <div class="pub-abstract">
-        <h4 class="text-uppercase">{{group.body-header}}</h4>
-        <p>{{group.body-paragraph}}asdfasdf</p>
+        <h4 class="text-uppercase">ABSTRACT</h4>
+        <p>{{ page.abstract }}</p>
       </div>
-
-      {% endfor %}
 
       <div class="pub-materials">
         <h4 class="text-uppercase">Materials</h4>
         <div class="pub-resources publi-rsrc">
           <ul>
             <li>
-              <a href="#">
+              <a href="{{ page.publishers_copy }}">
                 <span class="fas fa-external-link-square-alt"></span>
-                Publisher's Copy</a
-              >
+                Publisher's Copy
+              </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{ page.pdf }}">
                 <span class="far fa-file-pdf"></span>
-                PDF</a
-              >
+                PDF
+              </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#citations">
                 <span class="fas fa-quote-left"></span>
                 Cite
               </a>
@@ -70,12 +68,27 @@
         </div>
       </div>
 
-      <div class="pub-citation">
-        <h4 class="text-uppercase">{{page.citation-header}}</h4>
-        <p>{{page.list-of-citations}}</p>
+      <div id="bibtex" class="pub-bibtex">
+        <h4 class="text-uppercase">BIBTEX</h4>
+        <pre id="bibtex-text">{{ page.bibtex }}</pre>
+      </div>
+
+      <div id="citations" class="pub-citation">
+        <h4 class="text-uppercase">CITATIONS</h4>
+        {% for citation in page.citations %}
+        <strong class="text-uppercase">{{ citation.format }}:</strong>
+        <p id="citation-{{ citation.format }}" class="">{{ citation.text }}</p>
+
+        <button onclick="copyText('citation-{{citation.format}}')">
+          <span class="fas fa-copy"></span>
+        </button>
+
+        {% endfor %}
       </div>
     </div>
 
     {% include footer.html %}
+
+    <script src="/assets/js/copy.js"></script>
   </body>
 </html>

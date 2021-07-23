@@ -2,7 +2,7 @@
 published: false
 ---
 
-# DSLU Datasci Website
+# DLSU Dr. Andrew L. Tan Data Science Institute
 
 <!-- TODO: Description here -->
 
@@ -10,9 +10,21 @@ published: false
 
 ## Requirements
 
+- Ruby
 - Jekyll
 - VS Code
 - Prettier Extension (Prettier - Code formatter)
+
+## Dependencies
+
+- jekyll
+- jekyll-menus
+
+### Installing Dependencies
+
+```cmd
+<path to folder> $ bundle install
+```
 
 ## Serve
 
