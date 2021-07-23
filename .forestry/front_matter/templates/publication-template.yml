@@ -1,0 +1,54 @@
+---
+label: Publication Template
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
+- type: list
+  name: tags
+  label: tags
+- type: field_group_list
+  name: image_section
+  label: image_section
+  fields:
+  - type: file
+    name: image
+    label: image
+- type: text
+  name: title
+  label: title
+- type: text
+  name: authors
+  label: authors
+- type: text
+  name: source
+  label: source
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: abstract
+  label: abstract
+- type: text
+  name: publishers_copy
+  label: publishers_copy
+- type: file
+  name: pdf
+  label: pdf
+- type: textarea
+  name: bibtex
+  label: bibtex
+- type: field_group_list
+  name: citations
+  label: citations
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: format
+    label: format
