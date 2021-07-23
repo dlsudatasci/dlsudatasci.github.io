@@ -36,8 +36,9 @@ plugins:
 
 include:
   - _pages
-#  - .htaccess
+  - .htaccess
 
+excerpt_separator: <!--more-->
 collections_dir: content
 collections:
   projects:
