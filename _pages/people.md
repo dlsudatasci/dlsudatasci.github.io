@@ -41,6 +41,11 @@ sections:
     rank: Associate Professor
     department: Physics Department
     website: ''
+  - image: ''
+    name: Ethel Ong, Ph.D.
+    rank: Associate Professor
+    department: Software Technology Department
+    website: ''
   people_group: Steering Committee
 - template: people-list
   people_list:
