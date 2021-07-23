@@ -86,6 +86,10 @@ sections:
     name: Gaddiel Tan
     rank: Assistant Professorial Lecturer
     department: Information Technology Department
+  - name: Michel Onasis Ogbinar
+    department: Software Technology Department
+    website: ''
+    rank: Assistant Professorial Lecturer
   people_group: Faculty Affiliates
 
 ---
