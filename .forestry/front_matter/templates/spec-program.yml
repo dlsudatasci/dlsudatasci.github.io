@@ -21,5 +21,3 @@ fields:
         format: markdown
     label: specprogramdescription
   label: specprogramfield
-pages:
-- static/minorindatasci.html

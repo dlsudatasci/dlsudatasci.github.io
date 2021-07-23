@@ -135,6 +135,3 @@ fields:
       labelField: 
     label: Publications Item
   label: Publications Section
-pages:
-- static/1research.html.html
-- static/research.html

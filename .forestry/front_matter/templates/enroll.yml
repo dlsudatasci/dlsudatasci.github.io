@@ -20,5 +20,3 @@ fields:
     schema:
       format: markdown
   label: Instructions
-pages:
-- static/enrollment.html

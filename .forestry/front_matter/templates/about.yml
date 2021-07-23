@@ -34,5 +34,3 @@ fields:
     schema:
       format: markdown
   label: Vision
-pages:
-- static/about.html

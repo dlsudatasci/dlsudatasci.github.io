@@ -110,5 +110,3 @@ fields:
         format: markdown
     label: List of Citations
   label: Citation
-pages:
-- static/publication.html

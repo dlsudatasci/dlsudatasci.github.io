@@ -37,6 +37,3 @@ fields:
     schema:
       format: markdown
   label: Content
-pages:
-- _posts/yes.md
-- static/event.html
