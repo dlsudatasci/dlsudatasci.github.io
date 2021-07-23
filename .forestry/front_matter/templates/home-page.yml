@@ -1,0 +1,68 @@
+---
+label: Home Page
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
+- type: field_group
+  name: active_carousel_container
+  label: active_carousel_container
+  fields:
+  - type: file
+    name: bg
+    label: bg
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: link
+    label: link
+- type: field_group_list
+  name: carousel_container
+  label: carousel_container
+  fields:
+  - type: file
+    name: bg
+    label: bg
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: link
+    label: link
+- type: field_group
+  name: brief_description_section
+  label: brief_description_section
+  fields:
+  - type: text
+    name: header
+    label: header
+  - type: textarea
+    name: description
+    label: description
+  - type: text
+    name: about_us
+    label: about_us
+- type: field_group_list
+  name: partners
+  label: partners
+  fields:
+  - type: file
+    name: logo
+    label: logo
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: link
+    label: link
