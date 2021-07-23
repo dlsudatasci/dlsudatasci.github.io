@@ -64,6 +64,10 @@ sections:
     rank: Assistant Professor
     department: Software Technology
     website: https://unissechua.github.io
+  - name: Benito Teehankee, Ph.D.
+    rank: Full Professor
+    department: Management Organization Department
+    website: ''
   - department: Software Technology Department
     website: ''
     name: Arren Matthew Antioquia
