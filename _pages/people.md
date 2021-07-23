@@ -5,6 +5,11 @@ permalink: "/people/"
 sections:
 - template: people-list
   people_list:
+  - image: ''
+    name: Marites Tiongco, Ph.D.
+    rank: Full Professor
+    department: School of Economics
+    website: ''
   - image: "/uploads/img/people/ruth.png"
     name: Ruth Angelie Cruz, Ph.D.
     rank: Associate Professor
