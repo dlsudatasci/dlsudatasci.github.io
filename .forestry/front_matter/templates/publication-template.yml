@@ -82,3 +82,5 @@ fields:
       required: true
     default: apa
     description: please use small caps
+pages:
+- content/_publications/visual-attention-based-abnormal-traffic-incident-detection-model.md
