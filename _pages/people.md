@@ -10,11 +10,6 @@ sections:
     rank: Full Professor
     department: School of Economics
     website: ''
-  - image: "/uploads/img/people/ruth.png"
-    name: Ruth Angelie Cruz, Ph.D.
-    rank: Associate Professor
-    department: Decision Science and Innovation Department
-    website: http://xsite.dlsu.edu.ph/faculty/fis/faculty_info.asp?fac_id=27095888
   - image: "/uploads/img/temp/blank1.png"
     name: Dennis Trinidad, Ph.D.
     rank: Full Professor
@@ -25,6 +20,15 @@ sections:
     rank: Full Professor
     department: Political Science and Development Studies
     website: ''
+  - image: "/uploads/img/people/ruth.png"
+    name: Ruth Angelie Cruz, Ph.D.
+    rank: Associate Professor
+    department: Decision Science and Innovation Department
+    website: http://xsite.dlsu.edu.ph/faculty/fis/faculty_info.asp?fac_id=27095888
+  - name: Alexis Filone, Ph.D.
+    website: ''
+    rank: Full Professor
+    department: Civing Engineering Department
   people_group: Steering Committee
 - template: people-list
   people_list:
