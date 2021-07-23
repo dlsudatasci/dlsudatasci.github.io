@@ -29,6 +29,7 @@ sections:
     website: ''
     rank: Full Professor
     department: Civing Engineering Department
+    image: "/uploads/img/temp/blank1.png"
   - rank: Full Professor
     department: Counseling and Educational Psychology Department
     website: ''
