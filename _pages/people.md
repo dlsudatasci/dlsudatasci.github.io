@@ -33,6 +33,10 @@ sections:
     department: Counseling and Educational Psychology Department
     website: ''
     name: Allan Benedict Bernardo, Ph.D.
+  - image: ''
+    name: Angelyn Lao, Ph.D.
+    rank: Associate Professor
+    department: Mathematics and Statistics Department
   people_group: Steering Committee
 - template: people-list
   people_list:
