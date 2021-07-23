@@ -72,6 +72,11 @@ sections:
     website: ''
     name: Arren Matthew Antioquia
     rank: Assistant Professor
+  - image: ''
+    name: Sashmir Yap
+    rank: Assistant Professorial Lecturer
+    department: Software Technology Department
+    website: ''
   people_group: Faculty Affiliates
 
 ---
