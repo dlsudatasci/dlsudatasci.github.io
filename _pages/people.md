@@ -5,7 +5,7 @@ permalink: "/people/"
 sections:
 - template: people-list
   people_list:
-  - image: ''
+  - image: "/uploads/img/temp/blank1.png"
     name: Marites Tiongco, Ph.D.
     rank: Full Professor
     department: School of Economics
@@ -20,7 +20,7 @@ sections:
     rank: Full Professor
     department: International Studies
     website: ''
-  - image: ''
+  - image: "/uploads/img/temp/blank1.png"
     name: Ador Torneo, Ph.D.
     rank: Full Professor
     department: Political Science and Development Studies
