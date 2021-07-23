@@ -49,6 +49,11 @@ sections:
   people_group: Steering Committee
 - template: people-list
   people_list:
+  - image: ''
+    name: Briane Paul Samson, Ph.D.
+    rank: Associate Professor
+    department: Software Technology Department
+    website: ''
   - image: "/uploads/img/people/mac-1.png"
     name: Macario Cordel, II, Ph.D.
     rank: Institute Dean
