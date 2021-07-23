@@ -77,6 +77,11 @@ sections:
     rank: Assistant Professorial Lecturer
     department: Software Technology Department
     website: ''
+  - image: ''
+    name: Jude Michael Teves
+    rank: Assistant Professorial Lecturer
+    department: Software Technology Department
+    website: ''
   people_group: Faculty Affiliates
 
 ---
