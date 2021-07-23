@@ -22,9 +22,9 @@
     <!-- PUBLICATION IMAGE -->
     <div class="pub-img-container container">
       <div class="pub-images row">
-        {% for group in page.images_section %}
+        {% for group in page.image_section %}
         <div class="col-sm">
-          <img src="{{ group.carousel_image }}" alt="" />
+          <img src="{{ group.image }}" alt="" />
         </div>
         {% endfor %}
       </div>
@@ -70,25 +70,53 @@
 
       <div id="bibtex" class="pub-bibtex">
         <h4 class="text-uppercase">BIBTEX</h4>
-        <pre id="bibtex-text">{{ page.bibtex }}</pre>
+        <div class="d-flex justify-content-between">
+          <pre id="bibtex-text">{{ page.bibtex }}</pre>
+
+          <div
+            class="copy-btn cursor-pointer border border-dark rounded px-2 py-1"
+            onclick="copyToClipboard('bibtex-text')"
+          >
+            <span class="fas fa-copy"></span>
+          </div>
+        </div>
       </div>
 
       <div id="citations" class="pub-citation">
         <h4 class="text-uppercase">CITATIONS</h4>
-        {% for citation in page.citations %}
-        <strong class="text-uppercase">{{ citation.format }}:</strong>
-        <p id="citation-{{ citation.format }}" class="">{{ citation.text }}</p>
 
-        <button onclick="copyText('citation-{{citation.format}}')">
-          <span class="fas fa-copy"></span>
-        </button>
+        <div class="d-flex flex-column gap-2">
+          {% for citation in page.citations %}
+          <div class="d-flex flex-row justify-content-between">
+            <div>
+              <strong class="text-uppercase">{{ citation.format }}:</strong>
+              <span id="citation-{{ citation.format }}">
+                {{ citation.text }}
+              </span>
+            </div>
 
-        {% endfor %}
+            <div
+              class="
+                copy-btn
+                cursor-pointer
+                border border-dark
+                rounded
+                px-2
+                py-1
+              "
+              onclick="copyToClipboard('citation-{{citation.format}}')"
+            >
+              <span class="fas fa-copy"></span>
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
       </div>
     </div>
 
     {% include footer.html %}
 
-    <script src="/assets/js/copy.js"></script>
+    <script src="/assets/js/copyToClipboard.js"></script>
   </body>
 </html>

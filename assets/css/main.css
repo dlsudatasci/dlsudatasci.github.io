@@ -1,8 +1,8 @@
 /* IMPORTED OPEN SANS FONT FROM GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* NAVABAR STYLE */
@@ -1042,4 +1042,22 @@
   margin-bottom: 15px;
   padding-top: 4px !important;
   padding-bottom: 4px !important;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.copy-btn {
+  width: 32px;
+  height: 36px;
+}
+
+.copy-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

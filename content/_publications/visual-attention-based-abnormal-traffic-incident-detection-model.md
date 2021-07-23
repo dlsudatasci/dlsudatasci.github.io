@@ -13,30 +13,29 @@ source: Philippine Journal of Science
 date: 2021-04-01
 
 abstract: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus.
-  Mauris in aliquam sem fringilla ut morbi tincidunt. Sed vulputate mi sit amet
-  mauris commodo. Imperdiet proin fermentum leo vel orci porta non pulvinar. Morbi
-  tristique senectus et netus. Vulputate odio ut enim blandit volutpat maecenas
-  volutpat. Eget duis at tellus at urna condimentum mattis. Lorem donec massa sapien
-  faucibus et molestie. Pretium lectus quam id leo in vitae. Lectus urna duis convallis
-  convallis tellus id. Vestibulum lectus mauris ultrices eros in cursus turpis massa
-  tincidunt. Sed arcu non odio euismod lacinia at quis risus. Mauris vitae ultricies
-  leo integer malesuada nunc vel. Egestas sed tempus urna et pharetra pharetra massa
-  massa ultricies. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras.
-  Purus gravida quis blandit turpis cursus in hac. Mi sit amet mauris commodo quis
-  imperdiet. Massa vitae tortor condimentum lacinia quis vel eros. Senectus et netus
-  et malesuada fames. Convallis posuere morbi leo urna molestie at. Vel elit scelerisque
-  mauris pellentesque pulvinar. Lacinia quis vel eros donec ac odio. Eleifend quam
-  adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Arcu dui vivamus
-  arcu felis bibendum ut. Dui id ornare arcu odio ut sem nulla. Cras sed felis eget
-  velit aliquet sagittis id. Diam sit amet nisl suscipit adipiscing bibendum est
-  ultricies integer. piscing elit duis tristique sollicitudin nibh sit amet commodo.
-  At imperdiet dui accumsan sit amet nulla facilisi. Eu scelerisque felis imperdiet
-  proin. Libero nunc consequat interdum varius sit amet mattis.
+  Cognitive functioning in schizophrenia is characterized by a generalized impairment in current cognitive
+  ability based on traditional population-based norms. However, these norms assume a normal cognitive
+  trajectory and do not directly account for illness-related declines from expected cognitive potential.
+  Indeed, schizophrenia patients exhibit even greater deviation between their observed and expected
+  cognitive functioning based on expanded norms that leverage premorbid variables resistant to illness-
+  related features. The current study further quantified the extent to which illness-related features
+  account for this deviation from expectation and assessed its relationship to neurophysiologic (mismatch
+  negativity, P3a, theta oscillations), clinical, and psychosocial functioning in schizophrenia patients.
+  Expected cognitive ability (PENN-CNB global cognition) in patients (n = 684) was calculated using healthy
+  comparison subject (n = 660) weighted regression based on premorbid variables resistant to illness-related
+  decline (demographics, single-word reading, parental education). The magnitude of any deviation between
+  current (observed) and regression-predicted (expected) cognitive ability was calculated.
+  Results indicated that 24% (n = 164) of the total patient population exhibited significant (>= -1.96 SD)
+  deviation between observed and expected global cognitive ability. Interestingly, 20% of the total patient
+  population (n = 136) had “normal”range cognitive performance when using traditional population-based norms,
+  but also had significant deviation from expected cognitive ability. The magnitude of this
+  deviation was associated with more severe neurophysiologic abnormalities, longer illness duration,
+  higher levels of negative symptoms, and worse psychosocial functioning. Assessment of cognitive deviation
+  is thus a complementary metric for characterizing the severity of illness-related cognitive declines in patients,
+  while also reflecting the expression and severity of key endophenotypes of schizophrenia.
 
-publishers_copy: "#312324"
-pdf: /uploads/pdf/1-s2-0-s0920996419304426-main.pdf
+publishers_copy: '#312324'
+pdf: /uploads/pdf/visual-attention-based-abnormal-traffic-incident-detection-model.pdf
 bibtex: |-
   @article{LaoFilDLNetwork2020,
   title = {Analysis of the co-authorship network of Filipino researchers in deep learning},
