@@ -50,7 +50,7 @@ sections:
 - template: people-list
   people_list:
   - image: "/uploads/img/people/mac-1.png"
-    name: Macario Cordel
+    name: Macario Cordel, II, Ph.D.
     rank: Institute Dean
     department: Computer Technology
     website: https://www.dlsu.edu.ph/colleges/ccs/faculty-profile/?personnel=32742735838
@@ -59,6 +59,6 @@ sections:
     rank: Assistant Professor
     department: Software Technology
     website: https://unissechua.github.io
-  people_group: Adminstrators
+  people_group: Faculty Affiliates
 
 ---
