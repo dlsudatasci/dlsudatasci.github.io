@@ -82,6 +82,10 @@ sections:
     rank: Assistant Professorial Lecturer
     department: Software Technology Department
     website: ''
+  - image: ''
+    name: Gaddiel Tan
+    rank: Assistant Professorial Lecturer
+    department: Information Technology Department
   people_group: Faculty Affiliates
 
 ---
