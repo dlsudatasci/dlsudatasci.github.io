@@ -8,7 +8,7 @@ sections:
   - image: "/uploads/img/temp/blank1.png"
     name: Marites Tiongco, Ph.D.
     rank: Full Professor
-    department: School of Economics
+    department: Economics
     website: ''
   - image: "/uploads/img/temp/blank1.png"
     name: Dennis Trinidad, Ph.D.
@@ -23,31 +23,31 @@ sections:
   - image: "/uploads/img/people/ruth.png"
     name: Ruth Angelie Cruz, Ph.D.
     rank: Associate Professor
-    department: Decision Science and Innovation Department
+    department: Decision Science and Innovation
     website: http://xsite.dlsu.edu.ph/faculty/fis/faculty_info.asp?fac_id=27095888
   - name: Alexis Filone, Ph.D.
     website: ''
     rank: Full Professor
-    department: Civing Engineering Department
+    department: Civing Engineering
     image: "/uploads/img/temp/blank1.png"
   - rank: Full Professor
-    department: Counseling and Educational Psychology Department
+    department: Counseling and Educational Psychology
     website: ''
     name: Allan Benedict Bernardo, Ph.D.
     image: "/uploads/img/temp/blank1.png"
   - image: "/uploads/img/temp/blank1.png"
     name: Angelyn Lao, Ph.D.
     rank: Associate Professor
-    department: Mathematics and Statistics Department
+    department: Mathematics and Statistics
   - name: Rene Batac, Ph.D.
     rank: Associate Professor
-    department: Physics Department
+    department: Physics
     website: ''
     image: "/uploads/img/temp/blank1.png"
   - image: "/uploads/img/temp/blank1.png"
     name: Ethel Ong, Ph.D.
     rank: Associate Professor
-    department: Software Technology Department
+    department: Software Technology
     website: ''
   people_group: Steering Committee
 - template: people-list
@@ -60,7 +60,7 @@ sections:
   - image: "/uploads/img/temp/blank1.png"
     name: Briane Paul Samson, Ph.D.
     rank: Associate Professor
-    department: Software Technology Department
+    department: Software Technology
     website: ''
   - image: "/uploads/img/people/unisse.png"
     name: Unisse Chua
@@ -69,10 +69,10 @@ sections:
     website: https://unissechua.github.io
   - name: Benito Teehankee, Ph.D.
     rank: Full Professor
-    department: Management Organization Department
+    department: Management Organization
     website: ''
     image: "/uploads/img/temp/blank1.png"
-  - department: Software Technology Department
+  - department: Software Technology
     website: ''
     name: Arren Matthew Antioquia
     rank: Assistant Professor
@@ -80,19 +80,19 @@ sections:
   - image: "/uploads/img/temp/blank1.png"
     name: Sashmir Yap
     rank: Assistant Professorial Lecturer
-    department: Software Technology Department
+    department: Software Technology
     website: ''
   - image: "/uploads/img/temp/blank1.png"
     name: Jude Michael Teves
     rank: Assistant Professorial Lecturer
-    department: Software Technology Department
+    department: Software Technology
     website: ''
   - image: "/uploads/img/temp/blank1.png"
     name: Gaddiel Tan
     rank: Assistant Professorial Lecturer
-    department: Information Technology Department
+    department: Information Technology
   - name: Michel Onasis Ogbinar
-    department: Software Technology Department
+    department: Software Technology
     website: ''
     rank: Assistant Professorial Lecturer
     image: "/uploads/img/temp/blank1.png"
