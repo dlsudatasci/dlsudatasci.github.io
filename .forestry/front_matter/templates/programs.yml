@@ -28,13 +28,28 @@ fields:
         format: markdown
     label: Header Description
   label: Page Headers
-- name: program_list
-  type: blocks
-  label: Program List
-  template_types:
-  - programs-block
+- name: program_item
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
   config:
     min: 
     max: 
+    labelField: 
+  label: Program Item
 pages:
 - _pages/programs.md
