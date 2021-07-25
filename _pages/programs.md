@@ -37,5 +37,25 @@ programsblock:
       Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
     programs-block-link: "/programs/DC1"
 page_title: Programs
+page_headers:
+  header_title: PROGRAMS
+  header_description: Donec dignissim hendrerit mi, nec mollis ipsum scelerisque quis.
+    Donec dictum semper dui, at dignissim ex. Sed eros ligula, semper interdum aliquam
+    a, volutpat eu purus. Pellentesque leo erat, commodo et odio nec, sollicitudin
+    faucibus eros. Nam vitae diam non velit gravida tristique a in arcu. Curabitur
+    elit nisi, ornare a nibh nec, lobortis vestibulum odio. Donec aliquam sit amet
+    ex eget ultrices. Cras sed sagittis lorem. Aenean lectus justo, lobortis quis
+    molestie sit amet, hendrerit vel diam. Cras pharetra rutrum metus, eu hendrerit
+    sapien faucibus a.
+program_item:
+- title: Minor in Data Science
+  link: "/programs/MDS"
+  description: 'This program aims to produce data-literate graduates by equipping
+    the students across the different disciplines with a working knowledge of statistics,
+    probability, and computation enabling them to design and execute precise computational
+    and inferential data analysis for their discipline.  The minor program needs to
+    take the following courses equivalent to 12 units of coursework to complete the
+    minor program:  Principles of Data Science Data Visualization Data Mining and
+    Statistics Introduction to Machine Learning'
 
 ---
