@@ -9,16 +9,16 @@ fields:
   label: Page Title
   description: Use this as the title of the page
   default: Programs
-- name: page_headers
+- name: header
   type: field_group
   config: {}
   fields:
-  - name: header_title
+  - name: title
     type: text
     config:
       required: false
-    label: Header Title
-  - name: header_description
+    label: Title
+  - name: description
     type: textarea
     default: ''
     config:
@@ -26,8 +26,8 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Header Description
-  label: Page Headers
+    label: Description
+  label: Header
 - name: program_item
   type: field_group_list
   fields:
