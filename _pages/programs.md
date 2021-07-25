@@ -48,6 +48,15 @@ page_headers:
     molestie sit amet, hendrerit vel diam. Cras pharetra rutrum metus, eu hendrerit
     sapien faucibus a.
 program_item:
+- title: Minor in Data Science
+  link: "/programs/MDS"
+  description: 'This program aims to produce data-literate graduates by equipping
+    the students across the different disciplines with a working knowledge of statistics,
+    probability, and computation enabling them to design and execute precise computational
+    and inferential data analysis for their discipline.  The minor program needs to
+    take the following courses equivalent to 12 units of coursework to complete the
+    minor program:  Principles of Data Science Data Visualization Data Mining and
+    Statistics Introduction to Machine Learning'
 - title: Diploma Courses
   description: This 40-hour diploma course provides an overview of the field of data
     science, the job roles available and the skills necessary for the roles. It covers
@@ -61,18 +70,6 @@ program_item:
     The course materials will be delivered through our online learning management
     system, AnimoSpace.
   link: "/programs/DC1"
-- title: M.S. in Data Science
-  description: ''
-  link: ''
-- title: Minor in Data Science
-  link: "/programs/MDS"
-  description: 'This program aims to produce data-literate graduates by equipping
-    the students across the different disciplines with a working knowledge of statistics,
-    probability, and computation enabling them to design and execute precise computational
-    and inferential data analysis for their discipline.  The minor program needs to
-    take the following courses equivalent to 12 units of coursework to complete the
-    minor program:  Principles of Data Science Data Visualization Data Mining and
-    Statistics Introduction to Machine Learning'
 header:
   title: PROGRAMS
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
