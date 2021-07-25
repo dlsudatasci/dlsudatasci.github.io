@@ -6,19 +6,19 @@ fields:
   type: text
   config:
     required: false
-  label: PageTitle
+  label: Page Title
   description: Use this as the title of the page
   default: Programs
-- name: programsheaderfield
+- name: page_headers
   type: field_group
   config: {}
   fields:
-  - name: programsheader
+  - name: header_title
     type: text
     config:
       required: false
-    label: programsheader
-  - name: programsdesc
+    label: Header Title
+  - name: header_description
     type: textarea
     default: ''
     config:
@@ -26,11 +26,11 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: programsdesc
-  label: programsheaderfield
-- name: programsblock
+    label: Header Description
+  label: Page Headers
+- name: program_list
   type: blocks
-  label: ProgramsBlock
+  label: Program List
   template_types:
   - programs-block
   config:
