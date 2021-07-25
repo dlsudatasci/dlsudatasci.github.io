@@ -1,6 +1,7 @@
 ---
 label: Person
 hide_body: true
+display_field: people_group
 fields:
 - name: people_group
   type: text
