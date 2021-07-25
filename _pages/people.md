@@ -39,6 +39,7 @@ sections:
     name: Angelyn Lao, Ph.D.
     rank: Associate Professor
     department: Mathematics and Statistics
+    website: ''
   - name: Rene Batac, Ph.D.
     rank: Associate Professor
     department: Physics
@@ -91,6 +92,7 @@ sections:
     name: Gaddiel Tan
     rank: Assistant Professorial Lecturer
     department: Information Technology
+    website: ''
   - name: Michel Onasis Ogbinar
     department: Software Technology
     website: ''

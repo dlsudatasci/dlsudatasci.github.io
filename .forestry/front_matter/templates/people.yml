@@ -10,3 +10,5 @@ fields:
     min: 
     max: 
   label: Sections
+pages:
+- _pages/people.md
