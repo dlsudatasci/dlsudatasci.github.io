@@ -56,4 +56,5 @@ fields:
     labelField: title
   label: Program Item
 pages:
+- _pages/programs-programs.md-copy.md
 - _pages/programs.md
