@@ -48,6 +48,22 @@ page_headers:
     molestie sit amet, hendrerit vel diam. Cras pharetra rutrum metus, eu hendrerit
     sapien faucibus a.
 program_item:
+- title: Diploma Courses
+  description: This 40-hour diploma course provides an overview of the field of data
+    science, the job roles available and the skills necessary for the roles. It covers
+    an introductory level of the data science workflow such as data acquisition, local
+    data management, data wrangling, basic data visualization for exploratory analysis
+    and data ethics. It is carefully designed (1) to upskill professionals and students
+    from various STEM and ABM backgrounds towards a data science career, and (2) to
+    instill a deep sense of professionalism among participants using leading-edge
+    principles in data science ethics. Each topic has hands-on exercises with varying
+    degrees of difficulty to ensure that participants are able to absorb the concepts.
+    The course materials will be delivered through our online learning management
+    system, AnimoSpace.
+  link: "/programs/DC1"
+- title: M.S. in Data Science
+  description: ''
+  link: ''
 - title: Minor in Data Science
   link: "/programs/MDS"
   description: 'This program aims to produce data-literate graduates by equipping
