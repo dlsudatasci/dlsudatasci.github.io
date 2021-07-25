@@ -36,3 +36,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- _pages/programs.md
