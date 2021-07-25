@@ -36,20 +36,24 @@ fields:
     config:
       required: false
     label: Title
-  - name: description
-    type: text
-    config:
-      required: false
-    label: Description
   - name: link
     type: text
     config:
       required: false
     label: Link
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Program Item
 pages:
 - _pages/programs.md
