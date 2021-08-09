@@ -1,4 +1,71 @@
 ---
 label: Program
 hide_body: true
-fields: []
+display_field: program_title
+fields:
+- name: program_title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: info_group
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: section
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: notes
+      type: field_group_list
+      fields:
+      - name: item
+        type: text
+        config:
+          required: false
+        label: Item
+      - name: subitems
+        type: field_group_list
+        fields:
+        - name: subitem
+          type: text
+          config:
+            required: false
+          label: Subitem
+        config:
+          min: 
+          max: 
+          labelField: subitem
+        label: Subitems
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Notes
+    config:
+      min: 
+      max: 
+      labelField: title
+    label: Section
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Information Group
