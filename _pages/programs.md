@@ -69,7 +69,7 @@ program_item:
     degrees of difficulty to ensure that participants are able to absorb the concepts.
     The course materials will be delivered through our online learning management
     system, AnimoSpace.
-  link: "/programs/DC1"
+  link: "/programs/dc"
 header:
   title: PROGRAMS
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

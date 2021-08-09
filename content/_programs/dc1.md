@@ -1,8 +1,8 @@
 ---
 layout: program
 category: programs
-permalink: /programs/dc1/
-priority: 3
+permalink: "/programs/dc/"
+priority: "3"
 special_program_field:
   header: Diploma Course
   description: |-
@@ -12,8 +12,9 @@ special_program_field:
 
     Pulvinar elementum integer enim neque volutpat. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Tristique senectus et netus et. Ultricies mi quis hendrerit dolor magna eget est. Facilisis magna etiam tempor orci eu
 diploma_course_block:
-  - image: /uploads/img/temp/blank1.png
-    title: Diploma Course
-    link: "#"
-    status: Active
+- image: "/uploads/img/temp/blank1.png"
+  title: Diploma Course
+  link: "#"
+  status: Active
+
 ---
