@@ -17,25 +17,20 @@
     </section>
 
     <!-- prettier-ignore -->
-    <section class="programs-all-section">
-        <div class="programs-all-container container">
-            <div class="programs-all-cards row">
-                {% for item in page.program_item %}
-                <div class="col-12 col-md-3 programs-all-card-container">
-                    <div class="programs-all-card">
-                        <div class="prog-title-container">
-                            <h4>{{ item.title }} </h4>
-                        </div>
-                        <p>
-                            {{ item.description }}
-                        </p>
-                        <a href="{{ item.link }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
-                    </div>
-                </div>
-                {% endfor %}
+
+    {% for item in page.program_item %}
+    <div class="container" style="margin: 50px auto;" id="{{ item.title | remove: ' ' | handle }}">
+        <div class="programs-all-card">
+            <div class="prog-title-container">
+                <h4>{{ item.title }}</h4>
             </div>
+            <p>
+                {{ item.description }}
+            </p>
+            <a href="{{ item.link }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
         </div>
-    </section>
+    </div>
+    {% endfor %}
 
     {% include footer.html %}
 </body>
