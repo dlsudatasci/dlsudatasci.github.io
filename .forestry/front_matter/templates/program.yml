@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- _pages/Programs/minor-in-data-science-program.md
