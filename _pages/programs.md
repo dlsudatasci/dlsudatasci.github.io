@@ -49,7 +49,7 @@ page_headers:
     sapien faucibus a.
 program_item:
 - title: Minor in Data Science
-  link: "/programs/MDS"
+  link: "/programs/mds"
   description: 'This program aims to produce data-literate graduates by equipping
     the students across the different disciplines with a working knowledge of statistics,
     probability, and computation enabling them to design and execute precise computational
