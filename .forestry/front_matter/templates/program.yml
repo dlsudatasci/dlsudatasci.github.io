@@ -1,6 +1,6 @@
 ---
 label: Program
-hide_body: true
+hide_body: false
 display_field: program_title
 fields:
 - name: program_title
