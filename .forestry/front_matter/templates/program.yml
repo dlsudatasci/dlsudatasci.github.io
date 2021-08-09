@@ -69,3 +69,5 @@ fields:
     max: 
     labelField: title
   label: Information Group
+pages:
+- _pages/Programs/Minor in Data Science.md
