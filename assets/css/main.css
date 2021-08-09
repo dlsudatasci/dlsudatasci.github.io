@@ -949,6 +949,11 @@
   margin-top: 20px;
 }
 
+.programs.content {
+    width: clamp(200px, 80%, 1152px);
+    margin: auto auto 100px;
+}
+
 /* DIPLOMA COURSES */
 .diploma-courses-container {
   position: relative;

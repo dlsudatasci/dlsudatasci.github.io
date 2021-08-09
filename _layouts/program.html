@@ -5,14 +5,20 @@
   <body>
     {% include navbar.html %}
 
-    <section class="prog-desc-section">
-      <div class="prog-desc-container container">
-        <h2 class="text-uppercase text-center">
-          {{ page.spec_program_field.spec_program_header }}
-        </h2>
-        <p>{{ page.spec_program_field.spec_program_description }}</p>
-      </div>
+    <section class="programs-desc-section">
+        <div class="programs-desc-container text-center container">
+            <h2 class="text-uppercase">
+                {{ page.special_program_field.header }}
+            </h2>
+            <p>
+                {{ page.special_program_field.description }}
+            </p>
+        </div>
     </section>
+
+    <div class="programs content">
+        {{ content }}
+    </div>
 
     {% include footer.html %}
   </body>
