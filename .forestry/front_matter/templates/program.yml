@@ -13,5 +13,3 @@ fields:
   config:
     required: false
   label: Permalink
-pages:
-- _pages/Programs/minor-in-data-science-program.md
