@@ -49,7 +49,7 @@ page_headers:
     sapien faucibus a.
 program_item:
 - title: Minor in Data Science
-  link: "/programs/MDS"
+  link: "/programs/mds"
   description: 'This program aims to produce data-literate graduates by equipping
     the students across the different disciplines with a working knowledge of statistics,
     probability, and computation enabling them to design and execute precise computational
@@ -69,7 +69,7 @@ program_item:
     degrees of difficulty to ensure that participants are able to absorb the concepts.
     The course materials will be delivered through our online learning management
     system, AnimoSpace.
-  link: "/programs/DC1"
+  link: "/programs/dc"
 header:
   title: PROGRAMS
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
