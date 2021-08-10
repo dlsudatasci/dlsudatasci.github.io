@@ -5,7 +5,6 @@ title: Minor in Data Science Program
 layout: program
 permalink: "/programs/minor-in-data-science"
 description: ''
-published: false
 
 ---
 The Minor in Data Science program aims to produce data literate graduates by equipping the students across the different disciplines with a working knowledge of statistics, probability, and computation enabling them to design and execute precise computational and inferential data analysis for their discipline. The minor program needs to take the following courses equivalent to 12 units of coursework to complete the minor program:
