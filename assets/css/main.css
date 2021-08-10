@@ -954,6 +954,14 @@
     margin: auto auto 100px;
 }
 
+.programs.content h3 {
+    font-weight: bold;
+}
+
+.programs.content h5 {
+    font-weight: 600;
+}
+
 /* DIPLOMA COURSES */
 .diploma-courses-container {
   position: relative;
