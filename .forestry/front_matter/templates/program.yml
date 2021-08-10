@@ -8,8 +8,26 @@ fields:
   config:
     required: false
   label: Title
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+- name: category
+  type: tag_list
+  default: []
+  label: Category
 - name: permalink
   type: text
   config:
     required: false
   label: Permalink
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
