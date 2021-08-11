@@ -8,6 +8,5 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
   officia deserunt mollit anim id est laborum
 layout: programs
 permalink: "/programs/"
-published: false
 
 ---
