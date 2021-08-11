@@ -55,5 +55,3 @@ fields:
     max: 
     labelField: title
   label: Program Item
-pages:
-- _pages/programs.md
