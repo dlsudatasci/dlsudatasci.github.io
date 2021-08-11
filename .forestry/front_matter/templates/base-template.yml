@@ -27,3 +27,5 @@ fields:
   config:
     required: false
   label: Permalink
+pages:
+- content/_programs/programs.md
