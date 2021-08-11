@@ -2,7 +2,7 @@
 layout: program
 category: programs
 permalink: "/programs/dc/"
-priority: "3"
+priority: "2"
 special_program_field:
   header: Diploma Course
   description: |-
