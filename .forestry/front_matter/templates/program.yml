@@ -31,15 +31,5 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: order
-  type: number
-  label: Display Order
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 pages:
 - content/_programs/minor-in-data-science-program.md
