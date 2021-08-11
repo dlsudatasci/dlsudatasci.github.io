@@ -173,29 +173,30 @@
   margin-bottom: 20px;
 }
 
-.prog-card-container {
-  margin-top: 10px !important;
+.prog-card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
 }
 
-.prog-card {
-  background-color: #fff;
-  border-radius: 20px;
-  text-align: center;
-  padding: 20px 20px;
-  margin: 10px 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.prog-card * {
+    margin: 10px auto;
 }
 
 .prog-card h4 {
   font-weight: 700;
+  text-align: center;
   color: #00703c;
-  margin-bottom: 15px;
 }
 
 .prog-card p {
-  text-align: justify;
-  padding-bottom: 10px;
-  height: 350px;
+  text-align: start;
 }
 
 /* NEWS CONTAINER */
