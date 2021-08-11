@@ -7,29 +7,25 @@
 
     <section class="programs-desc-section">
         <div class="programs-desc-container text-center container">
-            <h2 class="text-uppercase">
-                {{ page.header.title }}
-            </h2>
-            <p>
-                {{ page.header.description }}
-            </p>
+            <h2 class="text-uppercase">{{ page.title }}</h2>
+            <p>{{ page.description }}</p>
         </div>
     </section>
 
     <!-- prettier-ignore -->
 
-    {% for item in page.program_item %}
+    {% for program in site.programs %}
+    {% if program.title != "Programs" %}
     <div class="container" style="margin: 50px auto;" id="{{ item.title | remove: ' ' | handle }}">
         <div class="programs-all-card">
             <div class="prog-title-container">
-                <h4>{{ item.title }}</h4>
+                <h4>{{ program.title }}</h4>
             </div>
-            <p>
-                {{ item.description }}
-            </p>
-            <a href="{{ item.link }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
+            <p> {{ program.description }} </p>
+            <a href="{{ program.permalink }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 
     {% include footer.html %}

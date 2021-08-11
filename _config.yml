@@ -43,6 +43,9 @@ collections_dir: content
 collections:
   programs:
     output: true
+    order:
+      - minor-in-data-science-program.md
+      - dc.md
   projects:
     output: true
     sort_by: date
