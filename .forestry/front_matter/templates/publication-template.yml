@@ -52,20 +52,30 @@ fields:
   config:
     required: true
   default: ''
-- type: text
-  name: publishers_copy
-  label: Publisher's Copy
-  config:
-    required: true
-- type: file
-  name: pdf
-  label: PDF File
-- type: textarea
-  name: bibtex
-  label: Bibtex
-  config:
-    required: true
-  default: ''
+- name: materials
+  type: field_group
+  config: {}
+  fields:
+  - name: publishers_copy
+    type: text
+    config:
+      required: false
+    label: Publisher's Copy
+  - name: pdf
+    type: file
+    config:
+      maxSize: 64
+    label: PDF
+  - name: bibtex
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Bibtex
+  label: Materials
 - type: field_group_list
   name: citations
   label: Citations
@@ -82,5 +92,3 @@ fields:
       required: true
     default: apa
     description: please use small caps
-pages:
-- content/_publications/visual-attention-based-abnormal-traffic-incident-detection-model.md
