@@ -1,6 +1,6 @@
 ---
 permalink: "/publication/2021-04-01-visual"
-date: 2021-08-12 22:14:37 +0800
+date: 2021-04-01 00:00:00 +0800
 layout: ''
 tags:
 - saliency models
