@@ -93,4 +93,5 @@ fields:
     default: apa
     description: please use small caps
 pages:
+- content/_publications/analysis-of-the-co-authorship-network-of-filipino-researchers-in-deep-learning.md
 - content/_publications/investigating-visual-attention-based-traffic-accident-detection-model.md
