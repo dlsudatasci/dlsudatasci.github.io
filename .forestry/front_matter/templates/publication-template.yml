@@ -8,6 +8,11 @@ fields:
   hidden: true
   config:
     required: true
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
 - type: text
   name: permalink
   hidden: false
