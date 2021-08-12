@@ -6,7 +6,8 @@ tags:
 - saliency models
 - human attention model
 - anomalous event detection
-image_section: []
+image_section:
+- image: "/uploads/img/publications/pub1.jpg"
 title: Investigating Visual Attention-based Traffic Accident Detection Model
 authors: Caitlienne Diane C. Juan, Jaira Rose A. Bat-og,  Kimberly K. Wan, and Macario
   O. Cordel II
