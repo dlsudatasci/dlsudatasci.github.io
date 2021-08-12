@@ -51,6 +51,5 @@ citations:
     network of Filipino researchers in deep learning. Philippine Science Letters,
     13(2), 148–157. Retrieved from https://philsciletters.net/2020-148/ '
   format: apa
-published: false
 
 ---
