@@ -1,5 +1,5 @@
 <div class="research-projects-cards row">
-  {% for project in site.projects limit:3 %}
+  {% for project in site.projects reversed limit:3 %}
   <div class="col-md-4 research-projects-card-container">
     <a href="{{ project.permalink }}">
       <div class="research-projects-card">

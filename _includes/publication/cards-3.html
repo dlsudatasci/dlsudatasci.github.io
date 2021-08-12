@@ -1,5 +1,5 @@
 <div class="publications-cards row">
-  {% for publication in site.publications limit:3 %}
+  {% for publication in site.publications reversed limit:3 %}
   <div class="col-lg-4 publications-card-container">
     <a href="{{ publication.permalink }}">
       <div class="publications-card">
@@ -10,19 +10,19 @@
           <div class="pub-resources">
             <ul>
               <li>
-                <a href="{{ page.materials.materials_header }}">
+                <a href="{{ publication.materials.publishers_copy }}">
                   <span class="fas fa-external-link-square-alt" />
                   Publisher's Copy
                 </a>
               </li>
               <li>
-                <a href="{{ page.materials.pdf }}">
+                <a href="{{ publication.materials.pdf }}">
                   <span class="far fa-file-pdf" />
                   PDF
                 </a>
               </li>
               <li>
-                <a href="{{ page.materials.citation.citation_header }}">
+                <a href="{{ publication.materials.citation.citation_header }}">
                   <span class="fas fa-quote-left" />
                   Cite
                 </a>

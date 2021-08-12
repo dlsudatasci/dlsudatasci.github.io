@@ -186,7 +186,7 @@
 }
 
 .prog-card * {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 .prog-card h4 {
@@ -347,7 +347,7 @@
 .pub-resources ul {
   list-style-type: none;
   padding: 0px;
-  margin-top: 35px;
+  margin-top: 0px;
 }
 
 .pub-resources ul li {
@@ -591,7 +591,8 @@
 .research-desc-section,
 .programs-desc-section,
 .prog-desc-section,
-.enroll-desc-section {
+.enroll-desc-section,
+#papers-section {
   margin-top: 120px;
   margin-bottom: 50px;
 }
@@ -599,7 +600,8 @@
 .research-desc-section h2,
 .programs-desc-section h2,
 .prog-desc-section h2,
-.enroll-desc-section h2 {
+.enroll-desc-section h2,
+#papers-section h2 {
   font-weight: 700;
   color: #00703c;
   margin-bottom: 15px;
@@ -950,16 +952,16 @@
 }
 
 .programs.content {
-    width: clamp(200px, 80%, 1152px);
-    margin: auto auto 100px;
+  width: clamp(200px, 80%, 1152px);
+  margin: auto auto 100px;
 }
 
 .programs.content h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .programs.content h5 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /* DIPLOMA COURSES */
@@ -1073,4 +1075,16 @@
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+.hover-green:hover {
+  color: #00703c;
+}
+
+.text-sm {
+  font-size: small;
 }
