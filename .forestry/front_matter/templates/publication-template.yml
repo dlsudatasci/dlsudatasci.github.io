@@ -92,3 +92,5 @@ fields:
       required: true
     default: apa
     description: please use small caps
+pages:
+- content/_publications/investigating-visual-attention-based-traffic-accident-detection-model.md
