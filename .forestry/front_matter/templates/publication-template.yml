@@ -8,6 +8,7 @@ fields:
   hidden: true
   config:
     required: true
+  default: publication
 - name: name
   type: text
   config:
