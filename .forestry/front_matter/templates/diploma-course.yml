@@ -12,6 +12,9 @@ fields:
   config:
     required: false
   label: Cooperation with...
+- name: is_active
+  type: boolean
+  label: Is active
 pages:
 - content/_programs/Diploma Courses/foundations-of-data-science-active.md
 - content/_programs/Diploma Courses/introduction-to-machine-learning.md
