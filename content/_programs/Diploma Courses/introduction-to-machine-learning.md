@@ -2,6 +2,11 @@
 title: Introduction to Machine Learning
 co_op: Center for Professional Development in Business
 is_active: true
+category:
+- diploma course
+is_diploma_course: true
+layout: ''
+description: ''
 
 ---
 This 40-hour diploma course provides an overview of machine learning, and the theory and skills necessary for its practice. It covers an introductory level of the machine learning algorithms such as linear regression, logistic regression, neural networks, decision trees, ensemble models, support vector machines, and techniques for regularizing each model. The course materials will be delivered through our online learning management system, AnimoSpace.
