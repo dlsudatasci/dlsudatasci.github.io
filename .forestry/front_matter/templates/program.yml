@@ -50,6 +50,12 @@ fields:
   showOnly:
     field: is_diploma_course
     value: true
+- name: is_active
+  type: boolean
+  label: Is active
+  showOnly:
+    field: is_diploma_course
+    value: true
 pages:
 - content/_programs/diploma-courses.md
 - content/_programs/minor-in-data-science-program.md
