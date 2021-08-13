@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- content/_programs/Diploma Courses/foundations-of-data-science-active.md
