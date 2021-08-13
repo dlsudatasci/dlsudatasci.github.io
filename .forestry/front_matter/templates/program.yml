@@ -58,7 +58,7 @@ fields:
     value: true
 pages:
 - content/_programs/Diploma Courses/data-visualization.md
-- content/_programs/Diploma Courses/foundations-of-data-science-active.md
+- content/_programs/Diploma Courses/foundations-of-data-science.md
 - content/_programs/Diploma Courses/introduction-to-machine-learning.md
 - content/_programs/diploma-courses.md
 - content/_programs/minor-in-data-science-program.md

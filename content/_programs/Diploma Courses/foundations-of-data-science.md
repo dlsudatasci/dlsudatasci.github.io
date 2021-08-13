@@ -6,7 +6,7 @@ co_op: Center for Professional Development in Business
 category:
 - diploma course
 is_diploma_course: true
-is_active: false
+is_active: true
 
 ---
 This 40-hour diploma course provides an overview of the field of data science, the job roles available, and the skills necessary for the roles. It covers an introductory level of the data science workflow such as data acquisition, local data management, data wrangling, basic data visualization for exploratory analysis, and data ethics. It is carefully designed (1) to upskill professionals and students from various STEM and ABM backgrounds towards a data science career, and (2) to instill a deep sense of professionalism among participants using leading-edge principles in data science ethics. Each topic has hands-on exercises with varying degrees of difficulty to ensure that participants are able to absorb the concepts. The course materials will be delivered through our online learning management system, AnimoSpace.
