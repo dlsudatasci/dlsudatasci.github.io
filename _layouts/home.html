@@ -90,13 +90,17 @@
 
         <div class="row justify-content-center mt-4">
           {% for program in site.programs %}
+          {% if program.is_diploma_course == false %}
           <div class="col-11 col-lg-4 mb-4">
             <div class="prog-card">
-              <h4>{{ program.title }}</h4>
-              <p>{{ program.description }}</p>
+              <div>
+                <h4>{{ program.title }}</h4>
+                <p>{{ program.description }}</p>
+              </div>
               <a href="{{ program.permalink }}" class="btn btn-md prog-btn custom-btn" >Learn more</a>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>

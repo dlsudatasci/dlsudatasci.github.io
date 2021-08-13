@@ -45,7 +45,7 @@ collections:
     output: true
     order:
       - minor-in-data-science-program.md
-      - dc.md
+      - diploma-courses.md
   projects:
     output: true
     sort_by: date

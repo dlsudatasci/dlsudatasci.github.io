@@ -15,7 +15,7 @@
     <!-- prettier-ignore -->
 
     {% for program in site.programs %}
-    {% if program.title != "Programs" %}
+    {% if program.is_diploma_course == false %}
     <div class="container" style="margin: 50px auto;" id="{{ item.title | remove: ' ' | handle }}">
         <div class="programs-all-card">
             <div class="prog-title-container">
