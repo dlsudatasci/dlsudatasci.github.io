@@ -1,18 +1,20 @@
 ---
-permalink: "/publication/2021-04-01-visual"
+permalink: '/publication/2021-04-01-visual'
 date: 2021-04-01 00:00:00 +0800
-layout: ''
+layout: 'publication'
 tags:
-- saliency models
-- human attention model
-- anomalous event detection
+  - saliency models
+  - human attention model
+  - anomalous event detection
 image_section:
-- image: "/uploads/img/publications/pub1.jpg"
+  - image: '/uploads/img/publications/pub1.jpg'
 title: Investigating Visual Attention-based Traffic Accident Detection Model
-authors: Caitlienne Diane C. Juan, Jaira Rose A. Bat-og,  Kimberly K. Wan, and Macario
+authors:
+  Caitlienne Diane C. Juan, Jaira Rose A. Bat-og,  Kimberly K. Wan, and Macario
   O. Cordel II
 source: Philippine Journal of Science
-abstract: "Spotting abnormal or anomalous events using street and road cameras relies
+abstract:
+  "Spotting abnormal or anomalous events using street and road cameras relies
   heavily on human observers which are subject to fatigue, distractions, and simultaneous
   attention limit. There are several proposed anomalous event detection systems based
   on complex computer vision algorithms  and  deep  learning  architectures.  However,
@@ -31,7 +33,7 @@ abstract: "Spotting abnormal or anomalous events using street and road cameras r
   is available \nhere: https://bit.ly/TaskFixDataset"
 materials:
   publishers_copy: https://philjournalsci.dost.gov.ph/images/pdf/pjs_pdf/vol150no2/investigating_visual_attention-based_traffic_accident_detection_model_.pdf
-  pdf: "/uploads/2021-04-01-visual.pdf"
+  pdf: '/uploads/2021-04-01-visual.pdf'
   bibtex: |-
     @article{juan2021investigating,
     title={Investigating Visual Attention-based Traffic Accident Detection Model},
@@ -43,6 +45,4 @@ materials:
     year={2021}
     }
 citations: []
-name: 2021-04-01-visual
-
 ---

@@ -1,21 +1,22 @@
 ---
-permalink: "/publication/2020-08-25-lao-fil-dl-network-psl"
+permalink: '/publication/2020-08-25-lao-fil-dl-network-psl'
 date: 2020-08-25 00:00:16 +0800
-layout: ''
+layout: 'publication'
 tags:
-- Philippines
-- deep learning
-- Filipino
-- research productivity
-- network analysis
-- co-authorship
+  - Philippines
+  - deep learning
+  - Filipino
+  - research productivity
+  - network analysis
+  - co-authorship
 image_section:
-- image: "/uploads/2020-08-25-lao-fil-dl-network-psl-1.png"
-- image: ''
+  - image: '/uploads/2020-08-25-lao-fil-dl-network-psl-1.png'
+  - image: ''
 title: Analysis of the co-authorship network of Filipino researchers in deep learning
 authors: Angelyn R. Lao, Unisse C. Chua & Briane Paul V. Samson
 source: Center For Complexity & Emerging Technologies
-abstract: Deep learning is an emerging field that attracts attention from various
+abstract:
+  Deep learning is an emerging field that attracts attention from various
   researchers to use in analyzing and understanding increasingly complex systems and
   phenomena. Crucial to the advancement of deep learning research in the Philippines,
   institutions need to understand its direction and reach out and work with other
@@ -32,7 +33,7 @@ abstract: Deep learning is an emerging field that attracts attention from variou
   to maintain productivity.
 materials:
   publishers_copy: https://comet.dlsu.edu.ph/papers/fil-dl-network
-  pdf: "/uploads/2020-08-25-lao-fil-dl-network-psl.pdf"
+  pdf: '/uploads/2020-08-25-lao-fil-dl-network-psl.pdf'
   bibtex: |-
     @article{LaoFilDLNetwork2020,
     title = {Analysis of the co-authorship network of Filipino researchers in deep learning},
@@ -47,9 +48,9 @@ materials:
     keywords = {co-authorship, network analysis, research productivity, Filipino, deep learning, Philippines}
     }
 citations:
-- text: 'Lao, A.R., Chua, U.C. & Samson, B.P.V. (2020). Analysis of the co-authorship
-    network of Filipino researchers in deep learning. Philippine Science Letters,
-    13(2), 148–157. Retrieved from https://philsciletters.net/2020-148/ '
-  format: apa
-
+  - text:
+      'Lao, A.R., Chua, U.C. & Samson, B.P.V. (2020). Analysis of the co-authorship
+      network of Filipino researchers in deep learning. Philippine Science Letters,
+      13(2), 148–157. Retrieved from https://philsciletters.net/2020-148/ '
+    format: apa
 ---
