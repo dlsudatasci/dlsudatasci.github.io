@@ -57,6 +57,7 @@ fields:
     field: is_diploma_course
     value: true
 pages:
+- content/_programs/Diploma Courses/data-visualization.md
 - content/_programs/Diploma Courses/foundations-of-data-science-active.md
 - content/_programs/Diploma Courses/introduction-to-machine-learning.md
 - content/_programs/diploma-courses.md

@@ -2,7 +2,11 @@
 title: Data Visualization
 co_op: ''
 is_active: false
-published: false
+category:
+- diploma course
+is_diploma_course: true
+layout: ''
+description: ''
 
 ---
 This short course is all about turning data into interpretable graphics. It covers the design and the creation of data visualizations based on available data and the required tasks. The course includes evaluation of visualization designs, including the choice of visual encoding and color.
