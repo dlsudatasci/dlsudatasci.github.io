@@ -46,6 +46,10 @@ collections:
     order:
       - minor-in-data-science-program.md
       - diploma-courses.md
+      
+      - Diploma Courses/foundations-of-data-science.md
+      - Diploma Courses/introduction-to-machine-learning.md
+      - Diploma Courses/data-visualization
   projects:
     output: true
     sort_by: date
