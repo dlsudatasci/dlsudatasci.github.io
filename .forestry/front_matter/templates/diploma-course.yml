@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: co_op
+  type: text
+  config:
+    required: false
+  label: Cooperation with...
 pages:
 - content/_programs/Diploma Courses/foundations-of-data-science-active.md
 - content/_programs/Diploma Courses/introduction-to-machine-learning.md
