@@ -32,4 +32,5 @@ fields:
       format: markdown
   label: Description
 pages:
+- content/_programs/diploma-courses.md
 - content/_programs/minor-in-data-science-program.md

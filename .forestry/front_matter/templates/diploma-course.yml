@@ -1,0 +1,21 @@
+---
+label: Diploma Course
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: co_op
+  type: text
+  config:
+    required: false
+  label: Cooperation with...
+- name: is_active
+  type: boolean
+  label: Is active
+pages:
+- content/_programs/Diploma Courses/data-visualization.md
+- content/_programs/Diploma Courses/foundations-of-data-science-active.md
+- content/_programs/Diploma Courses/introduction-to-machine-learning.md
