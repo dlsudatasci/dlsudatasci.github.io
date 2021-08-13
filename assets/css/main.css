@@ -833,6 +833,7 @@
 }
 
 .pub-abstract p,
+.pub-keywords p,
 .proj-description p,
 .event-description p {
   text-align: justify;
@@ -843,6 +844,7 @@
 }
 
 .pub-abstract h4,
+.pub-keywords h4,
 .pub-materials h4,
 .pub-bibtex h4,
 .pub-citation h4,
@@ -1088,4 +1090,8 @@
 
 .text-sm {
   font-size: small;
+}
+
+.text-xs {
+  font-size: x-small;
 }

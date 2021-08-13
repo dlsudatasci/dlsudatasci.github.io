@@ -28,18 +28,32 @@
         </div>
         {% endfor %}
       </div>
+
+      {% if page.image_caption %}
+      <div class="pub-image-caption text-sm mx-2">{{ page.image_caption }}</div>
+      {% endif %}
     </div>
 
     <!-- PUBLICATION INFO -->
     <div class="pub-info-container container">
-      <h1 class="pub-title">{{ page.title }}</h1>
+      <h2 class="pub-title">{{ page.title }}</h2>
       <h6 class="pub-authors">{{ page.authors }}</h6>
       <h6 class="pub-journal">{{ page.source }}</h6>
       <h6 class="pub-date">{{ page.date | date: "%-d %B, %Y" }}</h6>
 
       <div class="pub-abstract">
-        <h4 class="text-uppercase">ABSTRACT</h4>
+        <h4 class="text-uppercase">Abstract</h4>
         <p>{{ page.abstract }}</p>
+      </div>
+
+      <div class="pub-keywords">
+        <p>
+          <strong> Keywords: </strong>
+          <!-- prettier-ignore -->
+          {% for tag in page.tags %}
+            {{ tag }}{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        </p>
       </div>
 
       <div class="pub-materials">

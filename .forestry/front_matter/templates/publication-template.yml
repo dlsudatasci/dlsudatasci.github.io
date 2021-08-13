@@ -9,11 +9,11 @@ fields:
   config:
     required: true
   default: publication
-- name: name
-  type: text
+- type: text
+  name: title
+  label: Title
   config:
-    required: false
-  label: Name
+    required: true
 - type: text
   name: permalink
   hidden: false
@@ -21,9 +21,6 @@ fields:
     required: true
   default: "/publication/<name of paper>"
   label: Link
-- type: list
-  name: tags
-  label: Tags
 - type: field_group_list
   name: image_section
   fields:
@@ -31,11 +28,14 @@ fields:
     name: image
     label: Image
   label: Image Section
-- type: text
-  name: title
-  label: Title
+- type: list
+  name: tags
+  label: Tags
+- name: image_caption
+  type: text
   config:
-    required: true
+    required: false
+  label: Image Caption
 - type: text
   name: authors
   label: Authors

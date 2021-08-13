@@ -7,6 +7,15 @@
         <div class="publications-card-content">
           <h5>{{ publication.title }}</h5>
           <p>{{ publication.authors }}</p>
+
+          <p class="text-sm">
+            <strong> Keywords: </strong>
+            <!-- prettier-ignore -->
+            {% for tag in publication.tags %}
+              {{ tag }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </p>
+
           <div class="pub-resources">
             <ul>
               <li>
