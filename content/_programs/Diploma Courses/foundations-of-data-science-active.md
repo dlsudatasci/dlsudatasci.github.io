@@ -7,15 +7,15 @@ published: false
 ---
 <div style="text-align: center">
 
-**Dr. Andrew L. Tan Data Science Institute**
+<h4>Dr. Andrew L. Tan Data Science Institute</h4>
 
 in cooperation with the
 
-**Center for Professional Development in Business**
+<h4>Center for Professional Development in Business</h4>
 
 cordially invites you to an online course on the
 
-**Foundations of Data Science**
+<h4>Foundations of Data Science</h4>
 
 </div>
 
