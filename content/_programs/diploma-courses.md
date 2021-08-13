@@ -1,5 +1,6 @@
 ---
-category: []
+category:
+- programs
 title: Diploma Courses
 layout: diploma_courses
 permalink: "/programs/diploma-courses"
