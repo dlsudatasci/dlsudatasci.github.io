@@ -2,7 +2,6 @@
 title: Foundations of Data Science (active)
 description: ''
 layout: ''
-published: false
 
 ---
 <div style="text-align: center">
