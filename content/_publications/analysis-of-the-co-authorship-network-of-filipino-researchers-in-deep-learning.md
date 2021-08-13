@@ -11,7 +11,9 @@ tags:
   - co-authorship
 image_section:
   - image: '/uploads/2020-08-25-lao-fil-dl-network-psl-1.png'
-  - image: ''
+image_caption: |-
+  [Left] The co-authorship network of Filipino researchers who have at least one (1) publication on deep learning. Each color represents their affiliation. The largest group of researchers come from De La Salle University (26.44%), comprised of engineering and computing researchers. The second largest group is from the University of the Philippines - Diliman with 15.71% of researchers. [Right] The top 10 cluster of researchers based on size. The biggest cluster is composed of researchers mostly from De La Salle University, working with researchers from the Technological University of the Philippines and University of Santo Tomas.
+
 title: Analysis of the co-authorship network of Filipino researchers in deep learning
 authors: Angelyn R. Lao, Unisse C. Chua & Briane Paul V. Samson
 source: Center For Complexity & Emerging Technologies
