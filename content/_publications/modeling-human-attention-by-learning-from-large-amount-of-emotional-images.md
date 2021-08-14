@@ -1,7 +1,7 @@
 ---
 layout: publication
 permalink: "/publication/2021-08-09-modeling-human-attention"
-date: 2021-08-09 00:00:00 +0800
+date: 2021-08-09T00:00:00.000+08:00
 title: Modeling human attention by learning from large amount of emotional images
 image_section: []
 tags:
@@ -29,10 +29,17 @@ abstract: Recent resurgence of neural networks in computer vision have resulted 
 materials:
   publishers_copy: ''
   pdf: "/uploads/2021-08-09-modeling-human-attection.pdf"
-  bibtex: "@INPROCEEDINGS{9006300, author={Cordel, Macario O.}, booktitle={2019 IEEE
-    International Conference on Big Data (Big Data)}, title={Modeling human attention
-    by learning from large amount of emotional images}, year={2019}, volume={}, number={},
-    pages={1631-1636}, doi={10.1109/BigData47090.2019.9006300}}"
+  bibtex: |-
+    @INPROCEEDINGS{9006300,
+    author={Cordel, Macario O.},
+    booktitle={2019 IEEE International Conference on Big Data (Big Data)},
+    title={Modeling human attention by learning from large amount of emotional images},
+    year={2019},
+    volume={},
+    number={},
+    pages={1631-1636},
+    doi={10.1109/BigData47090.2019.9006300}
+    }
 citations: []
 
 ---
