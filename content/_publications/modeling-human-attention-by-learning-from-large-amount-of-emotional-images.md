@@ -34,6 +34,5 @@ materials:
     by learning from large amount of emotional images}, year={2019}, volume={}, number={},
     pages={1631-1636}, doi={10.1109/BigData47090.2019.9006300}}"
 citations: []
-published: false
 
 ---
