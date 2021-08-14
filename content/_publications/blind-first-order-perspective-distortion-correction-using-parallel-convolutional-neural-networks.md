@@ -57,6 +57,5 @@ citations:
     Distortion Correction Using Parallel Convolutional Neural Networks. Sensors 2020,
     20, 4898. https://doi.org/10.3390/s20174898 '
   format: acs
-published: false
 
 ---
