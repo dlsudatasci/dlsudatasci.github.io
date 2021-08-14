@@ -19,8 +19,9 @@ fields:
   hidden: false
   config:
     required: true
-  default: "/publication/<name of paper>"
+  default: "/publication/<year>-<month>-<day>-<short-title>"
   label: Link
+  description: 'Sample: 2021-08-14-access'
 - type: field_group_list
   name: image_section
   fields:
