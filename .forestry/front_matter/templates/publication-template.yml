@@ -88,17 +88,17 @@ fields:
   label: Citations
   fields:
   - type: text
-    name: text
-    label: Citation
-    config:
-      required: true
-  - type: text
     name: format
     label: Format
     config:
       required: true
     default: apa
     description: please use small caps
+  - type: text
+    name: text
+    label: Citation
+    config:
+      required: true
 pages:
 - content/_publications/analysis-of-the-co-authorship-network-of-filipino-researchers-in-deep-learning.md
 - content/_publications/blind-first-order-perspective-distortion-correction-using-parallel-convolutional-neural-networks.md
