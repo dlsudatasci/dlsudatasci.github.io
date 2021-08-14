@@ -16,26 +16,32 @@
             {% endfor %}
           </p>
 
+          {% assign materials = publication.materials %}
+
           <div class="pub-resources">
             <ul>
+              {% if materials.publishers_copy %}
               <li>
-                <a href="{{ publication.materials.publishers_copy }}">
+                <a href="{{ materials.publishers_copy }}">
                   <span class="fas fa-external-link-square-alt" />
                   Publisher's Copy
                 </a>
               </li>
+              {% endif %} {% if materials.pdf %}
               <li>
-                <a href="{{ publication.materials.pdf }}">
+                <a href="{{ materials.pdf }}">
                   <span class="far fa-file-pdf" />
                   PDF
                 </a>
               </li>
+              {% endif %} {% if materials.citation.citation_header %}
               <li>
-                <a href="{{ publication.materials.citation.citation_header }}">
+                <a href="{{ materials.citation.citation_header }}">
                   <span class="fas fa-quote-left" />
                   Cite
                 </a>
               </li>
+              {% endif %}
             </ul>
           </div>
         </div>

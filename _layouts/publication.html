@@ -59,19 +59,24 @@
       <div class="pub-materials">
         <h4 class="text-uppercase">Materials</h4>
         <div class="pub-resources publi-rsrc">
+          {% assign materials = page.materials %}
           <ul>
+            {% if materials.publishers_copy %}
             <li>
-              <a href="{{ page.publishers_copy }}">
+              <a href="{{ materials.publishers_copy }}">
                 <span class="fas fa-external-link-square-alt"></span>
                 Publisher's Copy
               </a>
             </li>
+            {% endif %} {% if materials.pdf %}
             <li>
-              <a href="{{ page.pdf }}">
+              <a href="{{ materials.pdf }}">
                 <span class="far fa-file-pdf"></span>
                 PDF
               </a>
             </li>
+            {% endif %}
+
             <li>
               <a href="#citations">
                 <span class="fas fa-quote-left"></span>
