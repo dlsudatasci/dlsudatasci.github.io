@@ -995,34 +995,6 @@
   font-weight: 600;
 }
 
-/* DIPLOMA COURSES */
-.diploma-courses-container {
-  position: relative;
-}
-.course-status {
-  margin-top: 20px;
-  position: absolute;
-  right: 0;
-}
-.course-status h6 {
-  display: inline;
-  margin-right: 10px;
-  font-weight: 600;
-}
-
-.form-check-inline {
-  margin-right: 8px !important;
-}
-
-.form-check-input:checked {
-  background-color: #00703c !important;
-  border-color: #00703c !important;
-}
-
-.form-check-input:focus {
-  border-color: #00703c;
-}
-
 .courses-cards {
   padding-top: 30px;
   padding-bottom: 50px;
@@ -1042,52 +1014,6 @@
   object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.course-card-info {
-  height: 140px;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-top: 2px solid #f6f6f6;
-  margin-bottom: 10px;
-}
-
-.status-div {
-  position: relative;
-}
-
-.upcoming-date {
-  position: absolute;
-  right: 0;
-  top: 4px;
-}
-
-.status {
-  background-color: #00703c;
-  width: 100px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-bottom: 18px;
-  border-radius: 16px;
-}
-
-.status h6 {
-  color: #fff;
-  font-size: 14px;
-  margin: 0px;
-  font-weight: 600;
-}
-
-.course-card-info h3 {
-  font-weight: 700;
-  font-size: 26px;
-}
-
-.course-card-btn {
-  margin-bottom: 15px;
-  padding-top: 4px !important;
-  padding-bottom: 4px !important;
 }
 
 .gap-2 {
