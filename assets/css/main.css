@@ -196,6 +196,34 @@
   margin-bottom: 1rem;
 }
 
+.diploma-course-header {
+  width: 100%;
+  text-align: left;
+  background-color: #00703c;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.diploma-course-header.is-selected {
+  border-radius: 20px 20px 0 0;
+}
+
+.diploma-course-content {
+  background-color: whitesmoke;
+  margin-bottom: 1.5em;
+  border-radius: 0 0 20px 20px;
+}
+
+.diploma-course-content div {
+  padding: 1em 0;
+  width: 90%;
+  margin: auto;
+}
+
 .prog-card p {
   text-align: start;
 }
