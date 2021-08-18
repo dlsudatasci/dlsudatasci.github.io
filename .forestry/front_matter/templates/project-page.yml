@@ -40,30 +40,6 @@ fields:
     time_format: 
     display_utc: false
     export_format: MM-DD-YYYY
-- name: content_sections
-  type: field_group_list
-  fields:
-  - name: header
-    type: text
-    config:
-      required: false
-    label: Header
-  - name: paragraph
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Paragraph
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Content Sections
-  description: 'Add a new section for each paragraph. (Example: about, scope, conclusion,
-    etc.)'
 - name: sources
   type: field_group
   config: {}
