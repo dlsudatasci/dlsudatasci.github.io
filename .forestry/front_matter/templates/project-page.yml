@@ -63,3 +63,10 @@ fields:
   label: Sources
   hidden: false
   description: Put the list of sources here.
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: project
