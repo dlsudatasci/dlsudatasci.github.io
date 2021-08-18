@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+{% include header.html %}
 
-  <body>
-    {% include navbar.html %}
+<body>
+  {% include navbar.html %}
 
-    <!-- RESEARCH DESCRIPTION -->
-    <section class="research-desc-section">
-      <div class="research-desc-container text-center container">
-        <h2 class="text-uppercase">{{ page.page_header }}</h2>
-        <p>{{ page.page_description }}</p>
+  <section class="research-desc-section">
+    <div class="research-desc-container text-center container">
+      <h2 class="text-uppercase">{{ page.page_header }}</h2>
+      <p>{{ page.page_description }}</p>
+    </div>
+  </section>
+
+  <section class="research-projects-section" id="projects">
+    <div class="research-projects-container text-center container">
+      <h3 class="text-uppercase">Projects</h3>
+
+      {% include project/cards-3.html %}
+
+      <a href="#projects" class="btn btn-md view-all-btn custom-btn">View all</a>
+    </div>
+  </section>
+
+  <section class="research-publications-section">
+    <div class="publication-green"></div>
+    <div class="publications-container text-center container">
+      <div class="publication-desc">
+        <h3 class="text-uppercase">
+          {{ page.publications_section.publications_header }}
+        </h3>
+        <p>{{ page.publications_section.publications_description }}</p>
       </div>
-    </section>
 
-    <!-- PROJECTS -->
-    <section class="research-projects-section">
-      <div class="research-projects-container text-center container">
-        <h3 class="text-uppercase">Projects</h3>
+      {% include publication/cards-3.html %}
 
-        {% include project/cards-3.html %}
+      <a href="/publications" class="btn btn-md view-all-btn custom-btn">
+        View all
+      </a>
+    </div>
+  </section>
 
-        <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
-      </div>
-    </section>
+  {% include footer.html %}
+</body>
 
-    <!-- PUBLICATIONS -->
-    <section class="research-publications-section">
-      <div class="publication-green"></div>
-      <div class="publications-container text-center container">
-        <div class="publication-desc">
-          <h3 class="text-uppercase">
-            {{ page.publications_section.publications_header }}
-          </h3>
-          <p>{{ page.publications_section.publications_description }}</p>
-        </div>
-
-        {% include publication/cards-3.html %}
-
-        <a href="/publications" class="btn btn-md view-all-btn custom-btn">
-          View all
-        </a>
-      </div>
-    </section>
-
-    {% include footer.html %}
-  </body>
 </html>

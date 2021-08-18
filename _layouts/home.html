@@ -1,174 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+{% include header.html %}
 
-  <body>
-    {% include navbar.html %}
+<body>
+  {% include navbar.html %}
 
-    <!-- CAROUSEL -->
-    <section
-      id="homepage-carousel"
-      class="carousel-section carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#homepage-carousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#homepage-carousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#homepage-carousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
+  <!-- CAROUSEL -->
+  <section id="homepage-carousel" class="carousel-section carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
 
-      {% assign active_carousel = page.active_carousel_container %}
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="{{ active_carousel.bg }}" alt="image1" />
-          <div class="carousel-container container">
-            <div class="carousel-content text-start">
-              <h1 class="carousel-headline">{{ active_carousel.title }}</h1>
-              <p>{{ active_carousel.description }}</p>
-              <a
-                href="{{ active_carousel.link }}"
-                class="carousel-btn btn btn-md"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {% for item in page.carousel_container %}
-        <div class="carousel-item">
-          <img src="{{ item.bg }}" alt="{{ item.title }}" />
-          <div class="carousel-container container">
-            <h1 class="carousel-headline">{{ item.title }}</h1>
-            <p>{{ item.description }}</p>
-            <a href="{{ item.link }}" class="carousel-btn btn btn-md">
+    {% assign active_carousel = page.active_carousel_container %}
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ active_carousel.bg }}" alt="image1" />
+        <div class="carousel-container container">
+          <div class="carousel-content text-start">
+            <h1 class="carousel-headline">{{ active_carousel.title }}</h1>
+            <p>{{ active_carousel.description }}</p>
+            <a href="{{ active_carousel.link }}" class="carousel-btn btn btn-md">
               Learn more
             </a>
           </div>
         </div>
+      </div>
+
+      {% for item in page.carousel_container %}
+      <div class="carousel-item">
+        <img src="{{ item.bg }}" alt="{{ item.title }}" />
+        <div class="carousel-container container">
+          <h1 class="carousel-headline">{{ item.title }}</h1>
+          <p>{{ item.description }}</p>
+          <a href="{{ item.link }}" class="carousel-btn btn btn-md">
+            Learn more
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- DLSU DATA INSTITUTE BRIEF DESCRIPTION -->
+  <section class="brief-description-section container">
+    <div class="brief-description-container text-center">
+      {% assign bd = page.brief_description_section %}
+      <h1 class="brief-description-container">{{ bd.header }}</h1>
+      <p>{{ bd.description }}</p>
+      <a href="{{ bd.about_us }}" class="btn btn-md about-us-btn custom-btn">
+        About us
+      </a>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs-section">
+    <div class="container">
+      <div class="program-desc text-center">
+        {% assign program = site.data.programs %}
+        <h3 class="text-uppercase">{{ program.header }}</h3>
+        <p>{{ program.description }}</p>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        {% for program in site.programs %}
+        {% if program.is_diploma_course == false %}
+        <div class="col-11 col-lg-4 mb-4">
+          <div class="prog-card">
+            <div>
+              <h4>{{ program.title }}</h4>
+              <p>{{ program.description }}</p>
+            </div>
+            <a href="{{ program.permalink }}" class="btn btn-md prog-btn custom-btn">Learn more</a>
+          </div>
+        </div>
+        {% endif %}
         {% endfor %}
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- DLSU DATA INSTITUTE BRIEF DESCRIPTION -->
-    <section class="brief-description-section container">
-      <div class="brief-description-container text-center">
-        {% assign bd = page.brief_description_section %}
-        <h1 class="brief-description-container">{{ bd.header }}</h1>
-        <p>{{ bd.description }}</p>
-        <a href="{{ bd.about_us }}" class="btn btn-md about-us-btn custom-btn">
-          About us
-        </a>
-      </div>
-    </section>
-
-    <!-- PROGRAMS -->
-    <section class="programs-section">
-      <div class="container">
-        <div class="program-desc text-center">
-          {% assign program = site.data.programs %}
-          <h3 class="text-uppercase">{{ program.header }}</h3>
-          <p>{{ program.description }}</p>
-        </div>
-
-        <div class="row justify-content-center mt-4">
-          {% for program in site.programs %}
-          {% if program.is_diploma_course == false %}
-          <div class="col-11 col-lg-4 mb-4">
-            <div class="prog-card">
-              <div>
-                <h4>{{ program.title }}</h4>
-                <p>{{ program.description }}</p>
-              </div>
-              <a href="{{ program.permalink }}" class="btn btn-md prog-btn custom-btn" >Learn more</a>
+  <!-- NEWS -->
+  <section class="news-section">
+    <div class="news-container container">
+      <h3 class="text-uppercase text-center">News</h3>
+      <div class="news-cards row">
+        {% for news in site.news limit:3 %}
+        <div class="col-md-4 news-card-container">
+          <a href="{{ news.permalink }}">
+            <div class="news-card">
+              <h5>{{ news.title }}</h5>
+              <h6>{{ news.date | date_to_long_string }}</h6>
+              <p>{{ news.news_body }}</p>
             </div>
-          </div>
-          {% endif %}
-          {% endfor %}
+          </a>
         </div>
+        {% endfor %}
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- NEWS -->
-    <section class="news-section">
-      <div class="news-container container">
-        <h3 class="text-uppercase text-center">News</h3>
-        <div class="news-cards row">
-          {% for news in site.news limit:3 %}
-          <div class="col-md-4 news-card-container">
-            <a href="{{ news.permalink }}">
-              <div class="news-card">
-                <h5>{{ news.title }}</h5>
-                <h6>{{ news.date | date_to_long_string }}</h6>
-                <p>{{ news.news_body }}</p>
-              </div>
-            </a>
-          </div>
-          {% endfor %}
+  <!-- RECENT PROJECTS -->
+  <section class="recent-projects-section">
+    <div class="recent-projects-container text-center container">
+      <h3 class="text-uppercase">Recent projects</h3>
+
+      {% include project/cards-3.html %}
+
+      <a href="/research" class="btn btn-md view-all-btn custom-btn">View all</a>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="hp-publications-section">
+    <div class="pub-white-space"></div>
+    <div class="hp-publications-container text-center container">
+      <div class="pub-desc">
+        {% assign publication = site.data.publications %}
+        <h3 class="text-uppercase">{{ publication.header }}</h3>
+        <p>{{ publication.description }}</p>
+      </div>
+
+      {% include publication/cards-3.html %}
+
+      <a href="/publications" class="btn btn-md view-all-btn custom-btn">View all</a>
+    </div>
+  </section>
+
+  <!-- PARTNER AGENCIES -->
+  <section class="partner-agencies-section">
+    <div class="partner-agencies-container text-center container">
+      <h3 class="text-uppercase">Partner Agencies</h3>
+      <div class="partner-agencies-cards row">
+        {% for partner in page.partners %}
+        <div class="col-sm-3 partner-agencies-card-container">
+          <a href="{{ partner.link }}">
+            <img src="{{ partner.logo }}" alt="{{ partner.alt }}" />
+          </a>
         </div>
+        {% endfor %}
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- RECENT PROJECTS -->
-    <section class="recent-projects-section">
-      <div class="recent-projects-container text-center container">
-        <h3 class="text-uppercase">Recent projects</h3>
+  {% include footer.html %}
+</body>
 
-        {% include project/cards-3.html %}
-
-        <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
-      </div>
-    </section>
-
-    <!-- PUBLICATIONS -->
-    <section class="hp-publications-section">
-      <div class="pub-white-space"></div>
-      <div class="hp-publications-container text-center container">
-        <div class="pub-desc">
-          {% assign publication = site.data.publications %}
-          <h3 class="text-uppercase">{{ publication.header }}</h3>
-          <p>{{ publication.description }}</p>
-        </div>
-
-        {% include publication/cards-3.html %}
-
-        <a href="#" class="btn btn-md view-all-btn custom-btn">View all</a>
-      </div>
-    </section>
-
-    <!-- PARTNER AGENCIES -->
-    <section class="partner-agencies-section">
-      <div class="partner-agencies-container text-center container">
-        <h3 class="text-uppercase">Partner Agencies</h3>
-        <div class="partner-agencies-cards row">
-          {% for partner in page.partners %}
-          <div class="col-sm-3 partner-agencies-card-container">
-            <a href="{{ partner.link }}">
-              <img src="{{ partner.logo }}" alt="{{ partner.alt }}" />
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-
-    {% include footer.html %}
-  </body>
 </html>
