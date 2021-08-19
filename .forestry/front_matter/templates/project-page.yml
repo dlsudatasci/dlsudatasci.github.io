@@ -58,3 +58,5 @@ fields:
   label: Layout
   hidden: true
   default: project
+pages:
+- content/_projects/an-optimization-model-for-vaccine-allocation.md
