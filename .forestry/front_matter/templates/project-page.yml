@@ -17,20 +17,6 @@ fields:
     labelField: 
   label: Image Section
   description: " Upload up to 2 images."
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-- name: authors
-  type: text
-  config:
-    required: false
-  label: Authors
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
 - name: date
   type: datetime
   label: Date
@@ -41,28 +27,30 @@ fields:
     time_format: 
     display_utc: false
     export_format: MM-DD-YYYY
-- name: sources
-  type: field_group
-  config: {}
-  fields:
-  - name: sources-header
-    type: text
-    config:
-      required: false
-    default: Sources/Bibliography
-    label: Sources Header
-  - name: list-of-sources
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: List of Sources
-  label: Sources
-  hidden: false
-  description: Put the list of sources here.
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: lead_proponent
+  type: text
+  config:
+    required: false
+  label: Lead Proponent
+- name: co-proponents
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Co-proponents
+- name: partner_agencies
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Partner Agencies
 - name: layout
   type: text
   config:
