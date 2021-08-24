@@ -20,7 +20,7 @@ sections:
     rank: Full Professor
     department: Political Science and Development Studies
     website: ''
-  - image: "/uploads/img/people/ruth.png"
+  - image: "/uploads/img/temp/blank1.png"
     name: Ruth Angelie Cruz, Ph.D.
     rank: Associate Professor
     department: Decision Science and Innovation
