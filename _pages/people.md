@@ -5,50 +5,50 @@ permalink: "/people/"
 sections:
 - template: people-list
   people_list:
-  - image: "/uploads/mtiongco.jpg"
-    name: Marites Tiongco, Ph.D.
-    rank: Full Professor
-    department: Economics
-    website: ''
-  - image: "/uploads/img/temp/blank1.png"
-    name: Dennis Trinidad, Ph.D.
-    rank: Full Professor
-    department: International Studies
-    website: ''
-  - image: "/uploads/ador_torneo.jpg"
-    name: Ador Torneo, Ph.D.
-    rank: Full Professor
-    department: Political Science and Development Studies
-    website: ''
-  - image: "/uploads/ruthcruz.jpg"
-    name: Ruth Angelie Cruz, Ph.D.
+  - name: Rene Batac, Ph.D.
     rank: Associate Professor
-    department: Decision Science and Innovation
-    website: http://xsite.dlsu.edu.ph/faculty/fis/faculty_info.asp?fac_id=27095888
-  - name: Alexis Filone, Ph.D.
+    department: Physics
     website: ''
-    rank: Full Professor
-    department: Civing Engineering
     image: "/uploads/img/temp/blank1.png"
   - rank: Distinguished University Professor
     department: Psychology
     website: ''
     name: Allan B. I. Bernardo, Ph.D.
     image: "/uploads/allan_b_i_bernardo.jpg"
+  - image: "/uploads/ruthcruz.jpg"
+    name: Ruth Angelie Cruz, Ph.D.
+    rank: Associate Professor
+    department: Decision Sciences and Innovation
+    website: https://www.dlsu.edu.ph/staff-directory/?personnel=32665838111
+  - name: Alexis Filone, Ph.D.
+    website: ''
+    rank: Full Professor
+    department: Civing Engineering
+    image: "/uploads/img/temp/blank1.png"
   - image: "/uploads/img/temp/blank1.png"
     name: Angelyn Lao, Ph.D.
     rank: Associate Professor
     department: Mathematics and Statistics
     website: ''
-  - name: Rene Batac, Ph.D.
-    rank: Associate Professor
-    department: Physics
-    website: ''
-    image: "/uploads/img/temp/blank1.png"
   - image: "/uploads/ethel_ong.png"
     name: Ethel Ong, Ph.D.
     rank: Associate Professor
     department: Software Technology
+    website: https://www.dlsu.edu.ph/staff-directory/?personnel=32742696153
+  - image: "/uploads/mtiongco.jpg"
+    name: Marites Tiongco, Ph.D.
+    rank: Full Professor
+    department: Economics
+    website: ''
+  - image: "/uploads/ador_torneo.jpg"
+    name: Ador Torneo, Ph.D.
+    rank: Full Professor
+    department: Political Science and Development Studies
+    website: ''
+  - image: "/uploads/img/temp/blank1.png"
+    name: Dennis Trinidad, Ph.D.
+    rank: Full Professor
+    department: International Studies
     website: ''
   people_group: Steering Committee
 - template: people-list
