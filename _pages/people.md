@@ -15,12 +15,12 @@ sections:
     rank: Full Professor
     department: International Studies
     website: ''
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/ador_torneo.jpg"
     name: Ador Torneo, Ph.D.
     rank: Full Professor
     department: Political Science and Development Studies
     website: ''
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/ruthcruz.jpg"
     name: Ruth Angelie Cruz, Ph.D.
     rank: Associate Professor
     department: Decision Science and Innovation
