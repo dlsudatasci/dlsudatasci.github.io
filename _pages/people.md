@@ -45,7 +45,7 @@ sections:
     department: Physics
     website: ''
     image: "/uploads/img/temp/blank1.png"
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/ethel_ong.png"
     name: Ethel Ong, Ph.D.
     rank: Associate Professor
     department: Software Technology
