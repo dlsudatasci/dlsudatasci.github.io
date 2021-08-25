@@ -655,48 +655,33 @@
 }
 
 .research-projects-card {
-  background-color: #fff;
   border-radius: 20px;
-  text-align: center;
-  margin: 15px 0px;
+  color: #000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
 }
 
 .research-projects-card img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 
-.research-projects-card-content {
-  border-top: 2px solid #f6f6f6;
-  padding: 10px 18px;
-  height: 280px !important;
-}
-
-.research-projects-card-content h5 {
+.research-projects-card h5 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.research-projects-card-container a {
-  text-decoration: none;
-  color: #000;
-}
-
-.research-projects-card-container a:hover {
-  color: #000;
-}
-
-.research-projects-card-container a h5:hover {
+.research-projects-card:hover h5 {
   color: #00703c;
 }
 
-.project-proponents {
-  margin-bottom: 20px;
+.research-projects-card-content {
+  flex-grow: 1;
+  padding: 15px 18px;
+}
+
+.research-projects-card p {
+  margin-bottom: auto;
 }
 
 .partner-agency-title,

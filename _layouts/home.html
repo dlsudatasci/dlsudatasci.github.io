@@ -107,9 +107,11 @@
   <section class="recent-projects-section">
     <div class="recent-projects-container text-center container">
       <h3 class="text-uppercase">Recent projects</h3>
-
-      {% include project/cards-3.html %}
-
+      <div class="research-projects-cards row justify-content-center">
+        {% for project in site.projects reversed limit:3 %}
+        {% include project/card.html project=project %}
+        {% endfor %}
+      </div>
       <a href="/research" class="btn btn-md view-all-btn custom-btn">View all</a>
     </div>
   </section>
