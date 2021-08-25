@@ -58,12 +58,12 @@ sections:
     rank: Institute Dean
     department: Computer Technology
     website: https://www.dlsu.edu.ph/colleges/ccs/faculty-profile/?personnel=32742735838
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/briane_samson.jpg"
     name: Briane Paul Samson, Ph.D.
     rank: Associate Professor
     department: Software Technology
     website: ''
-  - image: "/uploads/img/people/unisse.png"
+  - image: "/uploads/unisse.jpg"
     name: Unisse Chua
     rank: Assistant Professor
     department: Software Technology
