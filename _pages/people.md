@@ -5,7 +5,7 @@ permalink: "/people/"
 sections:
 - template: people-list
   people_list:
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/mtiongco.jpg"
     name: Marites Tiongco, Ph.D.
     rank: Full Professor
     department: Economics
