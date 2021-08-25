@@ -30,11 +30,11 @@ sections:
     rank: Full Professor
     department: Civing Engineering
     image: "/uploads/img/temp/blank1.png"
-  - rank: Full Professor
-    department: Counseling and Educational Psychology
+  - rank: Distinguished University Professor
+    department: Psychology
     website: ''
-    name: Allan Benedict Bernardo, Ph.D.
-    image: "/uploads/img/temp/blank1.png"
+    name: Allan B. I. Bernardo, Ph.D.
+    image: "/uploads/allan_b_i_bernardo.jpg"
   - image: "/uploads/img/temp/blank1.png"
     name: Angelyn Lao, Ph.D.
     rank: Associate Professor
