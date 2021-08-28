@@ -51,6 +51,11 @@ fields:
     min: 
     max: 
   label: Partner Agencies
+- name: wesite_url
+  type: text
+  config:
+    required: false
+  label: Wesite URL
 - name: layout
   type: text
   config:
