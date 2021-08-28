@@ -803,6 +803,33 @@
   margin-bottom: 30px;
 }
 
+.proj.container {
+  max-width: 700px !important;
+  margin-bottom: 4rem;
+}
+
+.proj p {
+  line-height: 1.7;
+  margin-bottom: 1.3rem;
+}
+
+.proj-details {
+  margin: 1rem 0 2rem;
+  color: #898989;
+}
+
+.proj-details * {
+  margin-bottom: 0.2rem;
+}
+
+.proj-lead {
+  font-weight: 600;
+}
+
+.proj-date {
+  font-style: italic;
+}
+
 .pub-images img,
 .proj-images img {
   width: 100%;
@@ -821,8 +848,7 @@
 }
 
 .pub-date,
-.pub-journal,
-.proj-date {
+.pub-journal {
   font-size: 14px;
 }
 
@@ -839,15 +865,12 @@
 
 .pub-authors,
 .pub-journal,
-.pub-date,
-.proj-authors,
-.proj-date {
+.pub-date {
   margin-bottom: 4px;
 }
 
 .pub-abstract p,
 .pub-keywords p,
-.proj-description p,
 .event-description p {
   text-align: justify;
 }
@@ -860,8 +883,7 @@
 .pub-keywords h4,
 .pub-materials h4,
 .pub-bibtex h4,
-.pub-citation h4,
-.proj-description h4 {
+.pub-citation h4 {
   font-size: 22px;
   font-weight: 600;
   margin-top: 20px;
@@ -872,8 +894,7 @@
   margin-bottom: 0px;
 }
 
-.pub-citation,
-.proj-description p {
+.pub-citation {
   margin-bottom: 50px;
 }
 

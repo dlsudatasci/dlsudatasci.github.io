@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+{% include header.html %}
 
-  <body>
-    {% include navbar.html %}
+<body>
+  {% include navbar.html %}
 
-    <!-- BREADCRUMBS -->
+  <!-- BREADCRUMBS -->
+  <div class="proj container">
+
     <div class="breadcrumbs-container container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -13,37 +15,32 @@
           <li class="breadcrumb-item"><a href="/research">Research</a></li>
           <!-- The active item will contain the short title of the project -->
           <li class="breadcrumb-item active" aria-current="page">
-            {{ page.title }}
+            {{ page.title | truncatewords: 3 }}
           </li>
         </ol>
       </nav>
     </div>
 
-    <!-- PUBLICATION IMAGE -->
-    <div class="proj-img-container container">
-      <div class="proj-images row">
-        {% for img in page.image_section %}
-        <div class="col-sm">
-          <img src="{{ img.image }}" alt="" />
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-
-    <!-- PUBLICATION INFO -->
-    <div class="proj-info-container container">
-      <h1 class="proj-title">{{ page.title }}</h1>
-      <h6 class="proj-authors">{{ page.authors }}</h6>
-      <h6 class="proj-date">{{ page.date }}</h6>
-
-      {% for group in page.content_sections %}
-      <div class="proj-description">
-        <h4 class="text-uppercase">{{ group.header }}></h4>
-        <p>{{ group.paragraph }}</p>
+    <div class="proj-images row mb-4">
+      {% for img in page.image-section %}
+      <div class="col-sm">
+        <img src="{{ img.image }}" alt="" />
       </div>
       {% endfor %}
     </div>
 
-    {% include footer.html %}
-  </body>
+    <h1 class="proj-title">{{ page.title }}</h1>
+
+    <div class="proj-details">
+      <h6 class="proj-lead">{{ page.lead_proponent }}</h6>
+      <h6>{{ page.co-proponents | join: '; ' }}</h6>
+      <h6 class="proj-date">{{ page.date | date: "%B %-d, %Y"}}</h6>
+    </div>
+
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</body>
+
 </html>
