@@ -9,7 +9,7 @@ co-proponents:
 - Dr. Kathleen Aviso
 partner_agencies:
 - Animo Labs
-wesite_url: https://dlsudatasci.github.io/covidapp/
+website_url: https://dlsudatasci.github.io/covidapp/
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sollicitudin turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc blandit ipsum nec velit euismod accumsan. Aenean vehicula venenatis sapien et maximus. Quisque iaculis nisl metus, tristique sodales odio viverra a. Fusce maximus mollis elit ut mollis. Integer eget volutpat sapien. Cras lobortis eu erat ut condimentum. Duis pulvinar odio ac mi euismod, in viverra turpis hendrerit.
