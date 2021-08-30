@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+  {% include navbar.html %}
+
+  <section id="papers-section">
+    <div>
+      <h2 class="text-uppercase text-center">{{ page.title }}</h2>
+    </div>
+
+    <div class="container">
+      {% for project in site.projects reversed %}
+      <div>
+        <h3>{{ project.title }}</h3>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</body>
+
+</html>
