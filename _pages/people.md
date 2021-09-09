@@ -1,6 +1,6 @@
 ---
 layout: people
-title: People Page
+title: People
 permalink: "/people/"
 sections:
 - template: people-list
