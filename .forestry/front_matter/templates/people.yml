@@ -1,0 +1,14 @@
+---
+label: People
+hide_body: false
+fields:
+- name: sections
+  type: blocks
+  template_types:
+  - people-list
+  config:
+    min: 
+    max: 
+  label: Sections
+pages:
+- _pages/people.md

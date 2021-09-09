@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+---
+published: false
+---
 
-You can use the [editor on GitHub](https://github.com/dlsudatasci/dlsudatasci.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# DLSU Dr. Andrew L. Tan Data Science Institute
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- TODO: Description here -->
 
-### Markdown
+<!-- Description here -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Requirements
 
-```markdown
-Syntax highlighted code block
+- Ruby
+- Jekyll
+- VS Code
+- Prettier Extension (Prettier - Code formatter)
 
-# Header 1
-## Header 2
-### Header 3
+## Dependencies
 
-- Bulleted
-- List
+- jekyll
+- jekyll-menus
 
-1. Numbered
-2. List
+### Installing Dependencies
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```cmd
+<path to folder> $ bundle install
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Serve
 
-### Jekyll Themes
+```cmd
+<path to folder> $ bundle exec jekyll serve
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dlsudatasci/dlsudatasci.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Build
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```cmd
+<path to folder> $ bundle exec jekyll build
+```

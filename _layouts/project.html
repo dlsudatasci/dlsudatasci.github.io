@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+  {% include navbar.html %}
+
+  <!-- BREADCRUMBS -->
+  <div class="proj container">
+
+    <div class="breadcrumbs-container container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><a href="/research">Research</a></li>
+          <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+          <!-- The active item will contain the short title of the project -->
+          <li class="breadcrumb-item active" aria-current="page">
+            {{ page.title | truncatewords: 3 }}
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="proj-images row mb-4">
+      {% for img in page.image-section %}
+      <div class="col-sm">
+        <img src="{{ img.image }}" alt="" />
+      </div>
+      {% endfor %}
+    </div>
+
+    <h1 class="proj-title">{{ page.title }}</h1>
+
+    <div class="proj-details">
+      <h6 class="proj-lead">{{ page.lead_proponent }}</h6>
+      <h6>{{ page.co-proponents | join: '; ' }}</h6>
+      <h6 class="proj-date">{{ page.partner_agencies | join: ' ;'}}</h6>
+      <h6 class="proj-date">{{ page.date | date: "%B %-d, %Y"}}</h6>
+      {% if page.website_url %}<a href="{{ page.website_url }}" target="_blank">Website Link</a>{% endif %}
+    </div>
+
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>

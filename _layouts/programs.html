@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+  {% include navbar.html %}
+
+  <section class="programs-desc-section">
+    <div class="programs-desc-container text-center container">
+      <h2 class="text-uppercase">{{ page.title }}</h2>
+      <p>{{ page.description }}</p>
+    </div>
+  </section>
+
+  <!-- prettier-ignore -->
+  <div class="container mb-4">
+    <div class="row justify-content-center">
+      {% for program in site.programs %}
+      {% if program.is_diploma_course == false %}
+      {% include program/card.html program=program %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<div class="d-flex justify-content-start align-items-start gap-4">
+  <div class="m-0 p-0 border">
+    <img
+      class="m-0 p-0"
+      src="{{ publication.image_section[0].image }}"
+      alt=""
+      height="96"
+      width="96"
+    />
+  </div>
+  <div>
+    <a class="no-underline text-dark" href="{{ publication.permalink }}">
+      <h6 class="hover-green">
+        <strong>{{ publication.title }}</strong>
+      </h6>
+    </a>
+    <p class="text-sm">{{ publication.authors }}</p>
+
+    {% assign materials = publication.materials %}
+
+    <div class="pub-resources">
+      <ul>
+        {% if materials.publishers_copy %}
+        <li>
+          <a class="hover-green text-sm" href="{{ materials.publishers_copy }}">
+            <span class="fas fa-external-link-square-alt" />
+            Publisher's Copy
+          </a>
+        </li>
+        {% endif %}
+
+        <!-- prettier-ignore -->
+        {% if materials.pdf %}
+        <li>
+          <a class="hover-green text-sm" href="{{ materials.pdf }}">
+            <span class="far fa-file-pdf" />
+            PDF
+          </a>
+        </li>
+        {% endif %}
+
+        <!-- prettier-ignore -->
+        {% if materials.citation.citation_header %}
+        <li>
+          <a
+            class="hover-green text-sm"
+            href="{{ materials.citation.citation_header }}"
+          >
+            <span class="fas fa-quote-left" />
+            Cite
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>

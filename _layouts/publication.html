@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+
+  <body>
+    {% include navbar.html %}
+
+    <!-- BREADCRUMBS -->
+    <div class="breadcrumbs-container container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><a href="/research">Research</a></li>
+          <!-- The active item will contain the short title of the publication -->
+          <li class="breadcrumb-item active" aria-current="page">
+            {{ page.title }}
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- PUBLICATION IMAGE -->
+    <div class="pub-img-container container">
+      <div class="pub-images row">
+        {% for group in page.image_section %}
+        <div class="col-sm">
+          <img src="{{ group.image }}" alt="" />
+        </div>
+        {% endfor %}
+      </div>
+
+      {% if page.image_caption %}
+      <div class="pub-image-caption text-sm mx-2">{{ page.image_caption }}</div>
+      {% endif %}
+    </div>
+
+    <!-- PUBLICATION INFO -->
+    <div class="pub-info-container container">
+      <h2 class="pub-title">{{ page.title }}</h2>
+      <h6 class="pub-authors">{{ page.authors }}</h6>
+      <h6 class="pub-journal">{{ page.source }}</h6>
+      <h6 class="pub-date">{{ page.date | date: "%B, %Y" }}</h6>
+
+      <div class="pub-abstract">
+        <h4 class="text-uppercase">Abstract</h4>
+        <p>{{ page.abstract }}</p>
+      </div>
+
+      <div class="pub-keywords">
+        <p>
+          <strong> Keywords: </strong>
+          <!-- prettier-ignore -->
+          {% for tag in page.tags %}
+            {{ tag }}{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+
+      <div class="pub-materials">
+        <h4 class="text-uppercase">Materials</h4>
+        <div class="pub-resources publi-rsrc">
+          {% assign materials = page.materials %}
+          <ul>
+            {% if materials.publishers_copy %}
+            <li>
+              <a href="{{ materials.publishers_copy }}">
+                <span class="fas fa-external-link-square-alt"></span>
+                Publisher's Copy
+              </a>
+            </li>
+            {% endif %} {% if materials.pdf %}
+            <li>
+              <a href="{{ materials.pdf }}">
+                <span class="far fa-file-pdf"></span>
+                PDF
+              </a>
+            </li>
+            {% endif %}
+
+            <li>
+              <a href="#citations">
+                <span class="fas fa-quote-left"></span>
+                Cite
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="bibtex" class="pub-bibtex">
+        <h4 class="text-uppercase">BIBTEX</h4>
+        <div class="d-flex justify-content-between">
+          <pre id="bibtex-text">{{ page.materials.bibtex }}</pre>
+
+          <div
+            class="copy-btn cursor-pointer border border-dark rounded px-2 py-1"
+            onclick="copyToClipboard('bibtex-text')"
+          >
+            <span class="fas fa-copy"></span>
+          </div>
+        </div>
+      </div>
+
+      <div id="citations" class="pub-citation">
+        <h4 class="text-uppercase">CITATIONS</h4>
+
+        <div class="d-flex flex-column gap-2">
+          {% for citation in page.citations %}
+          <div class="d-flex flex-row justify-content-between">
+            <div>
+              <strong class="text-uppercase">{{ citation.format }}:</strong>
+              <span id="citation-{{ citation.format }}">
+                {{ citation.text }}
+              </span>
+            </div>
+
+            <div
+              class="
+                copy-btn
+                cursor-pointer
+                border border-dark
+                rounded
+                px-2
+                py-1
+              "
+              onclick="copyToClipboard('citation-{{citation.format}}')"
+            >
+              <span class="fas fa-copy"></span>
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="/assets/js/copyToClipboard.js"></script>
+  </body>
+</html>
