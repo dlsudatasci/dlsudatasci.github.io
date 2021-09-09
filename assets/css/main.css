@@ -808,11 +808,6 @@ a.no-decoration {
   margin-bottom: 30px;
 }
 
-.proj.container {
-  max-width: 700px !important;
-  margin-bottom: 4rem;
-}
-
 .proj-item-details {
   padding: 10px 0;
   margin-right: 20px;
@@ -974,40 +969,6 @@ a.no-decoration {
 }
 
 /* PROGRAMS */
-.programs-all-section {
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-.programs-all-card {
-  background-color: #fff;
-  text-align: center;
-  padding-bottom: 20px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-}
-
-.prog-title-container {
-  background-color: #00703c;
-  color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.prog-title-container h4 {
-  font-weight: 700;
-  font-size: 26px;
-}
-
-.programs-all-card p {
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 20px;
-}
-
 .programs.content {
   width: clamp(200px, 80%, 1152px);
   margin: auto auto 100px;
