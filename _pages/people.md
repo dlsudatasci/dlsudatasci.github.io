@@ -62,7 +62,7 @@ sections:
     name: Briane Paul Samson, Ph.D.
     rank: Associate Professor
     department: Software Technology
-    website: ''
+    website: https://brianesamson.com/
   - image: "/uploads/unisse.jpg"
     name: Unisse Chua
     rank: Assistant Professor
@@ -71,7 +71,7 @@ sections:
   - name: Benito Teehankee, Ph.D.
     rank: Full Professor
     department: Management Organization
-    website: ''
+    website: https://sites.google.com/site/benteehankeesite/home/about-me
     image: "/uploads/teehankee.JPG"
   - department: Software Technology
     website: ''
@@ -87,7 +87,7 @@ sections:
     name: Jude Michael Teves
     rank: Assistant Professorial Lecturer
     department: Software Technology
-    website: ''
+    website: https://cyntwikip.github.io/
   - image: "/uploads/tangaddiel.jpg"
     name: Gaddiel Tan
     rank: Assistant Professorial Lecturer
