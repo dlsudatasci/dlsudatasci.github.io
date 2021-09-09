@@ -9,7 +9,7 @@ sections:
     rank: Associate Professor
     department: Physics
     website: ''
-    image: "/uploads/img/temp/blank1.png"
+    image: "/uploads/batacrc.jpg"
   - rank: Distinguished University Professor
     department: Psychology
     website: ''
@@ -25,9 +25,9 @@ sections:
     rank: Full Professor
     department: Civing Engineering
     image: "/uploads/img/temp/blank1.png"
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/laoangelyn.jpg"
     name: Angelyn Lao, Ph.D.
-    rank: Associate Professor
+    rank: Full Professor
     department: Mathematics and Statistics
     website: ''
   - image: "/uploads/ethel_ong.png"
@@ -45,7 +45,7 @@ sections:
     rank: Full Professor
     department: Political Science and Development Studies
     website: ''
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/trinidadd.png"
     name: Dennis Trinidad, Ph.D.
     rank: Full Professor
     department: International Studies
@@ -72,13 +72,13 @@ sections:
     rank: Full Professor
     department: Management Organization
     website: ''
-    image: "/uploads/img/temp/blank1.png"
+    image: "/uploads/teehankee.JPG"
   - department: Software Technology
     website: ''
     name: Arren Matthew Antioquia
     rank: Assistant Professor
-    image: "/uploads/img/temp/blank1.png"
-  - image: "/uploads/img/temp/blank1.png"
+    image: "/uploads/antioquia.jpg"
+  - image: "/uploads/yapsashmir.png"
     name: Sashmir Yap
     rank: Assistant Professorial Lecturer
     department: Software Technology
@@ -88,7 +88,7 @@ sections:
     rank: Assistant Professorial Lecturer
     department: Software Technology
     website: ''
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/tangaddiel.jpg"
     name: Gaddiel Tan
     rank: Assistant Professorial Lecturer
     department: Information Technology
@@ -97,7 +97,7 @@ sections:
     department: Software Technology
     website: ''
     rank: Assistant Professorial Lecturer
-    image: "/uploads/img/temp/blank1.png"
+    image: "/uploads/ogbinar.jpg"
   people_group: Faculty Affiliates
 
 ---
