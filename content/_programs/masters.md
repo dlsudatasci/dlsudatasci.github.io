@@ -1,7 +1,8 @@
 ---
-category: []
+category:
+- programs
 title: Masters
-layout: programs
+layout: program
 permalink: "/programs/masters"
 description: Pellentesque eget risus vehicula, cursus magna eget, sollicitudin neque.
   Pellentesque vel orci erat. Vivamus in nisi nec lacus cursus mattis sed eget augue.
