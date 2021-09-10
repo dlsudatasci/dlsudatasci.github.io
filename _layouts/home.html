@@ -59,13 +59,13 @@
   <!-- PROGRAMS -->
   <section class="programs-section">
     <div class="container">
-      <div class="program-desc text-center">
+      <div class="program-desc text-center mb-5">
         {% assign program = site.data.programs %}
         <h3 class="text-uppercase">{{ program.header }}</h3>
-        <p>{{ program.description }}</p>
+        <p class="mb-4">{{ program.description }}</p>
       </div>
 
-      <div class="row justify-content-center mt-4">
+      <div class="row justify-content-center">
         {% for program in site.programs %}
         {% if program.is_diploma_course == false %}
         {% include program/card.html program=program %}
