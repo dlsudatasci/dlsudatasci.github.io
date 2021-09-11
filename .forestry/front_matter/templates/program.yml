@@ -16,6 +16,7 @@ fields:
   showOnly:
     field: is_diploma_course
     value: false
+  default: diploma-course
 - name: category
   type: tag_list
   default: []
@@ -53,6 +54,14 @@ fields:
 - name: is_active
   type: boolean
   label: Is active
+  showOnly:
+    field: is_diploma_course
+    value: true
+- name: course_image
+  type: file
+  config:
+    maxSize: 64
+  label: Course Image
   showOnly:
     field: is_diploma_course
     value: true
