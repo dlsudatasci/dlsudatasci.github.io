@@ -16,7 +16,7 @@ fields:
   showOnly:
     field: is_diploma_course
     value: false
-  default: diploma-course
+  default: diploma_course
 - name: category
   type: tag_list
   default: []
