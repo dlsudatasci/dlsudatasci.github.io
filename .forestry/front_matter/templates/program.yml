@@ -3,6 +3,14 @@ label: Program
 hide_body: false
 display_field: title
 fields:
+- name: course_image
+  type: file
+  config:
+    maxSize: 64
+  label: Course Image
+  showOnly:
+    field: is_diploma_course
+    value: true
 - name: title
   type: text
   config:
@@ -51,17 +59,27 @@ fields:
   showOnly:
     field: is_diploma_course
     value: true
-- name: is_active
-  type: boolean
-  label: Is active
+- name: start_date
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Start Date
   showOnly:
     field: is_diploma_course
     value: true
-- name: course_image
-  type: file
+- name: end_date
+  type: datetime
+  label: End Date
+  description: ''
   config:
-    maxSize: 64
-  label: Course Image
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
   showOnly:
     field: is_diploma_course
     value: true
