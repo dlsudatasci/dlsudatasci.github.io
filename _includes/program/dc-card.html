@@ -1,0 +1,30 @@
+{% assign today_date = 'now' | date: '%s' %}
+{% assign start_date = course.start_date  | date: '%s' %}
+{% assign end_date = course.end_date | date: '%s' %}
+
+{% if start_date > today_date or start_date == nil %}
+  {% assign is_upcoming = true %}
+  {% assign is_active = false %}
+{% elsif end_date <= today_date %}
+  {% assign is_upcoming = false %}
+  {% assign is_active = false %}
+{% else %}
+  {% assign is_upcoming = false %}
+  {% assign is_active = true %}
+{% endif %}
+
+<div class="col-11 col-sm-6 col-lg-4 col-xl-3 mb-4 prog-col {% if is_active %}dc-is-active{% endif %}">
+  <div class="prog-card d-flex flex-column">
+    <img class="img-fluid rounded-top" src="{{ course.course_image }}" alt="{{ course.title }}" style="height: 153px;" />
+    <p class="is-active-info ms-3 mt-3 mb-2">{% if is_active %}Active{% elsif is_upcoming %}Upcoming{% else %}Completed{% endif %}</p>
+    <h5 class="fw-bold text-center" style="width: 90%; margin: auto;">{{ course.title }}</h3>
+
+    {% if course.start_date %}
+    <p class="text-center pt-2 pb-1">{{ course.start_date | date: "%d %b %Y"}} - {{ course.end_date | date: "%d %b %Y"}}</p>
+    {% endif %}
+
+    {% if is_upcoming %}
+    <a href="{{ course.permalink }}" class="btn btn-sm custom-btn my-3" style="width: 150px; margin: auto;">Enroll now</a>
+    {% endif %}
+  </div> 
+</div>

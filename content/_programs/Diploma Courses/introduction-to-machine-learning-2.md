@@ -8,8 +8,8 @@ is_diploma_course: true
 layout: ''
 description: ''
 course_image: "/uploads/img/home/machlearning.jpg"
-start_date: 2021-08-09 00:00:00 +0800
-end_date: 2021-09-11 00:00:00 +0800
+start_date: 
+end_date: 
 
 ---
 This 40-hour diploma course provides an overview of machine learning, and the theory and skills necessary for its practice. It covers an introductory level of the machine learning algorithms such as linear regression, logistic regression, neural networks, decision trees, ensemble models, support vector machines, and techniques for regularizing each model. The course materials will be delivered through our online learning management system, AnimoSpace.

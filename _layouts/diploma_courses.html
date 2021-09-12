@@ -16,16 +16,26 @@
     </div>
   </section>
 
-  <div class="programs content">
-    {% for course in site.programs %}
-    {% if course.is_diploma_course %}
+  <section class="container mb-4" style="text-align: right;">
+    <span class="me-2 fw-bold">Show status: </span>
+    <input class="form-check-input" type="checkbox" id="dc-active" checked>
+    <label class="form-check-label unselectable me-2" for="dc-active" unselectable="on">Active</label>
 
-    <button class="diploma-course-header" data-bs-toggle="collapse"
+    <input class="form-check-input" type="checkbox" id="dc-upcoming" checked>
+    <label class="form-check-label unselectable" for="dc-upcoming" unselectable="on">Upcoming</label>
+  </section>
+
+  <div class="programs content row justify-content-center">
+    {% for course in site.programs reversed %}
+    {% if course.is_diploma_course %}
+    {% include program/dc-card.html course=course %}
+
+    <!-- <button class="diploma-course-header" data-bs-toggle="collapse"
       data-bs-target="#dp-course-{{ course.title | remove: ' ' | handle }}" aria-expanded="false"
       aria-controls="dp-course-{{ course.title | remove: ' ' | handle }}">
       + {{ course.title }}
-    </button>
-    <div class="diploma-course-content">
+    </button> -->
+    <!-- <div class="diploma-course-content">
       <div class="collapse" id="dp-course-{{ course.title | remove: ' ' | handle }}">
         {% if course.is_active %}
         <div style="text-align: center; margin-bottom: 1.5rem;">
@@ -39,17 +49,35 @@
 
         <div>{{ course | markdownify }}</div>
       </div>
-    </div>
+    </div> -->
     {% endif %}
     {% endfor %}
   </div>
 
   {% include footer.html %}
   <script>
-    $('.programs.content').on('show.bs.collapse', e => {
-      e.target.parentElement.previousElementSibling.classList.add('is-selected')
-    }).on('hidden.bs.collapse', e => {
-      e.target.parentElement.previousElementSibling.classList.remove('is-selected')
+    const active = [], upcoming = []
+    const activeCBox = document.getElementById('dc-active')
+    const upcomingCBox = document.getElementById('dc-upcoming')
+
+    for (const elem of document.getElementsByClassName('prog-col')) {
+      (elem.classList.contains('dc-is-active') ? active : upcoming).push(elem)
+    }
+
+    activeCBox.addEventListener('click', e => {
+      if (upcomingCBox.checked) {
+        active.forEach(e => e.classList.toggle('d-none'))
+      } else {
+        e.preventDefault()
+      }
+    })
+
+    upcomingCBox.addEventListener('click', e => {
+      if (activeCBox.checked) {
+        upcoming.forEach(e => e.classList.toggle('d-none'))
+      } else {
+        e.preventDefault()
+      }
     })
   </script>
 </body>
