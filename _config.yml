@@ -43,7 +43,6 @@ collections_dir: content
 collections:
   programs:
     output: true
-    sort_by: end_date
   projects:
     output: true
     sort_by: date

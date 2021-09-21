@@ -18,18 +18,30 @@
 
   <section class="container mb-4" style="text-align: right;">
     <span class="me-2 fw-bold">Show status: </span>
-    <input class="form-check-input" type="checkbox" id="dc-active" checked>
-    <label class="form-check-label unselectable me-2" for="dc-active" unselectable="on">Active</label>
+    <span>
+      <input class="form-check-input" type="checkbox" id="dc-active" checked>
+      <label class="form-check-label unselectable me-2" for="dc-active" unselectable="on">Active</label>
+    </span>
+    <span>
+      <input class="form-check-input" type="checkbox" id="dc-upcoming" checked>
+      <label class="form-check-label unselectable" for="dc-upcoming" unselectable="on">Upcoming</label>
+    </span>
 
-    <input class="form-check-input" type="checkbox" id="dc-upcoming" checked>
-    <label class="form-check-label unselectable" for="dc-upcoming" unselectable="on">Upcoming</label>
   </section>
 
   <div class="programs content row justify-content-center">
-    {% for course in site.programs reversed %}
+    {% for course in site.programs %}
+    {% if course.is_diploma_course and course.start_date == nil %}
+    {% include program/dc-card.html course=course %}
+    {% endif %}
+    {% endfor %}
+
+    {% assign programs = site.programs | where: "start_date", "" | sort: "end_date" | reverse %}
+    {% for course in programs %}
     {% if course.is_diploma_course %}
     {% include program/dc-card.html course=course %}
 
+    {% comment %}
     <!-- <button class="diploma-course-header" data-bs-toggle="collapse"
       data-bs-target="#dp-course-{{ course.title | remove: ' ' | handle }}" aria-expanded="false"
       aria-controls="dp-course-{{ course.title | remove: ' ' | handle }}">
@@ -50,6 +62,7 @@
         <div>{{ course | markdownify }}</div>
       </div>
     </div> -->
+    {% endcomment %}
     {% endif %}
     {% endfor %}
   </div>
@@ -61,7 +74,11 @@
     const upcomingCBox = document.getElementById('dc-upcoming')
 
     for (const elem of document.getElementsByClassName('prog-col')) {
-      (elem.classList.contains('dc-is-active') ? active : upcoming).push(elem)
+      if (elem.classList.contains('dc-is-active')) {
+        active.push(elem)
+      } else if (elem.classList.contains('dc-upcoming')) {
+        upcoming.push(elem)
+      }
     }
 
     activeCBox.addEventListener('click', e => {
@@ -70,6 +87,8 @@
       } else {
         e.preventDefault()
       }
+
+      upcomingCBox.disabled = !activeCBox.checked
     })
 
     upcomingCBox.addEventListener('click', e => {
@@ -78,6 +97,8 @@
       } else {
         e.preventDefault()
       }
+
+      activeCBox.disabled = !upcomingCBox.checked
     })
   </script>
 </body>
