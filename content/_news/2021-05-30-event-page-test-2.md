@@ -1,11 +1,14 @@
 ---
-permalink: "/news/2021-05-30-event-page-test-2"
+permalink: "/news/2019/foundations-in-data-science"
 layout: events
 image: "/uploads/img/news/dlsu.jpg"
-title: One
-authors: Aldwin Mutia
-date: 2021-04-01
-news_body: Yes this is a test
+title: First Batch of Diploma Course
+authors: Admin
+date: 2019-12-11 00:00:00 +0800
+news_body: ''
 category: Blog
 
 ---
+This is a test article.
+
+The first batch of the Foundations of Data Science diploma course was completed on December 11, 2019.
