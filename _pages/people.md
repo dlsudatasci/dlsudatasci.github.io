@@ -55,7 +55,7 @@ sections:
   people_list:
   - image: "/uploads/img/people/mac-1.png"
     name: Macario Cordel, II, Ph.D.
-    rank: Institute Dean
+    rank: Executive Director
     department: Computer Technology
     website: https://www.dlsu.edu.ph/colleges/ccs/faculty-profile/?personnel=32742735838
   - image: "/uploads/briane_samson.jpg"
