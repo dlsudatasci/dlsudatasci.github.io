@@ -1,10 +1,11 @@
 ---
-permalink: /news/2021-05-30-event-page-test
+permalink: "/news/2021/09/intro-ml"
 layout: events
-image: /uploads/img/news/dlsu.jpg
-title: Event Page Test
-authors: Aldwin Mutia
-date: 2021-05-30
-news_body: Yes this is a test
+image: "/uploads/img/news/dlsu.jpg"
+title: Introduction to Machine Learning short course
+authors: Unisse Chua
+date: 2021-09-03T16:00:00Z
+news_body: Lorem ipsum!
 category: Blog
+
 ---
