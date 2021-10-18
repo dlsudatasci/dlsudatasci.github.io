@@ -1,5 +1,5 @@
 ---
-date: 2021-07-21 14:00:33 +0800
+date: 2021-07-21T14:00:33.000+08:00
 layout: news
 category:
 - Blog
@@ -7,6 +7,8 @@ title: DLSU and Megaworld officially launch the Dr. Andrew L. Tan Data Science I
 authors:
 - Admin
 image: "/uploads/img/logo/DSI-green-vertical.png"
+short_description: "<p>Just another short <strong>description.</strong></p>"
+read_more_link: ''
 
 ---
 # It's Official!
