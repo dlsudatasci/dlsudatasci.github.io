@@ -13,8 +13,10 @@ sections:
 - type: directory
   path: content/_news
   label: News
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - news
 - type: directory
   path: content/_publications
   label: Publications
