@@ -8,7 +8,7 @@ authors:
 - Admin
 image: "/uploads/img/logo/DSI-green-vertical.png"
 short_description: "<p>Just another short <strong>description.</strong></p>"
-read_more_link: ''
+read_more_link: https://google.com
 
 ---
 # It's Official!
