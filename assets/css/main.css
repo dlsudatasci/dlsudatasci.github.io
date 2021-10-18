@@ -952,9 +952,16 @@ img.rounded-top {
 }
 
 .event-title {
+  width: 100%;
   font-weight: 600;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .events-info h6 {
   display: inline;
   font-size: 14px;
