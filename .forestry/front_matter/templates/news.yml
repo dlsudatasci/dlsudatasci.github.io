@@ -43,3 +43,5 @@ fields:
   - Blog
   label: Category
   hidden: false
+pages:
+- content/_news/foundations-of-data-science-online-diploma-course-goes-live.md
