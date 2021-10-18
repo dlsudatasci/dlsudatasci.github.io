@@ -25,13 +25,20 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: layout
-  type: text
+- name: short_description
+  type: textarea
+  default: ''
   config:
     required: true
-  label: Layout
-  default: news
-  hidden: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Short Description
+- name: read_more_link
+  type: text
+  config:
+    required: false
+  label: '"Read More" Link'
 - name: image
   type: file
   config:
@@ -43,6 +50,13 @@ fields:
   - Blog
   label: Category
   hidden: false
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: news
+  hidden: true
 - name: permalink
   type: text
   config:
