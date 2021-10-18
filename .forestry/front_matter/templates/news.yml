@@ -43,6 +43,13 @@ fields:
   - Blog
   label: Category
   hidden: false
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  hidden: true
+  default: "/news/:year/:month/:day/:title"
 pages:
 - content/_news/dlsu-and-megaworld-officially-launch-the-dr.andrew-l.tan-data-science-institute.md
 - content/_news/foundations-of-data-science-online-diploma-course-goes-live.md

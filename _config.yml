@@ -53,6 +53,7 @@ collections:
   news:
     output: true
     sort_by: date
+    permalink: "/news/:name"
 # overrides previous default layout
 # Exclude from processing.
 # The following items will not be processed, by default.
