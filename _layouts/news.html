@@ -6,7 +6,7 @@
     {% include navbar.html %}
 
     <!-- BREADCRUMBS -->
-    <div>
+    <div class="mb-5">
       <div class="breadcrumbs-container container">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -28,11 +28,16 @@
 
       <div class="proj-info-container container">
         <h1 class="proj-title">{{ page.title }}</h1>
-        <h6 class="specific-event-authors">{{ page.authors }}</h6>
-        <h6 class="specific-event-date">{{ page.date }}</h6>
+        <h5 class="specific-event-date mt-4">{{ page.date | date: "%B %-d, %Y" }}</h5>
+        <pre>{{ page.short_description }}</pre>
+        <hr class="mb-4">
+        <p class="fst-italic">Published by {{ page.authors }}</p>
         <div class="event-description">
-          <p>{{ page.news_body }}</p>
+          <pre>{{ content }}</pre>
         </div>
+        {% if page.read_more_link %}
+        <a class="btn btn-success" href="{{ page.read_more_link }}" target="_blank" rel="noreferrer">Read More</a>
+        {% endif %}
       </div>
     </div>
 
