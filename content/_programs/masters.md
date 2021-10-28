@@ -16,6 +16,5 @@ is_active: false
 course_image: ''
 start_date: 
 end_date: 
-published: false
 
 ---
