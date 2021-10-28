@@ -5,8 +5,8 @@ title: Diploma Courses
 layout: diploma_courses
 permalink: "/programs/diploma-courses"
 description: "As artificial intelligence develops, business processes are also increasingly
-  automated. In order to harness data science, a new set of skillsets is required
-  of employees. But because of the rapid rise of data science, education institutions
+  automated. In order to harness data science, a new set of skills is required of
+  employees. But because of the rapid rise of data science, education institutions
   have lagged behind in providing the necessary skillsets among its students. A quick
   way to fill this gap is by upskilling current employees, so that they are able to
   do at least some basic analytics. \n"
