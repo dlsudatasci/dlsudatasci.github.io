@@ -12,7 +12,7 @@ carousel_container:
   description: Enrollment is now open
   link: http://dlsu.edu.ph/
 - bg: "/uploads/img/home/image1.jpg"
-  title: Third Item
+  title: Publication
   link: http://brianesamson.com
   description: One more item
 brief_description_section:
