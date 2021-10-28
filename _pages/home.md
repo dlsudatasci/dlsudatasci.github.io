@@ -7,7 +7,7 @@ active_carousel_container:
   description: We are a bunch of people who love data science.
   link: https://comet.dlsu.edu.ph
 carousel_container:
-- bg: "/uploads/img/home/image1.jpg"
+- bg: "/uploads/img/projects/datasci.jpg"
   title: Enroll now for A.Y 2021 - 2022
   description: Enrollment is now open
   link: http://dlsu.edu.ph/
