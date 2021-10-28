@@ -8,8 +8,8 @@ active_carousel_container:
   link: https://comet.dlsu.edu.ph
 carousel_container:
 - bg: "/uploads/img/home/image1.jpg"
-  title: Second Carousel Item
-  description: Just testing this out
+  title: Enroll now for A.Y 2021 - 2022
+  description: Enrollment is now open
   link: http://dlsu.edu.ph/
 - bg: "/uploads/img/home/image1.jpg"
   title: Third Item
