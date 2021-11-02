@@ -30,6 +30,5 @@ materials:
     journal = {Journal of Physics: Conference Series},
     }
 citations: []
-published: false
 
 ---
