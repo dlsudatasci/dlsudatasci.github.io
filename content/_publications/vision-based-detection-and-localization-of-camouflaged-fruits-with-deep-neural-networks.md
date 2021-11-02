@@ -37,6 +37,5 @@ materials:
     publisher={Springer Verlag}
     }
 citations: []
-published: false
 
 ---
