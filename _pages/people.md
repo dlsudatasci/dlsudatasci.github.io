@@ -53,6 +53,11 @@ sections:
   people_group: Steering Committee
 - template: people-list
   people_list:
+  - name: Elmer R. Magsino
+    image: "/uploads/elmer.jfif"
+    rank: Assistant Professor
+    department: Electronics And Communications Engineering
+    website: https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-communications-engineering/faculty-profile/?personnel=32742736074
   - image: "/uploads/img/people/mac-1.png"
     name: Macario Cordel, II, Ph.D.
     rank: Institute Dean
