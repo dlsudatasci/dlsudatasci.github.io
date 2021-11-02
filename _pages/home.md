@@ -12,10 +12,11 @@ carousel_container:
   title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
   description: A paper on an analysis on different music algorithms
   link: "/publication/2020-November-Music"
-- bg: "/uploads/img/home/image1.jpg"
-  title: Publication
-  link: http://brianesamson.com
-  description: One more item
+- bg: "/uploads/screenshot-2021-11-03-014818.png"
+  title: 'Juris2vec: Building Word Embeddings from Philippine Jurisprudence'
+  link: "/publication/2021-April-Juris2vec"
+  description: 'A study on the word embeddings of Philippine Supreme Court decisions,
+    resolutions, and opinions from 1901 through 2020. '
 brief_description_section:
   header: Dr. Andrew L. Tan Data Science Institute
   description: We are a team of interdisciplinary researchers that provides data curation
