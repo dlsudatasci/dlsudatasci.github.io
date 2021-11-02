@@ -8,10 +8,10 @@ active_carousel_container:
   description: A paper by Jinky G. Marcelo, Joel P. Ilao,  and Macario O. Cordel II
   link: "/publication/2020-September-camofruits"
 carousel_container:
-- bg: "/uploads/img/projects/datasci.jpg"
-  title: Enroll now for A.Y 2021 - 2022
-  description: Enrollment is now open
-  link: http://dlsu.edu.ph/
+- bg: "/uploads/music-pic.png"
+  title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
+  description: A paper on an analysis on different music algorithms
+  link: "/publication/2020-November-Music"
 - bg: "/uploads/img/home/image1.jpg"
   title: Publication
   link: http://brianesamson.com
