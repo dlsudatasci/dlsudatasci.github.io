@@ -2,10 +2,11 @@
 layout: home
 permalink: "/"
 active_carousel_container:
-  bg: "/uploads/img/home/machlearning.jpg"
-  title: Data Science Institute
-  description: We are a bunch of people who love data science.
-  link: https://comet.dlsu.edu.ph
+  bg: "/uploads/picture-of-fruit-research.png"
+  title: Vision-based Detection and Localization of Camouflaged Fruits with Deep Neural
+    Networks
+  description: A paper by Jinky G. Marcelo, Joel P. Ilao,  and Macario O. Cordel II
+  link: "/publication/2020-September-camofruits"
 carousel_container:
 - bg: "/uploads/img/projects/datasci.jpg"
   title: Enroll now for A.Y 2021 - 2022
