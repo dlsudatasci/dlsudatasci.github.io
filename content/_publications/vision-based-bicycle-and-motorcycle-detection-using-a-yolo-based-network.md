@@ -2,7 +2,7 @@
 layout: publication
 permalink: "/publication/2021-May-YOLO"
 date: 2021-11-03 01:28:30 +0800
-title: Vision-based bicycle and motorcycle detection using a {YOLO}-based Network
+title: Vision-based Bicycle And Motorcycle Detection Using A {YOLO}-based Network
 image_section:
 - image: "/uploads/screenshot-2021-11-03-013637.png"
 tags:
