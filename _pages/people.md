@@ -73,7 +73,7 @@ sections:
     department: Management Organization
     website: https://sites.google.com/site/benteehankeesite/home/about-me
     image: "/uploads/teehankee.JPG"
-  - name: Elmer R. Magsino
+  - name: Elmer Magsino
     image: "/uploads/elmer.png"
     rank: Assistant Professor
     department: Electronics And Communications Engineering
