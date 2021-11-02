@@ -2,11 +2,12 @@
 layout: home
 permalink: "/"
 active_carousel_container:
-  bg: "/uploads/picture-of-fruit-research.png"
-  title: Vision-based Detection and Localization of Camouflaged Fruits with Deep Neural
-    Networks
-  description: A paper by Jinky G. Marcelo, Joel P. Ilao,  and Macario O. Cordel II
-  link: "/publication/2020-September-camofruits"
+  bg: "/uploads/screenshot-2021-11-03-032920.png"
+  title: Using Machine Learning Approaches to Explore Non-Cognitive Variables Influencing
+    Reading Proficiency in English among Filipino Learners
+  description: 'A paper on predicting the high and low reading proficiency of Filipino
+    students. '
+  link: "/publication/2021-October-11-Machine_Learning "
 carousel_container:
 - bg: "/uploads/music-pic.png"
   title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
