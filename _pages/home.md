@@ -2,19 +2,22 @@
 layout: home
 permalink: "/"
 active_carousel_container:
-  bg: "/uploads/img/home/machlearning.jpg"
-  title: Data Science Institute
-  description: We are a bunch of people who love data science.
-  link: https://comet.dlsu.edu.ph
+  bg: "/uploads/screenshot-2021-11-03-032920.png"
+  title: Using Machine Learning Approaches to Explore Non-Cognitive Variables Influencing
+    Reading Proficiency in English among Filipino Learners
+  description: 'A paper on predicting the high and low reading proficiency of Filipino
+    students. '
+  link: "/publication/2021-October-11-Machine_Learning "
 carousel_container:
-- bg: "/uploads/img/home/image1.jpg"
-  title: Second Carousel Item
-  description: Just testing this out
-  link: http://dlsu.edu.ph/
-- bg: "/uploads/img/home/image1.jpg"
-  title: Third Item
-  link: http://brianesamson.com
-  description: One more item
+- bg: "/uploads/music-pic.png"
+  title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
+  description: A paper on an analysis on different music algorithms
+  link: "/publication/2020-November-Music"
+- bg: "/uploads/screenshot-2021-11-03-014818.png"
+  title: 'Juris2vec: Building Word Embeddings from Philippine Jurisprudence'
+  link: "/publication/2021-April-Juris2vec"
+  description: 'A study on the word embeddings of Philippine Supreme Court decisions,
+    resolutions, and opinions from 1901 through 2020. '
 brief_description_section:
   header: Dr. Andrew L. Tan Data Science Institute
   description: We are a team of interdisciplinary researchers that provides data curation

@@ -4,14 +4,17 @@ category:
 title: Diploma Courses
 layout: diploma_courses
 permalink: "/programs/diploma-courses"
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum
+description: "As artificial intelligence develops, business processes are also increasingly
+  automated. In order to harness data science, a new set of skills is required of
+  employees. But because of the rapid rise of data science, education institutions
+  have lagged behind in providing the necessary skillsets among its students. A quick
+  way to fill this gap is by upskilling current employees, so that they are able to
+  do at least some basic analytics. \n"
 is_diploma_course: false
 co_op: ''
 is_active: false
+course_image: ''
+start_date: 
+end_date: 
 
 ---

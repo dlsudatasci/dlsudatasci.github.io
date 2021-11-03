@@ -73,6 +73,11 @@ sections:
     department: Management Organization
     website: https://sites.google.com/site/benteehankeesite/home/about-me
     image: "/uploads/teehankee.JPG"
+  - name: Elmer Magsino
+    image: "/uploads/elmer.png"
+    rank: Assistant Professor
+    department: Electronics And Communications Engineering
+    website: https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-communications-engineering/faculty-profile/?personnel=32742736074
   - department: Software Technology
     website: ''
     name: Arren Matthew Antioquia

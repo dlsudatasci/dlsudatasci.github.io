@@ -4,15 +4,17 @@ category:
 title: Masters
 layout: program
 permalink: "/programs/masters"
-description: Pellentesque eget risus vehicula, cursus magna eget, sollicitudin neque.
-  Pellentesque vel orci erat. Vivamus in nisi nec lacus cursus mattis sed eget augue.
-  Aenean et porta nulla. In lacinia lobortis molestie. Curabitur mollis tempus eros
-  in ultrices. Morbi gravida, ex vitae pellentesque suscipit, nulla sapien mollis
-  lectus, sit amet faucibus ex justo vitae arcu. Donec efficitur vestibulum lacus,
-  vitae efficitur lectus blandit id.
+description: 'The MS in Data Science program serves to fulfill the needs of students
+  who face an initial career choice to meet the highly demanded data science skill
+  sets in the job market. Students who have extensive professional experience are
+  also given opportunities to change their career paths by developing foundational
+  data science skills. Students will be able to conduct original research in Data
+  Science through interaction with faculty and industry partners. '
 is_diploma_course: false
 co_op: ''
 is_active: false
-published: false
+course_image: ''
+start_date: 
+end_date: 
 
 ---

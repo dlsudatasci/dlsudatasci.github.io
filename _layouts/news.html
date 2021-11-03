@@ -5,34 +5,41 @@
   <body>
     {% include navbar.html %}
 
-    <div class="news-title">
-      <h1 class="text-uppercase">News and Events</h1>
-    </div>
+    <!-- BREADCRUMBS -->
+    <div class="mb-5">
+      <div class="breadcrumbs-container container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/news">News</a></li>
+            <!-- The active item will contain the short title of the news -->
+            <li class="breadcrumb-item active" aria-current="page">
+              {{ page.title }}
+            </li>
+          </ol>
+        </nav>
+      </div>
 
-    <!-- NEWS CARDS -->
-    <section class="events-section">
-      <div class="events-container container">
-        <div class="events-cards row">
-          {% for news in site.news %}
-          <div class="col-md-6 col-lg-3 events-card-container">
-            <a href="{{ news.permalink }}">
-              <div class="events-card">
-                <img src="{{ news.image }}" alt="{{ news.alt }}" />
-                <div class="events-info">
-                  <h6 class="event-date">
-                    <pre>{{ news.date | date_to_long_string }}</pre>
-                  </h6>
-                  <h6 class="event-category">{{ news.category }}</h6>
-                  <h5 class="event-title">{{ news.title }}</h5>
-                  <h6>{{ news.authors }}</h6>
-                </div>
-              </div>
-            </a>
-          </div>
-          {% endfor %}
+      <div class="event-img-container container">
+        <div class="event-img">
+          <img src="{{ page.image }}" alt="" />
         </div>
       </div>
-    </section>
+
+      <div class="proj-info-container container">
+        <h1 class="proj-title">{{ page.title }}</h1>
+        <h5 class="specific-event-date mt-4">{{ page.date | date: "%B %-d, %Y" }}</h5>
+        <pre>{{ page.short_description }}</pre>
+        <hr class="mb-4">
+        <p class="fst-italic">Published by {{ page.authors }}</p>
+        <div class="event-description">
+          <pre>{{ content }}</pre>
+        </div>
+        {% if page.read_more_link %}
+        <a class="btn btn-success" href="{{ page.read_more_link }}" target="_blank" rel="noreferrer">Read More</a>
+        {% endif %}
+      </div>
+    </div>
 
     {% include footer.html %}
   </body>

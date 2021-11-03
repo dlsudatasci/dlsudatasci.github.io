@@ -884,12 +884,6 @@ img.rounded-top {
   font-size: 14px;
 }
 
-.specific-event-authors {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
 .specific-event-date {
   font-size: 14px;
   margin-bottom: 30px;
@@ -958,9 +952,16 @@ img.rounded-top {
 }
 
 .event-title {
+  width: 100%;
   font-weight: 600;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .events-info h6 {
   display: inline;
   font-size: 14px;

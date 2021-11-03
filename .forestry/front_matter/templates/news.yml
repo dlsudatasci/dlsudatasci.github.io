@@ -1,53 +1,70 @@
 ---
-label: News Page Template
+label: News
 hide_body: false
+display_field: title
 fields:
-- name: header
+- name: title
   type: text
   config:
     required: false
-  label: Header
-  default: News and Events
-- name: news-item
-  type: field_group_list
-  fields:
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: Image
-  - name: type
-    type: text
-    config:
-      required: false
-    label: Type
-  - name: date
-    type: datetime
-    label: Date
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-      export_format: MM-DD-YYYY
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-  - name: authors
-    type: text
-    config:
-      required: false
-    label: Authors
-  - name: link
-    type: text
-    config:
-      required: false
-    label: Link
+  label: Title
+- name: authors
+  type: list
   config:
-    min: 
+    use_select: false
+    min: 1
     max: 
-    labelField: 
-  label: News Item
+  label: Authors
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: short_description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Short Description
+- name: read_more_link
+  type: text
+  config:
+    required: false
+  label: '"Read More" Link'
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: category
+  type: tag_list
+  default:
+  - Blog
+  label: Category
+  hidden: false
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  default: news
+  hidden: true
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Permalink
+  hidden: true
+  default: "/news/:year/:month/:day/:title"
+pages:
+- content/_news/dlsu-and-megaworld-officially-launch-the-dr.andrew-l.tan-data-science-institute.md
+- content/_news/dlsu-researchers-use-machine-learning-for-international-student-assessment.md
+- content/_news/foundations-of-data-science-online-diploma-course-goes-live.md

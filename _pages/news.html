@@ -1,0 +1,39 @@
+---
+permalink: '/news/'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="news-title">
+      <h1 class="text-uppercase">News and Events</h1>
+    </div>
+    <!-- NEWS CARDS -->
+    <section class="events-section">
+      <div class="events-container container">
+        <div class="events-cards row">
+          {% for news in site.news %}
+          <div class="col-md-6 col-lg-3 events-card-container">
+            <a href="{{ news.url }}">
+              <div class="events-card">
+                <img src="{{ news.image }}" alt="{{ news.title }}" />
+                <div class="events-info">
+                  <h6 class="event-date">
+                    <pre>{{ news.date | date_to_long_string }}</pre>
+                  </h6>
+                  <h6 class="event-category">{{ news.category }}</h6>
+                  <h5 class="event-title">{{ news.title }}</h5>
+                  <h6>{{ news.authors }}</h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>
