@@ -6,6 +6,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.is-clickable {
+  cursor: pointer !important;
+}
+
+.is-clickable * {
+  cursor: pointer !important;
+}
+
 .gray-bg {
   background-color: #f6f6f6 !important;
 }
