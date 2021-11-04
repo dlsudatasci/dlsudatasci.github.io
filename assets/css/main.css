@@ -6,6 +6,18 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.is-clickable {
+  cursor: pointer !important;
+}
+
+.is-clickable * {
+  cursor: pointer !important;
+}
+
+.gray-bg {
+  background-color: #f6f6f6 !important;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Mukta", sans-serif;
@@ -420,13 +432,6 @@ a.no-decoration {
   position: absolute;
   top: 0px;
   z-index: 1;
-}
-
-/* PARTNER AGENCIES */
-.partner-agencies-section {
-  background-color: #f6f6f6;
-  padding-top: 30px;
-  padding-bottom: 100px;
 }
 
 .partner-agencies-container h3 {
