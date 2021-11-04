@@ -29,11 +29,11 @@
       <div class="proj-info-container container">
         <h1 class="proj-title">{{ page.title }}</h1>
         <h5 class="specific-event-date mt-4">{{ page.date | date: "%B %-d, %Y" }}</h5>
-        <pre>{{ page.short_description }}</pre>
+        <p>{{ page.short_description }}</p>
         <hr class="mb-4">
         <p class="fst-italic">Published by {{ page.authors }}</p>
         <div class="event-description">
-          <pre>{{ content }}</pre>
+          <p>{{ content }}</p>
         </div>
         {% if page.read_more_link %}
         <a class="btn btn-success" href="{{ page.read_more_link }}" target="_blank" rel="noreferrer">Read More</a>
