@@ -7,7 +7,7 @@ active_carousel_container:
     Reading Proficiency in English among Filipino Learners
   description: 'A paper on predicting the high and low reading proficiency of Filipino
     students. '
-  link: "/publication/2021-October-11-Machine_Learning "
+  link: "/publication/2021-October-11-Machine"
 carousel_container:
 - bg: "/uploads/music-pic.png"
   title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
