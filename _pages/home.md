@@ -13,7 +13,7 @@ carousel_container:
   title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
   description: A paper on an analysis on different music algorithms
   link: "/publication/2020-November-Music"
-- bg: "/uploads/screenshot-2021-11-03-014818.png"
+- bg: "/uploads/juris2vec.png"
   title: 'Juris2vec: Building Word Embeddings from Philippine Jurisprudence'
   link: "/publication/2021-April-Juris2vec"
   description: 'A study on the word embeddings of Philippine Supreme Court decisions,

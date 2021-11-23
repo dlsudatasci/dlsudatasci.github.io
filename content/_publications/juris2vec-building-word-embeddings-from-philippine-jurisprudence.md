@@ -1,10 +1,10 @@
 ---
 layout: publication
 permalink: "/publication/2021-April-Juris2vec"
-date: 2021-11-03 01:42:46 +0800
+date: 2021-11-03T01:42:46.000+08:00
 title: 'Juris2vec: Building Word Embeddings from Philippine Jurisprudence'
 image_section:
-- image: "/uploads/screenshot-2021-11-03-014818.png"
+- image: "/uploads/juris2vec.png"
 tags:
 - gLoVe
 - word2vec
