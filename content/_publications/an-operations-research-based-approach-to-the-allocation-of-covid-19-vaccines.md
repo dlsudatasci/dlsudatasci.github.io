@@ -36,6 +36,5 @@ materials:
   pdf: "/uploads/013.pdf"
   bibtex: ''
 citations: []
-published: false
 
 ---
