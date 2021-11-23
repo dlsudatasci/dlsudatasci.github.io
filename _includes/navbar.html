@@ -28,8 +28,23 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
-             <a class="nav-link" href="/research" {% if page.url == "/research/" %} style="color: #00703C;" {% endif %}>Research</a>
+          <li class="nav-item dropdown">
+            <div class="nav-link">
+              <a href="/research" {% if page.url == "/research/" %} style="color: #00703C;" {% endif %}>Research</a>
+              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/programs/projects/" {% if page.url == "/programs/projects" %} style="color: #00703C;" {% endif %}>Projects</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/programs/publications" {% if page.url == "/programs/publications" %} style="color: #00703C;" {% endif %}>Publications</a></li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="/news" {% if page.url == "/news/" %} style="color: #00703C;" {% endif %}>News</a>
