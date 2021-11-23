@@ -124,17 +124,14 @@
     </div>
   </section>
 
-  <!-- PARTNER AGENCIES -->
-  <section class="partner-agencies-section">
+  <section class="gray-bg py-5">
     <div class="partner-agencies-container text-center container">
       <h3 class="text-uppercase">Partner Agencies</h3>
-      <div class="partner-agencies-cards row">
+      <div class="partner-agencies-cards mt-4">
         {% for partner in page.partners %}
-        <div class="col-sm-3 partner-agencies-card-container">
-          <a href="{{ partner.link }}">
-            <img src="{{ partner.logo }}" alt="{{ partner.alt }}" />
+          <a href="{{ partner.link }}" class="mx-3">
+            <img src="{{ partner.logo }}" alt="{{ partner.alt }}" style="height: 70px" />
           </a>
-        </div>
         {% endfor %}
       </div>
     </div>

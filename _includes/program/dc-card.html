@@ -13,7 +13,7 @@
   {% assign is_active = true %}
 {% endif %}
 
-<div class="col-11 col-sm-6 col-lg-4 col-xl-3 mb-4 prog-col {% if is_active %}dc-is-active{% endif %}">
+<div class="col-11 col-sm-6 col-lg-4 col-xl-3 mb-4 prog-col {% if is_active %}dc-is-active{% elsif is_upcoming %}dc-upcoming{% endif %}">
   <div class="prog-card d-flex flex-column">
     <img class="img-fluid rounded-top" src="{{ course.course_image }}" alt="{{ course.title }}" style="height: 153px;" />
     <p class="is-active-info ms-3 mt-3 mb-2">{% if is_active %}Active{% elsif is_upcoming %}Upcoming{% else %}Completed{% endif %}</p>

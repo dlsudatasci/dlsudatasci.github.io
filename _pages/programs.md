@@ -1,11 +1,9 @@
 ---
 title: Programs
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum
+description: The Institute offers a Minor in Data Science for current undergraduate
+  students of De La Salle University, preparing the students with the knowledge and
+  technical skills for data science in their respective fields. We also offer online
+  diploma courses for professionals who are looking to upskill in their current fields.
 layout: programs
 permalink: "/programs/"
 

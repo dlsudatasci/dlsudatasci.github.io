@@ -18,66 +18,96 @@
 
   <section class="container mb-4" style="text-align: right;">
     <span class="me-2 fw-bold">Show status: </span>
-    <input class="form-check-input" type="checkbox" id="dc-active" checked>
-    <label class="form-check-label unselectable me-2" for="dc-active" unselectable="on">Active</label>
-
-    <input class="form-check-input" type="checkbox" id="dc-upcoming" checked>
-    <label class="form-check-label unselectable" for="dc-upcoming" unselectable="on">Upcoming</label>
+    <span class="is-clickable unselectable">
+      <input class="form-check-input" type="checkbox" id="dc-active" checked>
+      <label class="form-check-label me-2" for="dc-active">Active</label>
+    </span>
+    <span class="is-clickable unselectable">
+      <input class="form-check-input" type="checkbox" id="dc-upcoming" checked>
+      <label class="form-check-label" for="dc-upcoming">Upcoming</label>
+    </span>
+    <span class="is-clickable unselectable">
+      <input class="form-check-input" type="checkbox" id="dc-completed" checked>
+      <label class="form-check-label" for="dc-completed">Completed</label>
+    </span>
   </section>
 
   <div class="programs content row justify-content-center">
-    {% for course in site.programs reversed %}
+    {% for course in site.programs %}
+    {% if course.is_diploma_course and course.start_date == nil %}
+    {% include program/dc-card.html course=course %}
+    {% endif %}
+    {% endfor %}
+
+    {% assign programs = site.programs | where: "start_date", "" | sort: "end_date" | reverse %}
+    {% for course in programs %}
     {% if course.is_diploma_course %}
     {% include program/dc-card.html course=course %}
 
-    <!-- <button class="diploma-course-header" data-bs-toggle="collapse"
-      data-bs-target="#dp-course-{{ course.title | remove: ' ' | handle }}" aria-expanded="false"
-      aria-controls="dp-course-{{ course.title | remove: ' ' | handle }}">
-      + {{ course.title }}
-    </button> -->
-    <!-- <div class="diploma-course-content">
-      <div class="collapse" id="dp-course-{{ course.title | remove: ' ' | handle }}">
-        {% if course.is_active %}
-        <div style="text-align: center; margin-bottom: 1.5rem;">
-          <h5>Dr. Andrew L. Tan Data Science Institute</h5>
-          <p>in cooperation with the</p>
-          <h5>{{ course.co_op }}</h5>
-          <p>cordially invites you to an online course on the</p>
-          <h5>{{ course.title }}</h5>
-        </div>
-        {% endif %}
-
-        <div>{{ course | markdownify }}</div>
-      </div>
-    </div> -->
     {% endif %}
     {% endfor %}
+    
+    <div class="container text-center mt-4 d-none" id="no-active-courses">
+      <h1>No Active Courses Yet</h1>
+    </div>
   </div>
 
   {% include footer.html %}
   <script>
-    const active = [], upcoming = []
+    const active = [], upcoming = [], completed = []
     const activeCBox = document.getElementById('dc-active')
     const upcomingCBox = document.getElementById('dc-upcoming')
+    const completedCbox = document.getElementById('dc-completed')
+    const noActive = document.getElementById('no-active-courses')
+
+    function displayNone() {
+      if (activeCBox.disabled && !active.length) {
+        noActive.classList.remove('d-none')
+      } else {
+        noActive.classList.add('d-none')
+      }
+    }
 
     for (const elem of document.getElementsByClassName('prog-col')) {
-      (elem.classList.contains('dc-is-active') ? active : upcoming).push(elem)
+      if (elem.classList.contains('dc-is-active')) {
+        active.push(elem)
+      } else if (elem.classList.contains('dc-upcoming')) {
+        upcoming.push(elem)
+      } else {
+        completed.push(elem)
+      }
     }
 
     activeCBox.addEventListener('click', e => {
-      if (upcomingCBox.checked) {
+      if (upcomingCBox.checked || completedCbox.checked) {
         active.forEach(e => e.classList.toggle('d-none'))
       } else {
         e.preventDefault()
       }
+      upcomingCBox.disabled = !activeCBox.checked && !completedCbox.checked
+      completedCbox.disabled = !activeCBox.checked && !upcomingCBox.checked
     })
 
     upcomingCBox.addEventListener('click', e => {
-      if (activeCBox.checked) {
+      if (activeCBox.checked || completedCbox.checked) {
         upcoming.forEach(e => e.classList.toggle('d-none'))
       } else {
         e.preventDefault()
       }
+      activeCBox.disabled = !upcomingCBox.checked && !completedCbox.checked
+      completedCbox.disabled = !activeCBox.checked && !upcomingCBox.checked
+      displayNone()
+    })
+
+    completedCbox.addEventListener('click', e => {
+      if (upcomingCBox.checked || activeCBox.checked) {
+        completed.forEach(e => e.classList.toggle('d-none'))
+      } else {
+        e.preventDefault()
+      }
+      activeCBox.disabled = !upcomingCBox.checked && !completedCbox.checked
+      upcomingCBox.disabled = !activeCBox.checked && !completedCbox.checked
+      displayNone()
     })
   </script>
 </body>

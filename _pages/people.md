@@ -55,7 +55,7 @@ sections:
   people_list:
   - image: "/uploads/img/people/mac-1.png"
     name: Macario Cordel, II, Ph.D.
-    rank: Institute Dean
+    rank: Executive Director
     department: Computer Technology
     website: https://www.dlsu.edu.ph/colleges/ccs/faculty-profile/?personnel=32742735838
   - image: "/uploads/briane_samson.jpg"
@@ -73,6 +73,11 @@ sections:
     department: Management Organization
     website: https://sites.google.com/site/benteehankeesite/home/about-me
     image: "/uploads/teehankee.JPG"
+  - name: Elmer Magsino
+    image: "/uploads/elmer.png"
+    rank: Assistant Professor
+    department: Electronics And Communications Engineering
+    website: https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-communications-engineering/faculty-profile/?personnel=32742736074
   - department: Software Technology
     website: ''
     name: Arren Matthew Antioquia
@@ -83,7 +88,7 @@ sections:
     rank: Assistant Professorial Lecturer
     department: Software Technology
     website: ''
-  - image: "/uploads/img/temp/blank1.png"
+  - image: "/uploads/jude_teves.jpg"
     name: Jude Michael Teves
     rank: Assistant Professorial Lecturer
     department: Software Technology
