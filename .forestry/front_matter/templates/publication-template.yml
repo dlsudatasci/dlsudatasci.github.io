@@ -100,6 +100,7 @@ fields:
     config:
       required: true
 pages:
+- content/_publications/an-operations-research-based-approach-to-the-allocation-of-covid-19-vaccines.md
 - content/_publications/analysis-of-the-co-authorship-network-of-filipino-researchers-in-deep-learning.md
 - content/_publications/blind-first-order-perspective-distortion-correction-using-parallel-convolutional-neural-networks.md
 - content/_publications/characterizing-the-som-feature-detectors-under-various-input-conditions.md
