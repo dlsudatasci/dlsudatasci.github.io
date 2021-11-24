@@ -19,6 +19,5 @@ co-proponents:
 - Dr. Charlie Sy
 partner_agencies: []
 website_url: https://dlsudatasci.github.io/covidapp/
-published: false
 
 ---
