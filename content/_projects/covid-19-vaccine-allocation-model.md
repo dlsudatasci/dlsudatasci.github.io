@@ -17,7 +17,8 @@ co-proponents:
 - Dr. John Frederick Tapia
 - Dr. Ador Torneo
 - Dr. Charlie Sy
-partner_agencies: []
+partner_agencies:
+- ALTDSI
 website_url: https://dlsudatasci.github.io/covidapp/
 
 ---
