@@ -4,14 +4,14 @@ image-section:
 - image: "/uploads/pisa.png"
 date: 
 title: PISA Reading Performance
-lead_proponent: Dr. Macario Cordel
+lead_proponent: Acd. Allan Bernardo
 co-proponents:
 - Gerald Dalan
 - Unisse Chua
 - Sashmir Yap
 - Jude Michael Teves
 - Prof. Rochelle Lucas
-- Acd. Allan Bernardo
+- Dr. Macario Cordel II
 partner_agencies: []
 website_url: http://pisavis.dlsu.edu.ph/
 published: false
