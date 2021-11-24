@@ -11,7 +11,8 @@ co-proponents:
 - Darlene Marpa
 - Winfred Villaluna
 - Unisse C. Chua
-partner_agencies: []
+partner_agencies:
+- COMET Lab
 website_url: https://comet.dlsu.edu.ph/riesgo-vis/
 
 ---
