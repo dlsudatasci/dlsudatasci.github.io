@@ -14,6 +14,5 @@ co-proponents:
 - Dr. Macario Cordel II
 partner_agencies: []
 website_url: http://pisavis.dlsu.edu.ph/
-published: false
 
 ---
