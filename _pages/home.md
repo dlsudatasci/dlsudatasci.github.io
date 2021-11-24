@@ -9,10 +9,10 @@ active_carousel_container:
     students. '
   link: "/publication/2021-October-11-Machine"
 carousel_container:
-- bg: "/uploads/music-pic.png"
-  title: Performance comparison of MVDR, MUSIC, and ESPRIT algorithms in signal classification
-  description: A paper on an analysis on different music algorithms
-  link: "/publication/2020-November-Music"
+- bg: "/uploads/screenshot-2021-11-24-015824.png"
+  title: An Operations Research-Based Approach to the Allocation of COVID-19 Vaccines
+  description: A paper on an analysis on the allocation of COVID-19 Vaccines
+  link: "/publication/2021-11-15-Covid"
 - bg: "/uploads/juris2vec.png"
   title: 'Juris2vec: Building Word Embeddings from Philippine Jurisprudence'
   link: "/publication/2021-April-Juris2vec"
