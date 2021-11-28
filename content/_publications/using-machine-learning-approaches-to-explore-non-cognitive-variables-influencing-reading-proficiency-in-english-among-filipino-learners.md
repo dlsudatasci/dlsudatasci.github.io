@@ -5,7 +5,7 @@ date: 2021-11-03T03:27:25.000+08:00
 title: Using Machine Learning Approaches to Explore Non-Cognitive Variables Influencing
   Reading Proficiency in English among Filipino Learners
 image_section:
-- image: "/uploads/screenshot-2021-11-03-032920.png"
+- image: "/uploads/screenshot-2021-11-29-025824.png"
 tags:
 - Machine Learning
 image_caption: ''
