@@ -12,19 +12,17 @@
 
     <div class="container proj">
       {% for project in site.projects reversed %}
-            <h2 class="text-uppercase text-center">Tools</h2>
+      <a href="/projects/{{ project.title | slugify }}" class="d-flex justify-content-between mb-3 no-decoration">
+        <div class="proj-item-details">
+          <h6>{{ project.lead_proponent }}</h6>
+          <h5 class="proj-item-title">{{ project.title }}</h5>
+          <h6 class="proj-date text-muted">{{ project.date | date: "%B %-d, %Y" }}</h6>
+        </div>
 
-          <a href="/projects/{{ project.title | slugify }}" class="d-flex justify-content-between mb-3 no-decoration">
-            <div class="proj-item-details">
-              <h6>{{ project.lead_proponent }}</h6>
-              <h5 class="proj-item-title">{{ project.title }}</h5>
-              <h6 class="proj-date text-muted">{{ project.date | date: "%B %-d, %Y" }}</h6>
-            </div>
-            <div>
-              <img src="{{ project.image-section[0].image }}" alt="{{ project.title }}" width="200px" height="134px">
-            </div>
-          </a>
-        
+        <div>
+          <img src="{{ project.image-section[0].image }}" alt="{{ project.title }}" width="200px" height="134px">
+        </div>
+      </a>
       {% endfor %}
     </div>
   </section>
