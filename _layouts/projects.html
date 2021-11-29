@@ -34,7 +34,7 @@
 
     <div class="container proj">
       {% for project in site.projects reversed %}
-      <a href="/projects/{{ project.title | slugify }}" class="d-flex justify-content-between mb-3 no-decoration">
+      <a href="/projects/{{ project[0].title | slugify }}" class="d-flex justify-content-between mb-3 no-decoration">
         <div class="proj-item-details">
           <h6>{{ project.lead_proponent }}</h6>
           <h5 class="proj-item-title">{{ project.title }}</h5>
