@@ -12,7 +12,7 @@
 
     <div class="container proj">
       {% for project in site.projects reversed %}
-        {% if(project.date > Date(11/23/2021)) {%}
+        {% if(project.title == "PISA Reading Performance")) {%}
           <a href="/projects/{{ project.title | slugify }}" class="d-flex justify-content-between mb-3 no-decoration">
             <div class="proj-item-details">
               <h6>{{ project.lead_proponent }}</h6>
