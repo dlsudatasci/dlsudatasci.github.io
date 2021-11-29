@@ -34,7 +34,6 @@
 
     <div class="container proj">
       {% for project in site.projects reversed %}
-        {% if(-1>0){ %}
           <a href="/projects/{{ project.title | slugify }}" class="d-flex justify-content-between mb-3 no-decoration">
             <div class="proj-item-details">
               <h6>{{ project.lead_proponent }}</h6>
@@ -46,7 +45,7 @@
               <img src="{{ project.image-section[0].image }}" alt="{{ project.title }}" width="200px" height="134px">
             </div>
           </a>
-        {%} %}
+
       {% endfor %}
     </div>
   </section>
