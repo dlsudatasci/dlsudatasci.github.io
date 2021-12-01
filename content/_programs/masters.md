@@ -32,3 +32,5 @@ The program also allows the student to choose three different tracks. The tracks
 * Big Data Analytics Track
 * Applied Machine Learning Track
 * Business Analytics and Business Intelligence Track
+
+## **FAQs**
