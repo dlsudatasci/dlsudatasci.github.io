@@ -11,7 +11,8 @@ short_description: "<p>Just another short <strong>description.</strong></p>"
 read_more_link: https://www.facebook.com/DLSU.Manila.100/posts/4363039473739854
 
 ---
-# ![](/uploads/224847900_4363038687073266_3307880295510412024_n.jpg)![](/uploads/224519883_4363038777073257_8426095537376001139_n.jpg)It's Official!
+
+# It's Official!
 
 DLSU launches Dr. Andrew L. Tan Data Science Institute
 
@@ -26,3 +27,5 @@ The ALTDSI will be situated in McKinley Hill Cyberpark in Bonifacio Global City,
 Aside from the signed MOA, there was an exchange of glass plaques between DLSU President Br. Raymundo Suplido FSC and Megaworld Corporation’s Chairman and CEO Dr. Andrew Tan to formalize the partnership.
 
 The event was witnessed by members of the DLSU Board of Trustees, administrators, guests from Megaworld Corporation, and DLSU personalities who had vital roles in sealing the initiative.
+
+![](/uploads/224847900_4363038687073266_3307880295510412024_n.jpg)  ![](/uploads/224519883_4363038777073257_8426095537376001139_n.jpg)
