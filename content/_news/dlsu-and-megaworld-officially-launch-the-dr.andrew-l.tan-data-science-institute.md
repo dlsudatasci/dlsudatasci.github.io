@@ -7,7 +7,8 @@ title: DLSU and Megaworld officially launch the Dr. Andrew L. Tan Data Science I
 authors:
 - Admin
 image: "/uploads/img/logo/DSI-green-vertical.png"
-short_description: "<p></p>"
+short_description: "<p>DLSU officially launches the Dr. Andrew L. Tan Data Science
+  Institute last July 21, 2021.</p>"
 read_more_link: https://www.facebook.com/DLSU.Manila.100/posts/4363039473739854
 
 ---
