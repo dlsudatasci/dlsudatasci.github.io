@@ -27,4 +27,8 @@ The MS In Data Science program takes up two years or more in completion. It has 
 * DATA204 Big Data and Scalable Computing
 * DATA290 Research Methods
 
-The program also allows the students 
+The program also allows the student to choose three different tracks. The tracks are as follows:
+
+* Big Data Analytics Track
+* Applied Machine Learning Track
+* Business Analytics and Business Intelligence Track
