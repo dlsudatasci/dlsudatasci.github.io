@@ -33,4 +33,26 @@ The program also allows the student to choose three different tracks. The tracks
 * Applied Machine Learning Track
 * Business Analytics and Business Intelligence Track
 
+The **Big Data Science** track focuses on honing the programming skills required for data engineers to extract, transform and load data from various sources to a unified and structured format for the data to be processed for analysis and machine learning later in the pipeline by the data scientists.
+
+The **Applied Machine Learning** track will allow students to dive deeper into understanding the different machine learning techniques and methods appropriate for domain-specific data mining problems and use cases.
+
+The **Business Analytics and Business Intelligence** track will focus both on technical knowledge and on various business applications to be able to properly communicate data solutions to the customers and to stakeholders.
+
 ## **FAQs**
+
+##### Are students required to take courses every semester?
+
+Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum 
+
+##### What can I expect regarding workload?
+
+ Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+
+##### Is there a minimum GPA for the program?
+
+ Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+
+##### Is there a process of waiving required courses?
+
+ Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
