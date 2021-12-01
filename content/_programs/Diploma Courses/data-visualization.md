@@ -5,7 +5,6 @@ is_active: false
 category:
 - diploma course
 is_diploma_course: true
-layout: ''
 description: ''
 course_image: "/uploads/img/temp/datavis.png"
 

@@ -1,7 +1,6 @@
 ---
 title: Foundations of Data Science
 description: ''
-layout: ''
 co_op: Center for Professional Development in Business
 category:
 - diploma course
