@@ -55,32 +55,40 @@ The following are the requirements when applying for admission:
 
 To be eligible for consideration to the MS in Data Science program, you must hold a Bachelor's degree from an accredited institution, which includes a minimum of four years of full-time study. Please be advised that admission to a program that is different from your undergraduate field of study may require the completion of prerequisite courses.
 
+### Study Plan for Students
+
+The two following tables show the proposed program of study for full-time and part-time students, respectively.
+
+![](/uploads/screenshot-2021-12-01-162036.png)  
+
+![](/uploads/screenshot-2021-12-01-162012.png)  
+
 ## **FAQs**
 
 ##### Are students required to take courses every semester?
 
-Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum 
+Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
 ##### What can I expect regarding workload?
 
- Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
 ##### Is there a minimum GPA for the program?
 
- Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
 ##### Is there a process of waiving required courses?
 
- Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
 ##### Where can I find important registration date?
 
-Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, 
+Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
 
 ##### Will most classes be offered at night, or on the weekends?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### What are the remedial courses I need to take?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
