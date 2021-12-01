@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 active_carousel_container:
-  bg: "/uploads/screenshot-2021-11-03-032920.png"
+  bg: "/uploads/screenshot-2021-11-29-025824.png"
   title: Using Machine Learning Approaches to Explore Non-Cognitive Variables Influencing
     Reading Proficiency in English among Filipino Learners
   description: 'A paper on predicting the high and low reading proficiency of Filipino
