@@ -59,7 +59,9 @@ To be eligible for consideration to the MS in Data Science program, you must hol
 
 The two following tables show the proposed program of study for full-time and part-time students, respectively.
 
-![](/uploads/screenshot-2021-12-01-225620.png)![](/uploads/screenshot-2021-12-01-225640.png)
+![](/uploads/screenshot-2021-12-01-225620.png)
+
+![](/uploads/screenshot-2021-12-01-225640.png)
 
 ## **FAQs**
 
