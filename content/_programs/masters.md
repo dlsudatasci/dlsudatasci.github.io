@@ -81,7 +81,7 @@ Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
 Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
-##### Where can I find important registration date?
+##### Where can I find important registration dates?
 
 Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
 
