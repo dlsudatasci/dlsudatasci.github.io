@@ -5,7 +5,6 @@ is_active: true
 category:
 - diploma course
 is_diploma_course: true
-layout: ''
 description: ''
 course_image: "/uploads/img/home/machlearning.jpg"
 start_date: 

@@ -1,7 +1,7 @@
 ---
 category:
 - programs
-title: Masters
+title: Master of Science in Data Science
 layout: program
 permalink: "/programs/masters"
 description: 'The MS in Data Science program serves to fulfill the needs of students
@@ -16,11 +16,12 @@ is_active: false
 course_image: ''
 start_date: 
 end_date: 
+published: false
 
 ---
 ### Program of Study
 
-The MS In Data Science program takes up two years or more in completion. It has 36 academic units, broken down into 18 units of core courses, 12 units of elective courses and 6 units of thesis. The core courses are as follows:
+The MS In Data Science program takes up to two years for full-time students or three years for part-time students. It has 36 academic units, broken down into 18 units of core courses, 12 units of elective courses and 6 units of thesis. The core courses are as follows:
 
 * DATA200 Principles of Data Science
 * DATA201 Data Visualization
@@ -35,7 +36,7 @@ The program also allows the student to choose three different tracks. The tracks
 * Applied Machine Learning Track
 * Business Analytics and Business Intelligence Track
 
-The **Big Data Science** track focuses on honing the programming skills required for data engineers to extract, transform and load data from various sources to a unified and structured format for the data to be processed for analysis and machine learning later in the pipeline by the data scientists.
+The **Big Data Analytics** track focuses on honing the programming skills required for data engineers to extract, transform and load data. Data that comes from various sources to a unified and structured format. A format that allows the data to be processed for analysis and machine learning later on in the pipeline by the data scientists.
 
 The **Applied Machine Learning** track will allow students to dive deeper into understanding the different machine learning techniques and methods appropriate for domain-specific data mining problems and use cases.
 
@@ -59,13 +60,13 @@ To be eligible for consideration to the MS in Data Science program, you must hol
 
 The two following tables show the proposed program of study for full-time and part-time students, respectively.
 
-![](/uploads/screenshot-2021-12-01-162036.png)  
+![](/uploads/screenshot-2021-12-01-225620.png)
 
-![](/uploads/screenshot-2021-12-01-162012.png)  
+![](/uploads/screenshot-2021-12-01-225640.png)
 
 ## **FAQs**
 
-##### Are students required to take courses every semester?
+##### Are students required to take courses every term?
 
 Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
@@ -81,7 +82,7 @@ Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
 Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
 
-##### Where can I find important registration date?
+##### Where can I find important registration dates?
 
 Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
 
@@ -95,36 +96,36 @@ Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip
 
 ##### Are international students accepted?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### Are there different requirements for international students?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### If I am denied admission can I apply again?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### Are scholarships available?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### Are paid teaching/research assistants available for students?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### What if I was accepted into the program but would like to defer my admission?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### How many failing subjects are allowed for a student?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### What is the maximum amount of time I am allowed to finish my degree?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
 ##### Can I take electives outside of my chosen track or degree?
 
-Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
