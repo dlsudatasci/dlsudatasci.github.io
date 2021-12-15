@@ -9,7 +9,6 @@ is_diploma_course: true
 co_op: School of Lifelong Learning
 start_date: 2022-02-12 00:00:00 +0800
 end_date: 2022-03-26 00:00:00 +0800
-published: false
 
 ---
 This 40-hour diploma course offers an in-depth understanding of the modern tools and techniques for improved business decision making by utilizing the knowledge assets of an enterprise. Specifically, classification, clustering, regression, association, decision trees and rules, and optimization concepts for both structured and unstructured data are discussed. Students will learn to use and design data analysis based solutions to real life business information problems. Specifically, below are the specific expected outcomes:
