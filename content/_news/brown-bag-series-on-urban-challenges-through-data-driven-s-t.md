@@ -1,7 +1,7 @@
 ---
 date: 2021-12-14 17:30:23 +0800
 category:
-- Blog
+- announcement
 layout: news
 permalink: "/news/:year/:month/:day/:title"
 title: 'Brown bag series: On Urban Challenges through Data-Driven S&T'
