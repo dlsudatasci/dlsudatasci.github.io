@@ -7,6 +7,10 @@ category:
 is_diploma_course: true
 description: ''
 course_image: "/uploads/img/temp/datavis.png"
+layout: ''
+start_date: 2021-11-01 00:00:00 +0800
+end_date: 
+published: false
 
 ---
 This short course is all about turning data into interpretable graphics. It covers the design and the creation of data visualizations based on available data and the required tasks. The course includes evaluation of visualization designs, including the choice of visual encoding and color.
