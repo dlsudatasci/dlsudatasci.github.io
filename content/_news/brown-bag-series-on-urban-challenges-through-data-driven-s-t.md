@@ -14,7 +14,6 @@ short_description: "<p>The Andrew L. Tan Science Institute presents the talk <st
   New York (CUNY-CCNY).</strong></p><p><br><br></p>"
 read_more_link: ''
 image: "/uploads/newt.png"
-published: false
 
 ---
 Data science and its applications can bring many benefits to the management of large urban environments and have the potential to inform both policy and administration of public services. However, the rapid increase in data generation capabilities, which leads to the so-called “big data”, has driven the research community to develop new means to efficiently collect, store, and connect data for making informed decisions. In this talk, I will present our recent efforts in tackling urban challenges at various stages of the analytic pipeline by leveraging novel engineering and big data techniques. Particularly, I will showcase our work through three real-world applications: (1) a “zero-cost” cloud-based solution for managing epidemic data; (2) assessing COVID-19’s effects on food access in NYC using mobility data; and (3) a data-driven dashboard for flood simulation, visualization, and decision support. I will also discuss our vision of the next-generation visual analytic applications, and how they can work together with data science to improve the societal impact
