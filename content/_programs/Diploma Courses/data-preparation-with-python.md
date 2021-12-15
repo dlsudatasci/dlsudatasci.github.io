@@ -8,7 +8,6 @@ is_diploma_course: true
 co_op: School of Lifelong Learning
 start_date: 2022-02-12 00:00:00 +0800
 end_date: 2022-03-12 00:00:00 +0800
-published: false
 
 ---
 This 24-hour introductory course is designed to provide students with the basic Python concepts, techniques, and tools necessary for preparing any type of data for deeper and complex analysis. This course will explain the importance of exploring and preparing data prior to data analysis. Once data has been acquired, specific characteristics about the data have to be understood to appreciate the data’s complexity and perform an informed analysis later. At the end of the course, the student is expected to have a fundamental knowledge of how data can be collected and prepared using Python in order to be used to gain insights in real-world applications.
