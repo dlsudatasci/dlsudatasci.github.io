@@ -65,5 +65,6 @@ fields:
   hidden: true
   default: "/news/:year/:month/:day/:title"
 pages:
+- content/_news/brown-bag-series-on-urban-challenges-through-data-driven-s-t.md
 - content/_news/dlsu-and-megaworld-officially-launch-the-dr.andrew-l.tan-data-science-institute.md
 - content/_news/dlsu-researchers-use-machine-learning-for-international-student-assessment.md
