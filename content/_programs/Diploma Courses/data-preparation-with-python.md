@@ -1,7 +1,7 @@
 ---
 layout: diploma_course
 category: []
-course_image: ''
+course_image: "/uploads/istockphoto-1319048433-170667a.jpg"
 title: Data Preparation with Python
 description: ''
 is_diploma_course: true
