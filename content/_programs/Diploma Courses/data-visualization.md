@@ -10,7 +10,6 @@ course_image: "/uploads/img/temp/datavis.png"
 layout: ''
 start_date: 2022-02-19 00:00:00 +0800
 end_date: 2022-04-02 00:00:00 +0800
-published: false
 
 ---
 This 40-hour diploma course is all about turning data into interpretable graphics. It covers the design and the creation of data visualizations based on available data and the required tasks. The course includes evaluation of visualization designs, from choosing colors and designing interactive visualizations.
