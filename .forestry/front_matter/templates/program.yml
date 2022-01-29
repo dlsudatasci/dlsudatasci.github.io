@@ -83,6 +83,11 @@ fields:
   showOnly:
     field: is_diploma_course
     value: true
+- name: registration_link
+  type: text
+  config:
+    required: false
+  label: Registration Link
 pages:
 - content/_programs/Diploma Courses/data-preparation-with-python.md
 - content/_programs/Diploma Courses/data-visualization.md
