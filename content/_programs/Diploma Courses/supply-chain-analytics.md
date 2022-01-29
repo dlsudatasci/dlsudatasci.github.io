@@ -9,6 +9,7 @@ is_diploma_course: true
 co_op: School of Lifelong Learning
 start_date: 2022-03-05 00:00:00 +0800
 end_date: 2022-05-14 00:00:00 +0800
+registration_link: https://forms.gle/rkQ3Qaq4pXqm3ceeA
 
 ---
 This 56-hour diploma course provides a broad introduction to the fields of supply chain management and data analytics. Students, by the end of the course, will have a better understanding of the role of supply chain management as well as how data analytics can help in the decision-making process. Each of the topics and concepts will be introduced by using actual problems and emphasizing the application of different data analytics techniques to solve the problems.
