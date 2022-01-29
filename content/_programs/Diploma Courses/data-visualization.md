@@ -7,7 +7,7 @@ category:
 is_diploma_course: true
 description: ''
 course_image: "/uploads/img/temp/datavis.png"
-layout: ''
+layout: program
 start_date: 2022-02-19 00:00:00 +0800
 end_date: 2022-04-02 00:00:00 +0800
 registration_link: https://forms.gle/RbxwQ529AyM1cWPp9

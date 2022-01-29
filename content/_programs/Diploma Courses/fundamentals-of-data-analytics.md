@@ -1,5 +1,5 @@
 ---
-layout: diploma_course
+layout: program
 category:
 - diploma course
 course_image: "/uploads/img/home/image1.jpg"

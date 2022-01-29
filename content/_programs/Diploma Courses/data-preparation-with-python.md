@@ -1,5 +1,5 @@
 ---
-layout: diploma_course
+layout: program
 category: []
 course_image: "/uploads/istockphoto-1319048433-170667a.jpg"
 title: Data Preparation with Python
