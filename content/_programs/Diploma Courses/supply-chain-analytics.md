@@ -23,9 +23,9 @@ This 56-hour diploma course provides a broad introduction to the fields of suppl
 * Planning and Managing Inventories
 * Designing and Planning Transportation Networks
 
-Schedule: March 5, 2022 to May 14, 2022
+Schedule [**here**](https://bit.ly/SupplyChainAnalytics2022 "Schedule")
 
-Registration [**here.**](https://forms.gle/rkQ3Qaq4pXqm3ceeA)
+Registration [**here**](https://forms.gle/rkQ3Qaq4pXqm3ceeA "Registration")
 
 **Webinar fees:**
 
