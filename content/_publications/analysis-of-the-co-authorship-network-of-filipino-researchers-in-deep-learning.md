@@ -1,24 +1,28 @@
 ---
-permalink: '/publication/2020-08-25-lao-fil-dl-network-psl'
-date: 2020-08-25 00:00:16 +0800
-layout: 'publication'
+permalink: "/publication/2020-08-25-lao-fil-dl-network-psl"
+date: 2020-08-25T00:00:16.000+08:00
+layout: publication
 tags:
-  - Philippines
-  - deep learning
-  - Filipino
-  - research productivity
-  - network analysis
-  - co-authorship
+- Philippines
+- deep learning
+- Filipino
+- research productivity
+- network analysis
+- co-authorship
 image_section:
-  - image: '/uploads/2020-08-25-lao-fil-dl-network-psl-1.png'
-image_caption: |-
-  [Left] The co-authorship network of Filipino researchers who have at least one (1) publication on deep learning. Each color represents their affiliation. The largest group of researchers come from De La Salle University (26.44%), comprised of engineering and computing researchers. The second largest group is from the University of the Philippines - Diliman with 15.71% of researchers. [Right] The top 10 cluster of researchers based on size. The biggest cluster is composed of researchers mostly from De La Salle University, working with researchers from the Technological University of the Philippines and University of Santo Tomas.
-
+- image: "/uploads/2020-08-25-lao-fil-dl-network-psl-1.png"
+image_caption: "[Left] The co-authorship network of Filipino researchers who have
+  at least one (1) publication on deep learning. Each color represents their affiliation.
+  The largest group of researchers come from De La Salle University (26.44%), comprised
+  of engineering and computing researchers. The second largest group is from the University
+  of the Philippines - Diliman with 15.71% of researchers. [Right] The top 10 cluster
+  of researchers based on size. The biggest cluster is composed of researchers mostly
+  from De La Salle University, working with researchers from the Technological University
+  of the Philippines and University of Santo Tomas."
 title: Analysis of the co-authorship network of Filipino researchers in deep learning
 authors: Angelyn R. Lao, Unisse C. Chua & Briane Paul V. Samson
-source: Center For Complexity & Emerging Technologies
-abstract:
-  Deep learning is an emerging field that attracts attention from various
+source: Philippine Science Letters
+abstract: Deep learning is an emerging field that attracts attention from various
   researchers to use in analyzing and understanding increasingly complex systems and
   phenomena. Crucial to the advancement of deep learning research in the Philippines,
   institutions need to understand its direction and reach out and work with other
@@ -35,7 +39,7 @@ abstract:
   to maintain productivity.
 materials:
   publishers_copy: https://comet.dlsu.edu.ph/papers/fil-dl-network
-  pdf: '/uploads/2020-08-25-lao-fil-dl-network-psl.pdf'
+  pdf: "/uploads/2020-08-25-lao-fil-dl-network-psl.pdf"
   bibtex: |-
     @article{LaoFilDLNetwork2020,
     title = {Analysis of the co-authorship network of Filipino researchers in deep learning},
@@ -50,9 +54,9 @@ materials:
     keywords = {co-authorship, network analysis, research productivity, Filipino, deep learning, Philippines}
     }
 citations:
-  - text:
-      'Lao, A.R., Chua, U.C. & Samson, B.P.V. (2020). Analysis of the co-authorship
-      network of Filipino researchers in deep learning. Philippine Science Letters,
-      13(2), 148–157. Retrieved from https://philsciletters.net/2020-148/ '
-    format: apa
+- text: 'Lao, A.R., Chua, U.C. & Samson, B.P.V. (2020). Analysis of the co-authorship
+    network of Filipino researchers in deep learning. Philippine Science Letters,
+    13(2), 148–157. Retrieved from https://philsciletters.net/2020-148/ '
+  format: apa
+
 ---
