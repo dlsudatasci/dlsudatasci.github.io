@@ -11,7 +11,7 @@ tags:
 image_caption: ''
 authors: Allan B. I. Bernardo, Macario O. Cordel II, Rochelle Irene G. Lucas, Jude
   Michael M. Teves, Sashmir A. Yap and Unisse C. Chua
-source: MDPI
+source: Education Sciences
 abstract: "Filipino students ranked last in reading proficiency among all countries/territories
   in the\nPISA 2018, with only 19% meeting the minimum (Level 2) standard. It is imperative
   to understand the range of factors that contribute to low reading proficiency, specifically
