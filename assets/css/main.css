@@ -1070,11 +1070,12 @@ img.rounded-top {
   font-size: x-small;
 }
 
-table, tr, td {
+table, tr, td, thead, th {
   border: 1px solid #333333;
   padding: 0.45em;
 }
 
 table {
   border-collapse: collapse;
+  margin-bottom: 1em;
 }
