@@ -14,57 +14,32 @@ is_active: false
 course_image: ''
 start_date: 
 end_date: 
+registration_link: ''
 
 ---
-The minor program needs to take the following courses equivalent to 12 units of coursework to complete the minor program:
+### Program Outcomes
 
-* Principles of Data Science
-* Data Visualization
-* Data Mining and Statistics
-* Introduction to Machine Learning
+By the end of the program, learners will be able to:
 
-Course description and schedule of course offering can be viewed [here](https://drive.google.com/file/d/1FDaDayD7_q7Y66ojUW6kAnkIK9V1K5oJ/view?usp=sharing).
+* Demonstrate their skills in data collection, processing, and visualization through 
+* Create and design multiple variations of visualization appropriate for the audience, task, and data using various visualization software and tools
+* 
 
-### Application
+### Course List
 
-_Wait for the Call for Application to the Minor in Data Science Program via DLSU Helpdesk Announcement (HDA)._
+| Course                                          | Units		|
+| ----------------------------------------------- | ----------- |
+| Principles of Data Science (DATA100)            | 3 units     |
+| Data Visualization (DATA101)                    | 3 units     |
+| Data Mining and Statistics (DATA102)            | 3 units     |
+| Introduction to Machine Learning (DATA103)      | 3 units     |
+| Total                                           | 12 units    |
 
-##### Requirements
+### Course Details
 
-* Online application form (see HDA)
-* Printed (as PDF) MLS grade
+### Schedule of Course Offerings
 
-##### Lodging Application
-
-* All applications must be sent to: [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph)
-* Attach the required documents. Filename convention:
-  * <IDnumber_mls>grade.pdf
-* Subject: _Minor in Data Science Application_
-* Deadline:
-  * Every 2nd Monday of Term 3 to 6th Monday of Term 3
-  * Monitor the University Helpdesk Announcement for the exact period
-* Notice of Application Approval
-  * Every 8th week of Term 3
-  * Monitor the University Helpdesk Announcement for the exact period
-
-##### Course Overlap Rules
+### Course Overlap Rules
 
 * A **maximum of one course** offered by other departments may be credited toward the Minor in Data Science, e.g. DATA103 Introduction to Machine Learning under Data Science Institute overlaps with MCLEARN Machine Learning under Software Technology Department.
 * A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
-
-### Completion
-
-##### Requirements to complete
-
-* All 4 courses passed and completed
-
-##### Process
-
-* Fill out the Minor in Data Science Completion form and obtain a signature from your home department chair.
-* Scan and email the completed form to [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph) with subject: _Minor in Data Science Completion_.
-* Once approved, the Minor in Data Science will appear in your DLSU Official Transcript of Records.
-
-##### Deadline
-
-* You must submit your Minor in Data Science Completion form on the consultation day of the Expected Graduation Term.
-* We will not accept forms submitted earlier than the term in which you expect to graduate, regardless of when you complete the requirements for the minor.
