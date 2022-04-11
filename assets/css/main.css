@@ -23,6 +23,16 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Mukta", sans-serif;
 }
 
+h1, h2, h3, 
+.h1, .h2, .h3 {
+  color: #00703c;
+}
+
+h4, h5, h6,
+.h4, .h5, .h6 {
+  color: #499471; 
+}
+
 p {
   text-align: justify;
 }
@@ -1058,4 +1068,13 @@ img.rounded-top {
 
 .text-xs {
   font-size: x-small;
+}
+
+table, tr, td {
+  border: 1px solid #333333;
+  padding: 0.45em;
+}
+
+table {
+  border-collapse: collapse;
 }
