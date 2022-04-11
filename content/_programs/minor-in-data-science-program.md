@@ -33,7 +33,7 @@ By the end of the program, learners will be able to:
 | Data Visualization (DATA101) | 3 units |
 | Data Mining and Statistics (DATA102) | 3 units |
 | Introduction to Machine Learning (DATA103) | 3 units |
-| Total | 12 units |
+| **Total** | **12 units** |
 
 ### Course Details
 
