@@ -17,6 +17,7 @@ course_image: ''
 start_date: 
 end_date: 
 published: false
+registration_link: ''
 
 ---
 ### Program of Study
@@ -60,23 +61,23 @@ To be eligible for consideration to the MS in Data Science program, you must hol
 
 The two following tables show the proposed program of study for full-time and part-time students, respectively.
 
-![](/uploads/screenshot-2021-12-01-225620.png)
+![](/uploads/fulltimemsds.png)
 
-![](/uploads/screenshot-2021-12-01-225640.png)
+![](/uploads/parttimemsds.png)
 
 ## **FAQs**
 
 ##### Are students required to take courses every term?
 
-Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+The core courses are offered seasonally and are scheduled as shown in the study plan tables. It is encouraged to take these core courses as indicated in your study plan.
 
 ##### What can I expect regarding workload?
 
-Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+A 3-unit course typically requires around 9 hours of work per week. This includes lecture, assignments, homework, coding, etc. 
 
 ##### Is there a minimum GPA for the program?
 
-Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum Lorem, ipsum
+There is no minimum GPA required for the admission to the program. However, GPA can be a good factor in the evaluation to determine the probability of finishing the program.
 
 ##### Is there a process of waiving required courses?
 
