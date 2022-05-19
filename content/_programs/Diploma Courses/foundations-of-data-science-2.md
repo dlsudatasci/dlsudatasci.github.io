@@ -9,8 +9,7 @@ is_active: true
 course_image: "/uploads/img/projects/datasci.jpg"
 start_date: 2022-08-05T16:00:00Z
 end_date: 2022-09-16T16:00:00Z
-layout: ''
-permalink: ''
+layout: program
 registration_link: ''
 
 ---

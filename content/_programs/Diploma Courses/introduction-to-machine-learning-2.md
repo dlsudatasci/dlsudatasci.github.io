@@ -9,8 +9,7 @@ description: ''
 course_image: "/uploads/img/home/machlearning.jpg"
 start_date: 2022-09-23T16:00:00Z
 end_date: 2022-11-04T16:00:00Z
-layout: ''
-permalink: ''
+layout: program
 registration_link: ''
 
 ---
