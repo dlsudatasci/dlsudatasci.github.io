@@ -29,14 +29,6 @@ fields:
   type: tag_list
   default: []
   label: Category
-- name: permalink
-  type: text
-  config:
-    required: false
-  label: Permalink
-  showOnly:
-    field: is_diploma_course
-    value: false
 - name: description
   type: textarea
   default: ''
