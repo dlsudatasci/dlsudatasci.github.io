@@ -3,7 +3,7 @@ layout: program
 category:
 - diploma course
 course_image: "/uploads/istockphoto-1319048433-170667a.jpg"
-title: Data Preparation with Python (Batch 2)
+title: Data Preparation with Python
 description: ''
 is_diploma_course: true
 co_op: School of Lifelong Learning
