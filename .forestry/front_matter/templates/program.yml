@@ -90,6 +90,7 @@ fields:
     required: false
   label: Registration Link
 pages:
+- content/_programs/Diploma Courses/data-preparation-with-python-batch-2.md
 - content/_programs/Diploma Courses/data-preparation-with-python.md
 - content/_programs/Diploma Courses/foundations-of-data-science-1.md
 - content/_programs/Diploma Courses/foundations-of-data-science-2.md
