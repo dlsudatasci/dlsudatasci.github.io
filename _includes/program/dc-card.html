@@ -23,8 +23,13 @@
     <p class="text-center pt-2 pb-1">{{ course.start_date | date: "%d %b %Y"}} - {{ course.end_date | date: "%d %b %Y"}}</p>
     {% endif %}
 
-    {% if is_upcoming and course.start_date %}
-    <a href="{{ course.url }}" target="_blank" class="btn btn-sm custom-btn my-3" style="width: 150px; margin: auto;">Enroll now</a>
-    {% endif %}
+    
+    <a href="{{ course.url }}" target="_blank" class="btn btn-sm custom-btn my-3" style="width: 150px; margin: auto;">
+			{% if is_upcoming and course.start_date %}
+			Enroll now
+			{% else %}
+			View Details
+			{% endif %}
+		</a>
   </div> 
 </div>
