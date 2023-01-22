@@ -1,0 +1,147 @@
+backend:
+  name: github
+  repo: dlsudatasci/dlsudatasci.github.io
+  branch: main
+  site_domain: dlsudatasci.netlify.app
+
+media_folder: 'uploads'
+public_folder: 'uploads'
+
+collections:
+  # - name: "blog" # Used in routes, e.g., /admin/collections/blog
+  #   label: "Blog" # Used in the UI
+  #   folder: "_posts" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "---" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields: # The fields for each document, usually in front matter
+  #       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+  #       - { label: "Author", name: "author", widget: "string" }
+  #       - { label: "Title", name: "title", widget: "string" }
+  #       - { label: "Publish Date", name: "date", widget: "datetime" }
+  #       - { label: "Featured Image", name: "thumbnail", widget: "image" }
+  #       - { label: "Category", name: "category", widget: "string", default: "jekyll" }
+  #       - { label: "Summary", name: "summary", widget: "string" }
+  #       - { label: "Body", name: "body", widget: "markdown" }
+  - name: 'news'
+    label: 'News'
+    folder: 'content/_news'
+    create: true
+    slug: 'title-MM-DD-YYYY.md'
+    fields:
+      - { name: 'date', label: 'Date', widget: 'string' }
+      - {
+          name: 'category',
+          label: 'Category',
+          widget: 'list',
+          default: ['other'],
+        }
+      # - { name: "layout", label: "Layout", widget: "string", default: "news" }
+      - {
+          name: 'author',
+          label: 'Author',
+          widget: 'list',
+          default: ['Dr. Andrew L. Tan Data Science Institute'],
+        }
+      - {
+          name: 'short_description',
+          label: 'Short Description',
+          widget: 'markdown',
+        }
+      - { name: 'read_more_link', label: 'Read More Link', widget: 'string' }
+      - { name: 'image', label: 'Cover Image', widget: 'string' }
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content/_posts'
+    create: true
+    slug: 'title-MM-DD-YYYY.md'
+    fields:
+      - { name: 'image', label: 'Cover Image', widget: 'string' }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - {
+          name: 'author',
+          label: 'Author',
+          widget: 'list',
+          default: ['Dr. Andrew L. Tan Data Science Institute'],
+        }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - { name: 'body', label: 'News Body', widget: 'markdown' }
+  - name: 'programs'
+    label: 'Programs'
+    folder: 'content/_programs'
+    create: true
+    slug: 'title.md'
+    fields:
+      - { name: 'category', label: 'Category', widget: 'string' }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'description', label: 'Description', widget: 'markdown' }
+      - {
+          name: 'is_diploma_course',
+          label: 'Diploma Course',
+          widget: 'boolean',
+        }
+      - { name: 'is_active', label: 'Active', widget: 'boolean' }
+      - { name: 'published', label: 'Published', widget: 'boolean' }
+      - { name: 'course_image', label: 'Course Image', widget: 'string' }
+      - { name: 'start_date', label: 'Start Date', widget: 'date' }
+      - { name: 'end_date', label: 'End Date', widget: 'date' }
+      - {
+          name: 'registration_link',
+          label: 'Registration Link',
+          widget: 'string',
+        }
+      - { name: 'body', label: 'Program Body', widget: 'markdown' }
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'content/_projects'
+    create: true
+    slug: 'title.md'
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - { name: 'lead_proponent', label: 'Lead Proponent', widget: 'string' }
+      - { name: 'co_proponents', label: 'Co-Proponents', widget: 'list' }
+      - { name: 'partner_agencies', label: 'Partner Agencies', widget: 'list' }
+      - { name: 'website_url', label: 'Project Website URL', widget: 'string' }
+      - {
+          name: 'image_section',
+          label: 'Images',
+          widget: 'list',
+          field: { label: 'Image', name: 'image', widget: 'image' },
+        }
+      - { name: 'body', label: 'Project Body', widget: 'markdown' }
+  - name: 'publications'
+    label: 'Publications'
+    folder: 'content/_publications'
+    create: true
+    slug: 'title.md'
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - {
+          name: 'image_section',
+          label: 'Images',
+          widget: 'list',
+          field: { label: 'Image', name: 'image', widget: 'image' },
+        }
+      - { name: 'tags', label: 'Tags', widget: 'list' }
+      - { name: 'image_caption', label: 'Image Caption', widget: 'string' }
+      - { name: 'authors', label: 'Authors', widget: 'list' }
+      - { name: 'source', label: 'Publication Source', widget: 'string' }
+      - { name: 'abstract', label: 'Abstract', widget: 'markdown' }
+      - {
+          name: 'materials',
+          label: 'Materials',
+          widget: 'object',
+          fields:
+            [
+              {
+                name: 'publishers_copy',
+                label: "Publisher's Copy",
+                widget: 'string',
+              },
+              { name: 'pdf', label: 'Viewable PDF', widget: 'file' },
+              { name: 'bibtex', label: 'BibTeX', widget: 'code' },
+            ],
+        }
+      - { name: 'citations', label: 'Citations', widget: 'list' }
+      - { name: 'body', label: 'Publication Body', widget: 'markdown' }
