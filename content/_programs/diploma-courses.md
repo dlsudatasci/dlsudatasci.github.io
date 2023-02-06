@@ -1,10 +1,11 @@
 ---
 category:
-- programs
+  - programs
 title: Diploma Courses
 layout: diploma_courses
-permalink: "/programs/diploma-courses"
-description: "As artificial intelligence develops, business processes are also increasingly
+permalink: '/programs/diploma-courses'
+description:
+  "As artificial intelligence develops, business processes are also increasingly
   automated. In order to harness data science, a new set of skills is required of
   employees. But because of the rapid rise of data science, education institutions
   have lagged behind in providing the necessary skillsets among its students. A quick
@@ -13,8 +14,6 @@ description: "As artificial intelligence develops, business processes are also i
 is_diploma_course: false
 co_op: ''
 is_active: false
-course_image: ''
-start_date: 
-end_date: 
-
+start_date:
+end_date:
 ---
