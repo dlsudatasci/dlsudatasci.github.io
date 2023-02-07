@@ -425,8 +425,18 @@ collections:
           widget: 'hidden',
           default: false,
         }
-      - { name: 'is_active', label: 'Active', widget: 'boolean' }
-      - { name: 'published', label: 'Published', widget: 'boolean' }
+      # - {
+      #     name: 'is_active',
+      #     label: 'Active',
+      #     widget: 'boolean',
+      #     required: false,
+      #   }
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          required: false,
+        }
       - {
           name: 'course_image',
           label: 'Course Image',
@@ -468,8 +478,18 @@ collections:
           widget: 'hidden',
           default: true,
         }
-      - { name: 'is_active', label: 'Active', widget: 'boolean' }
-      - { name: 'published', label: 'Published', widget: 'boolean' }
+      # - {
+      #     name: 'is_active',
+      #     label: 'Active',
+      #     widget: 'boolean',
+      #     required: false,
+      #   }
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          required: false,
+        }
       - {
           name: 'course_image',
           label: 'Course Image',
