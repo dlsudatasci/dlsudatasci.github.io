@@ -1,7 +1,7 @@
 /* IMPORTED OPEN SANS FONT FROM GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
 @font-face {
   font-family: 'Tropikal';
   src: url('/assets/fonts/tropikal-bold.otf') format('opentype');
@@ -249,30 +249,78 @@ a.no-decoration {
   margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #00703c;
+  background-color: #315645;
 }
 
 .program-desc {
   color: #fff;
+  width: 45%;
+  margin: auto;
 }
 
 .program-desc h3 {
   font-weight: 700;
   margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Tropikal';
+  font-size: 32px;
+}
+
+.program-desc p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
 }
 
 .prog-card {
-  background-color: #fff;
-  border-radius: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 100%;
+  align-items: center;
+  padding: 36px;
+  gap: 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
 .prog-card h4 {
-  font-weight: 700;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #315645;
+  align-items: center;
   text-align: center;
-  color: #00703c;
-  margin-bottom: 1rem;
+}
+
+.prog-card p {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #040404;
+}
+
+.prog-card-btn {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  border-color: #327346;
+  color: #327346;
+  min-width: 180px;
+  min-height: 40px;
+  border-radius: 5px !important;
+}
+
+.prog-card-btn:hover {
+  background-color: #315645 !important;
+  color: #efefef;
 }
 
 .is-active-info {

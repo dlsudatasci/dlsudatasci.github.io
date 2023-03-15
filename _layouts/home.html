@@ -84,16 +84,20 @@
     <!-- PROGRAMS -->
     <section class="programs-section">
       <div class="container">
-        <div class="program-desc text-center mb-5">
-          {% assign program = site.data.programs %}
-          <h3 class="text-uppercase">{{ program.header }}</h3>
-          <p class="mb-4">{{ program.description }}</p>
-        </div>
+        <div class="row">
+          <div class="col program-desc">
+            {% assign program = site.data.programs %}
+            <h3 class="text-uppercase">{{ program.header }}</h3>
+            <p class="mb-4">{{ program.description }}</p>
+          </div>
 
-        <div class="row justify-content-center">
-          {% for program in site.programs %} {% if program.is_diploma_course ==
-          false %} {% include program/card.html program=program %} {% endif %}
-          {% endfor %}
+          <div class="col">
+            <div class="row justify-content-center">
+              {% for program in site.programs %} {% if program.is_diploma_course
+              == false %} {% include program/card.html program=program %} {%
+              endif %} {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
     </section>
