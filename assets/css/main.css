@@ -1,6 +1,11 @@
 /* IMPORTED OPEN SANS FONT FROM GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@font-face {
+  font-family: 'Tropikal';
+  src: url('/assets/fonts/tropikal-bold.otf') format('opentype');
+}
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -18,19 +23,37 @@
   background-color: #f6f6f6 !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Mukta", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Mukta', sans-serif;
 }
 
-h1, h2, h3, 
-.h1, .h2, .h3 {
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
   color: #00703c;
 }
 
-h4, h5, h6,
-.h4, .h5, .h6 {
-  color: #499471; 
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  color: #499471;
 }
 
 p {
@@ -62,8 +85,10 @@ a.no-decoration {
 }
 
 .navbar-nav li a {
-  font-weight: 600;
-  color: #000 !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: small;
+  /* font-weight: 600; */
+  color: #315645 !important;
   text-decoration: none !important;
 }
 
@@ -92,7 +117,8 @@ a.no-decoration {
 }
 
 .dropdown-item {
-  font-size: 14px !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: small;
   margin-top: 6px !important;
   margin-bottom: 6px !important;
 }
@@ -100,11 +126,14 @@ a.no-decoration {
 .dropdown-divider {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 .dropdown-menu {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
+  border-radius: 0px !important;
 }
 
 /* ============ desktop view ============ */
@@ -122,12 +151,22 @@ a.no-decoration {
 
 /* CAROUSEL STYLE */
 .carousel-headline {
+  font-family: 'Tropikal';
   font-weight: 700;
+  font-size: 32px;
+  color: #efefef;
+  max-width: 80%;
+}
+
+.carousel-description {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  color: #efefef;
 }
 
 .carousel-item {
   height: 600px;
-  background: #777;
+  background: rgba(4, 4, 4, 0.8);
   color: white;
   position: relative;
 }
@@ -148,7 +187,7 @@ a.no-decoration {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0px 40px 50px 40px;
+  padding: 0px 80px 100px 20px;
 }
 
 .carousel-content {
@@ -156,25 +195,27 @@ a.no-decoration {
 }
 
 .carousel-btn {
-  border-radius: 50px !important;
-  background-color: #fff !important;
-  border: 2px #00703c !important;
+  min-width: 180px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  background-color: #327346 !important;
   font-size: 16px !important;
-  color: #00703c !important;
+  color: #efefef !important;
   font-weight: 600 !important;
 }
 
 .carousel-btn:hover {
-  background-color: #00703c !important;
+  background-color: #003f22 !important;
   color: #fff !important;
 }
 
 /* BRIEF DESCRIPTION */
 .brief-description-container {
-  margin: 40px 40px 30px 40px;
+  margin: 120px 40px 200px 40px;
 }
 
 .brief-description-container h1 {
+  font-family: 'Tropikal';
   font-weight: 700;
   color: #00703c;
   margin-bottom: 15px;
@@ -183,19 +224,23 @@ a.no-decoration {
 
 .brief-description-container p {
   margin-bottom: 25px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
 }
 
 .custom-btn {
-  border-radius: 50px !important;
-  background-color: #fff !important;
-  border: 2px solid #00703c !important;
+  min-width: 180px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  background-color: #327346 !important;
   font-size: 16px !important;
-  color: #00703c !important;
+  color: #efefef !important;
   font-weight: 600 !important;
 }
 
 .custom-btn:hover {
-  background-color: #00703c !important;
+  background-color: #003f22 !important;
   color: #fff !important;
 }
 
@@ -1070,7 +1115,11 @@ img.rounded-top {
   font-size: x-small;
 }
 
-table, tr, td, thead, th {
+table,
+tr,
+td,
+thead,
+th {
   border: 1px solid #333333;
   padding: 0.45em;
 }

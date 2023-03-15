@@ -3,7 +3,7 @@
     <div class="container">
       <a class="navbar-brand" aria-current="page" href="/">
         {% assign logo = site.data.logos.navbar_logo %}
-        <img src="{{ logo.img }}" height="60" alt="{{ logo.alt }}">
+        <img src="{{ logo.img }}" height="28" alt="{{ logo.alt }}">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,13 +47,19 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/news" {% if page.url == "/news/" %} style="color: #00703C;" {% endif %}>News</a>
+            <div class="nav-link">
+                <a href="/news" {% if page.url == "/news/" %} style="color: #00703C;" {% endif %}>News</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about" {% if page.url == "/about/" %} style="color: #00703C;" {% endif %}> About</a>
+            <div class="nav-link">
+                <a href="/about" {% if page.url == "/about/" %} style="color: #00703C;" {% endif %}> About</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/people" {% if page.url == "/people/" %} style="color: #00703C;" {% endif %}>People</a>
+            <div class="nav-link">
+                <a href="/people" {% if page.url == "/people/" %} style="color: #00703C;" {% endif %}>People</a>
+            </div>
           </li>
         </ul>
       </div>
