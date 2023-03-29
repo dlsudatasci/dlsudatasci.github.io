@@ -105,10 +105,10 @@
     <!-- NEWS -->
     <section class="news-section">
       <div class="news-container container">
-        <h3 class="text-uppercase text-center">News</h3>
-        <div class="news-cards row">
+        <h3 class="col">News</h3>
+        <div class="news-cards-container col">
           {% for news in site.news limit:3 %}
-          <div class="col-md-4 news-card-container">
+          <div class="col-md-6 news-card-container">
             <a href="{{ news.permalink }}">
               <div class="news-card">
                 <h5>{{ news.title }}</h5>
