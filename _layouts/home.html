@@ -124,15 +124,17 @@
 
     <!-- RECENT PROJECTS -->
     <section class="recent-projects-section">
-      <div class="recent-projects-container text-center container">
-        <h3 class="text-uppercase">Recent projects</h3>
+      <div class="recent-projects-container container">
+        <div class="recent-projects-header-container container">
+          <h3>What We've Been Doing</h3>
+          <a href="/projects" class="btn btn-md view-all-btn"
+            >View All Projects</a
+          >
+        </div>
         <div class="row justify-content-center">
           {% for project in site.projects reversed limit:3 %} {% include
           project/card.html project=project %} {% endfor %}
         </div>
-        <a href="/projects" class="btn btn-md view-all-btn custom-btn"
-          >View all</a
-        >
       </div>
     </section>
 

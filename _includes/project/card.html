@@ -1,9 +1,12 @@
-<a href="/projects/{{ project.title | slugify }}" class="col-11 col-lg-4 mb-4"
-  style="text-decoration: none; margin-bottom: 0;">
+<a
+  href="/projects/{{ project.title | slugify }}"
+  class="col-11 col-lg-4 mb-4"
+  style="text-decoration: none; margin-bottom: 0"
+>
   <div class="research-projects-card d-flex flex-column">
-    <img class="img-fluid rounded-top" src="{{ project.image-section[0].image }}" alt="" />
-    <div class="research-projects-card-content d-flex align-items-center justify-content-center">
-      <h5>{{ project.title }}</h5>
-    </div>
+    <img src="{{ project.image-section[0].image }}" alt="" />
+    <!-- <div class="research-projects-card-content d-flex align-items-center justify-content-center"> -->
+    <h5>{{ project.title }}</h5>
+    <!-- </div> -->
   </div>
 </a>
