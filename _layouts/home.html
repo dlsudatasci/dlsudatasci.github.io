@@ -109,7 +109,7 @@
         <div class="news-cards-container col">
           {% for news in site.news limit:3 %}
           <div class="col-md-6 news-card-container">
-            <a href="{{ news.permalink }}">
+            <a href="{{ news.url }}">
               <div class="news-card">
                 <h5>{{ news.title }}</h5>
                 <h6>{{ news.date | date_to_long_string }}</h6>
@@ -144,17 +144,19 @@
       <div class="hp-publications-container text-center container">
         <div class="pub-desc">
           {% assign publication = site.data.publications %}
-          <h3 class="text-uppercase">{{ publication.header }}</h3>
-          <p>{{ publication.description }}</p>
+          <h3>{{ publication.header }}</h3>
+          <!-- <p>{{ publication.description }}</p> -->
         </div>
 
         {% include publication/cards-3.html %}
 
-        <a href="/publications" class="btn btn-md view-all-btn custom-btn"
-          >View all</a
+        <a href="/publications" class="btn btn-md view-all-btn"
+          >View All Publications</a
         >
       </div>
     </section>
+
+    <!-- PARTNERS -->
 
     <section class="gray-bg py-5">
       <div class="partner-agencies-container text-center container">

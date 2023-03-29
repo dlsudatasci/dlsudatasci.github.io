@@ -327,6 +327,10 @@ a.no-decoration {
   background-color: #315645 !important;
   color: #efefef;
 }
+.prog-card-btn:hover {
+  background-color: #315645 !important;
+  color: #efefef;
+}
 
 .is-active-info {
   background-color: #00703c;
@@ -488,7 +492,7 @@ a.no-decoration {
 .hp-publications-card,
 .publications-card {
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: center;
   margin: 15px 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -527,6 +531,11 @@ a.no-decoration {
   border-radius: 5px !important;
 }
 
+.view-all-btn:hover {
+  background-color: #315645 !important;
+  color: #efefef;
+}
+
 /* PUBLICATIONS */
 .hp-publications-section {
   padding-top: 30px;
@@ -537,8 +546,13 @@ a.no-decoration {
 
 .hp-publications-container,
 .publications-container {
+  border-radius: 5px;
   position: relative;
   z-index: 2;
+}
+
+.publications-card-container {
+  height: 500px;
 }
 
 .hp-publications-card-container a,
@@ -556,9 +570,14 @@ a.no-decoration {
 
 .pub-desc h3,
 .publication-desc h3 {
+  font-family: 'Tropikal';
+  font-style: normal;
   font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #e3ece6;
   margin-bottom: 20px;
-  color: #fff;
+  margin-top: 40px;
 }
 
 .pub-desc p,
@@ -568,25 +587,45 @@ a.no-decoration {
 
 .hp-publications-card-content,
 .publications-card-content {
-  height: auto;
+  height: 100%;
   border-top: 2px solid #f6f6f6;
+  border-radius: 5px !important;
   padding: 10px 18px;
 }
 
 .hp-publications-card-content h5,
 .publications-card-content h5 {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #315645;
+  margin: 0 20px 20px 20px;
+  height: 78px;
+}
+
+.publications-card-content p {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #040404;
+  margin: 10px;
 }
 
 .hp-publications-card img,
 .publications-card img {
   width: 100%;
-  height: 250px;
+  height: 150px;
   object-fit: cover;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .pub-resources ul {
@@ -608,7 +647,7 @@ a.no-decoration {
 
 .pub-white-space,
 .publication-green {
-  background-color: #00703c;
+  background-color: #315645;
   height: 456px;
   width: 100%;
   position: absolute;
@@ -636,10 +675,11 @@ a.no-decoration {
 
 /* FOOTER */
 .footer {
-  background-color: #00703c;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: #315645;
+  color: #efefef;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  padding: 80px 0px 120px;
 }
 
 .footer-logos img {
@@ -649,6 +689,7 @@ a.no-decoration {
 
 .footer-card h5 {
   font-weight: 700;
+  color: #efefef;
 }
 
 .footer p {
@@ -919,6 +960,7 @@ img.rounded-top {
   align-items: flex-end;
   color: #efefef;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* max-height: 78px; */
   /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -945,6 +987,7 @@ img.rounded-top {
 }
 
 .research-publications-section {
+  background-color: #315645;
   padding-top: 30px;
   padding-bottom: 50px;
   position: relative;
