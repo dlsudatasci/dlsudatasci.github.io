@@ -15,16 +15,29 @@
         <div class="person-cards row justify-content-center">
           {% for person in group.people_list %}
           <div class="col-6 col-md-3 person-card-container">
-            <a href="{{ person.website }}">
-              <div class="person-card">
-                <img src="{{ person.image }}" alt="" />
-                <div class="person-details">
-                  <h5>{{ person.name }}</h5>
-                  <h6>{{ person.rank }}</h6>
-                  <h6>{{ person.department }}</h6>
-                </div>
+            <div class="person-card">
+              <img src="{{ person.image }}" alt="" />
+              <div class="col person-details">
+                <h5>{{ person.name }}</h5>
+                <h6>{{ person.rank }}</h6>
+                <h6>{{ person.department }}</h6>
+                <!-- {% if person.research_topic %}
+                <p>{{ person.research_topic }}</p> -->
+                <!-- {% endif %}  -->
+                {% if person.supervisor %}
+                <p class="text-center">
+                  Supervisor: <b>{{ person.supervisor }}</b>
+                </p>
+                {% endif %} {% if person.website %}
+                <a href="{{ person.website }}">Website</a>
+                {% endif %} {% if person.email %} |
+                <a href="mailto:{{ person.email }}">Email</a> {% endif %} {% if
+                person.linkedin %} |
+                <a href="{{ person.linkedin }}">Linked-In</a> {% endif %} {% if
+                person.github %} | <a href="{{ person.github }}">GitHub</a>
+                {% endif %}
               </div>
-            </a>
+            </div>
           </div>
           {% endfor %}
         </div>

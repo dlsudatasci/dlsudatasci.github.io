@@ -799,13 +799,21 @@ a.no-decoration {
 /* PEOPLE */
 .people-title,
 .news-title {
-  background-color: #00703c;
+  background-color: #315645;
   margin-top: 78px;
   padding-top: 15px;
   padding-bottom: 15px;
   color: #fff;
   font-weight: 700;
   text-align: center;
+}
+
+.people-title h1 {
+  font-family: 'Tropikal';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
 }
 
 .person-card-container img {
@@ -817,10 +825,43 @@ a.no-decoration {
 
 .person-card {
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
+}
+
+.person-card h5 {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #315645;
+}
+
+.person-card h6 {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.person-card p,
+a {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.person-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* max-width: 156px; */
+  height: 300px;
 }
 
 .steering-section,
@@ -836,6 +877,7 @@ a.no-decoration {
 .steering-section h3,
 .faculty-section h3,
 .admin-section h3 {
+  font-family: 'Tropikal';
   margin-bottom: 25px;
   font-weight: 700;
   color: #00703c;
@@ -852,7 +894,7 @@ a.no-decoration {
 
 .person-details {
   padding: 5px 10px;
-  height: 160px;
+  height: 180px;
 }
 
 .person-details h5 {
