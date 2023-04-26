@@ -1,10 +1,11 @@
 ---
 category:
-- programs
+  - programs
 title: Master of Science in Data Science
-layout: program
-permalink: "/programs/masters"
-description: 'The MS in Data Science program serves to fulfill the needs of students
+layout: under_construction
+permalink: '/programs/masters'
+description:
+  'The MS in Data Science program serves to fulfill the needs of students
   who face an initial career choice to meet the highly demanded data science skill
   sets in the job market. Students who have extensive professional experience are
   also given opportunities to change their career paths by developing foundational
@@ -14,28 +15,28 @@ is_diploma_course: false
 co_op: ''
 is_active: false
 course_image: ''
-start_date: 
-end_date: 
+start_date:
+end_date:
 published: false
 registration_link: ''
-
 ---
+
 ### Program of Study
 
 The MS In Data Science program takes up to two years for full-time students or three years for part-time students. It has 36 academic units, broken down into 18 units of core courses, 12 units of elective courses and 6 units of thesis. The core courses are as follows:
 
-* DATA200 Principles of Data Science
-* DATA201 Data Visualization
-* DATA202 Data Governance, Ethics and Privacy
-* DATA203 Machine Learning for Data Science
-* DATA204 Big Data and Scalable Computing
-* DATA290 Research Methods
+- DATA200 Principles of Data Science
+- DATA201 Data Visualization
+- DATA202 Data Governance, Ethics and Privacy
+- DATA203 Machine Learning for Data Science
+- DATA204 Big Data and Scalable Computing
+- DATA290 Research Methods
 
 The program also allows the student to choose three different tracks. The tracks are as follows:
 
-* Big Data Analytics Track
-* Applied Machine Learning Track
-* Business Analytics and Business Intelligence Track
+- Big Data Analytics Track
+- Applied Machine Learning Track
+- Business Analytics and Business Intelligence Track
 
 The **Big Data Analytics** track focuses on honing the programming skills required for data engineers to extract, transform and load data. Data that comes from various sources to a unified and structured format. A format that allows the data to be processed for analysis and machine learning later on in the pipeline by the data scientists.
 
@@ -49,11 +50,11 @@ MS in Data Science students who complete certain courses with a minimum of 12 un
 
 The following are the requirements when applying for admission:
 
-* Application Form
-* True Copy of Grades or Transcript of Records
-* Letters of Recommendation
-* Qualifying Examination
-* English Language Proficiency Test for non-English speakers
+- Application Form
+- True Copy of Grades or Transcript of Records
+- Letters of Recommendation
+- Qualifying Examination
+- English Language Proficiency Test for non-English speakers
 
 To be eligible for consideration to the MS in Data Science program, you must hold a Bachelor's degree from an accredited institution, which includes a minimum of four years of full-time study. Please be advised that admission to a program that is different from your undergraduate field of study may require the completion of prerequisite courses.
 
@@ -73,7 +74,7 @@ The core courses are offered seasonally and are scheduled as shown in the study 
 
 ##### What can I expect regarding workload?
 
-A 3-unit course typically requires around 9 hours of work per week. This includes lecture, assignments, homework, coding, etc. 
+A 3-unit course typically requires around 9 hours of work per week. This includes lecture, assignments, homework, coding, etc.
 
 ##### Is there a minimum GPA for the program?
 

@@ -1384,3 +1384,34 @@ table {
   border-collapse: collapse;
   margin-bottom: 1em;
 }
+
+/* CONSTRUCTION */
+
+.construction-body {
+  background-color: #f6f6f6;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.construction-body h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: 'Tropikal';
+}
+
+.construction-body h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: 'IBM Plex Sans';
+}
+
+.construction-body img {
+  width: 40%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}

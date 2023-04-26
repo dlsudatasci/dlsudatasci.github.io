@@ -1,10 +1,11 @@
 ---
 category:
-- programs
+  - programs
 title: PhD
-layout: program
-permalink: "/programs/phd"
-description: Pellentesque eget risus vehicula, cursus magna eget, sollicitudin neque.
+layout: under_construction
+permalink: '/programs/phd'
+description:
+  Pellentesque eget risus vehicula, cursus magna eget, sollicitudin neque.
   Pellentesque vel orci erat. Vivamus in nisi nec lacus cursus mattis sed eget augue.
   Aenean et porta nulla. In lacinia lobortis molestie. Curabitur mollis tempus eros
   in ultrices. Morbi gravida, ex vitae pellentesque suscipit, nulla sapien mollis
@@ -14,5 +15,4 @@ is_diploma_course: false
 co_op: ''
 is_active: false
 published: false
-
 ---

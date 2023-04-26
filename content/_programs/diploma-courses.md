@@ -2,7 +2,7 @@
 category:
   - programs
 title: Diploma Courses
-layout: diploma_courses
+layout: under_construction
 permalink: '/programs/diploma-courses'
 description:
   "As artificial intelligence develops, business processes are also increasingly
