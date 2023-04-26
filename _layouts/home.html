@@ -123,7 +123,7 @@
     </section>
 
     <!-- RECENT PROJECTS -->
-    <section class="recent-projects-section">
+    <!-- <section class="recent-projects-section">
       <div class="recent-projects-container container">
         <div class="recent-projects-header-container container">
           <h3>What We've Been Doing</h3>
@@ -132,11 +132,13 @@
           >
         </div>
         <div class="row justify-content-center">
+            {% comment %}
           {% for project in site.projects reversed limit:3 %} {% include
           project/card.html project=project %} {% endfor %}
+          {% endcomment %}
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- PUBLICATIONS -->
     <section class="hp-publications-section">
