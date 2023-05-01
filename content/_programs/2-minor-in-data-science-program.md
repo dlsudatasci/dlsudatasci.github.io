@@ -48,12 +48,12 @@ By the end of the program, learners will be able to:
 
 ### Course List
 
-| Course                                     | Units        |
-| ------------------------------------------ | ------------ |
-| Principles of Data Science (DATA100)       | 3 units      |
-| Data Visualization (DATA101)               | 3 units      |
-| Data Mining and Statistics (DATA102)       | 3 units      |
-| Introduction to Machine Learning (DATA103) | 3 units      |
+| Course                                     | Units        | A.Y. 2023-2024 Offering Schedule |
+| ------------------------------------------ | ------------ | -------------------------------- |
+| Principles of Data Science (DATA100)       | 3 units      | Terms 1 and 3                    |
+| Data Visualization (DATA101)               | 3 units      | Term 2                           |
+| Data Mining and Statistics (DATA102)       | 3 units      | Term 3                           |
+| Introduction to Machine Learning (DATA103) | 3 units      | Term 1                           |
 | **Total**                                  | **12 units** |
 
 ### Course Details
@@ -79,3 +79,25 @@ This course studies algorithms and computational paradigms that allow computers 
 _Pre-requisite: DATA100_
 
 Machine learning is the automatic induction of new information from large amounts of data to make predictions or decisions without human intervention. This course introduces the students to a broad cross-section of models and algorithms for machine learning, and equips them with skills to discover new information from volumes of data. Data mining and machine learning have overlapping algorithms and methods, but they focus on different things: data mining focuses on finding patterns while machine learning focuses on predictive models.
+
+### Frequently Asked Questions (FAQs)
+
+**What are the requirements to complete the minor program?**
+
+Students must get a passing grade in all of the courses, i.e., DATA100, DATA101, DATA102, and DATA103, to complete the minor program.
+
+**May I take more than one course per term?**
+
+Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses, i.e., DATA101, DATA102, and DATA103.
+
+**May I apply to credit an equivalent course towards the minor program?**
+
+A maximum of one course offered by other departments may be credited toward the Minor in Data Science, e.g. DATA103 Introduction to Machine Learning under Data Science Institute overlaps with MCLEARN Machine Learning under Software Technology Department.
+
+**How do I drop from the minor program?**
+
+If you wish to drop from the minor program, you have to send an email to datascience@dlsu.edu.ph.
+
+**What happens to the grades for the courses that I took under the minor program after I drop? Will these grades still be included in my transcript of record?**
+
+If you drop from the minor program, all completed courses will still be included in your transcript of record and will be counted towards your CGPA.
