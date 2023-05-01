@@ -740,7 +740,7 @@ a.no-decoration {
 .about-img img {
   width: 100%;
   height: 450px;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .event-img img {
@@ -762,6 +762,15 @@ a.no-decoration {
 .about-desc p,
 .mission-vision {
   margin-bottom: 30px;
+  width: 100%;
+  font-family: 'IBM Plex Sans';
+}
+
+.about-desc h1,
+.mission-vision-content h3,
+.about-contact h3 {
+  font-family: 'Tropikal';
+  color: #315645;
 }
 
 .about-container p {
@@ -772,6 +781,10 @@ a.no-decoration {
 .about-contact h3 {
   font-weight: 700;
   color: #00703c;
+}
+
+.mission-vision-content p {
+  width: 100%;
 }
 
 .about-numbers {
