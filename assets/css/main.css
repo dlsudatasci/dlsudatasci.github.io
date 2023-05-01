@@ -751,7 +751,6 @@ a.no-decoration {
 
 .about-desc h1 {
   font-weight: 700;
-  color: #00703c;
   margin-bottom: 10px;
 }
 
@@ -780,7 +779,6 @@ a.no-decoration {
 .mission-vision h3,
 .about-contact h3 {
   font-weight: 700;
-  color: #00703c;
 }
 
 .mission-vision-content p {
@@ -925,9 +923,12 @@ a {
 .research-desc-section,
 .programs-desc-section,
 .prog-desc-section,
-.enroll-desc-section,
+.enroll-desc-section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 #papers-section {
-  /* margin-top: 120px; */
   margin-bottom: 50px;
 }
 
@@ -939,12 +940,33 @@ a {
   font-family: 'Tropikal';
   font-weight: 700;
   margin-bottom: 15px;
+  color: #315645;
+}
+
+.programs.content h3,
+.programs.content h4 {
+  color: #315645;
+}
+
+.programs.content p,
+.programs.content h3,
+.programs.content h2,
+.programs.content h4,
+.programs.content li,
+.programs.content td {
+  font-family: 'IBM Plex Sans';
+}
+
+.programs.content a {
+  text-decoration: none;
+  color: #00703c;
 }
 
 .research-desc-section p,
 .programs-desc-section p,
 .prog-desc-section p {
   text-align: justify;
+  font-family: 'IBM Plex Sans';
 }
 
 .research-projects-section {

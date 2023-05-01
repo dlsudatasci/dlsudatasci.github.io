@@ -2,13 +2,9 @@
 category:
   - programs
 title: Minor in Data Science
-layout: under_construction
+layout: program
 permalink: '/programs/minor-in-data-science/'
-description:
-  The Minor in Data Science program aims to produce data literate graduates
-  by equipping the students across the different disciplines with a working knowledge
-  of statistics, probability, and computation enabling them to design and execute
-  precise computational and inferential data analysis for their discipline.
+description: The Minor in Data Science program aims to produce data literate graduates by equipping the students across the different disciplines with a working knowledge of statistics, probability, and computation enabling them to design and execute precise computational and inferential data analysis for their discipline.
 is_diploma_course: false
 co_op: ''
 is_active: false
@@ -25,6 +21,30 @@ By the end of the program, learners will be able to:
 - Demonstrate their skills in data collection, processing, and visualization through
 - Create and design multiple variations of visualization appropriate for the audience, task, and data using various visualization software and tools
 - Design and choose the correct data processing and machine learning techniques needed for specific real-world problems
+
+### Eligibility
+
+- The program is open to all the undergraduate students who are at least in their 2nd year at the time of their application.
+- Students should have at least four (4) terms left before their graduation.
+
+### Requirements
+
+- Complete and submit this [online application form](https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link).
+- Print out your MLS grade as a PDF file and upload it to the online application form.
+- An assessment will also be given to applicants during the evaluation period. Schedule will be announced on a later date.
+
+### Important Dates
+
+| Application period | May 15, 2023 (M) - June 9, 2023 (F) |
+| Evaluation period | June 13, 2023 (T) - June 26, 2023 (M) |
+| Notice of results | June 28, 2023 (W) |
+
+**Course offering Starts Term 1, AY 2023 - 2024 (September)**
+
+### Course Overlap Rules
+
+- Courses offered by other departments may be credited toward the Minor in Data Science provided that there is a significant overlap in topics and learning outcomes. For example, the DATA103 Introduction to Machine Learning under the Department of Software Technology overlaps with MAC-LRN Machine Learning under the Department of Computer Technology.
+- A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
 
 ### Course List
 
@@ -59,29 +79,3 @@ This course studies algorithms and computational paradigms that allow computers 
 _Pre-requisite: DATA100_
 
 Machine learning is the automatic induction of new information from large amounts of data to make predictions or decisions without human intervention. This course introduces the students to a broad cross-section of models and algorithms for machine learning, and equips them with skills to discover new information from volumes of data. Data mining and machine learning have overlapping algorithms and methods, but they focus on different things: data mining focuses on finding patterns while machine learning focuses on predictive models.
-
-### Schedule of Course Offerings
-
-**Term 1**
-
-- Principles of Data Science (DATA100)
-- Introduction to Machine Learning (DATA103)
-
-**Term 2**
-
-- Data Visualization (DATA101)
-
-**Term 3**
-
-- Data Mining and Statistics (DATA102)
-
-### Course Overlap Rules
-
-- A **maximum of one course** offered by other departments may be credited toward the Minor in Data Science, e.g. DATA103 Introduction to Machine Learning under Data Science Institute overlaps with MCLEARN Machine Learning under Software Technology Department.
-- A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
-
-### FAQs
-
-**May I take more than one course per term?**
-
-- Following the guidelines for the free minors and electives, you may only enroll in one _free_ course per term. If you decide to take two courses together during a single term, the other course will be **paid**.
