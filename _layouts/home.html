@@ -103,11 +103,12 @@
     </section>
 
     <!-- NEWS -->
+    {% assign sorted_news = site.news | sort:"date" | reverse %}
     <section class="news-section">
       <div class="news-container container">
         <h3 class="col">News</h3>
         <div class="news-cards-container col">
-          {% for news in site.news limit:3 %}
+          {% for news in sorted_news limit:3 %}
           <div class="col-md-6 news-card-container">
             <a href="{{ news.url }}">
               <div class="news-card">
