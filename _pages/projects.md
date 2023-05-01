@@ -1,7 +1,6 @@
 ---
 title: Projects
 description: ''
-layout: projects
-permalink: "/projects"
-
+layout: under_construction
+permalink: '/projects'
 ---

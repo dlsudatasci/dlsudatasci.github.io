@@ -1,18 +1,20 @@
 ---
 layout: publication
-permalink: "/publication/2021-11-15-Covid"
+permalink: '/publication/2021-11-15-Covid'
 date: 2021-11-24 01:50:35 +0800
 title: An Operations Research-Based Approach to the Allocation of COVID-19 Vaccines
 image_section:
-- image: "/uploads/screenshot-2021-11-24-015824.png"
+  - image: '/uploads/screenshot-2021-11-24-015824.png'
 tags:
-- Covid-19
-- research
+  - Covid-19
+  - research
 image_caption: ''
-authors: Charlle L. Sya , Kathleen B. Avisob , John Frederick D. Tapiab , Ador R.
+authors:
+  Charlle L. Sya , Kathleen B. Avisob , John Frederick D. Tapiab , Ador R.
   Torneoc , Anthony S.F. Chiua and Raymond R. Tanb
 source: 'CET: Chemical Engineering Transactions'
-abstract: The global scientific community has been successful in their efforts to
+abstract:
+  The global scientific community has been successful in their efforts to
   develop, test, and commercialize vaccines for COVID-19. However, the limited supply
   of these vaccines remains to be a widespread problem as different nations have started
   their respective vaccine rollouts. Policymakers continue to deal with the difficult
@@ -33,8 +35,7 @@ abstract: The global scientific community has been successful in their efforts t
   objective shifts to suppressing contagion.
 materials:
   publishers_copy: https://www.cetjournal.it/cet/21/88/013.pdf
-  pdf: "/uploads/013.pdf"
+  pdf: '/uploads/013.pdf'
   bibtex: ''
 citations: []
-
 ---

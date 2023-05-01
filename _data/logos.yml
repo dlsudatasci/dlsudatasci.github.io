@@ -1,11 +1,11 @@
 navbar_logo:
-  img: /uploads/img/logo/DSI-green-vertical.png
+  img: /uploads/img/logo/DSI-green-horizontal.png
   alt: DSI Logo
 
 footer_logos:
   - img: /uploads/img/logo/dlsulogowhite.png
     alt: DLSU Logo
-    link: "#"
+    link: '#'
   - img: /uploads/img/logo/DSI-white-vertical.png
     alt: DSI Logo
-    link: "#"
+    link: '#'

@@ -6,18 +6,14 @@
     {% include navbar.html %}
 
     <section class="programs-desc-section">
-        <div class="programs-desc-container text-center container">
-            <h2 class="text-uppercase">
-                {{ page.title }}
-            </h2>
-            <p>
-                {{ page.description }}
-            </p>
-        </div>
+      <div class="programs-desc-container text-center container">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+      </div>
     </section>
 
-    <div class="programs content" style="min-height: calc(100vh - 653px);">
-        {{ content }}
+    <div class="programs content" style="min-height: calc(100vh - 653px)">
+      {{ content }}
     </div>
 
     {% include footer.html %}

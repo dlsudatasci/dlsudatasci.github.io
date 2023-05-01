@@ -1,0 +1,590 @@
+backend:
+  name: github
+  repo: dlsudatasci/dlsudatasci.github.io
+  branch: main
+  site_domain: dlsudatasci.netlify.app
+
+local_backend: true
+
+media_folder: '/uploads'
+public_folder: '/uploads'
+
+collections:
+  # - name: "blog" # Used in routes, e.g., /admin/collections/blog
+  #   label: "Blog" # Used in the UI
+  #   folder: "_posts" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "---" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields: # The fields for each document, usually in front matter
+  #       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+  #       - { label: "Author", name: "author", widget: "string" }
+  #       - { label: "Title", name: "title", widget: "string" }
+  #       - { label: "Publish Date", name: "date", widget: "datetime" }
+  #       - { label: "Featured Image", name: "thumbnail", widget: "image" }
+  #       - { label: "Category", name: "category", widget: "string", default: "jekyll" }
+  #       - { label: "Summary", name: "summary", widget: "string" }
+  #       - { label: "Body", name: "body", widget: "markdown" }
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - name: 'about'
+        label: 'About Page'
+        file: '_pages/about.md'
+        create: false
+        fields:
+          - { name: 'title', label: 'Title', widget: 'string' }
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'about',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/about/',
+            }
+          - { name: 'image', label: 'Image', widget: 'image' }
+          - { name: 'about_content', label: 'About Content', widget: 'text' }
+          - {
+              name: 'mission_content',
+              label: 'Mission Content',
+              widget: 'text',
+            }
+          - { name: 'vision_content', label: 'Vision Content', widget: 'text' }
+          - {
+              name: 'contacts',
+              label: 'Contacts',
+              widget: 'object',
+              'fields':
+                [
+                  { label: 'Email', name: 'email', widget: 'string' },
+                  {
+                    label: 'Telephone',
+                    name: 'telephone',
+                    widget: 'object',
+                    fields:
+                      [
+                        { name: 'number', label: 'Number', widget: 'string' },
+                        {
+                          name: 'details',
+                          label: 'Number Details',
+                          widget: 'string',
+                        },
+                      ],
+                  },
+                  {
+                    label: 'TeleFax',
+                    name: 'telefax',
+                    widget: 'object',
+                    fields:
+                      [
+                        { name: 'number', label: 'Number', widget: 'string' },
+                        {
+                          name: 'details',
+                          label: 'Number Details',
+                          widget: 'string',
+                        },
+                      ],
+                  },
+                ],
+            }
+      - name: 'enrollment'
+        label: 'Enrollment Page'
+        file: '_pages/enrollment.md'
+        create: false
+        fields:
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'enrollment',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/about/',
+            }
+          - { name: 'header', label: 'Header', widget: 'string' }
+          - { name: 'instructions', label: 'Instructions', widget: 'text' }
+      - name: 'home'
+        label: 'Home Page'
+        file: '_pages/home.md'
+        create: false
+        fields:
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'home',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/',
+            }
+          - {
+              name: 'active_carousel_container',
+              label: 'Active Carousel Container',
+              widget: 'object',
+              fields:
+                [
+                  { name: 'bg', label: 'Background Image', widget: 'image' },
+                  { name: 'title', label: 'Title', widget: 'string' },
+                  { name: 'description', label: 'Description', widget: 'text' },
+                  { name: 'link', label: 'Link', widget: 'string' },
+                ],
+            }
+          - {
+              name: 'carousel_container',
+              label: 'Carousel Container',
+              widget: 'list',
+              fields:
+                [
+                  { name: 'bg', label: 'Background Image', widget: 'image' },
+                  { name: 'title', label: 'Title', widget: 'string' },
+                  { name: 'description', label: 'Description', widget: 'text' },
+                  { name: 'link', label: 'Link', widget: 'string' },
+                ],
+            }
+          - {
+              name: 'brief_description_section',
+              label: 'Brief Description Section',
+              widget: 'object',
+              fields:
+                [
+                  { name: 'header', label: 'Header', widget: 'string' },
+                  { name: 'description', label: 'Description', widget: 'text' },
+                  {
+                    name: 'about_us',
+                    label: 'About Link',
+                    widget: 'hidden',
+                    default: '/about/',
+                  },
+                ],
+            }
+          - {
+              name: 'partners',
+              label: 'Partners',
+              widget: 'list',
+              fields:
+                [
+                  { name: 'alt', label: 'Alt-Text', widget: 'string' },
+                  { name: 'logo', label: 'Logo', widget: 'image' },
+                  { name: 'link', label: 'Link', widget: 'string' },
+                ],
+            }
+      - name: 'people'
+        label: 'People Page'
+        file: '_pages/people.md'
+        create: false
+        fields:
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'people',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/people/',
+            }
+          - { name: 'title', label: 'Title', widget: 'string' }
+          - {
+              name: 'sections',
+              labels: 'Sections',
+              widget: 'list',
+              fields:
+                [
+                  { name: 'template', label: 'Template', widget: 'string' },
+                  {
+                    name: 'people_group',
+                    label: 'People Group',
+                    widget: 'string',
+                  },
+                  {
+                    name: 'people_list',
+                    label: 'People',
+                    widget: 'list',
+                    fields:
+                      [
+                        { name: 'name', label: 'Name', widget: 'string' },
+                        { name: 'image', label: 'Image', widget: 'image' },
+                        { name: 'website', label: 'Website', widget: 'string' },
+                        {
+                          name: 'department',
+                          label: 'Department',
+                          widget: 'string',
+                        },
+                        { name: 'rank', label: 'Rank', widget: 'string' },
+                      ],
+                  },
+                ],
+            }
+      - name: 'programs'
+        label: 'Programs Page'
+        file: '_pages/programs.md'
+        create: false
+        fields:
+          - { name: 'title', label: 'Title', widget: 'string' }
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'programs',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/programs/',
+            }
+          - { name: 'description', label: 'Description', widget: 'text' }
+      - name: 'projects'
+        label: 'Projects Page'
+        file: '_pages/projects.md'
+        create: false
+        fields:
+          - { name: 'title', label: 'Title', widget: 'string' }
+          - { name: 'description', label: 'Description', widget: 'text' }
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'projects',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/projects/',
+            }
+      - name: 'publications'
+        label: 'Publications Page'
+        file: '_pages/publications.md'
+        create: false
+        fields:
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'publications',
+            }
+          - { name: 'title', label: 'Title', widget: 'string' }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/publications/',
+            }
+      - name: 'research'
+        label: 'Research Page'
+        file: '_pages/research.md'
+        create: false
+        fields:
+          - {
+              name: 'layout',
+              label: 'Layout',
+              widget: 'hidden',
+              default: 'research',
+            }
+          - {
+              name: 'permalink',
+              label: 'Permalink',
+              widget: 'hidden',
+              default: '/research/',
+            }
+          - { name: 'page_header', label: 'Page Header', widget: 'string' }
+          - {
+              name: 'page_description',
+              label: 'Page Description',
+              widget: 'text',
+            }
+          - {
+              name: 'projects_section',
+              label: 'Projects Section',
+              widget: 'object',
+              fields:
+                [
+                  {
+                    name: 'projects_header',
+                    label: 'Projects Header',
+                    widget: 'string',
+                  },
+                  {
+                    name: 'projects_item',
+                    label: 'Project Items',
+                    widget: 'list',
+                  },
+                ],
+            }
+          - {
+              name: 'publications_section',
+              label: 'Publications Section',
+              widget: 'object',
+              fields:
+                [
+                  {
+                    name: 'publications_header',
+                    label: 'Publications Header',
+                    widget: 'string',
+                  },
+                  {
+                    name: 'publication_item',
+                    label: 'Publication Items',
+                    widget: 'list',
+                  },
+                  {
+                    name: 'publications_description',
+                    label: 'Publication Description',
+                    widget: 'text',
+                  },
+                ],
+            }
+  # Collections
+  - name: 'news'
+    label: 'News'
+    folder: 'content/_news'
+    create: true
+    slug: '{{title}}-{{year}}-{{month}}-{{day}}'
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - { name: 'layout', label: 'Layout', widget: 'hidden', default: 'news' }
+      - {
+          name: 'category',
+          label: 'Categories',
+          widget: 'list',
+          field: { name: 'cat', label: 'Category', widget: 'string' },
+          default: ['other'],
+        }
+      - {
+          name: 'authors',
+          label: 'Authors',
+          widget: 'string',
+          default: 'Dr. Andrew L. Tan Data Science Institute',
+        }
+      - {
+          name: 'short_description',
+          label: 'Short Description',
+          widget: 'text',
+        }
+      - {
+          name: 'read_more_link',
+          label: 'Read More Link',
+          widget: 'string',
+          required: false,
+        }
+      - { name: 'image', label: 'Cover Image', widget: 'image' }
+      - { name: 'body', label: 'News Body', widget: 'markdown' }
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content/_posts'
+    create: true
+    slug: '{{title}}-{{year}}-{{month}}-{{day}}'
+    fields:
+      - { name: 'image', label: 'Cover Image', widget: 'string' }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'layout', label: 'Layout', widget: 'hidden', default: 'post' }
+      - {
+          name: 'author',
+          label: 'Author',
+          widget: 'list',
+          default: ['Dr. Andrew L. Tan Data Science Institute'],
+        }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - { name: 'body', label: 'News Body', widget: 'markdown' }
+  - name: 'programs'
+    label: 'Programs'
+    folder: 'content/_programs'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - {
+          name: 'category',
+          label: 'Categories',
+          widget: 'list',
+          field: { name: 'cat', label: 'Category', widget: 'string' },
+        }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - {
+          name: 'layout',
+          label: 'Layout',
+          widget: 'hidden',
+          default: 'program',
+        }
+      - {
+          name: 'is_diploma_course',
+          label: 'Diploma Course',
+          widget: 'hidden',
+          default: false,
+        }
+      # - {
+      #     name: 'is_active',
+      #     label: 'Active',
+      #     widget: 'boolean',
+      #     required: false,
+      #   }
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          required: false,
+        }
+      - {
+          name: 'course_image',
+          label: 'Course Image',
+          widget: 'image',
+          required: false,
+        }
+      - { name: 'start_date', label: 'Start Date', widget: 'date' }
+      - { name: 'end_date', label: 'End Date', widget: 'date' }
+      - {
+          name: 'registration_link',
+          label: 'Registration Link',
+          widget: 'string',
+          required: false,
+        }
+      - { name: 'body', label: 'Program Body', widget: 'markdown' }
+  - name: 'diploma_course'
+    label: 'Diploma Course'
+    folder: 'content/_programs/Diploma Courses'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - {
+          name: 'category',
+          label: 'Categories',
+          widget: 'list',
+          field: { name: 'cat', label: 'Category', widget: 'string' },
+        }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - {
+          name: 'layout',
+          label: 'Layout',
+          widget: 'hidden',
+          default: 'program',
+        }
+      - {
+          name: 'is_diploma_course',
+          label: 'Diploma Course',
+          widget: 'hidden',
+          default: true,
+        }
+      # - {
+      #     name: 'is_active',
+      #     label: 'Active',
+      #     widget: 'boolean',
+      #     required: false,
+      #   }
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          required: false,
+        }
+      - {
+          name: 'course_image',
+          label: 'Course Image',
+          widget: 'image',
+          required: false,
+        }
+      - { name: 'start_date', label: 'Start Date', widget: 'date' }
+      - { name: 'end_date', label: 'End Date', widget: 'date' }
+      - {
+          name: 'registration_link',
+          label: 'Registration Link',
+          widget: 'string',
+          required: false,
+        }
+      - { name: 'body', label: 'Program Body', widget: 'markdown' }
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'content/_projects'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - {
+          name: 'layout',
+          label: 'Layout',
+          widget: 'hidden',
+          default: 'project',
+        }
+      - { name: 'lead_proponent', label: 'Lead Proponent', widget: 'string' }
+      - {
+          name: 'co-proponents',
+          label: 'Co-Proponents',
+          widget: 'list',
+          field:
+            { name: 'co-proponent', label: 'Co-Proponent', widget: 'string' },
+        }
+      - {
+          name: 'partner_agencies',
+          label: 'Partner Agencies',
+          widget: 'list',
+          field:
+            {
+              name: 'partner-agency',
+              label: 'Partner Agency',
+              widget: 'string',
+            },
+        }
+      - { name: 'website_url', label: 'Project Website URL', widget: 'string' }
+      - {
+          name: 'image-section',
+          label: 'Images',
+          widget: 'list',
+          field: { label: 'Image', name: 'image', widget: 'image' },
+        }
+      - { name: 'body', label: 'Project Body', widget: 'markdown' }
+  - name: 'publications'
+    label: 'Publications'
+    folder: 'content/_publications'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'date' }
+      - {
+          name: 'layout',
+          label: 'Layout',
+          widget: 'hidden',
+          default: 'publication',
+        }
+      - {
+          name: 'image_section',
+          label: 'Images',
+          widget: 'list',
+          field: { label: 'Image', name: 'image', widget: 'image' },
+        }
+      - { name: 'tags', label: 'Tags', widget: 'list' }
+      - { name: 'image_caption', label: 'Image Caption', widget: 'string' }
+      - { name: 'authors', label: 'Authors', widget: 'list' }
+      - { name: 'source', label: 'Publication Source', widget: 'string' }
+      - { name: 'abstract', label: 'Abstract', widget: 'text' }
+      - {
+          name: 'materials',
+          label: 'Materials',
+          widget: 'object',
+          fields:
+            [
+              {
+                name: 'publishers_copy',
+                label: "Publisher's Copy",
+                widget: 'string',
+              },
+              { name: 'pdf', label: 'Viewable PDF', widget: 'file' },
+              { name: 'bibtex', label: 'BibTeX', widget: 'code' },
+            ],
+        }
+      - { name: 'citations', label: 'Citations', widget: 'list' }
+      - { name: 'body', label: 'Publication Body', widget: 'markdown' }
