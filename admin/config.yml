@@ -443,8 +443,13 @@ collections:
           widget: 'image',
           required: false,
         }
-      - { name: 'start_date', label: 'Start Date', widget: 'date' }
-      - { name: 'end_date', label: 'End Date', widget: 'date' }
+      - {
+          name: 'start_date',
+          label: 'Start Date',
+          widget: 'date',
+          required: false,
+        }
+      - { name: 'end_date', label: 'End Date', widget: 'date', required: false }
       - {
           name: 'registration_link',
           label: 'Registration Link',

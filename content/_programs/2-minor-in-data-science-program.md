@@ -11,7 +11,7 @@ is_active: false
 course_image: ''
 start_date:
 end_date:
-registration_link: ''
+registration_link: 'https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link'
 ---
 
 ### Program Outcomes
@@ -35,16 +35,11 @@ By the end of the program, learners will be able to:
 
 ### Important Dates
 
-| Application period | May 15, 2023 (M) - June 9, 2023 (F) |
+\| Application period | May 15, 2023 (M) - June 9, 2023 (F) |
 | Evaluation period | June 13, 2023 (T) - June 26, 2023 (M) |
 | Notice of results | June 28, 2023 (W) |
 
 **Course offering Starts Term 1, AY 2023 - 2024 (September)**
-
-### Course Overlap Rules
-
-- Courses offered by other departments may be credited toward the Minor in Data Science provided that there is a significant overlap in topics and learning outcomes. For example, the DATA103 Introduction to Machine Learning under the Department of Software Technology overlaps with MAC-LRN Machine Learning under the Department of Computer Technology.
-- A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
 
 ### Course List
 
@@ -54,7 +49,7 @@ By the end of the program, learners will be able to:
 | Data Visualization (DATA101)               | 3 units      | Term 2                           |
 | Data Mining and Statistics (DATA102)       | 3 units      | Term 3                           |
 | Introduction to Machine Learning (DATA103) | 3 units      | Term 1                           |
-| **Total**                                  | **12 units** |
+| **Total**                                  | **12 units** |                                  |
 
 ### Course Details
 
@@ -94,9 +89,11 @@ Students may opt to take more than one course per term. However, students are no
 
 A maximum of one course offered by other departments may be credited toward the Minor in Data Science, e.g. DATA103 Introduction to Machine Learning under Data Science Institute overlaps with MCLEARN Machine Learning under Software Technology Department.
 
+A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
+
 **How do I drop from the minor program?**
 
-If you wish to drop from the minor program, you have to send an email to datascience@dlsu.edu.ph.
+If you wish to drop from the minor program, you have to send an email to [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph).
 
 **What happens to the grades for the courses that I took under the minor program after I drop? Will these grades still be included in my transcript of record?**
 
