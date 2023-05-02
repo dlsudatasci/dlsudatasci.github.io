@@ -2,16 +2,20 @@
 category:
   - programs
 title: Minor in Data Science
+description: The Minor in Data Science program aims to produce data literate
+  graduates by equipping the students across the different disciplines with a
+  working knowledge of statistics, probability, and computation enabling them to
+  design and execute precise computational and inferential data analysis for
+  their discipline.
 layout: program
-permalink: '/programs/minor-in-data-science/'
-description: The Minor in Data Science program aims to produce data literate graduates by equipping the students across the different disciplines with a working knowledge of statistics, probability, and computation enabling them to design and execute precise computational and inferential data analysis for their discipline.
 is_diploma_course: false
-co_op: ''
+course_image: ""
+start_date: null
+registration_link: https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link
+permalink: /programs/minor-in-data-science/
+end_date: null
+co_op: ""
 is_active: false
-course_image: ''
-start_date:
-end_date:
-registration_link: 'https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link'
 ---
 
 ### Program Outcomes
@@ -34,10 +38,9 @@ By the end of the program, learners will be able to:
 - An assessment will also be given to applicants during the evaluation period. Schedule will be announced on a later date.
 
 ### Important Dates
-
-\| Application period | May 15, 2023 (M) - June 9, 2023 (F) |
-| Evaluation period | June 13, 2023 (T) - June 26, 2023 (M) |
-| Notice of results | June 28, 2023 (W) |
+| Application period | May 15, 2023 (M) - June 9, 2023 (F)   |
+| Evaluation period  | June 13, 2023 (T) - June 26, 2023 (M) |
+| Notice of results  | June 28, 2023 (W)                     |
 
 **Course offering Starts Term 1, AY 2023 - 2024 (September)**
 
