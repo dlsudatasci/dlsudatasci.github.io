@@ -96,6 +96,8 @@ A maximum of one course offered by other departments may be credited toward the 
 
 A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
 
+However, note that the course taken should not be credited to an existing course in the original flowchart.
+
 **How do I drop from the minor program?**
 
 If you wish to drop from the minor program, you have to send an email to [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph).
