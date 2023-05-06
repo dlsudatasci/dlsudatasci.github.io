@@ -9,6 +9,7 @@ description: The Minor in Data Science program aims to produce data literate
   their discipline.
 layout: program
 is_diploma_course: false
+published: true
 course_image: ""
 start_date: null
 registration_link: https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link
@@ -19,11 +20,11 @@ is_active: false
 ---
 ### Program Outcomes
 
-By the end of the program, learners will be able to:
+Students of the Minor in Data Science program are expected to: 
 
-* Demonstrate their skills in data collection, processing, and visualization through
-* Create and design multiple variations of visualization appropriate for the audience, task, and data using various visualization software and tools
-* Design and choose the correct data processing and machine learning techniques needed for specific real-world problems
+* Assess domain problems from a data science perspective and logically identify the needed statistical techniques and technologies, 
+* Demonstrate their basic computational and statistical skills in data wrangling, processing, and visualization approaches in their domain-specific challenges, and 
+* Effectively articulate their computational design and inferential analysis in a highly interdisciplinary audience.
 
 ### Eligibility
 
