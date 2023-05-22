@@ -926,6 +926,7 @@ a {
 .enroll-desc-section {
   margin-top: 100px;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 #papers-section {
@@ -944,14 +945,13 @@ a {
 }
 
 .programs.content h3,
-.programs.content h4 {
+.programs.content h4,
+.programs.content h2 {
   color: #315645;
+  font-family: 'Tropikal';
 }
 
 .programs.content p,
-.programs.content h3,
-.programs.content h2,
-.programs.content h4,
 .programs.content li,
 .programs.content td {
   font-family: 'IBM Plex Sans';
