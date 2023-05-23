@@ -58,6 +58,8 @@ sections:
         linkedin: https://ph.linkedin.com/in/allan-b-i-bernardo-47103350
         website: https://allanbibernardo.wixsite.com/mysite
         image: '/uploads/img/people/faculty-affiliates/allan.jpg'
+        department: Psychology Department
+        rank: Full Professor
     #   - name: Elmer Magsino
     #     image: '/uploads/elmer.png'
     #     rank: Assistant Professor

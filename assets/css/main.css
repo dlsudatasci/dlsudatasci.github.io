@@ -8,7 +8,7 @@
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'IBM Plex Sans';
 }
 
 .is-clickable {
@@ -926,7 +926,10 @@ a {
 .enroll-desc-section {
   margin-top: 100px;
   margin-bottom: 50px;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: clamp(200px, 80%, 1152px);
 }
 
 #papers-section {
@@ -942,6 +945,13 @@ a {
   font-weight: 700;
   margin-bottom: 15px;
   color: #315645;
+}
+
+.programs-desc-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 100%;
 }
 
 .programs.content h3,
