@@ -53,6 +53,11 @@ sections:
         department: Management Organization
         website: https://sites.google.com/site/benteehankeesite/home/about-me
         image: '/uploads/teehankee.JPG'
+      - name: Allan Benedict I. Bernardo
+        email: 'alan.bernardo@dlsu.edu.ph'
+        linkedin: https://ph.linkedin.com/in/allan-b-i-bernardo-47103350
+        website: https://allanbibernardo.wixsite.com/mysite
+        image: '/uploads/img/people/faculty-affiliates/allan.jpg'
     #   - name: Elmer Magsino
     #     image: '/uploads/elmer.png'
     #     rank: Assistant Professor
