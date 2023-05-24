@@ -27,7 +27,7 @@ sections:
         website: https://unissechua.github.io
         linkedin: https://www.linkedin.com/in/unissechua
         github: https://github.com/unissechua
-      - name: Thomas James Tiam-lee
+      - name: Thomas James Tiam-lee, Ph.D.
         rank: Assistant Professor
         email: thomas.tiam-lee@dlsu.edu.ph
         linkedin: https://www.linkedin.com/in/thomas-tiam-lee-53301936/
@@ -42,7 +42,7 @@ sections:
         email: jude.teves@dlsu.edu.ph
       - name: Fritz Kevin Flores
         image: '/uploads/img/people/faculty-affiliates/fritz.jpg'
-      - name: Ruth Angelie B. Cruz
+      - name: Ruth Angelie B. Cruz, Ph.D.
         rank: Associate Professor
         image: '/uploads/ruthcruz.jpg'
         email: ruth.cruz@dlsu.edu.ph
@@ -53,7 +53,7 @@ sections:
         department: Management Organization
         website: https://sites.google.com/site/benteehankeesite/home/about-me
         image: '/uploads/teehankee.JPG'
-      - name: Allan Benedict I. Bernardo
+      - name: Allan Benedict I. Bernardo, Ph.D.
         email: 'alan.bernardo@dlsu.edu.ph'
         linkedin: https://ph.linkedin.com/in/allan-b-i-bernardo-47103350
         website: https://allanbibernardo.wixsite.com/mysite
