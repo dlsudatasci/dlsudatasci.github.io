@@ -6,8 +6,7 @@ sections:
   - template: people-list
     people_group: Faculty Affiliates
     people_list:
-      - name: 
-        image: '/uploads/img/people/faculty-affiliates/mac-2.jpeg'
+      - image: '/uploads/img/people/faculty-affiliates/mac-2.jpeg'
         name: Macario Cordel, II, Ph.D.
         rank: Executive Director, Associate Professor
         department: ALTDSI, Computer Technology Department
