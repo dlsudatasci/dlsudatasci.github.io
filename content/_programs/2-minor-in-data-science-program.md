@@ -85,24 +85,24 @@ Machine learning is the automatic induction of new information from large amount
 
 **What are the requirements to complete the minor program?**
 
-Students must get a passing grade in all of the courses, i.e., DATA100, DATA101, DATA102, and DATA103, to complete the minor program.
+> Students must get a passing grade in all of the courses, i.e., DATA100, DATA101, DATA102, and DATA103, to complete the minor program.
 
 **May I take more than one course per term?**
 
-Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses, i.e., DATA101, DATA102, and DATA103.
+> Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses, i.e., DATA101, DATA102, and DATA103.
 
 **May I apply to credit an equivalent course towards the minor program?**
 
-A maximum of one course offered by other departments may be credited toward the Minor in Data Science, e.g. DATA103 Introduction to Machine Learning under Data Science Institute overlaps with MCLEARN Machine Learning under Software Technology Department.
-
-A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
-
-However, note that the course taken should not be credited to an existing course in the original flowchart.
+> A maximum of one course offered by other departments may be credited toward the Minor in Data Science, e.g. DATA103 Introduction to Machine Learning under Data Science Institute overlaps with MCLEARN Machine Learning under Software Technology Department.
+>
+> A student should apply for course overlap as soon as the course grade becomes available in the MLS. The deadline for course overlap application is every 6th Monday of the term. Results of the application will be released on the 8th Monday of the term.
+>
+> However, note that the course taken should not be credited to an existing course in the original flowchart. Following the example, if your original flowchart requires you to take MCLEARN as part of your original program, you still have to take DATA103 to be able to complete the minor program. You may also consult with the ALTDSI faculty for alternative courses to take.
 
 **How do I drop from the minor program?**
 
-If you wish to drop from the minor program, you have to send an email to [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph).
+> If you wish to drop from the minor program, you have to send an email to [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph).
 
 **What happens to the grades for the courses that I took under the minor program after I drop? Will these grades still be included in my transcript of record?**
 
-If you drop from the minor program, all completed courses will still be included in your transcript of record and will be counted towards your CGPA.
+> If you drop from the minor program, all completed courses will still be included in your transcript of record and will be counted towards your CGPA.
