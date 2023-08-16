@@ -819,7 +819,8 @@ a.no-decoration {
   text-align: center;
 }
 
-.people-title h1 {
+.people-title h1,
+.news-title h1 {
   font-family: 'Tropikal' !important;
   font-style: normal;
   font-weight: 600;

@@ -460,6 +460,49 @@ collections:
           widget: 'string',
           required: false,
         }
+      - {
+          name: 'course_announcements',
+          label: 'Course Announcements',
+          widget: 'list',
+          required: false,
+          fields: [
+            {
+              name: 'announcement_title',
+              label: 'Announcement Title',
+              widget: 'string',
+              default: 'This is an Announcement'
+            },
+            {
+              name: 'announcement_date',
+              label: 'Announcement Date and Time',
+              widget: 'datetime',
+            },
+            {
+              name: 'academic_term',
+              label: 'Academic Term',
+              widget: 'string',
+              default: 'Term 1'
+            },
+            {
+              name: 'academic_year',
+              label: 'Academic Year',
+              widget: 'string',
+              default: 'AY 2023-2024'
+            },
+            {
+              name: 'announcement_images',
+              label: 'Image Gallery',
+              widget: 'list',
+              required: false,
+              field: { name: 'image', label: 'Image', widget: 'image' },
+            },
+            {
+              name: 'announcement_content',
+              label: 'Announcement Content',
+              widget: 'markdown',
+            }
+          ],
+        }
       - { name: 'body', label: 'Program Body', widget: 'markdown' }
   - name: 'diploma_course'
     label: 'Diploma Course'
