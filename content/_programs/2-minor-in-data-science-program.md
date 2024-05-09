@@ -12,7 +12,7 @@ is_diploma_course: false
 published: true
 course_image: ""
 start_date: null
-registration_link: https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link
+registration_link: https://forms.gle/uMty59oc99n1sZXx6
 permalink: /programs/minor-in-data-science/
 end_date: null
 co_op: ""
@@ -33,7 +33,7 @@ Students of the Minor in Data Science program are expected to:
 
 ### Requirements
 
-* Complete and submit this [online application form](https://docs.google.com/forms/d/e/1FAIpQLSc_PBt0DxUStdS4xckBupXR5Zt3Qu5z_CW-Kr1O_--MXce0rg/viewform?usp=sf_link).
+* Complete and submit this [online application form](https://forms.gle/uMty59oc99n1sZXx6).
 * Print out your MLS grade as a PDF file and upload it to the online application form.
 * An assessment will also be given to applicants during the evaluation period. Schedule will be announced on a later date.
 
@@ -41,11 +41,11 @@ Students of the Minor in Data Science program are expected to:
 
 | ﻿ Event            | Inclusive Dates                       |
 | ------------------ | ------------------------------------- |
-| Application period | May 15, 2023 (M) - June 9, 2023 (F)   |
-| Evaluation period  | June 13, 2023 (T) - June 26, 2023 (M) |
-| Notice of results  | June 28, 2023 (W)                     |
+| Application period | May 15, 2024 (W) - June 5, 2024 (W)   |
+| Evaluation period  | June 6, 2024 (H) - July 10, 2024 (W) |
+| Notice of results  | July 10, 2024 (W)                     |
 
-**Course offering Starts Term 1, AY 2023 - 2024 (September)**
+**Course offering Starts Term 1, AY 2024 - 2025 (September)**
 
 ### Course List
 
