@@ -49,7 +49,7 @@ Students of the Minor in Data Science program are expected to:
 
 ### Course List
 
-| Course                                     | Units        | A.Y. 2023-2024 Offering Schedule |
+| Course                                     | Units        | A.Y. 2024-2025 Offering Schedule |
 | ------------------------------------------ | ------------ | -------------------------------- |
 | Principles of Data Science (DATA100)       | 3 units      | Terms 1 and 3                    |
 | Data Visualization (DATA101)               | 3 units      | Term 2                           |
