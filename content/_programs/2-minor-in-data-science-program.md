@@ -112,6 +112,24 @@ BSMTHCAP students can choose among the following courses to fulfill the remainin
 
 BSMTHCAP students can also take other data science elective courses announced per term by ALTDSI. This provision is not applicable to non-BSCS and non-BSMTHCAP students. These students must complete the required courses to meet the program outcomes.
 
+
+### Pre-Enlistment, Enlistment, Enrollment, and Course Crediting
+
+Make sure to pre-enlist the courses that you will take in future terms to help us estimate the number of sections to open. Since the pre-enlistment period comes before the notice of result, please pre-enlist your data science courses if you are willing to take it next term even if you have not received any results yet about your application.
+
+Enlistment in Minor in Data Science courses are held during inter-college enlistment period only. If you are not from CCS, Animo.Sys will prevent you from enrolling in Data Science courses until the inter-college enlistment period begins. No students, including those from CCS, are permitted to enroll in any Data Science courses before the inter-college enlistment period.
+
+Courses under the minor program should be enlisted and enrolled like a regular course during the enrollment period via Animo.Sys. Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses.
+
+The program requires 12.0 units of additional coursework. Tuition will be charged accordingly. All rules and deadlines regarding dropping applies to the courses under the minor program.
+
+Equivalent courses may be taken as advised by ALTDSI per term. Equivalent courses are typically reserved for students within a specific degree program. As such, enrollment in these courses will only be opened and announced once all designated students have secured their slots.
+
+Once you complete all your required courses in the minor program and your degree program, please fill-up the [completion form](https://bit.ly/MinorDS-Completion). This is important since this is our basis in granting the minor program title for each student.
+
+If you wish to drop from the minor program, you have to send an email to [us](mailto:datascience@dlsu.edu.ph). All completed courses will still be included in transcript of records and will be counted towards your CGPA.
+
+
 ### Course Descriptions
 
 #### DATA100 - Principles of Data Science
@@ -181,15 +199,17 @@ This course introduces the practical knowledge of spatial analysis using mapping
 
 > Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses.
 
+**May I take multiple minor programs?**
+
+> By default, students will only be awarded one minor program in their diplomas, unless otherwise stated in their degree program.
+
 **May I apply to credit an equivalent course towards the minor program?**
 
-> A maximum of one course offered by other departments may be credited toward the Minor in Data Science, e.g., DATA103 (Introduction to Machine Learning) under ALTDSI overlaps with MACHLRN (Machine Learning) under the Department of Software Technology.
->
-> However, note that the course taken should not be credited to an existing course in the original flowchart. Following the example, if your original flowchart requires you to take MACHLRN / STINTSY as part of your original program, you cannot take DATA103 to complete the requirement of the minor program. Please see completion requirements above.
+> You may apply to credit an equivalent course towards your minor program as long as it is not a required course for your degree program. For example, CSMODEL is a required course for the BSCS program and is an equivalent course to DATA102. Thus, BSCS students should take CSMODEL to complete their degree program, but are not allowed to take DATA102 anymore for the completion of the minor program since the course content overlaps with CSMODEL. Instead, BSCS students must take other data science courses to complete the 12.0 units required for the Minor in Data Science program. Please see <a href="#completion-requirements-for-bscs-students">completion requirements above</a>.
 
 **How do I drop from the minor program?**
 
-> If you wish to drop from the minor program, you have to send an email to [datascience@dlsu.edu.ph](mailto:datascience@dlsu.edu.ph).
+> If you wish to drop from the minor program, you have to send an email to [us](mailto:datascience@dlsu.edu.ph).
 
 **What happens to the grades for the courses that I took under the minor program after I drop? Will these grades still be included in my transcript of record?**
 
