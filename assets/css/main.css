@@ -860,7 +860,7 @@ a.no-decoration {
 }
 
 .person-card p,
-a {
+{
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 400;
@@ -964,6 +964,10 @@ a {
 .programs.content h2 {
   color: #315645;
   font-family: 'Tropikal';
+}
+
+.programs.content h3 {
+  margin-top: 50px;
 }
 
 .programs.content p,
