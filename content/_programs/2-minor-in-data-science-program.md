@@ -41,9 +41,9 @@ Students of the Minor in Data Science program are expected to:
 
 | Event              | Inclusive Dates                       |
 | ------------------ | ------------------------------------- |
-| Application period | May 15, 2024 (W) - June 5, 2024 (W)   |
-| Evaluation period  | June 6, 2024 (H) - July 10, 2024 (W)  |
-| Notice of results  | July 10, 2024 (W)                     |
+| Application period | May 13, 2025 (T) - May 31, 2025 (S)   |
+| Evaluation period  | June 2, 2025 (M) - June 14, 2025 (S)  |
+| Notice of results  | June 16, 2025 (M)                     |
 
 Course offering Starts Term 1, AY 2025 - 2026 (September)
 
