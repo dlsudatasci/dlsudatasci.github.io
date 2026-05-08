@@ -33,19 +33,18 @@ Students of the Minor in Data Science program are expected to:
 
 ### Application Requirements
 
-<!-- * Complete and submit the [online application form](https://forms.gle/uMty59oc99n1sZXx6). -->
 * Complete and submit the online application form. Link is provided to all DLSU students via a helpdesk announcement.
-* Print out your MLS grade as a PDF file and upload it to the online application form.
+* Print out your grades via Archers Hub as a PDF file and upload it to this form. To do this, log-in to Archers Hub, then click \`Profile\` and go to \`Curriculum Progression\`. Press ctrl+p (or cmd+p) and save as PDF. Submit this PDF file.
 
 ### Important Dates
 
 | Event              | Inclusive Dates                       |
 | ------------------ | ------------------------------------- |
-| Application period | May 13, 2025 (T) - May 31, 2025 (S)   |
-| Evaluation period  | June 2, 2025 (M) - June 14, 2025 (S)  |
-| Notice of results  | June 16, 2025 (M)                     |
+| Application period | May 18, 2026 (M) - June 6, 2026 (S)   |
+| Evaluation period  | June 8, 2026 (M) - June 20, 2026 (S)  |
+| Notice of results  | June 22, 2026 (M)                     |
 
-Course offering Starts Term 1, AY 2025 - 2026 (September)
+Course offerings starts Term 1, AY 2026 - 2027 (September)
 
 ### Completion Requirements for Non-BSCS and Non-BSMTHCAP Students
 All non-BSCS and non-BSMTHCAP students must complete the following courses to fulfill the 12.0 units required for the Minor in Data Science program.
@@ -82,8 +81,8 @@ BSCS students can choose among the following courses to fulfill the remaining nu
 | ----------------------------------------------- | ------------- | -------------------------------- |
 | DATA003 - Fundamentals of Statistics            | 3.0 units     | Term 1 (Usual offering)          |
 | DATA004 - Probability and Statistics            | 3.0 units     | Term 2 (Usual offering)          |
-| DATA111 - Introduction to Big Data              | 3.0 units     | Term 3 (Regular offering)        |
-| DATA113 - Ethical Data Science                  | 3.0 units     | Term 3 (Regular offering)        |
+| DATA111 - Introduction to Big Data              | 3.0 units     | Term 3 (Usual offering)        |
+| DATA113 - Ethical Data Science                  | 3.0 units     | Term 3 (Usual offering)        |
 | DATA400 - Geospatial Analysis                   | 3.0 units     | Elective (Not regularly offered) |
 | DATA401 - Geospatial Mapping and Analytics      | 3.0 units     | Elective (Not regularly offered) |
 
@@ -104,8 +103,8 @@ BSMTHCAP students can choose among the following courses to fulfill the remainin
 
 | Course                                          | Units         | Schedule                         |
 | ----------------------------------------------- | ------------- | -------------------------------- |
-| DATA111 - Introduction to Big Data              | 3.0 units     | Term 3 (Regular offering)        |
-| DATA113 - Ethical Data Science                  | 3.0 units     | Term 3 (Regular offering)        |
+| DATA111 - Introduction to Big Data              | 3.0 units     | Term 3 (Usual offering)        |
+| DATA113 - Ethical Data Science                  | 3.0 units     | Term 3 (Usual offering)        |
 | DATA400 - Geospatial Analysis                   | 3.0 units     | Elective (Not regularly offered) |
 | DATA401 - Geospatial Mapping and Analytics      | 3.0 units     | Elective (Not regularly offered) |
 
@@ -113,13 +112,9 @@ BSMTHCAP students can choose among the following courses to fulfill the remainin
 BSMTHCAP students can also take other data science elective courses announced per term by ALTDSI. This provision is not applicable to non-BSCS and non-BSMTHCAP students. These students must complete the required courses to meet the program outcomes.
 
 
-### Pre-Enlistment, Enlistment, Enrollment, and Course Crediting
+### Enlistment, Enrollment, and Course Crediting
 
-Make sure to pre-enlist the courses that you will take in future terms to help us estimate the number of sections to open. Since the pre-enlistment period comes before the notice of result, please pre-enlist your data science courses if you are willing to take it next term even if you have not received any results yet about your application.
-
-Enlistment in Minor in Data Science courses are held during inter-college enlistment period only. If you are not from CCS, Animo.Sys will prevent you from enrolling in Data Science courses until the inter-college enlistment period begins. No students, including those from CCS, are permitted to enroll in any Data Science courses before the inter-college enlistment period.
-
-Courses under the minor program should be enlisted and enrolled like a regular course during the enrollment period via Animo.Sys. Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses.
+Courses under the minor program should be enlisted and enrolled like a regular course during the enrollment period via Archers Hub. Students may opt to take more than one course per term. However, students are not allowed to take DATA100 with the other courses during the same term. This is since DATA100 is a prerequisite to all of the other courses.
 
 The program requires 12.0 units of additional coursework. Tuition will be charged accordingly. All rules and deadlines regarding dropping applies to the courses under the minor program.
 
