@@ -34,7 +34,7 @@ Students of the Minor in Data Science program are expected to:
 ### Application Requirements
 
 * Complete and submit the online application form. Link is provided to all DLSU students via a helpdesk announcement.
-* Print out your grades via Archers Hub as a PDF file and upload it to this form. To do this, log-in to Archers Hub, then click \`Profile\` and go to \`Curriculum Progression\`. Press ctrl+p (or cmd+p) and save as PDF. Submit this PDF file.
+* Print out your grades via Archers Hub as a PDF file and upload it to the form. To do this, log-in to Archers Hub, then click \`Profile\` and go to \`Curriculum Progression\`. Press ctrl+p (or cmd+p) and save as PDF. Submit this PDF file.
 
 ### Important Dates
 
